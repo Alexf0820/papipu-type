@@ -1,10 +1,11 @@
 "use client";
 
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 import { CharacterVisual } from "@/components/character/CharacterVisual";
 import { AdSlot } from "@/components/AdSlot";
 import type { FaceExpression } from "@/components/character/types";
+import { trackQuizResult } from "@/lib/analytics/events";
 import {
   compatibilityTypeLabel,
   resultTypeTitle,
@@ -115,7 +116,8 @@ function QuizResultView({
   result,
   quizTitle,
   onRetry,
-}: Omit<QuizResultProps, "attemptId">) {
+  attemptId,
+}: QuizResultProps) {
   const labels = UI_LABELS[result.locale];
   const [presentation] = useState<Presentation>(() => ({
     face: pickRandomFace(),
@@ -124,6 +126,18 @@ function QuizResultView({
   const motto = result.mottos[presentation.mottoIndex];
   const { intro, profileBody } = splitBodyForHero(result.body);
   const sectionLabels = RESULT_SECTION_LABELS[result.locale];
+
+  useEffect(() => {
+    trackQuizResult(
+      {
+        locale: result.locale,
+        quiz_id: result.quizId,
+        result_type: result.typeId,
+        variation_id: result.variationId,
+      },
+      `${attemptId}:${resultPresentationKey(result)}`,
+    );
+  }, [attemptId, result]);
 
   return (
     <div className="space-y-5 sm:space-y-6">
@@ -213,6 +227,7 @@ function QuizResultView({
           displayName={result.displayName}
           quizTitle={quizTitle}
           quizId={result.quizId}
+          resultType={result.typeId}
           onRetry={onRetry}
         />
       </div>
@@ -237,6 +252,7 @@ export function QuizResult({
       result={result}
       quizTitle={quizTitle}
       onRetry={onRetry}
+      attemptId={attemptId}
     />
   );
 }

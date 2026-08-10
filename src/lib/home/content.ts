@@ -9,6 +9,8 @@ export const HOME_COPY: Record<
     heroSubtitle: string;
     heroMainCta: string;
     takeQuiz: string;
+    comingSoonLabel: string;
+    comingSoonDescription: string;
   }
 > = {
   ja: {
@@ -17,12 +19,16 @@ export const HOME_COPY: Record<
       "いろんなモノにたとえて、\nあなたのタイプをゆるく診断します。",
     heroMainCta: "🍿 パピプってみる！",
     takeQuiz: "パピプる！ →",
+    comingSoonLabel: "COMING SOON",
+    comingSoonDescription: "次のパピプを準備中！",
   },
   en: {
     heroTitle: "What type are you?",
     heroSubtitle: "Discover your type\nthrough everyday things.",
     heroMainCta: "🍿 Let's Papipu!",
     takeQuiz: "Your Papipu →",
+    comingSoonLabel: "COMING SOON",
+    comingSoonDescription: "More Papipu types are on the way!",
   },
 };
 
@@ -44,3 +50,6 @@ export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
 
 /** Primary quiz linked from the hero main CTA. */
 export const HOME_PRIMARY_QUIZ_ID = HOME_QUIZZES[0]?.id ?? CAMP_GEAR_QUIZ_ID;
+
+/** Placeholder cards shown on the home quiz grid before launch. */
+export const HOME_COMING_SOON_CARD_COUNT = 7;

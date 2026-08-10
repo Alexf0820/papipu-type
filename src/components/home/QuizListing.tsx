@@ -1,5 +1,6 @@
+import { ComingSoonCard } from "@/components/home/ComingSoonCard";
 import { QuizCard } from "@/components/home/QuizCard";
-import { HOME_QUIZZES } from "@/lib/home/content";
+import { HOME_COMING_SOON_CARD_COUNT, HOME_QUIZZES } from "@/lib/home/content";
 import type { Locale } from "@/lib/locale";
 import { getQuiz } from "@/lib/type-engine/registry";
 
@@ -24,7 +25,7 @@ export function QuizListing({ locale }: QuizListingProps) {
   });
 
   return (
-    <section className="grid grid-cols-1 gap-4 sm:grid-cols-2 lg:grid-cols-3">
+    <section className="grid grid-cols-2 gap-4 lg:grid-cols-4">
       {quizzes.map((quiz) => (
         <QuizCard
           key={quiz.id}
@@ -33,6 +34,10 @@ export function QuizListing({ locale }: QuizListingProps) {
           title={quiz.title}
           description={quiz.description}
         />
+      ))}
+
+      {Array.from({ length: HOME_COMING_SOON_CARD_COUNT }, (_, index) => (
+        <ComingSoonCard key={`coming-soon-${index}`} locale={locale} index={index} />
       ))}
     </section>
   );

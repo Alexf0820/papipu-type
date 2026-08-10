@@ -15,6 +15,7 @@ type ResultActionsProps = {
   displayName: string;
   quizTitle: string;
   quizId: string;
+  resultType: string;
   onRetry: () => void;
 };
 
@@ -28,6 +29,7 @@ export function ResultActions({
   displayName,
   quizTitle,
   quizId,
+  resultType,
   onRetry,
 }: ResultActionsProps) {
   const labels = UI_LABELS[locale];
@@ -39,12 +41,22 @@ export function ResultActions({
     const method = await share({ title: quizTitle, text, url });
 
     if (method === "native") {
-      trackShareClick({ locale, quiz_id: quizId, share_type: "native" });
+      trackShareClick({
+        locale,
+        quiz_id: quizId,
+        result_type: resultType,
+        share_type: "native",
+      });
       return;
     }
 
     if (method === "clipboard") {
-      trackShareClick({ locale, quiz_id: quizId, share_type: "copy" });
+      trackShareClick({
+        locale,
+        quiz_id: quizId,
+        result_type: resultType,
+        share_type: "copy",
+      });
       return;
     }
 
@@ -54,11 +66,16 @@ export function ResultActions({
 
     const xUrl = buildXShareUrl(formatSharePayload(text, url));
     window.open(xUrl, "_blank", "noopener,noreferrer");
-    trackShareClick({ locale, quiz_id: quizId, share_type: "x" });
+    trackShareClick({
+      locale,
+      quiz_id: quizId,
+      result_type: resultType,
+      share_type: "x",
+    });
   }
 
   function handleRetry() {
-    trackRetryClick({ locale, quiz_id: quizId });
+    trackRetryClick({ locale, quiz_id: quizId, result_type: resultType });
     onRetry();
   }
 

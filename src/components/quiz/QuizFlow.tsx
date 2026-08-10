@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 
+import { trackQuizStart } from "@/lib/analytics/events";
 import { UI_LABELS } from "@/lib/brand/labels";
 import { resolveCampGearResult } from "@/lib/type-engine/resolveResult";
 import { aggregateQuizScores } from "@/lib/type-engine/scoring";
@@ -50,6 +51,10 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
   const totalQuestions = quiz.questions.length;
   const question = quiz.questions[questionIndex];
   const progressPercent = ((questionIndex + 1) / totalQuestions) * 100;
+
+  useEffect(() => {
+    trackQuizStart({ locale: quiz.locale, quiz_id: quiz.id });
+  }, [quiz.id, quiz.locale, attemptId]);
 
   useEffect(() => {
     return () => {

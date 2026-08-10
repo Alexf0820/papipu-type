@@ -16,6 +16,8 @@ describe("home page content", () => {
       expect(HOME_COPY[locale].heroTitle).toBeTruthy();
       expect(HOME_COPY[locale].heroMainCta).toBeTruthy();
       expect(HOME_COPY[locale].takeQuiz).toBeTruthy();
+      expect(HOME_COPY[locale].comingSoonLabel).toBeTruthy();
+      expect(HOME_COPY[locale].comingSoonDescription).toBeTruthy();
     }
   });
 });
