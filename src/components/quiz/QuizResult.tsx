@@ -67,8 +67,8 @@ function BodyParagraphs({
 }) {
   const paragraphClass =
     variant === "profile"
-      ? "whitespace-pre-line text-[15px] leading-[1.85] text-slate-700 sm:text-base sm:leading-[1.9]"
-      : "whitespace-pre-line text-[15px] leading-relaxed text-slate-700 sm:text-base";
+      ? "whitespace-pre-line text-[17px] leading-[1.85] text-slate-700 sm:text-base sm:leading-[1.9]"
+      : "whitespace-pre-line text-[17px] leading-relaxed text-slate-700 sm:text-base";
 
   return (
     <>
@@ -93,14 +93,14 @@ function CompatibilityBlock({
   reason: string;
 }) {
   return (
-    <article className="flex flex-col rounded-2xl border border-pink-100 bg-white px-4 py-4 shadow-[0_1px_3px_rgba(255,71,133,0.06)] sm:px-5 sm:py-5">
-      <p className="text-[10px] font-extrabold tracking-[0.14em] text-[#FF4785]/75 sm:text-[11px]">
+    <article className="flex flex-col rounded-2xl border border-pink-100 bg-white px-4 py-5 shadow-[0_1px_3px_rgba(255,71,133,0.06)] sm:px-5 sm:py-5">
+      <p className="text-[12px] font-extrabold tracking-[0.14em] text-[#FF4785]/75 sm:text-[11px]">
         {heading}
       </p>
-      <p className="mt-2.5 text-lg font-extrabold leading-snug text-slate-800 sm:text-xl">
+      <p className="mt-2.5 text-[21px] font-extrabold leading-snug text-slate-800 sm:text-xl">
         {typeName}
       </p>
-      <p className="mt-2.5 text-sm leading-relaxed text-slate-500">
+      <p className="mt-3 text-[17px] leading-relaxed text-slate-500 sm:mt-2.5 sm:text-sm">
         <span className="font-medium text-slate-500">
           {reasonLabel}
           {reasonLabel === "理由" ? "：" : ": "}
@@ -130,7 +130,7 @@ function QuizResultView({
       {/* ① Result hero */}
       <section className="overflow-hidden rounded-3xl bg-gradient-to-b from-pink-50/60 via-pink-50/30 to-white px-4 py-7 ring-1 ring-pink-100/70 shadow-sm sm:px-6 sm:py-9">
         <div className="flex flex-col items-center text-center">
-          <span className="mb-4 inline-block rounded-full bg-pink-100/80 px-3.5 py-1 text-[11px] font-extrabold tracking-[0.22em] text-[#FF4785] sm:text-xs">
+          <span className="mb-4 inline-block rounded-full bg-pink-100/80 px-3.5 py-1 text-xs font-extrabold tracking-[0.22em] text-[#FF4785] sm:text-xs">
             RESULT
           </span>
 
@@ -149,7 +149,7 @@ function QuizResultView({
           </div>
 
           {intro ? (
-            <p className="mt-5 max-w-lg whitespace-pre-line text-[15px] leading-relaxed text-slate-600 sm:mt-6 sm:text-base">
+            <p className="mt-5 max-w-lg whitespace-pre-line text-left text-[17px] leading-relaxed text-slate-600 sm:mt-6 sm:text-center sm:text-base">
               {intro}
             </p>
           ) : null}
@@ -158,10 +158,10 @@ function QuizResultView({
 
       {/* ② Type profile */}
       <section className="rounded-3xl border border-pink-100 bg-white px-5 py-6 shadow-[0_1px_4px_rgba(255,71,133,0.05)] sm:px-6 sm:py-7">
-        <p className="mb-4 text-[11px] font-extrabold tracking-[0.16em] text-[#FF4785] sm:mb-5 sm:text-xs">
+        <p className="mb-4 text-[17px] font-extrabold tracking-[0.16em] text-[#FF4785] sm:mb-5 sm:text-xs">
           {sectionLabels.typeProfile}
         </p>
-        <div className="space-y-5">
+        <div className="space-y-4 sm:space-y-5">
           <BodyParagraphs
             text={intro ? profileBody : result.body}
             variant="profile"
@@ -171,7 +171,7 @@ function QuizResultView({
 
       {/* ③ Compatibility */}
       <section className="space-y-3.5 sm:space-y-4">
-        <h3 className="text-center text-[11px] font-extrabold tracking-[0.14em] text-slate-500 sm:text-xs">
+        <h3 className="text-center text-[17px] font-extrabold tracking-[0.14em] text-slate-500 sm:text-xs">
           {sectionLabels.compatibility}
         </h3>
         <div className="grid grid-cols-1 gap-3.5 sm:grid-cols-2 sm:gap-4">
@@ -199,10 +199,10 @@ function QuizResultView({
 
       {/* ④ Motto */}
       <section className="rounded-3xl border border-pink-100/80 bg-pink-50/55 px-5 py-9 text-center shadow-[0_1px_4px_rgba(255,71,133,0.06)] sm:px-8 sm:py-11">
-        <p className="text-xs font-extrabold tracking-[0.16em] text-[#FF4785] sm:text-sm">
+        <p className="text-sm font-extrabold tracking-[0.16em] text-[#FF4785] sm:text-sm">
           {labels.mottoHeading}
         </p>
-        <p className="mx-auto mt-5 max-w-xl text-balance text-2xl font-extrabold leading-snug text-slate-800 sm:mt-6 sm:text-3xl">
+        <p className="mx-auto mt-5 max-w-xl text-balance text-[1.625rem] font-extrabold leading-snug text-slate-800 sm:mt-6 sm:text-3xl">
           {motto}
         </p>
       </section>
