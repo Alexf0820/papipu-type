@@ -91,12 +91,14 @@ export function CharacterFace({ expression }: CharacterFaceProps) {
       <ellipse cx={-54} cy={15} rx={14} ry={8} fill="#F6BFC0" opacity={0.9} />
       <ellipse cx={54} cy={15} rx={14} ry={8} fill="#F6BFC0" opacity={0.9} />
       {expression === "sweat-smile" ? (
-        <path
-          d="M 55 -54 C 62 -46 66 -39 66 -33 C 66 -25 61 -20 54 -20 C 47 -20 42 -25 42 -33 C 42 -39 46 -46 55 -54 Z"
-          fill="#8ED2F4"
-          stroke="#202124"
-          strokeWidth={4.5}
-        />
+        <g transform="translate(4 -4)">
+          <path
+            d="M 55 -54 C 62 -46 66 -39 66 -33 C 66 -25 61 -20 54 -20 C 47 -20 42 -25 42 -33 C 42 -39 46 -46 55 -54 Z"
+            fill="#8ED2F4"
+            stroke="#202124"
+            strokeWidth={4.5}
+          />
+        </g>
       ) : null}
     </g>
   );

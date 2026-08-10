@@ -155,149 +155,122 @@ export function TentBody({ face }: CharacterBodyProps) {
   );
 }
 
-/** Camping lantern. */
+/** Camping lantern Ver.2 — outdoor green camping lantern silhouette. */
 export function LanternBody({ face }: CharacterBodyProps) {
+  const GREEN = "#3D8B5E";
+  const CREAM = "#F5F0E6";
+  const GLOW = "#FFF0A8";
+
   return (
-    <BodySvg face={face} faceTransform="translate(256 235) scale(0.46)">
+    <BodySvg face={face} faceTransform="translate(256 258) scale(0.52)">
+      {/* Simple U handle */}
       <path
-        d="M 220 110 L 220 90 Q 256 70 292 90 L 292 110"
-        fill="none"
+        d="M 178 108
+           Q 178 38 256 32
+           Q 334 38 334 108
+           L 318 108
+           Q 318 50 256 46
+           Q 194 50 194 108
+           Z"
+        fill={CREAM}
         stroke={OUTLINE}
         strokeWidth={STROKE}
-        strokeLinecap="round"
+        strokeLinejoin="round"
       />
+
+      {/* Stable base */}
       <rect
-        x={196}
-        y={110}
-        width={120}
-        height={36}
-        rx={10}
-        fill="#FFB8D0"
+        x={156}
+        y={372}
+        width={200}
+        height={40}
+        rx={16}
+        fill={GREEN}
         stroke={OUTLINE}
         strokeWidth={STROKE}
       />
       <rect
         x={176}
-        y={146}
+        y={356}
         width={160}
-        height={200}
-        rx={28}
-        fill="#FFF7ED"
+        height={24}
+        rx={10}
+        fill={GREEN}
         stroke={OUTLINE}
-        strokeWidth={STROKE}
+        strokeWidth={8}
       />
+
+      {/* Main body housing */}
       <rect
-        x={196}
-        y={346}
-        width={120}
-        height={40}
-        rx={12}
-        fill="#FF4785"
+        x={164}
+        y={152}
+        width={184}
+        height={210}
+        rx={34}
+        fill={CREAM}
         stroke={OUTLINE}
         strokeWidth={STROKE}
       />
+
+      {/* Glow chamber — enlarged pale yellow panel for the face */}
       <ellipse
         cx={256}
-        cy={246}
-        rx={56}
-        ry={70}
-        fill="#FDE68A"
+        cy={258}
+        rx={74}
+        ry={88}
+        fill={GLOW}
         stroke={OUTLINE}
-        strokeWidth={6}
+        strokeWidth={8}
+      />
+
+      {/* Top umbrella / cap */}
+      <path
+        d="M 148 152
+           Q 148 108 256 94
+           Q 364 108 364 152
+           L 344 168
+           Q 256 150 168 168
+           Z"
+        fill={GREEN}
+        stroke={OUTLINE}
+        strokeWidth={STROKE}
+        strokeLinejoin="round"
       />
     </BodySvg>
   );
 }
 
-/** Folding camp chair. */
+/** Chair body — chappy image asset (no SVG redraw). */
+const CHAIR_BODY_SRC = "/characters/chair-body.jpg";
+
 export function ChairBody({ face }: CharacterBodyProps) {
   return (
-    <BodySvg face={face} faceTransform="translate(256 195) scale(0.5)">
-      <path
-        d="M 140 380 L 200 280 L 312 280 L 372 380"
-        fill="none"
-        stroke={OUTLINE}
-        strokeWidth={STROKE}
-        strokeLinecap="round"
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 200 280 L 180 380 M 312 280 L 332 380"
-        stroke={OUTLINE}
-        strokeWidth={8}
-        strokeLinecap="round"
-      />
-      <rect
-        x={168}
-        y={160}
-        width={176}
-        height={130}
-        rx={20}
-        fill="#FF4785"
-        stroke={OUTLINE}
-        strokeWidth={STROKE}
-      />
-      <rect
-        x={188}
-        y={290}
-        width={136}
-        height={24}
-        rx={8}
-        fill="#FFB8D0"
-        stroke={OUTLINE}
-        strokeWidth={8}
-      />
-      <path
-        d="M 168 160 L 148 380 M 344 160 L 364 380"
-        stroke={OUTLINE}
-        strokeWidth={8}
-        strokeLinecap="round"
+    <BodySvg face={face} faceTransform="translate(256 178) scale(0.47)">
+      <image
+        href={CHAIR_BODY_SRC}
+        x={0}
+        y={0}
+        width={512}
+        height={512}
+        preserveAspectRatio="xMidYMid meet"
       />
     </BodySvg>
   );
 }
 
-/** Fire pit bowl. */
+/** Fire pit body — ChatGPT image asset (no SVG redraw). */
+const FIRE_PIT_BODY_SRC = "/characters/fire-pit-body.jpg";
+
 export function FirePitBody({ face }: CharacterBodyProps) {
   return (
-    <BodySvg face={face} faceTransform="translate(256 225) scale(0.48)">
-      <ellipse
-        cx={256}
-        cy={400}
-        rx={140}
-        ry={28}
-        fill="#E8DCC8"
-        stroke={OUTLINE}
-        strokeWidth={8}
-      />
-      <path
-        d="M 120 280 L 140 380 L 372 380 L 392 280 Z"
-        fill="#64748B"
-        stroke={OUTLINE}
-        strokeWidth={STROKE}
-        strokeLinejoin="round"
-      />
-      <ellipse
-        cx={256}
-        cy={280}
-        rx={136}
-        ry={36}
-        fill="#475569"
-        stroke={OUTLINE}
-        strokeWidth={STROKE}
-      />
-      <path
-        d="M 200 260 L 210 220 L 230 250 L 250 200 L 270 250 L 290 215 L 310 260"
-        fill="#FF4785"
-        stroke={OUTLINE}
-        strokeWidth={8}
-        strokeLinejoin="round"
-      />
-      <path
-        d="M 160 380 L 150 420 M 352 380 L 362 420"
-        stroke={OUTLINE}
-        strokeWidth={8}
-        strokeLinecap="round"
+    <BodySvg face={face} faceTransform="translate(256 270) scale(0.44)">
+      <image
+        href={FIRE_PIT_BODY_SRC}
+        x={0}
+        y={0}
+        width={512}
+        height={512}
+        preserveAspectRatio="xMidYMid meet"
       />
     </BodySvg>
   );
