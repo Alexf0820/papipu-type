@@ -30,21 +30,34 @@ const JA_SHARE_TEXT =
 const SHARE_URL = "https://www.papiputype.com/ja/camp-gear";
 
 describe("buildSharePayloads", () => {
-  it("passes share text without URL for native share", () => {
+  const expectedPayload = `${JA_SHARE_TEXT}\n${SHARE_URL}`;
+
+  it("builds native share payload with URL once after the share text", () => {
     const { native } = buildSharePayloads(JA_SHARE_TEXT, SHARE_URL);
 
-    expect(native.text).toBe(JA_SHARE_TEXT);
-    expect(native.url).toBe(SHARE_URL);
-    expect(native.text).not.toContain("https://");
+    expect(native).toBe(expectedPayload);
+    expect(native.startsWith(JA_SHARE_TEXT)).toBe(true);
+    expect(native.endsWith(SHARE_URL)).toBe(true);
+    expect(native.match(/https:\/\/www\.papiputype\.com\/ja\/camp-gear/g)).toHaveLength(
+      1,
+    );
   });
 
-  it("includes the URL once in clipboard fallback text", () => {
+  it("builds clipboard payload with URL once after the share text", () => {
     const { clipboard } = buildSharePayloads(JA_SHARE_TEXT, SHARE_URL);
 
-    expect(clipboard).toBe(`${JA_SHARE_TEXT}\n${SHARE_URL}`);
+    expect(clipboard).toBe(expectedPayload);
+    expect(clipboard.startsWith(JA_SHARE_TEXT)).toBe(true);
+    expect(clipboard.endsWith(SHARE_URL)).toBe(true);
     expect(clipboard.match(/https:\/\/www\.papiputype\.com\/ja\/camp-gear/g)).toHaveLength(
       1,
     );
+  });
+
+  it("uses the same completed payload for native share and clipboard", () => {
+    const { native, clipboard } = buildSharePayloads(JA_SHARE_TEXT, SHARE_URL);
+
+    expect(native).toBe(clipboard);
   });
 });
 

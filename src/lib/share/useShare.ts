@@ -17,10 +17,8 @@ export type ShareMethod = "native" | "clipboard" | "cancelled" | "failed";
 
 /** @internal Exported for unit tests. */
 export function buildSharePayloads(shareText: string, absoluteUrl: string) {
-  return {
-    native: { text: shareText, url: absoluteUrl },
-    clipboard: formatSharePayload(shareText, absoluteUrl),
-  };
+  const payload = formatSharePayload(shareText, absoluteUrl);
+  return { native: payload, clipboard: payload };
 }
 
 /** @internal Exported for unit tests. */
@@ -85,7 +83,7 @@ export function useShare(locale: Locale) {
         typeof navigator.share === "function"
       ) {
         try {
-          await navigator.share({ title, text: native.text, url: native.url });
+          await navigator.share({ title, text: native });
           return "native";
         } catch (error) {
           if (error instanceof Error && error.name === "AbortError") {
