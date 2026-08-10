@@ -32,6 +32,7 @@ export const UI_LABELS: Record<
     tryAgain: string;
     /** Clipboard fallback after share. */
     shareCopied: string;
+    supportLink: string;
   }
 > = {
   ja: {
@@ -43,6 +44,7 @@ export const UI_LABELS: Record<
     shareResult: "結果をシェア",
     tryAgain: "もう一度診断する",
     shareCopied: "リンクをコピーしました！",
+    supportLink: "☕ 応援する",
   },
   en: {
     previousQuestion: "← Previous",
@@ -53,6 +55,7 @@ export const UI_LABELS: Record<
     shareResult: "Share My Result",
     tryAgain: "Try Again",
     shareCopied: "Link copied!",
+    supportLink: "☕ Support us",
   },
 };
 
