@@ -16,6 +16,14 @@ export type ShareParams = {
 export type ShareMethod = "native" | "clipboard" | "cancelled" | "failed";
 
 /** @internal Exported for unit tests. */
+export function buildSharePayloads(shareText: string, absoluteUrl: string) {
+  return {
+    native: { text: shareText, url: absoluteUrl },
+    clipboard: formatSharePayload(shareText, absoluteUrl),
+  };
+}
+
+/** @internal Exported for unit tests. */
 export async function copyTextToClipboard(text: string): Promise<boolean> {
   if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
     try {
@@ -70,14 +78,14 @@ export function useShare(locale: Locale) {
         url.startsWith("http") || typeof window === "undefined"
           ? url
           : `${window.location.origin}${url.startsWith("/") ? url : `/${url}`}`;
-      const body = formatSharePayload(text, absoluteUrl);
+      const { native, clipboard } = buildSharePayloads(text, absoluteUrl);
 
       if (
         typeof navigator !== "undefined" &&
         typeof navigator.share === "function"
       ) {
         try {
-          await navigator.share({ title, text: body, url: absoluteUrl });
+          await navigator.share({ title, text: native.text, url: native.url });
           return "native";
         } catch (error) {
           if (error instanceof Error && error.name === "AbortError") {
@@ -86,7 +94,7 @@ export function useShare(locale: Locale) {
         }
       }
 
-      if (await copyTextToClipboard(body)) {
+      if (await copyTextToClipboard(clipboard)) {
         setCopied(true);
         window.setTimeout(() => setCopied(false), 2000);
         return "clipboard";

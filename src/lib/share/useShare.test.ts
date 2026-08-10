@@ -1,6 +1,9 @@
 import { afterEach, describe, expect, it, vi } from "vitest";
 
-import { copyTextToClipboard } from "@/lib/share/useShare";
+import {
+  buildSharePayloads,
+  copyTextToClipboard,
+} from "@/lib/share/useShare";
 
 function mockDocument(execCommandResult: boolean) {
   const textarea = {
@@ -21,6 +24,29 @@ function mockDocument(execCommandResult: boolean) {
     execCommand: vi.fn(() => execCommandResult),
   };
 }
+
+const JA_SHARE_TEXT =
+  "私のパピプは「ハンマータイプ」でした！🍿\nあなたもパピプってみる？";
+const SHARE_URL = "https://www.papiputype.com/ja/camp-gear";
+
+describe("buildSharePayloads", () => {
+  it("passes share text without URL for native share", () => {
+    const { native } = buildSharePayloads(JA_SHARE_TEXT, SHARE_URL);
+
+    expect(native.text).toBe(JA_SHARE_TEXT);
+    expect(native.url).toBe(SHARE_URL);
+    expect(native.text).not.toContain("https://");
+  });
+
+  it("includes the URL once in clipboard fallback text", () => {
+    const { clipboard } = buildSharePayloads(JA_SHARE_TEXT, SHARE_URL);
+
+    expect(clipboard).toBe(`${JA_SHARE_TEXT}\n${SHARE_URL}`);
+    expect(clipboard.match(/https:\/\/www\.papiputype\.com\/ja\/camp-gear/g)).toHaveLength(
+      1,
+    );
+  });
+});
 
 describe("copyTextToClipboard", () => {
   afterEach(() => {
