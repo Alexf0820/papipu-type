@@ -26,6 +26,12 @@ export const UI_LABELS: Record<
     compatibilityReason: string;
     /** Result screen — motto / philosophy heading. */
     mottoHeading: string;
+    /** Result screen — share primary CTA. */
+    shareResult: string;
+    /** Result screen — retry secondary CTA. */
+    tryAgain: string;
+    /** Clipboard fallback after share. */
+    shareCopied: string;
   }
 > = {
   ja: {
@@ -34,6 +40,9 @@ export const UI_LABELS: Record<
     compatibilityBad: "相性 BAD",
     compatibilityReason: "理由",
     mottoHeading: "座右の銘",
+    shareResult: "結果をシェア",
+    tryAgain: "もう一度診断する",
+    shareCopied: "コピーしました",
   },
   en: {
     previousQuestion: "← Previous",
@@ -41,6 +50,9 @@ export const UI_LABELS: Record<
     compatibilityBad: "WORST MATCH",
     compatibilityReason: "Reason",
     mottoHeading: "MY PHILOSOPHY",
+    shareResult: "Share My Result",
+    tryAgain: "Try Again",
+    shareCopied: "Copied!",
   },
 };
 

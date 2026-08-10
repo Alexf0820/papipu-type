@@ -1,6 +1,7 @@
 import Link from "next/link";
 import { notFound } from "next/navigation";
 
+import { AdSlot } from "@/components/AdSlot";
 import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
 import { isValidLocale } from "@/lib/locale";
 import { getQuiz } from "@/lib/type-engine/registry";
@@ -26,6 +27,9 @@ export default async function LocaleHomePage({
           <Link href={`/${locale}/${CAMP_GEAR_QUIZ_ID}`}>{campGear.title}</Link>
         </p>
       ) : null}
+      <div className="mt-10 w-full max-w-xl">
+        <AdSlot placement="home" locale={locale} />
+      </div>
       <small>Project PapipupePopcorn</small>
     </main>
   );

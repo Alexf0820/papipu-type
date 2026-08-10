@@ -44,6 +44,7 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
   const [answers, setAnswers] = useState<AnswerMap>({});
   const [questionIndex, setQuestionIndex] = useState(0);
   const [pendingChoiceId, setPendingChoiceId] = useState<string | null>(null);
+  const [attemptId, setAttemptId] = useState(0);
   const advanceTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
   const totalQuestions = quiz.questions.length;
@@ -58,12 +59,31 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
     };
   }, []);
 
+  function handleRetry() {
+    if (advanceTimeoutRef.current) {
+      clearTimeout(advanceTimeoutRef.current);
+      advanceTimeoutRef.current = null;
+    }
+
+    setPendingChoiceId(null);
+    setAnswers({});
+    setQuestionIndex(0);
+    setAttemptId((current) => current + 1);
+  }
+
   if (!question) {
     const selections = toSelections(quiz, answers);
 
     if (quiz.id === "camp-gear") {
       const result = resolveCampGearResult(quiz, selections);
-      return <QuizResult result={result} />;
+      return (
+        <QuizResult
+          result={result}
+          quizTitle={quiz.title}
+          onRetry={handleRetry}
+          attemptId={attemptId}
+        />
+      );
     }
 
     // Fallback for quizzes without a result screen yet (dev only).
