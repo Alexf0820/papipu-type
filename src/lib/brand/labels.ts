@@ -20,12 +20,39 @@ export const UI_LABELS: Record<
   {
     /** Steps the quiz flow back to the previously answered question. */
     previousQuestion: string;
+    /** Result screen — compatibility section headings. */
+    compatibilityGood: string;
+    compatibilityBad: string;
+    compatibilityReason: string;
+    /** Result screen — motto / philosophy heading. */
+    mottoHeading: string;
   }
 > = {
   ja: {
     previousQuestion: "← 前の質問",
+    compatibilityGood: "相性 GOOD",
+    compatibilityBad: "相性 BAD",
+    compatibilityReason: "理由",
+    mottoHeading: "座右の銘",
   },
   en: {
     previousQuestion: "← Previous",
+    compatibilityGood: "BEST MATCH",
+    compatibilityBad: "WORST MATCH",
+    compatibilityReason: "Reason",
+    mottoHeading: "MY PHILOSOPHY",
   },
 };
+
+export function resultTypeTitle(locale: Locale, displayName: string): string {
+  return locale === "ja"
+    ? `あなたは${displayName}タイプ！`
+    : `You're the ${displayName} Type!`;
+}
+
+export function compatibilityTypeLabel(
+  locale: Locale,
+  displayName: string,
+): string {
+  return locale === "ja" ? `${displayName}タイプ` : displayName;
+}

@@ -3,8 +3,11 @@
 import { useState } from "react";
 
 import { UI_LABELS } from "@/lib/brand/labels";
+import { resolveCampGearResult } from "@/lib/type-engine/resolveResult";
 import { aggregateQuizScores } from "@/lib/type-engine/scoring";
 import type { Quiz, QuizSelection } from "@/lib/type-engine/types";
+
+import { QuizResult } from "./QuizResult";
 
 type QuizFlowProps = {
   quiz: Quiz;
@@ -41,10 +44,14 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
 
   if (!question) {
     const selections = toSelections(quiz, answers);
-    const scores = aggregateQuizScores(quiz, selections);
 
-    // Phase 1 stops here: the result screen, result copy and character SVGs
-    // are not implemented yet, so only raw engine output is shown.
+    if (quiz.id === "camp-gear") {
+      const result = resolveCampGearResult(quiz, selections);
+      return <QuizResult result={result} />;
+    }
+
+    // Fallback for quizzes without a result screen yet (dev only).
+    const scores = aggregateQuizScores(quiz, selections);
     return (
       <section className="space-y-3">
         <pre className="overflow-x-auto rounded-xl bg-slate-50 p-4 text-xs leading-relaxed text-slate-700 ring-1 ring-slate-200">
