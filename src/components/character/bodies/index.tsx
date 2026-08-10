@@ -26,45 +26,85 @@ function BodySvg({
   );
 }
 
-/** Tent peg — vertical stake in the ground. */
+/** Tent peg Ver.3 — Ver.2 with subtler ridge accent, no ground ellipse. */
 export function PegBody({ face }: CharacterBodyProps) {
+  const PINK = "#FF4785";
+  const PALE = "#FFB8D0";
+
   return (
-    <BodySvg face={face} faceTransform="translate(256 170) scale(0.52)">
-      <ellipse
-        cx={256}
-        cy={430}
-        rx={120}
-        ry={24}
-        fill="#E8DCC8"
-        stroke={OUTLINE}
-        strokeWidth={STROKE}
-      />
+    <BodySvg face={face} faceTransform="translate(256 252) scale(0.54)">
+      {/* Hammer head — flat striking surface */}
       <rect
-        x={228}
-        y={120}
-        width={56}
-        height={300}
-        rx={18}
-        fill="#FF4785"
+        x={162}
+        y={74}
+        width={188}
+        height={46}
+        rx={14}
+        fill={PINK}
         stroke={OUTLINE}
         strokeWidth={STROKE}
       />
+
+      {/* Head underside band */}
+      <rect
+        x={172}
+        y={114}
+        width={168}
+        height={24}
+        rx={10}
+        fill={PALE}
+        stroke={OUTLINE}
+        strokeWidth={8}
+      />
+
+      {/* Rope hook — left side, clear of face / sweat (upper-right) */}
       <path
-        d="M 228 120 L 256 70 L 284 120 Z"
-        fill="#FF4785"
+        d="M 162 96
+           C 108 96 92 136 96 168
+           C 100 198 128 208 148 192
+           L 168 172
+           C 148 182 124 172 122 148
+           C 120 124 136 108 158 108
+           L 162 108
+           Z"
+        fill={PALE}
         stroke={OUTLINE}
         strokeWidth={STROKE}
         strokeLinejoin="round"
       />
+
+      {/* Shaft — slightly wider than a real peg so the face reads well */}
       <rect
-        x={210}
-        y={108}
-        width={92}
-        height={28}
-        rx={8}
-        fill="#FFB8D0"
+        x={214}
+        y={132}
+        width={84}
+        height={272}
+        rx={24}
+        fill={PINK}
         stroke={OUTLINE}
-        strokeWidth={8}
+        strokeWidth={STROKE}
+      />
+
+      {/* Forged ridge accent — slightly narrower than Ver.2 */}
+      <rect
+        x={245}
+        y={152}
+        width={22}
+        height={232}
+        rx={10}
+        fill={PALE}
+      />
+
+      {/* Ground-penetrating tip */}
+      <path
+        d="M 214 404
+           L 256 448
+           L 298 404
+           Z"
+        fill={PINK}
+        stroke={OUTLINE}
+        strokeWidth={STROKE}
+        strokeLinejoin="round"
       />
     </BodySvg>
   );
