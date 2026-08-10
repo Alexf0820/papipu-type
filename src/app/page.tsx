@@ -1,10 +1,14 @@
-export default function Home() {
-  return (
-    <main>
-      <h1>Papipu Type</h1>
-      <p className="tagline">What type are you?</p>
-      <p>Coming soon.</p>
-      <small>Project PapipupePopcorn</small>
-    </main>
-  );
+import { headers } from "next/headers";
+import { redirect } from "next/navigation";
+
+import { resolveLocale } from "@/lib/locale";
+
+export default async function RootPage() {
+  const headersList = await headers();
+  const acceptLanguage = headersList.get("accept-language");
+
+  // Future: read LOCALE_COOKIE_NAME from cookies() and pass as savedLocale.
+  const locale = resolveLocale({ acceptLanguage });
+
+  redirect(`/${locale}`);
 }

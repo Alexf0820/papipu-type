@@ -1,3 +1,5 @@
+@import "tailwindcss";
+
 :root {
   color-scheme: light;
   font-family: Arial, Helvetica, sans-serif;
@@ -13,7 +15,8 @@ body {
   margin: 0;
 }
 
-main {
+/* Provisional Coming Soon top page. Scoped so it does not style other routes. */
+.coming-soon {
   min-height: 100svh;
   display: flex;
   flex-direction: column;
@@ -24,21 +27,21 @@ main {
   text-align: center;
 }
 
-h1,
-p {
+.coming-soon h1,
+.coming-soon p {
   margin: 0;
 }
 
-h1 {
+.coming-soon h1 {
   font-size: clamp(2.5rem, 10vw, 5rem);
   letter-spacing: -0.04em;
 }
 
-.tagline {
+.coming-soon .tagline {
   font-size: 1.25rem;
 }
 
-small {
+.coming-soon small {
   margin-top: 2rem;
   color: #6b6b6b;
 }
