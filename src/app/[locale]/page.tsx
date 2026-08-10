@@ -1,10 +1,12 @@
-import Link from "next/link";
 import { notFound } from "next/navigation";
 
 import { AdSlot } from "@/components/AdSlot";
-import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
+import { HomeHero } from "@/components/home/HomeHero";
+import { HomePageDecorations } from "@/components/home/HomePageDecorations";
+import { QuizListing } from "@/components/home/QuizListing";
+import { SiteFooter } from "@/components/SiteFooter";
+import { SiteHeader } from "@/components/SiteHeader";
 import { isValidLocale } from "@/lib/locale";
-import { getQuiz } from "@/lib/type-engine/registry";
 
 export default async function LocaleHomePage({
   params,
@@ -15,22 +17,20 @@ export default async function LocaleHomePage({
     notFound();
   }
 
-  const campGear = getQuiz(CAMP_GEAR_QUIZ_ID, locale);
-
   return (
-    <main className="coming-soon">
-      <h1>Papipu Type</h1>
-      <p className="tagline">What type are you?</p>
-      <p>Coming soon.</p>
-      {campGear ? (
-        <p>
-          <Link href={`/${locale}/${CAMP_GEAR_QUIZ_ID}`}>{campGear.title}</Link>
-        </p>
-      ) : null}
-      <div className="mt-10 w-full max-w-xl">
-        <AdSlot placement="home" locale={locale} />
+    <div className="min-h-svh bg-gradient-to-b from-[#fff8f0] via-pink-50/35 to-white">
+      <div className="relative mx-auto flex w-full max-w-5xl flex-col px-5 py-6 sm:px-8 sm:py-8">
+        <HomePageDecorations />
+        <SiteHeader locale={locale} path="" />
+        <main className="relative z-10 space-y-8 sm:space-y-10">
+          <HomeHero locale={locale} />
+          <QuizListing locale={locale} />
+          <div className="mt-2 sm:mt-4">
+            <AdSlot placement="home" locale={locale} />
+          </div>
+        </main>
+        <SiteFooter locale={locale} />
       </div>
-      <small>Project PapipupePopcorn</small>
-    </main>
+    </div>
   );
 }
