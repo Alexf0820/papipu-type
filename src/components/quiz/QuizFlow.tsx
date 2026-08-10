@@ -16,6 +16,12 @@ type QuizFlowProps = {
  */
 type AnswerMap = Record<string, string>;
 
+/** Box metrics stay identical between states so going back never shifts layout. */
+const CHOICE_CLASS =
+  "w-full rounded-2xl px-5 py-4 text-left text-[15px] font-semibold text-slate-700 ring-1 transition sm:text-base";
+const CHOICE_UNSELECTED_CLASS = "bg-white ring-pink-100 hover:bg-pink-50";
+const CHOICE_SELECTED_CLASS = "bg-pink-50 ring-pink-500";
+
 /** Answers in question order, skipping questions that are still unanswered. */
 function toSelections(quiz: Quiz, answers: AnswerMap): QuizSelection[] {
   return quiz.questions
@@ -82,7 +88,11 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
             <button
               type="button"
               onClick={() => handleSelect(choice.id)}
-              className="w-full rounded-2xl bg-white px-5 py-4 text-left text-[15px] font-semibold text-slate-700 ring-1 ring-pink-100 transition hover:bg-pink-50 sm:text-base"
+              className={`${CHOICE_CLASS} ${
+                answers[question.id] === choice.id
+                  ? CHOICE_SELECTED_CLASS
+                  : CHOICE_UNSELECTED_CLASS
+              }`}
             >
               {choice.text}
             </button>
