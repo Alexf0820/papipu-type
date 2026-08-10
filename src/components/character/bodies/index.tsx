@@ -110,39 +110,46 @@ export function PegBody({ face }: CharacterBodyProps) {
   );
 }
 
-/** A-frame tent. */
+/** Tent Ver.2 — simple triangle camping tent. */
 export function TentBody({ face }: CharacterBodyProps) {
+  const ORANGE = "#D97742";
+  const SAND = "#F0E6D2";
+  const BASE = "#E8DCC8";
+
   return (
-    <BodySvg face={face} faceTransform="translate(256 215) scale(0.48)">
+    <BodySvg face={face} faceTransform="translate(256 228) scale(0.50)">
+      {/* Ground base edge */}
       <rect
-        x={96}
-        y={360}
-        width={320}
-        height={20}
-        rx={6}
-        fill="#E8DCC8"
+        x={100}
+        y={388}
+        width={312}
+        height={14}
+        rx={7}
+        fill={BASE}
         stroke={OUTLINE}
         strokeWidth={8}
       />
+
+      {/* Main tent triangle */}
       <path
-        d="M 256 90 L 420 380 L 92 380 Z"
-        fill="#14B8A6"
+        d="M 256 76 L 404 384 L 108 384 Z"
+        fill={ORANGE}
         stroke={OUTLINE}
         strokeWidth={STROKE}
         strokeLinejoin="round"
       />
+
+      {/* Entrance — sand panel */}
       <path
-        d="M 256 90 L 256 380"
+        d="M 218 384
+           L 218 318
+           Q 256 296 294 318
+           L 294 384
+           Z"
+        fill={SAND}
         stroke={OUTLINE}
         strokeWidth={8}
-        strokeLinecap="round"
-      />
-      <path
-        d="M 160 380 L 256 90 L 352 380"
-        fill="none"
-        stroke={OUTLINE}
-        strokeWidth={6}
-        strokeLinecap="round"
+        strokeLinejoin="round"
       />
     </BodySvg>
   );
