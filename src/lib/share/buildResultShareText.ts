@@ -1,18 +1,20 @@
 import type { Locale } from "@/lib/locale";
 
-import { BRAND_NAME } from "@/lib/brand/labels";
-
 export function buildCampGearResultShareText(
   locale: Locale,
   displayName: string,
 ): string {
   if (locale === "ja") {
-    return `私は「${displayName}タイプ」でした！\nあなたはどのキャンプ道具タイプ？\n\n${BRAND_NAME}`;
+    return `私のパピプは「${displayName}タイプ」でした！🍿\nあなたもパピプってみる？`;
   }
 
-  return `I'm the ${displayName} Type!\nWhat camping gear type are you?\n\n${BRAND_NAME}`;
+  return `My Papipu is the ${displayName} type! 🍿\nWhat's your Papipu?`;
 }
 
 export function formatSharePayload(text: string, url: string): string {
   return `${text}\n${url}`.trim();
+}
+
+export function buildQuizStartPath(locale: Locale, quizId: string): string {
+  return `/${locale}/${quizId}`;
 }

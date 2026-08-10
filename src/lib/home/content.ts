@@ -32,8 +32,23 @@ export const HOME_COPY: Record<
   },
 };
 
+export type HomeQuizGenreIcon = {
+  /** Genre emoji shown on the home quiz card. */
+  emoji: string;
+  /** Accessible label for the genre icon. */
+  label: Record<Locale, string>;
+};
+
+export type HomeQuizCardTitle = {
+  line1: string;
+  line2: string;
+};
+
 export type HomeQuizEntry = {
   id: string;
+  icon: HomeQuizGenreIcon;
+  /** Two-line card title — line1 sits beside the genre icon. */
+  cardTitle: Record<Locale, HomeQuizCardTitle>;
   description: Record<Locale, string>;
 };
 
@@ -41,6 +56,23 @@ export type HomeQuizEntry = {
 export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
   {
     id: CAMP_GEAR_QUIZ_ID,
+    icon: {
+      emoji: "⛺",
+      label: {
+        ja: "キャンプ",
+        en: "Camping",
+      },
+    },
+    cardTitle: {
+      ja: {
+        line1: "キャンプ道具",
+        line2: "タイプ診断",
+      },
+      en: {
+        line1: "Camping Gear",
+        line2: "Type Quiz",
+      },
+    },
     description: {
       ja: "もしあなたがキャンプ道具だったら？",
       en: "If you were a piece of camping gear, what would you be?",

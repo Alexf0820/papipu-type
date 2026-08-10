@@ -5,10 +5,9 @@ import { UI_LABELS } from "@/lib/brand/labels";
 import type { Locale } from "@/lib/locale";
 import {
   buildCampGearResultShareText,
-  formatSharePayload,
+  buildQuizStartPath,
 } from "@/lib/share/buildResultShareText";
 import { useShare } from "@/lib/share/useShare";
-import { buildXShareUrl } from "@/lib/share/xShare";
 
 type ResultActionsProps = {
   locale: Locale;
@@ -36,7 +35,7 @@ export function ResultActions({
   const { share, copied, copiedLabel } = useShare(locale);
 
   async function handleShare() {
-    const url = window.location.href;
+    const url = buildQuizStartPath(locale, quizId);
     const text = buildCampGearResultShareText(locale, displayName);
     const method = await share({ title: quizTitle, text, url });
 
@@ -57,21 +56,7 @@ export function ResultActions({
         result_type: resultType,
         share_type: "copy",
       });
-      return;
     }
-
-    if (method === "cancelled") {
-      return;
-    }
-
-    const xUrl = buildXShareUrl(formatSharePayload(text, url));
-    window.open(xUrl, "_blank", "noopener,noreferrer");
-    trackShareClick({
-      locale,
-      quiz_id: quizId,
-      result_type: resultType,
-      share_type: "x",
-    });
   }
 
   function handleRetry() {

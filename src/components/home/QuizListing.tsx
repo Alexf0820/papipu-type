@@ -18,8 +18,11 @@ export function QuizListing({ locale }: QuizListingProps) {
     return [
       {
         id: entry.id,
-        title: quiz.title,
+        titleLine1: entry.cardTitle[locale].line1,
+        titleLine2: entry.cardTitle[locale].line2,
         description: entry.description[locale],
+        icon: entry.icon.emoji,
+        iconLabel: entry.icon.label[locale],
       },
     ];
   });
@@ -31,8 +34,11 @@ export function QuizListing({ locale }: QuizListingProps) {
           key={quiz.id}
           locale={locale}
           quizId={quiz.id}
-          title={quiz.title}
+          titleLine1={quiz.titleLine1}
+          titleLine2={quiz.titleLine2}
           description={quiz.description}
+          icon={quiz.icon}
+          iconLabel={quiz.iconLabel}
         />
       ))}
 

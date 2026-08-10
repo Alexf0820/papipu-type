@@ -9,15 +9,21 @@ const CTA_CLASS =
 type QuizCardProps = {
   locale: Locale;
   quizId: string;
-  title: string;
+  titleLine1: string;
+  titleLine2: string;
   description: string;
+  icon: string;
+  iconLabel: string;
 };
 
 export function QuizCard({
   locale,
   quizId,
-  title,
+  titleLine1,
+  titleLine2,
   description,
+  icon,
+  iconLabel,
 }: QuizCardProps) {
   const cta = HOME_COPY[locale].takeQuiz;
 
@@ -31,8 +37,18 @@ export function QuizCard({
         className="absolute bottom-6 left-5 h-1.5 w-1.5 rotate-45 bg-teal-200/80"
         aria-hidden="true"
       />
-      <h2 className="text-balance pr-4 text-xl font-extrabold leading-snug text-slate-800 sm:text-2xl">
-        {title}
+      <h2 className="pr-4 text-xl font-extrabold leading-snug text-slate-800 sm:text-2xl">
+        <span className="block whitespace-nowrap">
+          <span
+            className="mr-0.5 inline text-[0.82em] leading-none"
+            role="img"
+            aria-label={iconLabel}
+          >
+            {icon}
+          </span>
+          {titleLine1}
+        </span>
+        <span className="block">{titleLine2}</span>
       </h2>
       <p className="mt-2 text-[15px] leading-relaxed text-slate-600 sm:text-base">
         {description}

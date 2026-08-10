@@ -42,7 +42,7 @@ export const UI_LABELS: Record<
     mottoHeading: "座右の銘",
     shareResult: "結果をシェア",
     tryAgain: "もう一度診断する",
-    shareCopied: "コピーしました",
+    shareCopied: "リンクをコピーしました！",
   },
   en: {
     previousQuestion: "← Previous",
@@ -52,7 +52,7 @@ export const UI_LABELS: Record<
     mottoHeading: "MY PHILOSOPHY",
     shareResult: "Share My Result",
     tryAgain: "Try Again",
-    shareCopied: "Copied!",
+    shareCopied: "Link copied!",
   },
 };
 

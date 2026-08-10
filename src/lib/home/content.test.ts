@@ -13,6 +13,8 @@ describe("home page content", () => {
       const quiz = getQuiz(CAMP_GEAR_QUIZ_ID, locale);
       expect(quiz?.title).toBeTruthy();
       expect(HOME_QUIZZES[0]?.description[locale]).toBeTruthy();
+      expect(HOME_QUIZZES[0]?.cardTitle[locale].line1).toBeTruthy();
+      expect(HOME_QUIZZES[0]?.cardTitle[locale].line2).toBeTruthy();
       expect(HOME_COPY[locale].heroTitle).toBeTruthy();
       expect(HOME_COPY[locale].heroMainCta).toBeTruthy();
       expect(HOME_COPY[locale].takeQuiz).toBeTruthy();

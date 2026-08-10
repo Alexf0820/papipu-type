@@ -2,27 +2,38 @@ import { describe, expect, it } from "vitest";
 
 import {
   buildCampGearResultShareText,
+  buildQuizStartPath,
   formatSharePayload,
 } from "@/lib/share/buildResultShareText";
 
 describe("buildCampGearResultShareText", () => {
-  it("builds Japanese share copy with type name and brand", () => {
+  it("builds Japanese share copy with type name", () => {
     expect(buildCampGearResultShareText("ja", "ナイフ")).toBe(
-      "私は「ナイフタイプ」でした！\nあなたはどのキャンプ道具タイプ？\n\nPAPIPU TYPE",
+      "私のパピプは「ナイフタイプ」でした！🍿\nあなたもパピプってみる？",
     );
   });
 
-  it("builds English share copy with type name and brand", () => {
+  it("builds English share copy with type name", () => {
     expect(buildCampGearResultShareText("en", "Knife")).toBe(
-      "I'm the Knife Type!\nWhat camping gear type are you?\n\nPAPIPU TYPE",
+      "My Papipu is the Knife type! 🍿\nWhat's your Papipu?",
     );
   });
 });
 
+describe("buildQuizStartPath", () => {
+  it("points to the quiz entry URL for the locale", () => {
+    expect(buildQuizStartPath("ja", "camp-gear")).toBe("/ja/camp-gear");
+    expect(buildQuizStartPath("en", "camp-gear")).toBe("/en/camp-gear");
+  });
+});
+
 describe("formatSharePayload", () => {
-  it("appends the page URL after the share text", () => {
+  it("appends the quiz start URL after the share text", () => {
     expect(
-      formatSharePayload("I'm the Knife Type!", "https://example.com/en/camp-gear"),
-    ).toBe("I'm the Knife Type!\nhttps://example.com/en/camp-gear");
+      formatSharePayload(
+        "My Papipu is the Knife type! 🍿",
+        "https://example.com/en/camp-gear",
+      ),
+    ).toBe("My Papipu is the Knife type! 🍿\nhttps://example.com/en/camp-gear");
   });
 });

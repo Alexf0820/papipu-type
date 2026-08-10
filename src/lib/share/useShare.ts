@@ -15,6 +15,51 @@ export type ShareParams = {
 
 export type ShareMethod = "native" | "clipboard" | "cancelled" | "failed";
 
+/** @internal Exported for unit tests. */
+export async function copyTextToClipboard(text: string): Promise<boolean> {
+  if (typeof navigator !== "undefined" && navigator.clipboard?.writeText) {
+    try {
+      await navigator.clipboard.writeText(text);
+      return true;
+    } catch {
+      // Clipboard API can fail on non-secure origins (e.g. LAN dev over HTTP).
+    }
+  }
+
+  if (typeof document === "undefined") {
+    return false;
+  }
+
+  // execCommand fallback — positioned for iOS Safari over HTTP (LAN dev).
+  const textarea = document.createElement("textarea");
+  textarea.value = text;
+  textarea.setAttribute("readonly", "");
+  textarea.style.position = "fixed";
+  textarea.style.top = "0";
+  textarea.style.left = "0";
+  textarea.style.width = "2em";
+  textarea.style.height = "2em";
+  textarea.style.padding = "0";
+  textarea.style.border = "none";
+  textarea.style.outline = "none";
+  textarea.style.boxShadow = "none";
+  textarea.style.background = "transparent";
+  document.body.appendChild(textarea);
+  textarea.focus();
+  textarea.select();
+
+  try {
+    if (typeof textarea.setSelectionRange === "function") {
+      textarea.setSelectionRange(0, text.length);
+    }
+    return document.execCommand("copy");
+  } catch {
+    return false;
+  } finally {
+    document.body.removeChild(textarea);
+  }
+}
+
 export function useShare(locale: Locale) {
   const [copied, setCopied] = useState(false);
   const copiedLabel = UI_LABELS[locale].shareCopied;
@@ -41,14 +86,13 @@ export function useShare(locale: Locale) {
         }
       }
 
-      try {
-        await navigator.clipboard.writeText(body);
+      if (await copyTextToClipboard(body)) {
         setCopied(true);
         window.setTimeout(() => setCopied(false), 2000);
         return "clipboard";
-      } catch {
-        return "failed";
       }
+
+      return "failed";
     },
     [],
   );
