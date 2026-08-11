@@ -1,8 +1,8 @@
 import { describe, expect, it } from "vitest";
 
 import {
+  CAMP_GEAR_CATEGORIES,
   CAMP_GEAR_CHOICE_IDS,
-  CAMP_GEAR_QUESTION_IDS,
   CAMP_GEAR_RESULT_TYPE_IDS,
 } from "@/data/quizzes/camp-gear/definition";
 import { campGearQuizEn } from "@/data/quizzes/camp-gear/en";
@@ -10,17 +10,21 @@ import { campGearQuizJa } from "@/data/quizzes/camp-gear/ja";
 import { getCampGearResultContent } from "@/data/quizzes/camp-gear/results";
 import { FACE_EXPRESSIONS } from "@/components/character/types";
 import { getVisual, isVisualKey } from "@/lib/visual/registry";
+import { buildSessionQuiz } from "@/lib/type-engine/sampleQuestions";
 import { resolveCampGearResult } from "@/lib/type-engine/resolveResult";
 import type { QuizSelection } from "@/lib/type-engine/types";
 
-function everyAnswerCombination(): QuizSelection[][] {
+function everySessionAnswerCombination(
+  questionIds: readonly string[],
+): QuizSelection[][] {
   let combinations: QuizSelection[][] = [[]];
+  const quiz = buildSessionQuiz(campGearQuizJa, questionIds);
 
-  for (const questionId of CAMP_GEAR_QUESTION_IDS) {
+  for (const question of quiz.questions) {
     combinations = combinations.flatMap((partial) =>
       CAMP_GEAR_CHOICE_IDS.map((choiceId) => [
         ...partial,
-        { questionId, choiceId },
+        { questionId: question.id, choiceId },
       ]),
     );
   }
@@ -29,11 +33,14 @@ function everyAnswerCombination(): QuizSelection[][] {
 }
 
 describe("Phase 2 result coverage", () => {
+  const sessionIds = CAMP_GEAR_CATEGORIES.map((category) => category[0]!);
+  const sessionQuiz = buildSessionQuiz(campGearQuizJa, sessionIds);
+
   it("can resolve every result type from at least one answer path", () => {
     const seen = new Set<string>();
 
-    for (const selections of everyAnswerCombination()) {
-      seen.add(resolveCampGearResult(campGearQuizJa, selections).typeId);
+    for (const selections of everySessionAnswerCombination(sessionIds)) {
+      seen.add(resolveCampGearResult(sessionQuiz, selections).typeId);
     }
 
     expect([...seen].sort()).toEqual([...CAMP_GEAR_RESULT_TYPE_IDS].sort());
@@ -51,14 +58,18 @@ describe("Phase 2 result coverage", () => {
 
   it("resolves body, compatibility, and mottos for every type", () => {
     for (const typeId of CAMP_GEAR_RESULT_TYPE_IDS) {
-      const matching = everyAnswerCombination().find(
+      const matching = everySessionAnswerCombination(sessionIds).find(
         (candidate) =>
-          resolveCampGearResult(campGearQuizJa, candidate).typeId === typeId,
+          resolveCampGearResult(sessionQuiz, candidate).typeId === typeId,
       );
       expect(matching).toBeDefined();
 
-      const ja = resolveCampGearResult(campGearQuizJa, matching!);
-      const en = resolveCampGearResult(campGearQuizEn, matching!);
+      const ja = resolveCampGearResult(sessionQuiz, matching!);
+      const enSession = buildSessionQuiz(
+        campGearQuizEn,
+        sessionIds,
+      );
+      const en = resolveCampGearResult(enSession, matching!);
 
       expect(ja.body.length).toBeGreaterThan(0);
       expect(ja.good.reason.length).toBeGreaterThan(0);
@@ -77,9 +88,9 @@ describe("Phase 2 result coverage", () => {
 
   it("does not expose debug fields through resolveCampGearResult top level", () => {
     const result = resolveCampGearResult(
-      campGearQuizJa,
-      CAMP_GEAR_QUESTION_IDS.map((questionId) => ({
-        questionId,
+      sessionQuiz,
+      sessionQuiz.questions.map((question) => ({
+        questionId: question.id,
         choiceId: "d",
       })),
     );

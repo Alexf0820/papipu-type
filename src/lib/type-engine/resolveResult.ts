@@ -1,13 +1,16 @@
 import {
-  CAMP_GEAR_VARIATION_RULES,
   getCampGearResultContent,
 } from "@/data/quizzes/camp-gear/results";
 import type { ResultVariationId } from "@/data/quizzes/camp-gear/results/types";
 import type { Locale } from "@/lib/locale";
 
-import { aggregateQuizScores, type QuizScores } from "./scoring";
+import {
+  aggregateQuizScores,
+  resolveResultType,
+  type QuizScores,
+} from "./scoring";
 import type { Quiz, QuizSelection } from "./types";
-import { pickResultVariation } from "./variation";
+import { pickResultVariationByHash } from "./variation";
 
 export type ResolvedQuizResult = {
   locale: Locale;
@@ -33,6 +36,7 @@ export type ResolvedQuizResult = {
   debug: {
     selections: readonly QuizSelection[];
     scores: QuizScores;
+    tieBreakStage: string;
   };
 };
 
@@ -57,15 +61,13 @@ export function resolveCampGearResult(
   selections: readonly QuizSelection[],
 ): ResolvedQuizResult {
   const scores = aggregateQuizScores(quiz, selections);
-  const typeId = scores.typeRanking[0].id;
-  const typeScore = scores.typeRanking[0].score;
+  const resolvedType = resolveResultType(quiz, selections, scores);
+  const typeId = resolvedType.typeId;
+  const typeScore = resolvedType.typeScore;
   const content = getCampGearResultContent(quiz.locale)[
     typeId as keyof ReturnType<typeof getCampGearResultContent>
   ];
-  const rules = CAMP_GEAR_VARIATION_RULES[
-    typeId as keyof typeof CAMP_GEAR_VARIATION_RULES
-  ];
-  const variationId = pickResultVariation(scores.traitScores, rules);
+  const variationId = pickResultVariationByHash(quiz.id, typeId, selections);
 
   return {
     locale: quiz.locale,
@@ -87,6 +89,10 @@ export function resolveCampGearResult(
       reason: content.bad.reason,
     },
     mottos: content.mottos,
-    debug: { selections, scores },
+    debug: {
+      selections,
+      scores,
+      tieBreakStage: resolvedType.tieBreakStage,
+    },
   };
 }

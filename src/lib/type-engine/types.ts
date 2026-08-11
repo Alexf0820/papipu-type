@@ -18,10 +18,10 @@ export type QuizChoice<
 > = {
   id: string;
   text: string;
-  /** Result type this choice points at. */
+  /** Result type this choice points at as the main answer. */
   mainType: TType;
-  /** Score added to `mainType` when this choice is picked. */
-  mainScore: number;
+  /** Result type awarded as secondary (+1). */
+  secondaryType: TType;
   /** Scores added to traits when this choice is picked. */
   traits: TraitScoreMap<TTrait>;
 };
@@ -37,11 +37,10 @@ export type QuizQuestion<
 
 /**
  * Reserved slot for a result variation inside one result type.
- * Phase 1 registers no variations — bodies are not implemented yet.
  */
 export type ResultVariation<TTrait extends string = string> = {
   id: string;
-  /** Trait that must rank highest for this variation to be picked. */
+  /** Legacy field from trait-based variation — unused by hash selection. */
   traitId?: TTrait;
 };
 
@@ -60,13 +59,21 @@ export type Quiz<
   id: string;
   locale: Locale;
   title: string;
-  /** Traits this quiz aggregates. Declaration order breaks trait ties. */
+  /** Traits this quiz aggregates. */
   traitIds: readonly TTrait[];
-  /** Result types this quiz can produce. Declaration order breaks type ties. */
+  /** Result types this quiz can produce. */
   resultTypeIds: readonly TType[];
+  /** Maps each result type to its trait for tie-break stage 3. */
+  typeTraitMap: Readonly<Record<TType, TTrait>>;
   resultTypes: Readonly<Record<TType, ResultTypeDefinition<TType, TTrait>>>;
+  /** Full question pool (32 questions for camp-gear). */
   questions: readonly QuizQuestion<TType, TTrait>[];
-  /** Upper bound of result variations one type may hold in a later phase. */
+  /**
+   * Category groups for session sampling — one question id is drawn from each
+   * inner array per diagnosis run.
+   */
+  categories: readonly (readonly string[])[];
+  /** Upper bound of result variations one type may hold. */
   maxResultVariations: number;
 };
 
@@ -75,3 +82,6 @@ export type QuizSelection = {
   questionId: string;
   choiceId: string;
 };
+
+export const MAIN_TYPE_SCORE = 3;
+export const SECONDARY_TYPE_SCORE = 1;

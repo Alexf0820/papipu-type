@@ -17,7 +17,7 @@ export type ChoiceScoring<
   TTrait extends string = string,
 > = {
   mainType: TType;
-  mainScore: number;
+  secondaryType: TType;
   traits: TraitScoreMap<TTrait>;
 };
 
@@ -35,12 +35,14 @@ export type QuizText<
   TChoice extends string = string,
 > = {
   title: string;
-  questions: Record<
-    TQuestion,
-    {
-      text: string;
-      choices: Record<TChoice, string>;
-    }
+  questions: Partial<
+    Record<
+      TQuestion,
+      {
+        text: string;
+        choices: Partial<Record<TChoice, string>>;
+      }
+    >
   >;
 };
 
@@ -52,17 +54,31 @@ export type BuildQuizParams<
 > = {
   id: string;
   locale: Locale;
-  /** Question order shown to the user. */
+  /** Full pool question ids in stable definition order. */
   questionIds: readonly TQuestion[];
   /** Choice order shown within every question. */
   choiceIds: readonly TChoice[];
   traitIds: readonly TTrait[];
   resultTypeIds: readonly TType[];
+  typeTraitMap: Readonly<Record<TType, TTrait>>;
   resultTypes: Readonly<Record<TType, ResultTypeDefinition<TType, TTrait>>>;
   maxResultVariations: number;
+  categories: readonly (readonly TQuestion[])[];
   scoring: QuizScoringTable<TQuestion, TChoice, TType, TTrait>;
   text: QuizText<TQuestion, TChoice>;
 };
+
+function choiceText(
+  questionId: string,
+  choiceId: string,
+  provided: string | undefined,
+): string {
+  return provided ?? choiceId.toUpperCase();
+}
+
+function questionText(questionId: string, provided: string | undefined): string {
+  return provided ?? questionId.toUpperCase();
+}
 
 /** Combine a shared scoring table with one locale's text into a Quiz. */
 export function buildQuiz<
@@ -79,18 +95,24 @@ export function buildQuiz<
     title: params.text.title,
     traitIds: params.traitIds,
     resultTypeIds: params.resultTypeIds,
+    typeTraitMap: params.typeTraitMap,
     resultTypes: params.resultTypes,
     maxResultVariations: params.maxResultVariations,
+    categories: params.categories,
     questions: params.questionIds.map((questionId) => {
-      const questionText = params.text.questions[questionId];
+      const questionTextEntry = params.text.questions[questionId];
 
       return {
         id: questionId,
-        text: questionText.text,
+        text: questionText(questionId, questionTextEntry?.text),
         choices: params.choiceIds.map(
           (choiceId): QuizChoice<TType, TTrait> => ({
             id: choiceId,
-            text: questionText.choices[choiceId],
+            text: choiceText(
+              questionId,
+              choiceId,
+              questionTextEntry?.choices?.[choiceId],
+            ),
             ...params.scoring[questionId][choiceId],
           }),
         ),

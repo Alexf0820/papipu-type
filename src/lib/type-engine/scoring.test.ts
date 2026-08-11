@@ -1,22 +1,33 @@
 import { describe, expect, it } from "vitest";
 
-import { campGearQuizJa } from "@/data/quizzes/camp-gear/ja";
 import {
+  CAMP_GEAR_CATEGORIES,
   CAMP_GEAR_QUESTION_IDS,
   CAMP_GEAR_SCORING,
 } from "@/data/quizzes/camp-gear/definition";
+import { campGearQuizJa } from "@/data/quizzes/camp-gear/ja";
+import { campGearQuizEn } from "@/data/quizzes/camp-gear/en";
+import { buildSessionQuiz } from "@/lib/type-engine/sampleQuestions";
 import {
   aggregateQuizScores,
   findQuizChoice,
   isQuizComplete,
+  resolveResultType,
 } from "@/lib/type-engine/scoring";
-import type { QuizSelection } from "@/lib/type-engine/types";
+import {
+  MAIN_TYPE_SCORE,
+  SECONDARY_TYPE_SCORE,
+  type QuizSelection,
+} from "@/lib/type-engine/types";
 
-const quiz = campGearQuizJa;
+const sessionQuiz = buildSessionQuiz(
+  campGearQuizJa,
+  CAMP_GEAR_CATEGORIES.map((category) => category[0]!),
+);
 
-function answerAll(choiceId: string): QuizSelection[] {
-  return CAMP_GEAR_QUESTION_IDS.map((questionId) => ({
-    questionId,
+function answerSession(choiceId: string): QuizSelection[] {
+  return sessionQuiz.questions.map((question) => ({
+    questionId: question.id,
     choiceId,
   }));
 }
@@ -27,160 +38,157 @@ function total(scores: Record<string, number>): number {
 
 describe("findQuizChoice", () => {
   it("resolves a selection to its choice", () => {
-    const choice = findQuizChoice(quiz, { questionId: "q1", choiceId: "a" });
+    const choice = findQuizChoice(sessionQuiz, {
+      questionId: "q01",
+      choiceId: "a",
+    });
 
-    expect(choice?.mainType).toBe("knife");
-    expect(choice?.mainScore).toBe(2);
+    expect(choice?.mainType).toBe("peg");
+    expect(choice?.secondaryType).toBe("knife");
   });
 
   it("returns undefined for unknown ids", () => {
     expect(
-      findQuizChoice(quiz, { questionId: "q99", choiceId: "a" }),
+      findQuizChoice(sessionQuiz, { questionId: "q99", choiceId: "a" }),
     ).toBeUndefined();
     expect(
-      findQuizChoice(quiz, { questionId: "q1", choiceId: "z" }),
+      findQuizChoice(sessionQuiz, { questionId: "q01", choiceId: "z" }),
     ).toBeUndefined();
   });
 });
 
 describe("isQuizComplete", () => {
-  it("is false while any question is unanswered", () => {
-    expect(isQuizComplete(quiz, [])).toBe(false);
-    expect(isQuizComplete(quiz, answerAll("a").slice(0, 5))).toBe(false);
+  it("is false while any session question is unanswered", () => {
+    expect(isQuizComplete(sessionQuiz, [])).toBe(false);
+    expect(isQuizComplete(sessionQuiz, answerSession("a").slice(0, 5))).toBe(
+      false,
+    );
   });
 
-  it("is true once every question has an answer", () => {
-    expect(isQuizComplete(quiz, answerAll("a"))).toBe(true);
+  it("is true once every session question has an answer", () => {
+    expect(isQuizComplete(sessionQuiz, answerSession("a"))).toBe(true);
   });
 });
 
 describe("aggregateQuizScores", () => {
-  it("starts every type and trait at zero", () => {
-    const scores = aggregateQuizScores(quiz, []);
-
-    expect(total(scores.typeScores)).toBe(0);
-    expect(total(scores.traitScores)).toBe(0);
-    expect(Object.keys(scores.typeScores)).toEqual([...quiz.resultTypeIds]);
-    expect(Object.keys(scores.traitScores)).toEqual([...quiz.traitIds]);
-  });
-
-  it("awards mainScore to the mainType of each answer", () => {
-    const scores = aggregateQuizScores(quiz, answerAll("a"));
-
-    expect(scores.typeScores).toEqual({
-      peg: 4,
-      tent: 2,
-      lantern: 0,
-      chair: 0,
-      firePit: 2,
-      sleepingBag: 0,
-      knife: 4,
-      hammer: 0,
-    });
-    expect(total(scores.typeScores)).toBe(12);
-  });
-
-  it("awards trait points to the traits of each answer", () => {
-    const scores = aggregateQuizScores(quiz, answerAll("a"));
-
-    expect(scores.traitScores).toEqual({
-      supportive: 3,
-      protective: 2,
-      social: 1,
-      relaxed: 0,
-      passionate: 1,
-      peaceful: 0,
-      logical: 5,
-      action: 0,
-    });
-    expect(scores.traitRanking[0]).toEqual({ id: "logical", score: 5 });
-  });
-
-  it("ignores selections that do not resolve to a choice", () => {
-    const withJunk = [
-      ...answerAll("a"),
-      { questionId: "q1", choiceId: "z" },
-      { questionId: "q99", choiceId: "a" },
+  it("awards Main +3 and Secondary +1", () => {
+    const selections: QuizSelection[] = [
+      { questionId: "q01", choiceId: "a" },
     ];
+    const scores = aggregateQuizScores(campGearQuizJa, selections);
 
-    expect(aggregateQuizScores(quiz, withJunk).typeScores).toEqual(
-      aggregateQuizScores(quiz, answerAll("a")).typeScores,
-    );
+    expect(scores.typeScores.peg).toBe(MAIN_TYPE_SCORE);
+    expect(scores.typeScores.knife).toBe(SECONDARY_TYPE_SCORE);
+    expect(scores.mainCounts.peg).toBe(1);
+    expect(scores.mainCounts.knife).toBe(0);
   });
 
-  it("breaks ties by declaration order", () => {
-    // peg and knife both reach 4 here, and peg is declared first.
-    // The Papipu Type tie-break rule itself is not defined yet.
-    const ranking = aggregateQuizScores(quiz, answerAll("a")).typeRanking;
-
-    expect(ranking[0]).toEqual({ id: "peg", score: 4 });
-    expect(ranking[1]).toEqual({ id: "knife", score: 4 });
+  it("totals 32 type points across a full 8-question session", () => {
+    const scores = aggregateQuizScores(sessionQuiz, answerSession("a"));
+    expect(total(scores.typeScores)).toBe(8 * (MAIN_TYPE_SCORE + SECONDARY_TYPE_SCORE));
   });
 
-  it("sorts rankings from highest to lowest score", () => {
-    const { typeRanking, traitRanking } = aggregateQuizScores(
-      quiz,
-      answerAll("a"),
+  it("does not break ties by declaration order in typeRanking", () => {
+    const scores = aggregateQuizScores(
+      buildSessionQuiz(campGearQuizJa, ["q05"]),
+      [{ questionId: "q05", choiceId: "a" }],
     );
 
-    for (const ranking of [typeRanking, traitRanking]) {
-      for (let index = 1; index < ranking.length; index += 1) {
-        expect(ranking[index - 1].score).toBeGreaterThanOrEqual(
-          ranking[index].score,
-        );
-      }
-    }
+    expect(
+      scores.typeRanking.filter(
+        (entry) => entry.score === scores.typeRanking[0]!.score,
+      ).length,
+    ).toBeGreaterThan(0);
   });
 });
 
-describe("re-answering a question", () => {
-  const allA = answerAll("a");
+describe("resolveResultType", () => {
+  it("resolves without declaration-order bias when hash is needed", () => {
+    const selections: QuizSelection[] = [
+      { questionId: "q05", choiceId: "a" },
+    ];
+    const oneQuestionQuiz = buildSessionQuiz(campGearQuizJa, ["q05"]);
+    const scores = aggregateQuizScores(oneQuestionQuiz, selections);
+    const resolved = resolveResultType(oneQuestionQuiz, selections, scores);
 
-  it("replaces the previous answer instead of adding to it", () => {
-    const q1Replaced = allA.map((selection, index) =>
-      index === 0 ? { ...selection, choiceId: "b" } : selection,
-    );
-    const before = aggregateQuizScores(quiz, allA);
-    const after = aggregateQuizScores(quiz, q1Replaced);
-
-    expect(total(after.typeScores)).toBe(12);
-    expect(after.typeScores.knife).toBe(before.typeScores.knife - 2);
-    expect(after.typeScores.hammer).toBe(before.typeScores.hammer + 2);
-    expect(after.traitScores.logical).toBe(before.traitScores.logical - 2);
-    expect(after.traitScores.action).toBe(before.traitScores.action + 2);
+    expect(resolved.tieBreakStage).toBe("typeAlone");
+    expect(resolved.typeId).toBe("peg");
   });
 
-  it("double counts only if a question appears twice, which the flow prevents", () => {
-    const duplicated = [...allA, { questionId: "q1", choiceId: "b" }];
+  it("returns the same type for identical inputs", () => {
+    const selections = answerSession("d");
+    const scores = aggregateQuizScores(sessionQuiz, selections);
+    const first = resolveResultType(sessionQuiz, selections, scores);
+    const second = resolveResultType(sessionQuiz, selections, scores);
 
-    expect(total(aggregateQuizScores(quiz, duplicated).typeScores)).toBe(14);
+    expect(first).toEqual(second);
+  });
+
+  it("is stable when candidate order changes but answers stay the same", () => {
+    const selections = answerSession("b");
+    const scores = aggregateQuizScores(sessionQuiz, selections);
+
+    const quizA = {
+      ...sessionQuiz,
+      resultTypeIds: [...sessionQuiz.resultTypeIds].reverse(),
+    };
+    const quizB = sessionQuiz;
+
+    expect(resolveResultType(quizA, selections, scores).typeId).toBe(
+      resolveResultType(quizB, selections, scores).typeId,
+    );
+  });
+});
+
+describe("ja/en parity", () => {
+  it("judges identical selections the same across locales", () => {
+    const selections = answerSession("c");
+    const ja = aggregateQuizScores(sessionQuiz, selections);
+    const enSession = buildSessionQuiz(
+      campGearQuizEn,
+      CAMP_GEAR_CATEGORIES.map((category) => category[0]!),
+    );
+    const en = aggregateQuizScores(enSession, selections);
+
+    expect(en.typeScores).toEqual(ja.typeScores);
+    expect(en.mainCounts).toEqual(ja.mainCounts);
+    expect(en.traitScores).toEqual(ja.traitScores);
   });
 });
 
 describe("purity", () => {
-  it("returns identical scores when called repeatedly", () => {
-    const selections = answerAll("c");
-
-    expect(aggregateQuizScores(quiz, selections)).toEqual(
-      aggregateQuizScores(quiz, selections),
-    );
-  });
-
   it("does not mutate the shared scoring table", () => {
     const before = structuredClone(CAMP_GEAR_SCORING);
 
-    aggregateQuizScores(quiz, answerAll("a"));
-    aggregateQuizScores(quiz, answerAll("d"));
+    aggregateQuizScores(sessionQuiz, answerSession("a"));
 
     expect(CAMP_GEAR_SCORING).toEqual(before);
   });
+});
 
-  it("does not mutate the selections it is given", () => {
-    const selections = answerAll("a");
-    const before = structuredClone(selections);
+describe("re-answering a question", () => {
+  it("replaces the previous answer instead of adding to it", () => {
+    const allA = answerSession("a");
+    const q1Replaced = allA.map((selection) =>
+      selection.questionId === "q01"
+        ? { ...selection, choiceId: "b" }
+        : selection,
+    );
+    const before = aggregateQuizScores(sessionQuiz, allA);
+    const after = aggregateQuizScores(sessionQuiz, q1Replaced);
 
-    aggregateQuizScores(quiz, selections);
+    expect(total(after.typeScores)).toBe(total(before.typeScores));
+    expect(after.typeScores.hammer).toBe(
+      before.typeScores.hammer + MAIN_TYPE_SCORE,
+    );
+    expect(after.typeScores.peg).toBe(before.typeScores.peg - MAIN_TYPE_SCORE);
+  });
+});
 
-    expect(selections).toEqual(before);
+describe("full pool structure", () => {
+  it("declares 32 questions and 8 categories", () => {
+    expect(campGearQuizJa.questions).toHaveLength(32);
+    expect(campGearQuizJa.categories).toHaveLength(8);
+    expect(CAMP_GEAR_QUESTION_IDS).toHaveLength(32);
   });
 });

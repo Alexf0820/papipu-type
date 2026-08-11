@@ -1,10 +1,11 @@
 "use client";
 
-import { useEffect, useRef, useState } from "react";
+import { startTransition, useEffect, useRef, useState } from "react";
 
 import { trackQuizStart } from "@/lib/analytics/events";
 import { UI_LABELS } from "@/lib/brand/labels";
 import { resolveCampGearResult } from "@/lib/type-engine/resolveResult";
+import { buildSessionQuiz, sampleSessionQuestionIds } from "@/lib/type-engine/sampleQuestions";
 import { aggregateQuizScores } from "@/lib/type-engine/scoring";
 import type { Quiz, QuizSelection } from "@/lib/type-engine/types";
 
@@ -46,15 +47,33 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
   const [questionIndex, setQuestionIndex] = useState(0);
   const [pendingChoiceId, setPendingChoiceId] = useState<string | null>(null);
   const [attemptId, setAttemptId] = useState(0);
+  const [sessionQuestionIds, setSessionQuestionIds] = useState<
+    readonly string[] | null
+  >(null);
   const advanceTimeoutRef = useRef<ReturnType<typeof setTimeout> | null>(null);
 
-  const totalQuestions = quiz.questions.length;
-  const question = quiz.questions[questionIndex];
+  useEffect(() => {
+    startTransition(() => {
+      setSessionQuestionIds(sampleSessionQuestionIds(quiz.categories));
+    });
+  }, [quiz.categories, attemptId]);
+
+  const sessionQuiz =
+    sessionQuestionIds === null
+      ? null
+      : buildSessionQuiz(quiz, sessionQuestionIds);
+
+  const totalQuestions = sessionQuiz?.questions.length ?? 8;
+  const question = sessionQuiz?.questions[questionIndex];
   const progressPercent = ((questionIndex + 1) / totalQuestions) * 100;
 
   useEffect(() => {
+    if (!sessionQuiz) {
+      return;
+    }
+
     trackQuizStart({ locale: quiz.locale, quiz_id: quiz.id });
-  }, [quiz.id, quiz.locale, attemptId]);
+  }, [quiz.id, quiz.locale, attemptId, sessionQuiz]);
 
   useEffect(() => {
     return () => {
@@ -76,11 +95,19 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
     setAttemptId((current) => current + 1);
   }
 
+  if (!sessionQuiz) {
+    return (
+      <section className="overflow-hidden rounded-3xl bg-gradient-to-b from-pink-50/50 via-white to-white px-4 py-6 ring-1 ring-pink-100/70 sm:px-6 sm:py-7">
+        <div className="h-40" aria-hidden="true" />
+      </section>
+    );
+  }
+
   if (!question) {
-    const selections = toSelections(quiz, answers);
+    const selections = toSelections(sessionQuiz, answers);
 
     if (quiz.id === "camp-gear") {
-      const result = resolveCampGearResult(quiz, selections);
+      const result = resolveCampGearResult(sessionQuiz, selections);
       return (
         <QuizResult
           result={result}
@@ -92,7 +119,7 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
     }
 
     // Fallback for quizzes without a result screen yet (dev only).
-    const scores = aggregateQuizScores(quiz, selections);
+    const scores = aggregateQuizScores(sessionQuiz, selections);
     return (
       <section className="space-y-3">
         <pre className="overflow-x-auto rounded-xl bg-slate-50 p-4 text-xs leading-relaxed text-slate-700 ring-1 ring-slate-200">
@@ -113,13 +140,18 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
     );
   }
 
+  const activeQuestion = question;
+
   function handleSelect(choiceId: string) {
-    if (pendingChoiceId) {
+    if (pendingChoiceId || !activeQuestion) {
       return;
     }
 
     setPendingChoiceId(choiceId);
-    setAnswers((current) => ({ ...current, [question.id]: choiceId }));
+    setAnswers((current) => ({
+      ...current,
+      [activeQuestion.id]: choiceId,
+    }));
 
     advanceTimeoutRef.current = setTimeout(() => {
       setQuestionIndex((current) => current + 1);
