@@ -14,6 +14,7 @@ type QuizCardProps = {
   description: string;
   icon: string;
   iconLabel: string;
+  accessibleLabel?: string;
 };
 
 export function QuizCard({
@@ -24,6 +25,7 @@ export function QuizCard({
   description,
   icon,
   iconLabel,
+  accessibleLabel,
 }: QuizCardProps) {
   const cta = HOME_COPY[locale].takeQuiz;
 
@@ -53,7 +55,11 @@ export function QuizCard({
       <p className="mt-2 text-[15px] leading-relaxed text-slate-600 sm:text-base">
         {description}
       </p>
-      <Link href={`/${locale}/${quizId}`} className={CTA_CLASS}>
+      <Link
+        href={`/${locale}/${quizId}`}
+        className={CTA_CLASS}
+        aria-label={accessibleLabel}
+      >
         {cta}
       </Link>
     </article>

@@ -166,6 +166,67 @@ export function KnifeBody({ face }: CharacterBodyProps) {
 
 /** Hammer — image asset (no SVG redraw). */
 const HAMMER_BODY_SRC = "/characters/hammer-body.jpg";
+const SPAGHETTI_BODY_SRCS = {
+  carbonara: "/characters/spaghetti-carbonara.png",
+  bolognese: "/characters/spaghetti-bolognese.png",
+  aglioOlio: "/characters/spaghetti-aglio-e-olio.png",
+  pesto: "/characters/spaghetti-pesto.png",
+  arrabbiata: "/characters/spaghetti-arrabbiata.png",
+  seafood: "/characters/spaghetti-seafood.png",
+  mushroom: "/characters/spaghetti-mushroom.png",
+  squidInk: "/characters/spaghetti-squid-ink.png",
+} as const;
+
+function SpaghettiBody({
+  face,
+  src,
+  faceTransform,
+}: CharacterBodyProps & { src: string; faceTransform: string }) {
+  return (
+    <BodySvg face={face} faceTransform={faceTransform}>
+      <image
+        href={src}
+        x={0}
+        y={0}
+        width={512}
+        height={512}
+        preserveAspectRatio="xMidYMid meet"
+      />
+    </BodySvg>
+  );
+}
+
+export function SpaghettiCarbonaraBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.carbonara} faceTransform="translate(257 264) scale(0.44)" />;
+}
+
+export function SpaghettiBologneseBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.bolognese} faceTransform="translate(255 264) scale(0.44)" />;
+}
+
+export function SpaghettiAglioOlioBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.aglioOlio} faceTransform="translate(255 264) scale(0.42)" />;
+}
+
+export function SpaghettiPestoBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.pesto} faceTransform="translate(256 264) scale(0.43)" />;
+}
+
+export function SpaghettiArrabbiataBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.arrabbiata} faceTransform="translate(256 268) scale(0.43)" />;
+}
+
+export function SpaghettiSeafoodBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.seafood} faceTransform="translate(258 275) scale(0.40)" />;
+}
+
+export function SpaghettiMushroomBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.mushroom} faceTransform="translate(256 270) scale(0.42)" />;
+}
+
+export function SpaghettiSquidInkBody({ face }: CharacterBodyProps) {
+  return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.squidInk} faceTransform="translate(256 267) scale(0.43)" />;
+}
 
 export function HammerBody({ face }: CharacterBodyProps) {
   return (

@@ -1,12 +1,12 @@
-import type { ResultVariationId } from "@/data/quizzes/camp-gear/results/types";
-
 import {
   buildVariationHashInput,
   stableHash,
 } from "./deterministicHash";
 import type { QuizSelection } from "./types";
 
-const VARIATION_IDS: readonly ResultVariationId[] = ["a", "b", "c"];
+export const RESULT_VARIATION_IDS = ["a", "b", "c"] as const;
+
+export type ResultVariationId = (typeof RESULT_VARIATION_IDS)[number];
 
 /**
  * Pick a body variation (a/b/c) via deterministic hash.
@@ -18,6 +18,6 @@ export function pickResultVariationByHash(
   selections: readonly QuizSelection[],
 ): ResultVariationId {
   const hashInput = buildVariationHashInput(quizId, resultTypeId, selections);
-  const index = stableHash(hashInput) % VARIATION_IDS.length;
-  return VARIATION_IDS[index]!;
+  const index = stableHash(hashInput) % RESULT_VARIATION_IDS.length;
+  return RESULT_VARIATION_IDS[index]!;
 }

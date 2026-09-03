@@ -8,7 +8,7 @@ const nextConfig: NextConfig = {
    * Update the IP to your machine's local address (e.g. from `ipconfig` / `ifconfig`).
    * Example phone URL: http://192.168.11.16:3000/ja/camp-gear
    */
-  allowedDevOrigins: ["192.168.11.16", "192.168.11.47"],
+  allowedDevOrigins: ["192.168.11.16", "192.168.11.47", "192.168.11.29"],
 };
 
 export default nextConfig;

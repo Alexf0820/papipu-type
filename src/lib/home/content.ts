@@ -1,4 +1,5 @@
 import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
+import { SPAGHETTI_QUIZ_ID } from "@/data/quizzes/spaghetti/definition";
 import type { Locale } from "@/lib/locale";
 
 /** Home page hero and CTA copy — separate from quiz in-flow labels. */
@@ -50,6 +51,8 @@ export type HomeQuizEntry = {
   /** Two-line card title — line1 sits beside the genre icon. */
   cardTitle: Record<Locale, HomeQuizCardTitle>;
   description: Record<Locale, string>;
+  /** Optional accessible action label when a quiz needs a specific CTA name. */
+  accessibleLabel?: Record<Locale, string>;
 };
 
 /** Quizzes listed on the home page — append new entries here later. */
@@ -76,6 +79,22 @@ export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
     description: {
       ja: "もしあなたがキャンプ道具だったら？",
       en: "If you were a piece of camping gear, what would you be?",
+    },
+  },
+  {
+    id: SPAGHETTI_QUIZ_ID,
+    icon: { emoji: "🍝", label: { ja: "スパゲッティ", en: "Spaghetti" } },
+    cardTitle: {
+      ja: { line1: "スパゲッティ", line2: "タイプ診断" },
+      en: { line1: "Spaghetti", line2: "Type" },
+    },
+    description: {
+      ja: "あなたの性格をスパゲッティに例えると？8種類から診断します。",
+      en: "What kind of spaghetti matches your personality? Find your type from 8 delicious possibilities.",
+    },
+    accessibleLabel: {
+      ja: "スパゲッティタイプ診断を始める",
+      en: "Start the Spaghetti Type quiz",
     },
   },
 ];

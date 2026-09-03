@@ -1,7 +1,6 @@
 import {
   getCampGearResultContent,
 } from "@/data/quizzes/camp-gear/results";
-import type { ResultVariationId } from "@/data/quizzes/camp-gear/results/types";
 import type { Locale } from "@/lib/locale";
 
 import {
@@ -10,7 +9,23 @@ import {
   type QuizScores,
 } from "./scoring";
 import type { Quiz, QuizSelection } from "./types";
-import { pickResultVariationByHash } from "./variation";
+import {
+  pickResultVariationByHash,
+  type ResultVariationId,
+} from "./variation";
+
+export type QuizResultContent = Record<
+  string,
+  {
+    displayName: string;
+    /** Omitted until a quiz has its Phase 3 character visual. */
+    visualKey?: string;
+    variations: Record<ResultVariationId, { body: string }>;
+    good: { typeId: string; reason: string };
+    bad: { typeId: string; reason: string };
+    mottos: readonly [string, string, string];
+  }
+>;
 
 export type ResolvedQuizResult = {
   locale: Locale;
@@ -19,7 +34,7 @@ export type ResolvedQuizResult = {
   typeScore: number;
   variationId: ResultVariationId;
   displayName: string;
-  visualKey: string;
+  visualKey?: string;
   body: string;
   good: {
     typeId: string;
@@ -40,34 +55,30 @@ export type ResolvedQuizResult = {
   };
 };
 
-function compatibilityDisplayName(
-  locale: Locale,
-  typeId: string,
-): string {
-  const matched =
-    getCampGearResultContent(locale)[
-      typeId as keyof ReturnType<typeof getCampGearResultContent>
-    ];
-  return matched.displayName;
-}
-
 /**
- * Resolve a completed quiz into display-ready result data.
+ * Resolve a completed quiz into display-ready result data using its registered
+ * locale content. Diagnosis rules remain entirely in the shared engine.
  * Deterministic for type, variation, and copy. Face / motto randomness is
  * handled separately on the client after this returns.
  */
-export function resolveCampGearResult(
+export function resolveQuizResult(
   quiz: Quiz,
   selections: readonly QuizSelection[],
+  resultContent: QuizResultContent,
 ): ResolvedQuizResult {
   const scores = aggregateQuizScores(quiz, selections);
   const resolvedType = resolveResultType(quiz, selections, scores);
   const typeId = resolvedType.typeId;
   const typeScore = resolvedType.typeScore;
-  const content = getCampGearResultContent(quiz.locale)[
-    typeId as keyof ReturnType<typeof getCampGearResultContent>
-  ];
+  const content = resultContent[typeId];
+  if (!content) throw new Error(`Missing result content for ${quiz.id}:${typeId}`);
   const variationId = pickResultVariationByHash(quiz.id, typeId, selections);
+
+  const compatibilityDisplayName = (compatibilityTypeId: string) => {
+    const matched = resultContent[compatibilityTypeId];
+    if (!matched) throw new Error(`Missing compatibility content for ${quiz.id}:${compatibilityTypeId}`);
+    return matched.displayName;
+  };
 
   return {
     locale: quiz.locale,
@@ -80,12 +91,12 @@ export function resolveCampGearResult(
     body: content.variations[variationId].body,
     good: {
       typeId: content.good.typeId,
-      displayName: compatibilityDisplayName(quiz.locale, content.good.typeId),
+      displayName: compatibilityDisplayName(content.good.typeId),
       reason: content.good.reason,
     },
     bad: {
       typeId: content.bad.typeId,
-      displayName: compatibilityDisplayName(quiz.locale, content.bad.typeId),
+      displayName: compatibilityDisplayName(content.bad.typeId),
       reason: content.bad.reason,
     },
     mottos: content.mottos,
@@ -95,4 +106,16 @@ export function resolveCampGearResult(
       tieBreakStage: resolvedType.tieBreakStage,
     },
   };
+}
+
+/** Backward-compatible camp-gear entry point retained for existing callers. */
+export function resolveCampGearResult(
+  quiz: Quiz,
+  selections: readonly QuizSelection[],
+): ResolvedQuizResult {
+  return resolveQuizResult(
+    quiz,
+    selections,
+    getCampGearResultContent(quiz.locale),
+  );
 }

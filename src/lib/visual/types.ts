@@ -11,7 +11,15 @@ export type VisualKey =
   | "camp-gear-firePit"
   | "camp-gear-sleepingBag"
   | "camp-gear-knife"
-  | "camp-gear-hammer";
+  | "camp-gear-hammer"
+  | "spaghetti-carbonara"
+  | "spaghetti-bolognese"
+  | "spaghetti-aglio-e-olio"
+  | "spaghetti-pesto"
+  | "spaghetti-arrabbiata"
+  | "spaghetti-seafood"
+  | "spaghetti-mushroom"
+  | "spaghetti-squid-ink";
 
 export type VisualDefinition = {
   /** SVG body today; WebP or animated SVG can replace this later. */

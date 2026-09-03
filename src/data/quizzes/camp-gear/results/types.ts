@@ -1,6 +1,7 @@
 import type { CampGearResultTypeId } from "@/data/quizzes/camp-gear/definition";
+import type { ResultVariationId } from "@/lib/type-engine/variation";
 
-export type ResultVariationId = "a" | "b" | "c";
+export type { ResultVariationId } from "@/lib/type-engine/variation";
 
 export type CompatibilityContent = {
   /** Result type id of the matched / mismatched character. */

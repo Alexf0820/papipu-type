@@ -4,7 +4,8 @@ import { startTransition, useEffect, useRef, useState } from "react";
 
 import { trackQuizStart } from "@/lib/analytics/events";
 import { UI_LABELS } from "@/lib/brand/labels";
-import { resolveCampGearResult } from "@/lib/type-engine/resolveResult";
+import { resolveQuizResult } from "@/lib/type-engine/resolveResult";
+import { getQuizResultContent } from "@/lib/type-engine/registry";
 import { buildSessionQuiz, sampleSessionQuestionIds } from "@/lib/type-engine/sampleQuestions";
 import { aggregateQuizScores } from "@/lib/type-engine/scoring";
 import type { Quiz, QuizSelection } from "@/lib/type-engine/types";
@@ -106,8 +107,9 @@ export function QuizFlow({ quiz }: QuizFlowProps) {
   if (!question) {
     const selections = toSelections(sessionQuiz, answers);
 
-    if (quiz.id === "camp-gear") {
-      const result = resolveCampGearResult(sessionQuiz, selections);
+    const resultContent = getQuizResultContent(quiz.id, quiz.locale);
+    if (resultContent) {
+      const result = resolveQuizResult(sessionQuiz, selections, resultContent);
       return (
         <QuizResult
           result={result}

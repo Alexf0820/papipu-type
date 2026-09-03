@@ -23,6 +23,7 @@ export function QuizListing({ locale }: QuizListingProps) {
         description: entry.description[locale],
         icon: entry.icon.emoji,
         iconLabel: entry.icon.label[locale],
+        accessibleLabel: entry.accessibleLabel?.[locale],
       },
     ];
   });
@@ -39,6 +40,7 @@ export function QuizListing({ locale }: QuizListingProps) {
           description={quiz.description}
           icon={quiz.icon}
           iconLabel={quiz.iconLabel}
+          accessibleLabel={quiz.accessibleLabel}
         />
       ))}
 

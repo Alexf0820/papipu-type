@@ -7,6 +7,14 @@ import {
   PegBody,
   SleepingBagBody,
   TentBody,
+  SpaghettiAglioOlioBody,
+  SpaghettiArrabbiataBody,
+  SpaghettiBologneseBody,
+  SpaghettiCarbonaraBody,
+  SpaghettiMushroomBody,
+  SpaghettiPestoBody,
+  SpaghettiSeafoodBody,
+  SpaghettiSquidInkBody,
 } from "@/components/character/bodies";
 
 import type { VisualDefinition, VisualKey } from "./types";
@@ -25,6 +33,14 @@ const VISUALS: Record<VisualKey, VisualDefinition> = {
   "camp-gear-sleepingBag": { Body: SleepingBagBody },
   "camp-gear-knife": { Body: KnifeBody },
   "camp-gear-hammer": { Body: HammerBody },
+  "spaghetti-carbonara": { Body: SpaghettiCarbonaraBody },
+  "spaghetti-bolognese": { Body: SpaghettiBologneseBody },
+  "spaghetti-aglio-e-olio": { Body: SpaghettiAglioOlioBody },
+  "spaghetti-pesto": { Body: SpaghettiPestoBody },
+  "spaghetti-arrabbiata": { Body: SpaghettiArrabbiataBody },
+  "spaghetti-seafood": { Body: SpaghettiSeafoodBody },
+  "spaghetti-mushroom": { Body: SpaghettiMushroomBody },
+  "spaghetti-squid-ink": { Body: SpaghettiSquidInkBody },
 };
 
 export function getVisual(key: string): VisualDefinition | undefined {

@@ -152,15 +152,17 @@ function QuizResultView({
             {resultTypeTitle(result.locale, result.displayName)}
           </h2>
 
-          <div className="mt-6 w-full max-w-[340px] sm:mt-7 sm:max-w-[380px]">
-            <div className="mx-auto rounded-[1.75rem] bg-[radial-gradient(ellipse_96%_94%_at_50%_44%,_#ffffff_0%,_#ffffff_50%,_rgb(253_242_248_/_0)_100%)] px-3 py-3 sm:px-4 sm:py-4">
-              <CharacterVisual
-                visualKey={result.visualKey}
-                expression={presentation.face}
-                className="relative max-w-[300px] sm:max-w-[340px]"
-              />
+          {result.visualKey ? (
+            <div className="mt-6 w-full max-w-[340px] sm:mt-7 sm:max-w-[380px]">
+              <div className="mx-auto rounded-[1.75rem] bg-[radial-gradient(ellipse_96%_94%_at_50%_44%,_#ffffff_0%,_#ffffff_50%,_rgb(253_242_248_/_0)_100%)] px-3 py-3 sm:px-4 sm:py-4">
+                <CharacterVisual
+                  visualKey={result.visualKey}
+                  expression={presentation.face}
+                  className="relative max-w-[300px] sm:max-w-[340px]"
+                />
+              </div>
             </div>
-          </div>
+          ) : null}
 
           {intro ? (
             <p className="mt-5 max-w-lg whitespace-pre-line text-left text-[17px] leading-relaxed text-slate-600 sm:mt-6 sm:text-center sm:text-base">
