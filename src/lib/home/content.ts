@@ -89,8 +89,8 @@ export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
       en: { line1: "Spaghetti", line2: "Type" },
     },
     description: {
-      ja: "あなたの性格をスパゲッティに例えると？8種類から診断します。",
-      en: "What kind of spaghetti matches your personality? Find your type from 8 delicious possibilities.",
+      ja: "もしあなたがスパゲッティだったら？",
+      en: "What if you were spaghetti?",
     },
     accessibleLabel: {
       ja: "スパゲッティタイプ診断を始める",

@@ -29,8 +29,8 @@ describe("home page content", () => {
     const spaghetti = HOME_QUIZZES.find((entry) => entry.id === SPAGHETTI_QUIZ_ID);
     expect(spaghetti?.cardTitle.ja).toEqual({ line1: "スパゲッティ", line2: "タイプ診断" });
     expect(spaghetti?.cardTitle.en).toEqual({ line1: "Spaghetti", line2: "Type" });
-    expect(spaghetti?.description.ja).toBe("あなたの性格をスパゲッティに例えると？8種類から診断します。");
-    expect(spaghetti?.description.en).toBe("What kind of spaghetti matches your personality? Find your type from 8 delicious possibilities.");
+    expect(spaghetti?.description.ja).toBe("もしあなたがスパゲッティだったら？");
+    expect(spaghetti?.description.en).toBe("What if you were spaghetti?");
     expect(spaghetti?.accessibleLabel).toEqual({
       ja: "スパゲッティタイプ診断を始める",
       en: "Start the Spaghetti Type quiz",
