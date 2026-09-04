@@ -15,6 +15,7 @@ import {
   SpaghettiPestoBody,
   SpaghettiSeafoodBody,
   SpaghettiSquidInkBody,
+  SushiEelBody, SushiEggBody, SushiSalmonBody, SushiSalmonRoeBody, SushiShrimpBody, SushiSquidBody, SushiSushiRollBody, SushiTunaBody,
 } from "@/components/character/bodies";
 
 import type { VisualDefinition, VisualKey } from "./types";
@@ -41,6 +42,8 @@ const VISUALS: Record<VisualKey, VisualDefinition> = {
   "spaghetti-seafood": { Body: SpaghettiSeafoodBody },
   "spaghetti-mushroom": { Body: SpaghettiMushroomBody },
   "spaghetti-squid-ink": { Body: SpaghettiSquidInkBody },
+  "sushi-tuna": { Body: SushiTunaBody }, "sushi-salmon": { Body: SushiSalmonBody }, "sushi-shrimp": { Body: SushiShrimpBody }, "sushi-egg": { Body: SushiEggBody },
+  "sushi-salmon-roe": { Body: SushiSalmonRoeBody }, "sushi-eel": { Body: SushiEelBody }, "sushi-sushi-roll": { Body: SushiSushiRollBody }, "sushi-squid": { Body: SushiSquidBody },
 };
 
 export function getVisual(key: string): VisualDefinition | undefined {

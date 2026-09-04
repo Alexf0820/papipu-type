@@ -19,7 +19,9 @@ export type VisualKey =
   | "spaghetti-arrabbiata"
   | "spaghetti-seafood"
   | "spaghetti-mushroom"
-  | "spaghetti-squid-ink";
+  | "spaghetti-squid-ink"
+  | "sushi-tuna" | "sushi-salmon" | "sushi-shrimp" | "sushi-egg"
+  | "sushi-salmon-roe" | "sushi-eel" | "sushi-sushi-roll" | "sushi-squid";
 
 export type VisualDefinition = {
   /** SVG body today; WebP or animated SVG can replace this later. */

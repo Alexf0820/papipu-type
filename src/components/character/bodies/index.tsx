@@ -177,6 +177,17 @@ const SPAGHETTI_BODY_SRCS = {
   squidInk: "/characters/spaghetti-squid-ink.png",
 } as const;
 
+const SUSHI_BODY_SRCS = {
+  tuna: "/characters/sushi-tuna.jpg",
+  salmon: "/characters/sushi-salmon.png",
+  shrimp: "/characters/sushi-shrimp.png",
+  egg: "/characters/sushi-egg.png",
+  salmonRoe: "/characters/sushi-salmon-roe.png",
+  eel: "/characters/sushi-eel.png",
+  sushiRoll: "/characters/sushi-sushi-roll.png",
+  squid: "/characters/sushi-squid.png",
+} as const;
+
 function SpaghettiBody({
   face,
   src,
@@ -227,6 +238,19 @@ export function SpaghettiMushroomBody({ face }: CharacterBodyProps) {
 export function SpaghettiSquidInkBody({ face }: CharacterBodyProps) {
   return <SpaghettiBody face={face} src={SPAGHETTI_BODY_SRCS.squidInk} faceTransform="translate(256 267) scale(0.43)" />;
 }
+
+function SushiBody({ face, src, faceTransform }: CharacterBodyProps & { src: string; faceTransform: string }) {
+  return <BodySvg face={face} faceTransform={faceTransform}><image href={src} x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" /></BodySvg>;
+}
+
+export function SushiTunaBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.tuna} faceTransform="translate(260 263) rotate(5) scale(0.42)" />; }
+export function SushiSalmonBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.salmon} faceTransform="translate(260 263) rotate(5) scale(0.42)" />; }
+export function SushiShrimpBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.shrimp} faceTransform="translate(250 258) rotate(4) scale(0.40)" />; }
+export function SushiEggBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.egg} faceTransform="translate(255 258) scale(0.42)" />; }
+export function SushiSalmonRoeBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.salmonRoe} faceTransform="translate(258 290) scale(0.41)" />; }
+export function SushiEelBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.eel} faceTransform="translate(260 265) rotate(5) scale(0.42)" />; }
+export function SushiSushiRollBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.sushiRoll} faceTransform="translate(255 276) scale(0.40)" />; }
+export function SushiSquidBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.squid} faceTransform="translate(260 264) rotate(5) scale(0.42)" />; }
 
 export function HammerBody({ face }: CharacterBodyProps) {
   return (
