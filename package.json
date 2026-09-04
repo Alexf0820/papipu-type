@@ -10,6 +10,7 @@
     "test": "vitest run",
     "test:watch": "vitest",
     "create-quiz": "node scripts/create-quiz.mjs",
+    "import-quiz-content": "node scripts/import-quiz-content.mjs",
     "validate-quiz": "node scripts/validate-quiz.mjs",
     "verify-quiz": "node scripts/verify-quiz.mjs",
     "test:scaffold": "node --test scripts/create-quiz.test.mjs"

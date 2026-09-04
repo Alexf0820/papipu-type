@@ -284,15 +284,46 @@ function renderReadme(quizId) {
 
 This scaffold intentionally contains no authored quiz content. Replace every placeholder only with approved content.
 
-1. Fill eight result-type IDs and eight trait IDs in \`definition.ts\`.
-2. Fill the one-to-one type/trait map and all 128 Main/Secondary scoring entries.
-3. Fill Japanese and English title, questions, and choices in \`ja.ts\` and \`en.ts\`.
-4. Fill result display names, three variations, three mottos, and compatibility in both result files.
-5. Keep each visual key as \`${quizId}-<result-type>\`; after image handoff, manually add the VisualKey union, Body, visual registry entry, and faceTransform.
-6. Manually register both locales and both result-content maps in \`src/lib/type-engine/registry.ts\`.
-7. Manually add the approved home-card title, description, accessible labels, and icon in \`src/lib/home/content.ts\`.
-8. Run \`npm run validate-quiz -- ${quizId}\` and \`npm run verify-quiz -- ${quizId}\` before production review.
+1. Put approved scoring, JA/EN questions, and JA/EN result content in \`content/handoff.json\`.
+2. Run \`npm run import-quiz-content -- ${quizId}\`. It validates all input before replacing \`definition.ts\`, \`ja.ts\`, \`en.ts\`, and both result files.
+3. Keep each visual key as \`${quizId}-<result-type>\`; after image handoff, manually add the VisualKey union, Body, visual registry entry, and faceTransform.
+4. Manually register both locales and both result-content maps in \`src/lib/type-engine/registry.ts\`.
+5. Manually add the approved home-card title, description, accessible labels, and icon in \`src/lib/home/content.ts\`.
+6. Run \`npm run validate-quiz -- ${quizId}\` and \`npm run verify-quiz -- ${quizId}\` before production review.
 `;
+}
+
+function renderHandoff(quizId) {
+  const categories = Array.from({ length: 8 }, (_, category) =>
+    QUESTION_IDS.slice(category * 4, category * 4 + 4),
+  );
+  const questions = Object.fromEntries(QUESTION_IDS.map((questionId) => [questionId, {
+    scoring: Object.fromEntries(["a", "b", "c", "d"].map((choiceId) => [choiceId, { mainType: "", secondaryType: "" }])),
+    ja: { text: "", choices: { a: "", b: "", c: "", d: "" } },
+    en: { text: "", choices: { a: "", b: "", c: "", d: "" } },
+  }]));
+  const resultEntry = () => ({
+    displayName: "",
+    visualKey: "",
+    variations: { a: { body: "" }, b: { body: "" }, c: { body: "" } },
+    mottos: ["", "", ""],
+    good: { typeId: "", reason: "" },
+    bad: { typeId: "", reason: "" },
+  });
+  const results = Object.fromEntries(TYPE_IDS.map((typeId) => [typeId, resultEntry()]));
+  return `${JSON.stringify({
+    schemaVersion: 1,
+    quiz: {
+      id: quizId,
+      title: { ja: "", en: "" },
+      resultTypeIds: TYPE_IDS,
+      traitIds: TRAIT_IDS,
+      typeTraitMap: Object.fromEntries(TYPE_IDS.map((typeId, index) => [typeId, TRAIT_IDS[index]])),
+      categories,
+      questions,
+    },
+    results: { ja: results, en: structuredClone(results) },
+  }, null, 2)}\n`;
 }
 
 export function scaffoldFiles(projectRoot, quizId) {
@@ -306,6 +337,8 @@ export function scaffoldFiles(projectRoot, quizId) {
     [resolve(paths.dataDirectory, "results", "index.ts"), renderResultsIndex(quizId)],
     [resolve(paths.dataDirectory, `${quizId}.test.ts`), renderTest(quizId)],
     [resolve(paths.dataDirectory, "README.md"), renderReadme(quizId)],
+    [resolve(paths.dataDirectory, "content", ".scaffold.json"), `${JSON.stringify({ quizId, schemaVersion: 1 }, null, 2)}\n`],
+    [resolve(paths.dataDirectory, "content", "handoff.json"), renderHandoff(quizId)],
     [resolve(paths.routeDirectory, "page.tsx"), renderRoute(quizId)],
   ];
 }
