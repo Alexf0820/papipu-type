@@ -1,0 +1,1762 @@
+{
+  "schemaVersion": 1,
+  "quiz": {
+    "id": "ice-cream",
+    "title": {
+      "ja": "アイスクリームタイプ診断",
+      "en": "Ice Cream Type"
+    },
+    "resultTypeIds": [
+      "vanilla",
+      "chocolate",
+      "strawberry",
+      "matcha",
+      "cookiesCream",
+      "caramel",
+      "rainbow",
+      "sorbet"
+    ],
+    "traitIds": [
+      "natural",
+      "passion",
+      "expressive",
+      "aesthetic",
+      "playful",
+      "compassion",
+      "curiosity",
+      "independence"
+    ],
+    "typeTraitMap": {
+      "vanilla": "natural",
+      "chocolate": "passion",
+      "strawberry": "expressive",
+      "matcha": "aesthetic",
+      "cookiesCream": "playful",
+      "caramel": "compassion",
+      "rainbow": "curiosity",
+      "sorbet": "independence"
+    },
+    "categories": [
+      [
+        "q01",
+        "q02",
+        "q03",
+        "q04"
+      ],
+      [
+        "q05",
+        "q06",
+        "q07",
+        "q08"
+      ],
+      [
+        "q09",
+        "q10",
+        "q11",
+        "q12"
+      ],
+      [
+        "q13",
+        "q14",
+        "q15",
+        "q16"
+      ],
+      [
+        "q17",
+        "q18",
+        "q19",
+        "q20"
+      ],
+      [
+        "q21",
+        "q22",
+        "q23",
+        "q24"
+      ],
+      [
+        "q25",
+        "q26",
+        "q27",
+        "q28"
+      ],
+      [
+        "q29",
+        "q30",
+        "q31",
+        "q32"
+      ]
+    ],
+    "questions": {
+      "q01": {
+        "scoring": {
+          "a": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "c": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "d": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          }
+        },
+        "ja": {
+          "text": "初対面の人が多い場所では？",
+          "choices": {
+            "a": "無理に目立たず、自然に話せそうな人と話す",
+            "b": "気になる人には、表情や反応を見ながら話しかける",
+            "c": "ちょっと面白い人を見つけると話してみたくなる",
+            "d": "一人でも平気。気が向いたら動く"
+          }
+        },
+        "en": {
+          "text": "You're somewhere with lots of people you don't know. What do you do?",
+          "choices": {
+            "a": "I don't force it. I talk when it feels natural.",
+            "b": "I approach someone I'm curious about and read the vibe.",
+            "c": "If someone seems interesting, I want to talk to them.",
+            "d": "I'm fine on my own. I'll join when I feel like it."
+          }
+        }
+      },
+      "q02": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "b": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "c": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "d": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "友達から急に「今日会える？」と連絡が来た。",
+          "choices": {
+            "a": "予定が空いていて気分が乗ればすぐ行く",
+            "b": "一度予定と気分を確認してから決める",
+            "c": "相手が困っていそうなら、できるだけ合わせる",
+            "d": "今日は一人でいたい日なら普通に断る"
+          }
+        },
+        "en": {
+          "text": "A friend suddenly asks, “Can you hang out today?”",
+          "choices": {
+            "a": "If I'm free and in the mood, I'm in.",
+            "b": "I check my plans and how I feel first.",
+            "c": "If they seem to need me, I'll try to make it work.",
+            "d": "If I need a day alone, I'll just say no."
+          }
+        }
+      },
+      "q03": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "b": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "c": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "d": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "グループで話しているときのあなたは？",
+          "choices": {
+            "a": "リアクションがわりと顔に出る",
+            "b": "真面目な話の中にも、ちょっと笑えることを入れたい",
+            "c": "話題が次々変わる方が楽しい",
+            "d": "必要なことを普通に話せれば十分"
+          }
+        },
+        "en": {
+          "text": "When you're chatting in a group, which sounds most like you?",
+          "choices": {
+            "a": "My reactions tend to show on my face.",
+            "b": "I like slipping a little humor into serious conversations.",
+            "c": "I enjoy it when the topic keeps changing.",
+            "d": "I'm happy just talking normally about what matters."
+          }
+        }
+      },
+      "q04": {
+        "scoring": {
+          "a": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "b": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "c": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          }
+        },
+        "ja": {
+          "text": "人付き合いで大事なのは？",
+          "choices": {
+            "a": "気を使いすぎない、ちょうどいい距離",
+            "b": "相手を大事にできること",
+            "c": "必要なら一人に戻れること",
+            "d": "好き嫌いも含めてちゃんと向き合うこと"
+          }
+        },
+        "en": {
+          "text": "What matters most to you in relationships?",
+          "choices": {
+            "a": "A comfortable distance where nobody tries too hard.",
+            "b": "Being able to care about the other person.",
+            "c": "Being able to step back and be alone when I need to.",
+            "d": "Being honest enough to really engage, likes and dislikes included."
+          }
+        }
+      },
+      "q05": {
+        "scoring": {
+          "a": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "b": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "c": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          }
+        },
+        "ja": {
+          "text": "予定のない休日、いちばん近いのは？",
+          "choices": {
+            "a": "いつもと違うことを少し入れたい",
+            "b": "気になる場所へふらっと行く",
+            "c": "特別なことはなくても、気楽に過ごせればいい",
+            "d": "好きな人と楽しい時間を過ごしたい"
+          }
+        },
+        "en": {
+          "text": "You have a completely free day. What sounds best?",
+          "choices": {
+            "a": "I want to add one little twist to the day.",
+            "b": "Go somewhere that catches my attention.",
+            "c": "Nothing special—just an easy, comfortable day.",
+            "d": "Spend a good time with someone I like."
+          }
+        }
+      },
+      "q06": {
+        "scoring": {
+          "a": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "b": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "d": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          }
+        },
+        "ja": {
+          "text": "旅行先で予定外の店を見つけた。",
+          "choices": {
+            "a": "一緒の人が入りたそうなら付き合う",
+            "b": "自分がピンと来なければ、そのまま通る",
+            "c": "面白そうならかなり入りたい",
+            "d": "雰囲気や見た目が好みなら入る"
+          }
+        },
+        "en": {
+          "text": "You spot an unplanned shop while traveling.",
+          "choices": {
+            "a": "If the person I'm with wants to go in, I'm happy to join.",
+            "b": "If it doesn't click with me, I just keep walking.",
+            "c": "If it looks fun, I really want to check it out.",
+            "d": "If the atmosphere and look appeal to me, I'm going in."
+          }
+        }
+      },
+      "q07": {
+        "scoring": {
+          "a": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "b": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "d": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          }
+        },
+        "ja": {
+          "text": "家で急に時間が空いた。",
+          "choices": {
+            "a": "気になっていたことを試してみる",
+            "b": "いつものことをして落ち着く",
+            "c": "誰かに連絡したり、近況を話したくなる",
+            "d": "ちょっと変な遊びや暇つぶしを考える"
+          }
+        },
+        "en": {
+          "text": "You suddenly get some unexpected free time at home.",
+          "choices": {
+            "a": "Try something I've been curious about.",
+            "b": "Do something familiar and settle in.",
+            "c": "Message someone or catch up for a bit.",
+            "d": "Invent some slightly weird way to entertain myself."
+          }
+        }
+      },
+      "q08": {
+        "scoring": {
+          "a": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "c": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "d": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          }
+        },
+        "ja": {
+          "text": "休日の予定が雨で中止になった。",
+          "choices": {
+            "a": "まあいいか、と切り替えて別行動",
+            "b": "家で好きなことにどっぷり入る",
+            "c": "せっかくなら落ち着いた良い時間にする",
+            "d": "みんなが楽しめる代案を考える"
+          }
+        },
+        "en": {
+          "text": "Your plans get canceled because of rain.",
+          "choices": {
+            "a": "Fine by me—I switch gears and do something else.",
+            "b": "Dive deep into something I love at home.",
+            "c": "Turn it into a calm, nicely spent day.",
+            "d": "Think of an alternative everyone can enjoy."
+          }
+        }
+      },
+      "q09": {
+        "scoring": {
+          "a": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "c": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "d": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          }
+        },
+        "ja": {
+          "text": "面白そうなアイデアを思いついた。",
+          "choices": {
+            "a": "まず無理なくできる形を考える",
+            "b": "人に話したくなってテンションが上がる",
+            "c": "ちょっとひねって、自分なりにしたくなる",
+            "d": "もっと別の可能性も探したくなる"
+          }
+        },
+        "en": {
+          "text": "You come up with an interesting idea.",
+          "choices": {
+            "a": "First, I think of a simple way to make it doable.",
+            "b": "I get excited and want to tell someone.",
+            "c": "I want to give it my own playful twist.",
+            "d": "I start wondering what other possibilities there are."
+          }
+        }
+      },
+      "q10": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "b": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "c": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "d": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "大きな買い物を決めるときは？",
+          "choices": {
+            "a": "好きになったら、かなり深く調べる",
+            "b": "デザインや質感まで納得したい",
+            "c": "長く気持ちよく使えるものを選ぶ",
+            "d": "必要ないと思えば、評判が良くても買わない"
+          }
+        },
+        "en": {
+          "text": "How do you decide on a big purchase?",
+          "choices": {
+            "a": "If I love it, I research it intensely.",
+            "b": "I want the design and feel to be right too.",
+            "c": "I choose something I can enjoy using for a long time.",
+            "d": "If I don't need it, great reviews won't make me buy it."
+          }
+        }
+      },
+      "q11": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "b": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "c": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "d": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "何かを始めるときのあなたは？",
+          "choices": {
+            "a": "楽しそうだと気持ちが先に動く",
+            "b": "最初から完璧より、遊びながら覚える",
+            "c": "いろいろ試しながら方向を決める",
+            "d": "基本を押さえて、無理なく始める"
+          }
+        },
+        "en": {
+          "text": "When starting something new, which is most like you?",
+          "choices": {
+            "a": "If it sounds fun, my feelings move first.",
+            "b": "I'd rather learn by playing than be perfect from the start.",
+            "c": "I try different things and decide the direction as I go.",
+            "d": "I learn the basics and start at a comfortable pace."
+          }
+        }
+      },
+      "q12": {
+        "scoring": {
+          "a": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "b": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "c": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          }
+        },
+        "ja": {
+          "text": "迷ったとき、最後の決め手は？",
+          "choices": {
+            "a": "自分の感覚として美しい・しっくりくるか",
+            "b": "周りも含めて気持ちよく進められるか",
+            "c": "自分が本当に必要としているか",
+            "d": "どちらにより強く心が動くか"
+          }
+        },
+        "en": {
+          "text": "When you're torn, what usually decides it?",
+          "choices": {
+            "a": "Whether it feels right and aesthetically satisfying to me.",
+            "b": "Whether everyone involved can move forward comfortably.",
+            "c": "Whether I actually need it.",
+            "d": "Which one I feel more strongly about."
+          }
+        }
+      },
+      "q13": {
+        "scoring": {
+          "a": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "b": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "c": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          }
+        },
+        "ja": {
+          "text": "ちょっとした失敗をした。",
+          "choices": {
+            "a": "笑える部分があれば、少しネタにする",
+            "b": "別のやり方を試してみる",
+            "c": "原因を見て、次は普通に直す",
+            "d": "落ち込んでいる人がいたら、まず声をかける"
+          }
+        },
+        "en": {
+          "text": "You make a small mistake.",
+          "choices": {
+            "a": "If there's a funny side, I turn it into a little story.",
+            "b": "Try a different approach.",
+            "c": "Figure out why it happened and simply fix it next time.",
+            "d": "If someone else is upset too, I check on them first."
+          }
+        }
+      },
+      "q14": {
+        "scoring": {
+          "a": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "b": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "d": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          }
+        },
+        "ja": {
+          "text": "予定が大きく崩れた。",
+          "choices": {
+            "a": "みんなが困らないように調整する",
+            "b": "一回切り離して、別のことへ切り替える",
+            "c": "悔しいなら、その分ちゃんとやり直す",
+            "d": "落ち着いて全体を見直す"
+          }
+        },
+        "en": {
+          "text": "Your plans fall apart unexpectedly.",
+          "choices": {
+            "a": "Adjust things so nobody is left in trouble.",
+            "b": "Detach from it and switch to something else.",
+            "c": "If it bothers me, I want to redo it properly.",
+            "d": "Calm down and reconsider the whole picture."
+          }
+        }
+      },
+      "q15": {
+        "scoring": {
+          "a": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "b": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "d": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          }
+        },
+        "ja": {
+          "text": "腹が立ったときは？",
+          "choices": {
+            "a": "気分転換できるものを探す",
+            "b": "一度落ち着いて、普段の自分に戻る",
+            "c": "気持ちが顔や声に出やすい",
+            "d": "少し笑える見方ができると楽になる"
+          }
+        },
+        "en": {
+          "text": "What happens when you're annoyed?",
+          "choices": {
+            "a": "I look for something that can reset my mood.",
+            "b": "I calm down and return to my usual self.",
+            "c": "It tends to show in my face or voice.",
+            "d": "Finding a slightly funny angle helps me feel better."
+          }
+        }
+      },
+      "q16": {
+        "scoring": {
+          "a": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "c": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "d": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          }
+        },
+        "ja": {
+          "text": "しんどい日、どう回復する？",
+          "choices": {
+            "a": "一人の時間を作って頭をすっきりさせる",
+            "b": "好きなことに集中して気持ちを燃やす",
+            "c": "静かな場所や心地いいものに触れる",
+            "d": "誰かと話したり、温かい時間を過ごす"
+          }
+        },
+        "en": {
+          "text": "How do you recover after a rough day?",
+          "choices": {
+            "a": "I take some time alone and clear my head.",
+            "b": "I pour myself into something I love.",
+            "c": "I seek a quiet place or something that feels beautiful and calm.",
+            "d": "I talk to someone or spend warm, comforting time together."
+          }
+        }
+      },
+      "q17": {
+        "scoring": {
+          "a": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "c": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "d": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          }
+        },
+        "ja": {
+          "text": "チームで何かを作るなら？",
+          "choices": {
+            "a": "自分の担当を普通にちゃんとやる",
+            "b": "場の雰囲気やみんなの反応をよく見る",
+            "c": "少し遊びのあるアイデアを出す",
+            "d": "新しい案や別ルートを次々考える"
+          }
+        },
+        "en": {
+          "text": "When making something as a team, what role feels natural?",
+          "choices": {
+            "a": "Do my part properly without making a fuss.",
+            "b": "Pay attention to the mood and everyone's reactions.",
+            "c": "Suggest an idea with a little playfulness.",
+            "d": "Keep coming up with new options and alternate routes."
+          }
+        }
+      },
+      "q18": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "b": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "c": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "d": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "一人だけ困っている人がいる。",
+          "choices": {
+            "a": "自分にできる範囲で手を貸す",
+            "b": "相手が望んでいなければ、無理に入り込まない",
+            "c": "一緒に解決すると決めたらかなり本気で動く",
+            "d": "その人が動きやすい環境を静かに整える"
+          }
+        },
+        "en": {
+          "text": "One person in the group seems to be struggling.",
+          "choices": {
+            "a": "Help in a practical way that I can manage.",
+            "b": "If they don't want help, I won't force myself in.",
+            "c": "If I decide to help solve it, I get seriously involved.",
+            "d": "Quietly arrange things so it's easier for them to move forward."
+          }
+        }
+      },
+      "q19": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "b": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "c": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "d": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "会議が煮詰まっている。",
+          "choices": {
+            "a": "みんなの気持ちが少し軽くなる言い方をする",
+            "b": "視点を変える小ネタや変化球を入れる",
+            "c": "全然違う方向から案を出す",
+            "d": "いったん基本に戻って整理する"
+          }
+        },
+        "en": {
+          "text": "A meeting is going nowhere.",
+          "choices": {
+            "a": "Say something that lightens the mood a little.",
+            "b": "Throw in a playful twist or odd angle.",
+            "c": "Suggest something from a completely different direction.",
+            "d": "Go back to the basics and organize the situation."
+          }
+        }
+      },
+      "q20": {
+        "scoring": {
+          "a": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "b": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "c": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          }
+        },
+        "ja": {
+          "text": "チームで意見が割れたら？",
+          "choices": {
+            "a": "全体のバランスや完成度を見て判断する",
+            "b": "それぞれが納得できる落としどころを探す",
+            "c": "無理に一致させず、分けて進めてもいいと思う",
+            "d": "自分が強く信じる案なら、理由をきちんと伝える"
+          }
+        },
+        "en": {
+          "text": "Your team is split between different opinions.",
+          "choices": {
+            "a": "Judge by the overall balance and quality.",
+            "b": "Look for a solution everyone can live with.",
+            "c": "I'm fine splitting paths instead of forcing agreement.",
+            "d": "If I strongly believe in an option, I'll explain why."
+          }
+        }
+      },
+      "q21": {
+        "scoring": {
+          "a": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "b": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "c": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          }
+        },
+        "ja": {
+          "text": "お気に入りの店で注文するなら？",
+          "choices": {
+            "a": "いつもの中に、ちょっと変化を入れたくなる",
+            "b": "見たことのないものが気になる",
+            "c": "結局いつもの安心できるもの",
+            "d": "見た目がかわいい・気分が上がるもの"
+          }
+        },
+        "en": {
+          "text": "At a favorite restaurant, what do you order?",
+          "choices": {
+            "a": "Something familiar with a small twist.",
+            "b": "Something I've never tried catches my eye.",
+            "c": "Usually the dependable thing I already like.",
+            "d": "Something cute or expressive that lifts my mood."
+          }
+        }
+      },
+      "q22": {
+        "scoring": {
+          "a": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "b": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "d": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          }
+        },
+        "ja": {
+          "text": "物を選ぶとき、気になるのは？",
+          "choices": {
+            "a": "使う人にとって心地いいか",
+            "b": "必要な機能だけでスッキリしているか",
+            "c": "好きになれる濃さや存在感があるか",
+            "d": "色・形・質感まで自分の基準に合うか"
+          }
+        },
+        "en": {
+          "text": "When choosing something, what catches your attention most?",
+          "choices": {
+            "a": "Whether it feels good for the people using it.",
+            "b": "Whether it's clean and has only what I need.",
+            "c": "Whether it has enough character for me to really love it.",
+            "d": "Whether the color, shape, and texture meet my own standards."
+          }
+        }
+      },
+      "q23": {
+        "scoring": {
+          "a": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "b": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "d": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          }
+        },
+        "ja": {
+          "text": "流行しているものを見ると？",
+          "choices": {
+            "a": "一回は見てみたい",
+            "b": "自分に合うなら普通に取り入れる",
+            "c": "楽しそうなら反応が早い",
+            "d": "そのまま乗るより、自分流にしたくなる"
+          }
+        },
+        "en": {
+          "text": "How do you react to something that's suddenly trendy?",
+          "choices": {
+            "a": "I want to check it out at least once.",
+            "b": "If it suits me, I'll use it normally.",
+            "c": "If it looks fun, I react quickly.",
+            "d": "I'd rather put my own spin on it than follow it exactly."
+          }
+        }
+      },
+      "q24": {
+        "scoring": {
+          "a": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "c": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "d": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          }
+        },
+        "ja": {
+          "text": "お気に入りを長く使っている。",
+          "choices": {
+            "a": "まだ好きなら、周りが変えても自分は使う",
+            "b": "もっと好きなものが出たら思い切って乗り換える",
+            "c": "細部まで気に入っているから簡単には変えない",
+            "d": "思い出や人とのつながりもあって手放しにくい"
+          }
+        },
+        "en": {
+          "text": "You've had the same favorite thing for years.",
+          "choices": {
+            "a": "If I still like it, I keep using it even if everyone else moves on.",
+            "b": "If something excites me more, I can switch decisively.",
+            "c": "I like the details too much to replace it casually.",
+            "d": "The memories and connections make it hard to let go."
+          }
+        }
+      },
+      "q25": {
+        "scoring": {
+          "a": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "c": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "d": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          }
+        },
+        "ja": {
+          "text": "急に新しい選択肢が出てきた。",
+          "choices": {
+            "a": "まず今のやり方で困っているか考える",
+            "b": "面白そうなら気持ちがかなり動く",
+            "c": "ちょっと変わった使い方まで考え始める",
+            "d": "とりあえず調べて可能性を広げる"
+          }
+        },
+        "en": {
+          "text": "A completely new option suddenly appears.",
+          "choices": {
+            "a": "First I ask whether the current way is actually a problem.",
+            "b": "If it excites me, I feel strongly pulled toward it.",
+            "c": "I start imagining unusual ways to use it.",
+            "d": "I research it and open up the possibilities."
+          }
+        }
+      },
+      "q26": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "b": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "c": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "d": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "環境が大きく変わった。",
+          "choices": {
+            "a": "やることが決まれば、そこに集中して進む",
+            "b": "自分に合う形へ静かに整える",
+            "c": "周りの人が不安そうなら気にかける",
+            "d": "いらないものを切って、早めに新しいペースを作る"
+          }
+        },
+        "en": {
+          "text": "Your environment changes dramatically.",
+          "choices": {
+            "a": "Once I know what to do, I focus and move.",
+            "b": "Quietly reshape things until they fit me.",
+            "c": "If people around me seem uneasy, I pay attention to them.",
+            "d": "Cut what I don't need and build a new rhythm quickly."
+          }
+        }
+      },
+      "q27": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "b": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "c": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "d": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "知らない分野の話を聞いた。",
+          "choices": {
+            "a": "面白そうなら素直にテンションが上がる",
+            "b": "ちょっと変なところから興味が湧く",
+            "c": "次々質問したくなる",
+            "d": "まず基本だけ知っておきたい"
+          }
+        },
+        "en": {
+          "text": "You hear about a field you know nothing about.",
+          "choices": {
+            "a": "If it sounds interesting, I get visibly excited.",
+            "b": "Some odd little detail is what hooks me.",
+            "c": "I want to ask question after question.",
+            "d": "I want to understand the basics first."
+          }
+        }
+      },
+      "q28": {
+        "scoring": {
+          "a": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "b": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "c": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          }
+        },
+        "ja": {
+          "text": "急な変更に強い方？",
+          "choices": {
+            "a": "一度全体を見て、自分のリズムへ戻す",
+            "b": "周りと助け合えればだいたい大丈夫",
+            "c": "不要なことを切って、さっと切り替える",
+            "d": "大事なことなら、変化をきっかけに一気に動く"
+          }
+        },
+        "en": {
+          "text": "How are you with sudden changes?",
+          "choices": {
+            "a": "I take in the whole situation and return to my rhythm.",
+            "b": "If we can help each other, we'll probably be fine.",
+            "c": "Cut the unnecessary parts and switch quickly.",
+            "d": "If it matters, change can make me move even harder."
+          }
+        }
+      },
+      "q29": {
+        "scoring": {
+          "a": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          },
+          "b": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "c": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          }
+        },
+        "ja": {
+          "text": "理想の毎日に近いのは？",
+          "choices": {
+            "a": "小さな遊びや意外性がある",
+            "b": "新しい発見がちょこちょこある",
+            "c": "気取らず、自然に過ごせる",
+            "d": "好きな人と気持ちを分け合える"
+          }
+        },
+        "en": {
+          "text": "Which sounds closest to your ideal everyday life?",
+          "choices": {
+            "a": "Little bits of play and surprise.",
+            "b": "Frequent small discoveries.",
+            "c": "Being myself without trying too hard.",
+            "d": "Sharing feelings and good moments with people I love."
+          }
+        }
+      },
+      "q30": {
+        "scoring": {
+          "a": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          },
+          "b": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "d": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          }
+        },
+        "ja": {
+          "text": "自分の強みに近いのは？",
+          "choices": {
+            "a": "人を安心させたり支えたりできる",
+            "b": "人に流されず、切り替えられる",
+            "c": "好きなことにはかなり熱くなれる",
+            "d": "自分なりのセンスや基準がある"
+          }
+        },
+        "en": {
+          "text": "Which feels closest to one of your strengths?",
+          "choices": {
+            "a": "I can support people and make them feel at ease.",
+            "b": "I can think for myself and move on when needed.",
+            "c": "I can get intensely passionate about what I love.",
+            "d": "I have my own sense of taste and standards."
+          }
+        }
+      },
+      "q31": {
+        "scoring": {
+          "a": {
+            "mainType": "rainbow",
+            "secondaryType": "sorbet"
+          },
+          "b": {
+            "mainType": "vanilla",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "matcha"
+          },
+          "d": {
+            "mainType": "cookiesCream",
+            "secondaryType": "caramel"
+          }
+        },
+        "ja": {
+          "text": "「自分らしい」と感じる瞬間は？",
+          "choices": {
+            "a": "新しいものにワクワクしているとき",
+            "b": "普通の自分で無理なく過ごしているとき",
+            "c": "うれしい・楽しいを素直に出せているとき",
+            "d": "ちょっと変なことを思いついているとき"
+          }
+        },
+        "en": {
+          "text": "When do you feel most like yourself?",
+          "choices": {
+            "a": "When something new has me excited.",
+            "b": "When I'm simply being myself without forcing anything.",
+            "c": "When I can openly show that I'm happy or excited.",
+            "d": "When I've come up with something slightly weird."
+          }
+        }
+      },
+      "q32": {
+        "scoring": {
+          "a": {
+            "mainType": "sorbet",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cookiesCream"
+          },
+          "c": {
+            "mainType": "matcha",
+            "secondaryType": "rainbow"
+          },
+          "d": {
+            "mainType": "caramel",
+            "secondaryType": "vanilla"
+          }
+        },
+        "ja": {
+          "text": "人生で大事にしたいのは？",
+          "choices": {
+            "a": "自分のペースと自由",
+            "b": "本気になれるもの",
+            "c": "自分が美しい・心地いいと思える感覚",
+            "d": "人にやさしくできる余裕"
+          }
+        },
+        "en": {
+          "text": "What do you want to value most in life?",
+          "choices": {
+            "a": "My own pace and freedom.",
+            "b": "Something I can care about deeply.",
+            "c": "A sense of what feels beautiful and right to me.",
+            "d": "Enough room in my life to be kind to people."
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "ja": {
+      "vanilla": {
+        "displayName": "バニラ",
+        "visualKey": "ice-cream-vanilla",
+        "variations": {
+          "a": {
+            "body": "飾らないのに、なぜか安心される人。\n\n変に自分を大きく見せようとしないし、必要以上に目立とうともしません。\n\nでも、頼まれたことはちゃんとやる。好きな人にはちゃんと優しい。\n\n派手ではないけれど、気づけば長く付き合われているタイプです。\n\nバニラは地味なんじゃない。基準なんです。"
+          },
+          "b": {
+            "body": "無理にキャラを作らない人。\n\n流行っているから好きになるわけでもないし、変わっているから避けるわけでもない。\n\n自分に合えば、それでいい。\n\nその自然体が、周りにはけっこう心地よく見えます。\n\n結局いちばん飽きない味って、こういう人かもしれません。"
+          },
+          "c": {
+            "body": "シンプルなものの良さをちゃんと知っている人。\n\n予定がなくても焦らない。特別なイベントがなくても楽しめる。\n\n毎日を大げさにしなくても、それなりに満足できます。\n\n刺激は控えめ。\n\nでも一緒にいると、なんだか落ち着く。そんなバニラです。"
+          }
+        },
+        "mottos": [
+          "自然体がいちばん強い。",
+          "シンプルでも、ちゃんとおいしい。",
+          "無理に盛らなくていい。"
+        ],
+        "good": {
+          "typeId": "caramel",
+          "reason": "バニラの自然体に、キャラメルのやさしさ。無理なく長く一緒にいられる組み合わせ。"
+        },
+        "bad": {
+          "typeId": "rainbow",
+          "reason": "バニラは落ち着きたい。レインボーは次の面白そうへ行きたい。休日の速度が少し違います。"
+        }
+      },
+      "chocolate": {
+        "displayName": "チョコレート",
+        "visualKey": "ice-cream-chocolate",
+        "variations": {
+          "a": {
+            "body": "好きなものにはかなり濃い人。\n\n興味がないときは静かでも、スイッチが入ると急に詳しくなります。\n\n調べる、試す、語る。\n\n気づけば周りよりだいぶ深いところまで行っていることも。\n\nチョコだけに、気持ちも濃いめです。"
+          },
+          "b": {
+            "body": "中途半端より、ちゃんと好きになりたい人。\n\nなんとなく続けるより、「これだ」と思えるものに力を使いたい。\n\nその分、興味のないものには驚くほど淡白なこともあります。\n\n全部に100点を出さない。\n\nでも好きなものには120点。"
+          },
+          "c": {
+            "body": "静かに見えて、内側に熱量がある人。\n\n普段は普通でも、勝負どころや大事なことではけっこう強い。\n\n周りが驚くくらい集中できる瞬間があります。\n\n甘いだけじゃない。\n\n少し苦いところも含めて、チョコレートです。"
+          }
+        },
+        "mottos": [
+          "好きなら、深くいこう。",
+          "中途半端より、本気。",
+          "熱量は隠れていてもいい。"
+        ],
+        "good": {
+          "typeId": "cookiesCream",
+          "reason": "チョコの濃さに、クッキー＆クリームの遊び心。真面目にハマりつつ、ちゃんと楽しい。"
+        },
+        "bad": {
+          "typeId": "sorbet",
+          "reason": "チョコは深く入りたい。ソルベは切り替えたい。片方がまだ語っている間に、片方は次へ進みます。"
+        }
+      },
+      "strawberry": {
+        "displayName": "ストロベリー",
+        "visualKey": "ice-cream-strawberry",
+        "variations": {
+          "a": {
+            "body": "うれしい、楽しい、好きがわりと分かりやすい人。\n\nいいことがあると顔に出るし、好きな人にはちゃんと反応します。\n\n感情豊かだけど、それが周りを明るくすることも多い。\n\n隠すより伝わる。\n\nストロベリーは、気持ちが見える人です。"
+          },
+          "b": {
+            "body": "人との時間を大事にする人。\n\nおいしいものを食べたら誰かに教えたいし、楽しいことがあれば一緒に笑いたい。\n\n一人でも平気。\n\nでも、気持ちは分けた方がちょっとおいしいと思っています。\n\n赤いのは、たぶん気持ちが乗っているから。"
+          },
+          "c": {
+            "body": "好き嫌いが比較的はっきりしている人。\n\nただし、それを乱暴にぶつけるわけではありません。\n\n「好き！」はちゃんと言う。\n\n「ちょっと違うかも」もちゃんと感じる。\n\n感情に色がある。そんなストロベリーです。"
+          }
+        },
+        "mottos": [
+          "好きは、ちゃんと好きと言う。",
+          "楽しいは分けた方が楽しい。",
+          "気持ちは隠しすぎなくていい。"
+        ],
+        "good": {
+          "typeId": "caramel",
+          "reason": "ストロベリーの感情を、キャラメルがやさしく受け止める。温度感の合う組み合わせ。"
+        },
+        "bad": {
+          "typeId": "matcha",
+          "reason": "ストロベリーは気持ちを出したい。抹茶は静かに味わいたい。どちらも悪くないけど表現方法が違います。"
+        }
+      },
+      "matcha": {
+        "displayName": "抹茶",
+        "visualKey": "ice-cream-matcha",
+        "variations": {
+          "a": {
+            "body": "静かに自分の基準を持っている人。\n\n人に見せるためではなく、自分が心地いいかどうかをちゃんと大事にします。\n\n色、形、空気感。\n\n細かいところまで気になることも。\n\n抹茶は、派手じゃないけど雑でもありません。"
+          },
+          "b": {
+            "body": "落ち着いて見えるけれど、実はこだわりがある人。\n\n何でもいいわけではない。\n\nでも、そのこだわりを大声で説明する必要も感じません。\n\n分かる人には分かる。\n\nそんな少し大人っぽい抹茶です。"
+          },
+          "c": {
+            "body": "騒がしいより、ちゃんと整っている方が好きな人。\n\n予定も、部屋も、考え方も、ある程度きれいに収まっていると落ち着きます。\n\nただし完璧主義というほどではありません。\n\n自分の中で美しくまとまれば十分。\n\n味にも人生にも、余白が必要です。"
+          }
+        },
+        "mottos": [
+          "自分の基準を大事にする。",
+          "静かでも、こだわりはある。",
+          "余白まで含めて整える。"
+        ],
+        "good": {
+          "typeId": "sorbet",
+          "reason": "抹茶の落ち着きと、ソルベのすっきり感。互いに干渉しすぎず、かなり心地いい。"
+        },
+        "bad": {
+          "typeId": "strawberry",
+          "reason": "抹茶は静かに味わいたい。ストロベリーは気持ちを共有したい。テンションの出し方に差があります。"
+        }
+      },
+      "cookiesCream": {
+        "displayName": "クッキー＆クリーム",
+        "visualKey": "ice-cream-cookies-cream",
+        "variations": {
+          "a": {
+            "body": "普通そうに見えて、ちょっと何か混ざっている人。\n\n真面目に話していたと思ったら、急に変なことを言う。\n\nちゃんとしているのに、どこか遊びがある。\n\nそのギャップが意外とクセになります。\n\n白黒はっきりしているようで、実はかなり混ざっています。"
+          },
+          "b": {
+            "body": "遊び心を忘れない人。\n\n必要なことはやるけれど、全部を真面目だけで終わらせたくありません。\n\n少し笑える要素や、自分なりのひねりを入れたくなる。\n\n効率だけでは測れない楽しさがあります。\n\nクッキー片は、多い方が人生っぽい。"
+          },
+          "c": {
+            "body": "ギャップがあると言われやすい人。\n\n見た目と中身、仕事中と休日、一人のときと人前。\n\n全部が同じじゃなくても気にしません。\n\nむしろその混ざり方が自分らしい。\n\n一種類じゃ説明しにくい人です。"
+          }
+        },
+        "mottos": [
+          "少しくらい混ざってる方が面白い。",
+          "真面目だけでは終わらせない。",
+          "ギャップも自分の一部。"
+        ],
+        "good": {
+          "typeId": "chocolate",
+          "reason": "クッキー＆クリームの遊びを、チョコが本気で掘る。楽しいのに妙に深い組み合わせ。"
+        },
+        "bad": {
+          "typeId": "vanilla",
+          "reason": "クッキー＆クリームはひとひねり欲しい。バニラはそのままでいい。シンプル派と盛りたい派です。"
+        }
+      },
+      "caramel": {
+        "displayName": "キャラメル",
+        "visualKey": "ice-cream-caramel",
+        "variations": {
+          "a": {
+            "body": "人のことを放っておけない人。\n\n困っている人がいると、できる範囲で手を貸したくなります。\n\n無理に仕切るわけではない。\n\nでも気づけば誰かを支えている。\n\nキャラメルは甘い。人にも少し甘い。"
+          },
+          "b": {
+            "body": "一緒にいる人が気持ちよく過ごせるかを考える人。\n\n自分だけ満足できればいい、とはなりにくい。\n\n予定を合わせたり、話を聞いたり、ちょっと譲ったり。\n\nその積み重ねで場を丸くします。\n\nただし、甘やかしすぎには注意。"
+          },
+          "c": {
+            "body": "包容力があると言われるタイプ。\n\n相手が少し失敗しても、すぐに切り捨てません。\n\n「まあそういうこともあるよね」と受け止められる。\n\nでも本当は、自分もたまには甘やかされたい。\n\nキャラメルにも補給が必要です。"
+          }
+        },
+        "mottos": [
+          "やさしさは、余裕から。",
+          "できる範囲で支えればいい。",
+          "甘いくらいがちょうどいい日もある。"
+        ],
+        "good": {
+          "typeId": "vanilla",
+          "reason": "キャラメルのやさしさを、バニラが自然に受け取る。無理のない安定ペア。"
+        },
+        "bad": {
+          "typeId": "sorbet",
+          "reason": "キャラメルは気にかけたい。ソルベは自分で切り替えたい。助けたい側と放っておいてほしい側になりがち。"
+        }
+      },
+      "rainbow": {
+        "displayName": "レインボー",
+        "visualKey": "ice-cream-rainbow",
+        "variations": {
+          "a": {
+            "body": "面白そうなものに反応する人。\n\n予定になかった店、新しいサービス、知らない遊び。\n\n「それ何？」と思った瞬間、もうちょっと近づいています。\n\n全部を続けるわけではない。\n\nでも入口が多い。人生の色数も多めです。"
+          },
+          "b": {
+            "body": "変化を楽しめる人。\n\n同じ毎日も悪くないけれど、ときどき何か新しいものが欲しくなります。\n\n新しい場所、新しい人、新しい考え方。\n\nそれだけでちょっと元気になる。\n\nレインボーは、予定表にない色を足す人です。"
+          },
+          "c": {
+            "body": "好奇心が先に動く人。\n\n気になったら調べる。面白そうなら試す。\n\nその結果、趣味や知識が妙に広がっていることがあります。\n\n統一感がない？\n\n大丈夫。虹だって一色ではありません。"
+          }
+        },
+        "mottos": [
+          "面白そうなら見に行こう。",
+          "知らない色を増やす。",
+          "予定外も、だいたい悪くない。"
+        ],
+        "good": {
+          "typeId": "cookiesCream",
+          "reason": "レインボーが新しいものを見つけ、クッキー＆クリームが遊びに変える。予定どおりには進みません。"
+        },
+        "bad": {
+          "typeId": "vanilla",
+          "reason": "レインボーは変化が欲しい。バニラは自然体で十分。刺激の必要量が少し違います。"
+        }
+      },
+      "sorbet": {
+        "displayName": "ソルベ",
+        "visualKey": "ice-cream-sorbet",
+        "variations": {
+          "a": {
+            "body": "さっぱり切り替えられる人。\n\n嫌なことがあっても、必要以上に引きずりません。\n\nもちろん落ち込むことはある。\n\nでも「じゃあ次どうする？」へ戻るのが比較的早い。\n\n後味まで重くしないタイプです。"
+          },
+          "b": {
+            "body": "自分は自分、と考えられる人。\n\nみんなが選んでいても、自分に必要なければ選ばない。\n\n誘われても気分が乗らなければ断れる。\n\n冷たいわけではありません。\n\nただ、境界線がわりとはっきりしています。"
+          },
+          "c": {
+            "body": "余計なものを減らすのが得意な人。\n\n物でも予定でも人間関係でも、「これはもういいかな」と思えば整理できます。\n\nその分、新しい余白を作るのも早い。\n\n濃厚さより爽快感。\n\n人生にも、ときどき口直しが必要です。"
+          }
+        },
+        "mottos": [
+          "切り替えたら、次へ。",
+          "自分に必要かで決める。",
+          "余白がある方が動きやすい。"
+        ],
+        "good": {
+          "typeId": "matcha",
+          "reason": "ソルベのすっきり感と、抹茶の落ち着き。静かで距離感のちょうどいい組み合わせ。"
+        },
+        "bad": {
+          "typeId": "chocolate",
+          "reason": "ソルベは切り替えたい。チョコはもっと深く掘りたい。濃度の差がかなりあります。"
+        }
+      }
+    },
+    "en": {
+      "vanilla": {
+        "displayName": "Vanilla",
+        "visualKey": "ice-cream-vanilla",
+        "variations": {
+          "a": {
+            "body": "You have a way of making people feel at ease without trying very hard.\n\nYou don't need to exaggerate yourself or be the loudest person in the room.\n\nYou just do what you said you'd do and treat people you care about well.\n\nIt may not look flashy, but people tend to keep you around for a long time.\n\nVanilla isn't boring. It's the standard everything else gets compared to."
+          },
+          "b": {
+            "body": "You don't feel much need to manufacture a personality.\n\nYou don't like things just because they're trendy, and you don't reject them just because they're unusual.\n\nIf it fits you, that's enough.\n\nThat naturalness makes you surprisingly comfortable to be around.\n\nSome flavors last because nobody gets tired of them."
+          },
+          "c": {
+            "body": "You understand the value of simple things.\n\nAn empty day doesn't make you anxious. A normal evening can still be a good one.\n\nYou don't need every day to become an event.\n\nLow drama, low decoration, high comfort.\n\nVery vanilla—in the best possible way."
+          }
+        },
+        "mottos": [
+          "Being natural is a strength.",
+          "Simple can still be really good.",
+          "You don't have to add extra toppings."
+        ],
+        "good": {
+          "typeId": "caramel",
+          "reason": "Vanilla brings ease; Caramel brings warmth. Nothing needs to be forced for this pairing to work."
+        },
+        "bad": {
+          "typeId": "rainbow",
+          "reason": "Vanilla is happy keeping things simple. Rainbow is already looking for the next interesting thing. Different weekend speeds."
+        }
+      },
+      "chocolate": {
+        "displayName": "Chocolate",
+        "visualKey": "ice-cream-chocolate",
+        "variations": {
+          "a": {
+            "body": "When you like something, you tend to like it intensely.\n\nYou can be quiet when you're not interested, then suddenly become extremely informed once the switch flips.\n\nResearch it. Try it. Talk about it.\n\nBefore long, you've gone much deeper than everyone else.\n\nChocolate flavor. Chocolate-level intensity."
+          },
+          "b": {
+            "body": "You'd rather genuinely care about a few things than pretend to care about everything.\n\nIf something matters to you, you give it real energy.\n\nIf it doesn't, you can be impressively uninterested.\n\nYou don't give 100 points to everything.\n\nBut the things you love might get 120."
+          },
+          "c": {
+            "body": "You may look calm on the outside, but there is serious heat underneath.\n\nMost days you're perfectly normal.\n\nThen something important appears and your focus gets very strong, very fast.\n\nSweet? Sure.\n\nBut there's a little bitterness in the best chocolate too."
+          }
+        },
+        "mottos": [
+          "If you love it, go deep.",
+          "Better real passion than half-interest.",
+          "Intensity doesn't have to be loud."
+        ],
+        "good": {
+          "typeId": "cookiesCream",
+          "reason": "Chocolate brings depth; Cookies & Cream brings playfulness. Somehow the obsession stays fun."
+        },
+        "bad": {
+          "typeId": "sorbet",
+          "reason": "Chocolate wants to go deeper. Sorbet wants to reset and move on. One is still talking while the other has changed topics."
+        }
+      },
+      "strawberry": {
+        "displayName": "Strawberry",
+        "visualKey": "ice-cream-strawberry",
+        "variations": {
+          "a": {
+            "body": "Your feelings are relatively easy to read.\n\nWhen you're happy, people can tell. When you like someone or something, you react.\n\nThat emotional openness often makes the people around you brighter too.\n\nYou don't hide everything behind a neutral face.\n\nStrawberry is a flavor with visible feelings."
+          },
+          "b": {
+            "body": "Time with people you care about matters to you.\n\nWhen you find good food, you want to tell someone. When something is funny, sharing it makes it better.\n\nYou can absolutely enjoy being alone.\n\nYou just think feelings taste a little better when they're shared.\n\nThe color is probably emotional."
+          },
+          "c": {
+            "body": "You tend to know what you like and what you don't.\n\nThat doesn't mean you throw every opinion at people.\n\nYou simply notice your feelings clearly.\n\n'I love this' means something when you say it.\n\nYour personality has color, and you're okay with that."
+          }
+        },
+        "mottos": [
+          "If you like it, say you like it.",
+          "Fun is better when it's shared.",
+          "You don't have to hide every feeling."
+        ],
+        "good": {
+          "typeId": "caramel",
+          "reason": "Strawberry expresses the feeling; Caramel knows how to receive it. Very compatible emotional temperatures."
+        },
+        "bad": {
+          "typeId": "matcha",
+          "reason": "Strawberry likes to express the feeling. Matcha prefers to quietly appreciate it. Same moment, different volume."
+        }
+      },
+      "matcha": {
+        "displayName": "Matcha",
+        "visualKey": "ice-cream-matcha",
+        "variations": {
+          "a": {
+            "body": "You quietly have your own standards.\n\nNot for show. Not because someone told you what looks good.\n\nYou care whether things feel right to you—color, texture, atmosphere, balance.\n\nSometimes the little details matter more than people realize.\n\nMatcha isn't loud, but it definitely isn't careless."
+          },
+          "b": {
+            "body": "You may seem calm, but that doesn't mean you'll accept anything.\n\nYou have preferences. You just don't need to announce all of them.\n\nIf people understand, great.\n\nIf they don't, that's fine too.\n\nA little grown-up, a little particular, very matcha."
+          },
+          "c": {
+            "body": "You tend to feel better when things are reasonably well arranged.\n\nPlans, spaces, ideas—you like a certain sense of balance.\n\nNot perfection. Just enough order for everything to breathe.\n\nYou appreciate the empty space as much as the decoration.\n\nTaste includes what you leave out."
+          }
+        },
+        "mottos": [
+          "Keep your own standards.",
+          "Quiet doesn't mean unparticular.",
+          "Leave room for things to breathe."
+        ],
+        "good": {
+          "typeId": "sorbet",
+          "reason": "Matcha brings calm; Sorbet brings clarity. Neither needs to crowd the other."
+        },
+        "bad": {
+          "typeId": "strawberry",
+          "reason": "Matcha likes to quietly enjoy the moment. Strawberry wants to share the feeling out loud. Different expression styles."
+        }
+      },
+      "cookiesCream": {
+        "displayName": "Cookies & Cream",
+        "visualKey": "ice-cream-cookies-cream",
+        "variations": {
+          "a": {
+            "body": "You look fairly normal until something unexpected falls out of your personality.\n\nA serious conversation suddenly gets a strange joke. A sensible plan gets one odd little twist.\n\nYou're responsible enough, but not completely predictable.\n\nThat contrast is part of the appeal.\n\nLooks simple. Definitely has pieces mixed in."
+          },
+          "b": {
+            "body": "You like leaving a little room for play.\n\nYou'll do what needs to be done, but you don't want everything to become pure efficiency.\n\nA joke, a twist, a slightly unusual idea—something needs to keep it alive.\n\nNot everything valuable can be measured.\n\nLife probably needs a few cookie chunks."
+          },
+          "c": {
+            "body": "People may describe you differently depending on where they know you from.\n\nWork-you, weekend-you, alone-you, group-you—none of them are exactly the same.\n\nThat doesn't bother you.\n\nThe mix is the point.\n\nOne flavor would not be enough to explain you."
+          }
+        },
+        "mottos": [
+          "A little mixing makes things interesting.",
+          "Don't let everything become too serious.",
+          "The contrast is part of you."
+        ],
+        "good": {
+          "typeId": "chocolate",
+          "reason": "Cookies & Cream adds play; Chocolate goes deep. Surprisingly fun and surprisingly intense."
+        },
+        "bad": {
+          "typeId": "vanilla",
+          "reason": "Cookies & Cream wants one extra twist. Vanilla is happy as-is. The remix and the original."
+        }
+      },
+      "caramel": {
+        "displayName": "Caramel",
+        "visualKey": "ice-cream-caramel",
+        "variations": {
+          "a": {
+            "body": "You have a hard time completely ignoring someone who needs help.\n\nYou don't have to take over the situation.\n\nBut if there is something practical you can do, you tend to do it.\n\nBefore you know it, you're supporting someone again.\n\nCaramel is sweet. So are you, at least sometimes."
+          },
+          "b": {
+            "body": "You notice whether the people around you are comfortable.\n\nYou adjust plans, listen, make room, compromise a little.\n\nNot because you have no opinions.\n\nYou simply don't need to win every small thing.\n\nThat ability keeps a surprising number of situations from becoming sticky."
+          },
+          "c": {
+            "body": "People may see you as accepting and easy to lean on.\n\nSomeone makes a mistake and you don't immediately write them off.\n\n'Stuff happens' is a sentence you can genuinely mean.\n\nJust remember: supportive people also need support.\n\nEven caramel needs refilling."
+          }
+        },
+        "mottos": [
+          "Kindness needs a little room to breathe.",
+          "Help where you actually can.",
+          "Some days, a little extra sweetness is fine."
+        ],
+        "good": {
+          "typeId": "vanilla",
+          "reason": "Caramel brings warmth; Vanilla receives it naturally. Easy, steady, low-maintenance compatibility."
+        },
+        "bad": {
+          "typeId": "sorbet",
+          "reason": "Caramel wants to check in. Sorbet wants space to reset. Helpful and 'please leave me alone' can collide."
+        }
+      },
+      "rainbow": {
+        "displayName": "Rainbow",
+        "visualKey": "ice-cream-rainbow",
+        "variations": {
+          "a": {
+            "body": "Interesting things have a way of pulling you closer.\n\nA place that wasn't in the plan. A service you've never heard of. A hobby you suddenly discovered.\n\nThe moment you think, 'What's that?' you're already leaning toward it.\n\nYou won't keep everything you try.\n\nYou just have a lot of entrances into life."
+          },
+          "b": {
+            "body": "Change can actually give you energy.\n\nRoutine is fine, but after a while you want another color added somewhere.\n\nA new place. A new person. A different idea.\n\nEven a small discovery can improve your day.\n\nRainbow likes adding things the schedule forgot."
+          },
+          "c": {
+            "body": "Curiosity tends to move before certainty.\n\nYou look things up, try them, ask questions, wander into topics you weren't planning to learn.\n\nEventually your interests may look strangely wide.\n\nNo consistency?\n\nA rainbow was never supposed to be one color."
+          }
+        },
+        "mottos": [
+          "If it looks interesting, go look.",
+          "Add another color.",
+          "Unexpected doesn't mean bad."
+        ],
+        "good": {
+          "typeId": "cookiesCream",
+          "reason": "Rainbow finds something new; Cookies & Cream turns it into play. The original plan is unlikely to survive."
+        },
+        "bad": {
+          "typeId": "vanilla",
+          "reason": "Rainbow wants a new color. Vanilla is perfectly happy with what already works. Different appetite for novelty."
+        }
+      },
+      "sorbet": {
+        "displayName": "Sorbet",
+        "visualKey": "ice-cream-sorbet",
+        "variations": {
+          "a": {
+            "body": "You're relatively good at switching gears.\n\nBad things still bother you, but you don't enjoy carrying them forever.\n\nSooner or later, your brain comes back to: 'Okay, what now?'\n\nYou recover by creating a little distance.\n\nClean finish. Next spoonful."
+          },
+          "b": {
+            "body": "You can genuinely think, 'You do you, I'll do me.'\n\nIf everyone else chooses something, that doesn't automatically make it right for you.\n\nIf you need a day alone, you can say so.\n\nThat isn't coldness.\n\nYour boundaries are just fairly clear."
+          },
+          "c": {
+            "body": "You're good at removing what no longer needs to stay.\n\nObjects, plans, obligations—when something stops making sense, you can simplify.\n\nThat gives you space to move again.\n\nLess richness, more freshness.\n\nLife needs a palate cleanser sometimes."
+          }
+        },
+        "mottos": [
+          "Reset, then move.",
+          "Decide by what you actually need.",
+          "Space makes it easier to move."
+        ],
+        "good": {
+          "typeId": "matcha",
+          "reason": "Sorbet brings clarity; Matcha brings calm. Comfortable distance, very little unnecessary noise."
+        },
+        "bad": {
+          "typeId": "chocolate",
+          "reason": "Sorbet wants to move on. Chocolate wants to go deeper. Very different levels of emotional concentration."
+        }
+      }
+    }
+  }
+}

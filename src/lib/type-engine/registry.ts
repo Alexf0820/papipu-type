@@ -10,6 +10,10 @@ import { SUSHI_QUIZ_ID } from "@/data/quizzes/sushi/definition";
 import { sushiQuizEn } from "@/data/quizzes/sushi/en";
 import { sushiQuizJa } from "@/data/quizzes/sushi/ja";
 import { getSushiResultContent } from "@/data/quizzes/sushi/results";
+import { ICE_CREAM_QUIZ_ID } from "@/data/quizzes/ice-cream/definition";
+import { iceCreamQuizEn } from "@/data/quizzes/ice-cream/en";
+import { iceCreamQuizJa } from "@/data/quizzes/ice-cream/ja";
+import { getIceCreamResultContent } from "@/data/quizzes/ice-cream/results";
 import { LOCALES, type Locale } from "@/lib/locale";
 
 import type { Quiz } from "./types";
@@ -29,6 +33,7 @@ const QUIZZES: Record<string, Partial<Record<Locale, Quiz>>> = {
     en: spaghettiQuizEn,
   },
   [SUSHI_QUIZ_ID]: { ja: sushiQuizJa, en: sushiQuizEn },
+  [ICE_CREAM_QUIZ_ID]: { ja: iceCreamQuizJa, en: iceCreamQuizEn },
 };
 
 const RESULT_CONTENT: Record<
@@ -44,6 +49,7 @@ const RESULT_CONTENT: Record<
     en: getSpaghettiResultContent("en"),
   },
   [SUSHI_QUIZ_ID]: { ja: getSushiResultContent("ja"), en: getSushiResultContent("en") },
+  [ICE_CREAM_QUIZ_ID]: { ja: getIceCreamResultContent("ja"), en: getIceCreamResultContent("en") },
 };
 
 export function getQuiz(quizId: string, locale: Locale): Quiz | undefined {

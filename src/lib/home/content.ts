@@ -1,6 +1,7 @@
 import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
 import { SPAGHETTI_QUIZ_ID } from "@/data/quizzes/spaghetti/definition";
 import { SUSHI_QUIZ_ID } from "@/data/quizzes/sushi/definition";
+import { ICE_CREAM_QUIZ_ID } from "@/data/quizzes/ice-cream/definition";
 import type { Locale } from "@/lib/locale";
 
 /** Home page hero and CTA copy — separate from quiz in-flow labels. */
@@ -104,6 +105,13 @@ export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
     cardTitle: { ja: { line1: "お寿司", line2: "タイプ診断" }, en: { line1: "Sushi", line2: "Type" } },
     description: { ja: "もしあなたがお寿司だったら？", en: "What if you were sushi?" },
     accessibleLabel: { ja: "お寿司タイプ診断を始める", en: "Start the Sushi Type quiz" },
+  },
+  {
+    id: ICE_CREAM_QUIZ_ID,
+    icon: { emoji: "🍨", label: { ja: "アイスクリーム", en: "Ice cream" } },
+    cardTitle: { ja: { line1: "アイスクリーム", line2: "タイプ診断" }, en: { line1: "Ice Cream", line2: "Type" } },
+    description: { ja: "もしあなたがアイスクリームだったら？", en: "What if you were ice cream?" },
+    accessibleLabel: { ja: "アイスクリームタイプ診断を始める", en: "Start the Ice Cream Type quiz" },
   },
 ];
 

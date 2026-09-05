@@ -21,7 +21,15 @@ export type VisualKey =
   | "spaghetti-mushroom"
   | "spaghetti-squid-ink"
   | "sushi-tuna" | "sushi-salmon" | "sushi-shrimp" | "sushi-egg"
-  | "sushi-salmon-roe" | "sushi-eel" | "sushi-sushi-roll" | "sushi-squid";
+  | "sushi-salmon-roe" | "sushi-eel" | "sushi-sushi-roll" | "sushi-squid"
+  | "ice-cream-vanilla"
+  | "ice-cream-chocolate"
+  | "ice-cream-strawberry"
+  | "ice-cream-matcha"
+  | "ice-cream-cookies-cream"
+  | "ice-cream-caramel"
+  | "ice-cream-rainbow"
+  | "ice-cream-sorbet";
 
 export type VisualDefinition = {
   /** SVG body today; WebP or animated SVG can replace this later. */

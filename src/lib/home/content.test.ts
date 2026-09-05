@@ -3,15 +3,17 @@ import { describe, expect, it } from "vitest";
 import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
 import { SPAGHETTI_QUIZ_ID } from "@/data/quizzes/spaghetti/definition";
 import { SUSHI_QUIZ_ID } from "@/data/quizzes/sushi/definition";
+import { ICE_CREAM_QUIZ_ID } from "@/data/quizzes/ice-cream/definition";
 import { HOME_COPY, HOME_QUIZZES } from "@/lib/home/content";
 import { getQuiz } from "@/lib/type-engine/registry";
 
 describe("home page content", () => {
-  it("lists Camp Gear, Spaghetti, and Sushi with locale copy for both languages", () => {
-    expect(HOME_QUIZZES).toHaveLength(3);
+  it("lists Camp Gear, Spaghetti, Sushi, and Ice Cream with locale copy for both languages", () => {
+    expect(HOME_QUIZZES).toHaveLength(4);
     expect(HOME_QUIZZES[0]?.id).toBe(CAMP_GEAR_QUIZ_ID);
     expect(HOME_QUIZZES[1]?.id).toBe(SPAGHETTI_QUIZ_ID);
     expect(HOME_QUIZZES[2]?.id).toBe(SUSHI_QUIZ_ID);
+    expect(HOME_QUIZZES[3]?.id).toBe(ICE_CREAM_QUIZ_ID);
 
     for (const locale of ["ja", "en"] as const) {
       const quiz = getQuiz(CAMP_GEAR_QUIZ_ID, locale);
@@ -46,5 +48,14 @@ describe("home page content", () => {
     expect(sushi?.description.ja).toBe("もしあなたがお寿司だったら？");
     expect(sushi?.description.en).toBe("What if you were sushi?");
     expect(sushi?.accessibleLabel).toEqual({ ja: "お寿司タイプ診断を始める", en: "Start the Sushi Type quiz" });
+  });
+
+  it("uses the approved Ice Cream card copy and accessible labels", () => {
+    const iceCream = HOME_QUIZZES.find((entry) => entry.id === ICE_CREAM_QUIZ_ID);
+    expect(iceCream?.cardTitle.ja).toEqual({ line1: "アイスクリーム", line2: "タイプ診断" });
+    expect(iceCream?.cardTitle.en).toEqual({ line1: "Ice Cream", line2: "Type" });
+    expect(iceCream?.description.ja).toBe("もしあなたがアイスクリームだったら？");
+    expect(iceCream?.description.en).toBe("What if you were ice cream?");
+    expect(iceCream?.accessibleLabel).toEqual({ ja: "アイスクリームタイプ診断を始める", en: "Start the Ice Cream Type quiz" });
   });
 });

@@ -188,6 +188,17 @@ const SUSHI_BODY_SRCS = {
   squid: "/characters/sushi-squid.png",
 } as const;
 
+const ICE_CREAM_BODY_SRCS = {
+  vanilla: "/characters/ice-cream-vanilla.png",
+  chocolate: "/characters/ice-cream-chocolate.png",
+  strawberry: "/characters/ice-cream-strawberry.png",
+  matcha: "/characters/ice-cream-matcha.png",
+  cookiesCream: "/characters/ice-cream-cookies-cream.png",
+  caramel: "/characters/ice-cream-caramel.png",
+  rainbow: "/characters/ice-cream-rainbow.png",
+  sorbet: "/characters/ice-cream-sorbet.png",
+} as const;
+
 function SpaghettiBody({
   face,
   src,
@@ -251,6 +262,19 @@ export function SushiSalmonRoeBody({ face }: CharacterBodyProps) { return <Sushi
 export function SushiEelBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.eel} faceTransform="translate(260 265) rotate(5) scale(0.42)" />; }
 export function SushiSushiRollBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.sushiRoll} faceTransform="translate(255 276) scale(0.40)" />; }
 export function SushiSquidBody({ face }: CharacterBodyProps) { return <SushiBody face={face} src={SUSHI_BODY_SRCS.squid} faceTransform="translate(260 264) rotate(5) scale(0.42)" />; }
+
+function IceCreamBody({ face, src }: CharacterBodyProps & { src: string }) {
+  return <BodySvg face={face} faceTransform="translate(256 365) scale(0.42)"><image href={src} x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" /></BodySvg>;
+}
+
+export function IceCreamVanillaBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.vanilla} />; }
+export function IceCreamChocolateBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.chocolate} />; }
+export function IceCreamStrawberryBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.strawberry} />; }
+export function IceCreamMatchaBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.matcha} />; }
+export function IceCreamCookiesCreamBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.cookiesCream} />; }
+export function IceCreamCaramelBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.caramel} />; }
+export function IceCreamRainbowBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.rainbow} />; }
+export function IceCreamSorbetBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.sorbet} />; }
 
 export function HammerBody({ face }: CharacterBodyProps) {
   return (
