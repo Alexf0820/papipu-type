@@ -3,6 +3,7 @@ import { afterEach, beforeEach, describe, expect, it, vi } from "vitest";
 import {
   resetQuizResultTrackingForTests,
   trackPageView,
+  trackHomeShareClick,
   trackQuizResult,
   trackQuizStart,
   trackRetryClick,
@@ -96,6 +97,19 @@ describe("analytics events", () => {
       quiz_id: "camp-gear",
       result_type: "lantern",
       share_type: "copy",
+    });
+  });
+
+  it("sends home share_click without quiz or result data", () => {
+    vi.stubEnv("NEXT_PUBLIC_GA_ID", "G-TEST123");
+
+    trackHomeShareClick({ locale: "en", share_type: "native" });
+
+    expect(gtag).toHaveBeenCalledWith("event", "share_click", {
+      app_name: "papipu_type",
+      locale: "en",
+      share_target: "home",
+      share_type: "native",
     });
   });
 

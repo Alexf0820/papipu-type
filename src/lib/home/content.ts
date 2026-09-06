@@ -35,6 +35,29 @@ export const HOME_COPY: Record<
   },
 };
 
+export const HOME_SHARE_COPY: Record<
+  Locale,
+  {
+    title: string;
+    text: string;
+    label: string;
+    accessibleLabel: string;
+  }
+> = {
+  ja: {
+    title: "Papipu Type",
+    text: "Papipu Typeで遊んでみよう！\nキャンプ道具、スパゲッティ、お寿司、アイスクリーム…あなたはどのタイプ？",
+    label: "Papipu Typeをシェア",
+    accessibleLabel: "Papipu Typeのトップページをシェアする",
+  },
+  en: {
+    title: "Papipu Type",
+    text: "Try Papipu Type!\nCamp gear, spaghetti, sushi, ice cream… what type are you?",
+    label: "Share Papipu Type",
+    accessibleLabel: "Share the Papipu Type home page",
+  },
+};
+
 export type HomeQuizGenreIcon = {
   /** Genre emoji shown on the home quiz card. */
   emoji: string;

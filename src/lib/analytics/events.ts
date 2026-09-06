@@ -67,6 +67,18 @@ export function trackShareClick(
   });
 }
 
+export function trackHomeShareClick(params: {
+  locale: Locale;
+  share_type: Extract<ShareType, "native" | "copy">;
+}): void {
+  sendGtagEvent("share_click", {
+    app_name: GA_APP_NAME,
+    locale: params.locale,
+    share_target: "home",
+    share_type: params.share_type,
+  });
+}
+
 export function trackRetryClick(params: ResultAnalyticsParams): void {
   sendGtagEvent("retry_click", {
     app_name: GA_APP_NAME,

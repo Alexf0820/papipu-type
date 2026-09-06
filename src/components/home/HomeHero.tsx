@@ -2,6 +2,7 @@ import Link from "next/link";
 
 import { ParentProjectLink } from "@/components/ParentProjectLink";
 import { HomeHeroVisual } from "@/components/home/HomeHeroVisual";
+import { HomeShareAction } from "@/components/home/HomeShareAction";
 import { BRAND_WORDS } from "@/lib/brand/labels";
 import { HOME_COPY, HOME_PRIMARY_QUIZ_ID } from "@/lib/home/content";
 import type { Locale } from "@/lib/locale";
@@ -37,13 +38,11 @@ export function HomeHero({ locale }: HomeHeroProps) {
           </p>
         </div>
 
-        <div className="flex justify-center lg:justify-start">
-          <Link
-            href={`/${locale}/${HOME_PRIMARY_QUIZ_ID}`}
-            className={MAIN_CTA_CLASS}
-          >
+        <div className="flex flex-col items-center gap-3 lg:items-start">
+          <Link href={`/${locale}/${HOME_PRIMARY_QUIZ_ID}`} className={MAIN_CTA_CLASS}>
             {copy.heroMainCta}
           </Link>
+          <HomeShareAction locale={locale} />
         </div>
 
         <div className="flex justify-center pt-2 lg:hidden">

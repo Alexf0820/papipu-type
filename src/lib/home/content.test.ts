@@ -4,7 +4,7 @@ import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
 import { SPAGHETTI_QUIZ_ID } from "@/data/quizzes/spaghetti/definition";
 import { SUSHI_QUIZ_ID } from "@/data/quizzes/sushi/definition";
 import { ICE_CREAM_QUIZ_ID } from "@/data/quizzes/ice-cream/definition";
-import { HOME_COPY, HOME_QUIZZES } from "@/lib/home/content";
+import { HOME_COPY, HOME_QUIZZES, HOME_SHARE_COPY } from "@/lib/home/content";
 import { getQuiz } from "@/lib/type-engine/registry";
 
 describe("home page content", () => {
@@ -57,5 +57,20 @@ describe("home page content", () => {
     expect(iceCream?.description.ja).toBe("もしあなたがアイスクリームだったら？");
     expect(iceCream?.description.en).toBe("What if you were ice cream?");
     expect(iceCream?.accessibleLabel).toEqual({ ja: "アイスクリームタイプ診断を始める", en: "Start the Ice Cream Type quiz" });
+  });
+
+  it("uses the approved locale-specific home share copy", () => {
+    expect(HOME_SHARE_COPY.ja).toEqual({
+      title: "Papipu Type",
+      text: "Papipu Typeで遊んでみよう！\nキャンプ道具、スパゲッティ、お寿司、アイスクリーム…あなたはどのタイプ？",
+      label: "Papipu Typeをシェア",
+      accessibleLabel: "Papipu Typeのトップページをシェアする",
+    });
+    expect(HOME_SHARE_COPY.en).toEqual({
+      title: "Papipu Type",
+      text: "Try Papipu Type!\nCamp gear, spaghetti, sushi, ice cream… what type are you?",
+      label: "Share Papipu Type",
+      accessibleLabel: "Share the Papipu Type home page",
+    });
   });
 });
