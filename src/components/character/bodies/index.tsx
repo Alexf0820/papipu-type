@@ -199,6 +199,17 @@ const ICE_CREAM_BODY_SRCS = {
   sorbet: "/characters/ice-cream-sorbet.png",
 } as const;
 
+const DONUT_BODY_SRCS = {
+  glazed: "/characters/donut-glazed.png",
+  chocolate: "/characters/donut-chocolate.png",
+  strawberry: "/characters/donut-strawberry.png",
+  oldFashioned: "/characters/donut-old-fashioned.png",
+  sprinkle: "/characters/donut-sprinkle.png",
+  creamFilled: "/characters/donut-cream-filled.png",
+  cinnamon: "/characters/donut-cinnamon.png",
+  mochi: "/characters/donut-mochi.png",
+} as const;
+
 function SpaghettiBody({
   face,
   src,
@@ -275,6 +286,19 @@ export function IceCreamCookiesCreamBody({ face }: CharacterBodyProps) { return 
 export function IceCreamCaramelBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.caramel} />; }
 export function IceCreamRainbowBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.rainbow} />; }
 export function IceCreamSorbetBody({ face }: CharacterBodyProps) { return <IceCreamBody face={face} src={ICE_CREAM_BODY_SRCS.sorbet} />; }
+
+function DonutBody({ face, src, faceTransform = "translate(256 315) scale(0.42)" }: CharacterBodyProps & { src: string; faceTransform?: string }) {
+  return <BodySvg face={face} faceTransform={faceTransform}><image href={src} x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" /></BodySvg>;
+}
+
+export function DonutGlazedBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.glazed} />; }
+export function DonutChocolateBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.chocolate} faceTransform="translate(256 345) scale(0.42)" />; }
+export function DonutStrawberryBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.strawberry} />; }
+export function DonutOldFashionedBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.oldFashioned} />; }
+export function DonutSprinkleBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.sprinkle} />; }
+export function DonutCreamFilledBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.creamFilled} faceTransform="translate(245 300) scale(0.44)" />; }
+export function DonutCinnamonBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.cinnamon} />; }
+export function DonutMochiBody({ face }: CharacterBodyProps) { return <DonutBody face={face} src={DONUT_BODY_SRCS.mochi} faceTransform="translate(256 325) scale(0.42)" />; }
 
 export function HammerBody({ face }: CharacterBodyProps) {
   return (

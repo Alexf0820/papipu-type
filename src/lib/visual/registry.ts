@@ -17,6 +17,7 @@ import {
   SpaghettiSquidInkBody,
   SushiEelBody, SushiEggBody, SushiSalmonBody, SushiSalmonRoeBody, SushiShrimpBody, SushiSquidBody, SushiSushiRollBody, SushiTunaBody,
   IceCreamCaramelBody, IceCreamChocolateBody, IceCreamCookiesCreamBody, IceCreamMatchaBody, IceCreamRainbowBody, IceCreamSorbetBody, IceCreamStrawberryBody, IceCreamVanillaBody,
+  DonutChocolateBody, DonutCinnamonBody, DonutCreamFilledBody, DonutGlazedBody, DonutMochiBody, DonutOldFashionedBody, DonutSprinkleBody, DonutStrawberryBody,
 } from "@/components/character/bodies";
 
 import type { VisualDefinition, VisualKey } from "./types";
@@ -53,6 +54,14 @@ const VISUALS: Record<VisualKey, VisualDefinition> = {
   "ice-cream-caramel": { Body: IceCreamCaramelBody },
   "ice-cream-rainbow": { Body: IceCreamRainbowBody },
   "ice-cream-sorbet": { Body: IceCreamSorbetBody },
+  "donut-glazed": { Body: DonutGlazedBody },
+  "donut-chocolate": { Body: DonutChocolateBody },
+  "donut-strawberry": { Body: DonutStrawberryBody },
+  "donut-old-fashioned": { Body: DonutOldFashionedBody },
+  "donut-sprinkle": { Body: DonutSprinkleBody },
+  "donut-cream-filled": { Body: DonutCreamFilledBody },
+  "donut-cinnamon": { Body: DonutCinnamonBody },
+  "donut-mochi": { Body: DonutMochiBody },
 };
 
 export function getVisual(key: string): VisualDefinition | undefined {

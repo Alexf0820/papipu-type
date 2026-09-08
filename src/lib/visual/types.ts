@@ -29,7 +29,15 @@ export type VisualKey =
   | "ice-cream-cookies-cream"
   | "ice-cream-caramel"
   | "ice-cream-rainbow"
-  | "ice-cream-sorbet";
+  | "ice-cream-sorbet"
+  | "donut-glazed"
+  | "donut-chocolate"
+  | "donut-strawberry"
+  | "donut-old-fashioned"
+  | "donut-sprinkle"
+  | "donut-cream-filled"
+  | "donut-cinnamon"
+  | "donut-mochi";
 
 export type VisualDefinition = {
   /** SVG body today; WebP or animated SVG can replace this later. */

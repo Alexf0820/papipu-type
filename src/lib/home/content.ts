@@ -2,6 +2,7 @@ import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
 import { SPAGHETTI_QUIZ_ID } from "@/data/quizzes/spaghetti/definition";
 import { SUSHI_QUIZ_ID } from "@/data/quizzes/sushi/definition";
 import { ICE_CREAM_QUIZ_ID } from "@/data/quizzes/ice-cream/definition";
+import { DONUT_QUIZ_ID } from "@/data/quizzes/donut/definition";
 import type { Locale } from "@/lib/locale";
 
 /** Home page hero and CTA copy — separate from quiz in-flow labels. */
@@ -135,6 +136,13 @@ export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
     cardTitle: { ja: { line1: "アイスクリーム", line2: "タイプ診断" }, en: { line1: "Ice Cream", line2: "Type" } },
     description: { ja: "もしあなたがアイスクリームだったら？", en: "What if you were ice cream?" },
     accessibleLabel: { ja: "アイスクリームタイプ診断を始める", en: "Start the Ice Cream Type quiz" },
+  },
+  {
+    id: DONUT_QUIZ_ID,
+    icon: { emoji: "🍩", label: { ja: "ドーナツ", en: "Donut" } },
+    cardTitle: { ja: { line1: "ドーナツ", line2: "タイプ診断" }, en: { line1: "Donut", line2: "Type" } },
+    description: { ja: "もしあなたがドーナツだったら？", en: "What if you were a donut?" },
+    accessibleLabel: { ja: "ドーナツタイプ診断を始める", en: "Start the Donut Type quiz" },
   },
 ];
 

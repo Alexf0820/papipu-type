@@ -1,0 +1,1762 @@
+{
+  "schemaVersion": 1,
+  "quiz": {
+    "id": "donut",
+    "title": {
+      "ja": "ドーナツタイプ診断",
+      "en": "Donut Type"
+    },
+    "resultTypeIds": [
+      "glazed",
+      "chocolate",
+      "strawberry",
+      "oldFashioned",
+      "sprinkle",
+      "creamFilled",
+      "cinnamon",
+      "mochi"
+    ],
+    "traitIds": [
+      "balance",
+      "focus",
+      "empathy",
+      "craft",
+      "service",
+      "depth",
+      "care",
+      "adaptability"
+    ],
+    "typeTraitMap": {
+      "glazed": "balance",
+      "chocolate": "focus",
+      "strawberry": "empathy",
+      "oldFashioned": "craft",
+      "sprinkle": "service",
+      "creamFilled": "depth",
+      "cinnamon": "care",
+      "mochi": "adaptability"
+    },
+    "categories": [
+      [
+        "q01",
+        "q02",
+        "q03",
+        "q04"
+      ],
+      [
+        "q05",
+        "q06",
+        "q07",
+        "q08"
+      ],
+      [
+        "q09",
+        "q10",
+        "q11",
+        "q12"
+      ],
+      [
+        "q13",
+        "q14",
+        "q15",
+        "q16"
+      ],
+      [
+        "q17",
+        "q18",
+        "q19",
+        "q20"
+      ],
+      [
+        "q21",
+        "q22",
+        "q23",
+        "q24"
+      ],
+      [
+        "q25",
+        "q26",
+        "q27",
+        "q28"
+      ],
+      [
+        "q29",
+        "q30",
+        "q31",
+        "q32"
+      ]
+    ],
+    "questions": {
+      "q01": {
+        "scoring": {
+          "a": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "c": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "d": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "予定が急に空いたら？",
+          "choices": {
+            "a": "とりあえず近場で楽しめることを探す",
+            "b": "ずっと気になっていたことに集中する",
+            "c": "誰か空いてないか聞いてみる",
+            "d": "その日の気分で予定を組み替える"
+          }
+        },
+        "en": {
+          "text": "Your plans suddenly open up. What do you do?",
+          "choices": {
+            "a": "Find something easy and enjoyable nearby",
+            "b": "Dive into something you've wanted to do",
+            "c": "See if someone is free",
+            "d": "Rebuild the day around how you feel"
+          }
+        }
+      },
+      "q02": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "b": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "c": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          }
+        },
+        "ja": {
+          "text": "誰かが困っていそうなときは？",
+          "choices": {
+            "a": "必要そうなら自然に手を貸す",
+            "b": "まず何に困っているか確認する",
+            "c": "声をかけて気持ちを聞く",
+            "d": "相手が自分で動ける余地も残す"
+          }
+        },
+        "en": {
+          "text": "Someone looks like they're struggling. What do you do?",
+          "choices": {
+            "a": "Help naturally if it seems useful",
+            "b": "Figure out exactly what the problem is",
+            "c": "Ask how they're feeling",
+            "d": "Leave room for them to handle it their way"
+          }
+        }
+      },
+      "q03": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "b": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "c": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          }
+        },
+        "ja": {
+          "text": "新しい店を見つけたら？",
+          "choices": {
+            "a": "評判がよければ入ってみる",
+            "b": "気になるものがあればすぐ入る",
+            "c": "一緒に楽しめそうな人を思い浮かべる",
+            "d": "予定になくても面白そうなら入る"
+          }
+        },
+        "en": {
+          "text": "You find a new shop. What happens?",
+          "choices": {
+            "a": "Try it if it looks reliable",
+            "b": "Go in if something really catches your eye",
+            "c": "Think of someone who'd enjoy it too",
+            "d": "Go in if it looks fun, even if it wasn't planned"
+          }
+        }
+      },
+      "q04": {
+        "scoring": {
+          "a": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "b": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          }
+        },
+        "ja": {
+          "text": "グループで意見が割れたら？",
+          "choices": {
+            "a": "全員が納得できる落とし所を探す",
+            "b": "自分の意見ははっきり言う",
+            "c": "誰が何を気にしているか見る",
+            "d": "状況に合わせて案を組み替える"
+          }
+        },
+        "en": {
+          "text": "Your group can't agree. What do you do?",
+          "choices": {
+            "a": "Look for a workable middle ground",
+            "b": "State your view clearly",
+            "c": "Notice what each person is worried about",
+            "d": "Adjust the plan to fit the situation"
+          }
+        }
+      },
+      "q05": {
+        "scoring": {
+          "a": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "b": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          }
+        },
+        "ja": {
+          "text": "買い物で一番気になるのは？",
+          "choices": {
+            "a": "長く使えて失敗しにくいこと",
+            "b": "これだと思えるほど好きかどうか",
+            "c": "使う人が気持ちよくなれるか",
+            "d": "今の自分にちゃんと合っているか"
+          }
+        },
+        "en": {
+          "text": "What matters most when buying something?",
+          "choices": {
+            "a": "That it'll last and won't be a mistake",
+            "b": "Whether I really, really like it",
+            "c": "Whether it feels good for the people using it",
+            "d": "Whether it fits what I need right now"
+          }
+        }
+      },
+      "q06": {
+        "scoring": {
+          "a": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "d": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          }
+        },
+        "ja": {
+          "text": "仕事や作業で得意なのは？",
+          "choices": {
+            "a": "全体を安定して進める",
+            "b": "一つのことを深くやり切る",
+            "c": "周りの様子を見て調整する",
+            "d": "やり方を変えながら進める"
+          }
+        },
+        "en": {
+          "text": "What are you best at when working?",
+          "choices": {
+            "a": "Keeping the whole thing moving steadily",
+            "b": "Going deep and finishing one thing well",
+            "c": "Reading the room and adjusting",
+            "d": "Changing methods as you go"
+          }
+        }
+      },
+      "q07": {
+        "scoring": {
+          "a": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "d": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          }
+        },
+        "ja": {
+          "text": "褒められたら？",
+          "choices": {
+            "a": "普通にうれしい。次もちゃんとやろうと思う",
+            "b": "そこを見てくれたのがうれしい",
+            "c": "相手が喜んでくれたならさらにうれしい",
+            "d": "ちょっと照れつつ次へ切り替える"
+          }
+        },
+        "en": {
+          "text": "Someone praises you. Your reaction?",
+          "choices": {
+            "a": "Happy—and I want to do well again",
+            "b": "Glad they noticed that specific part",
+            "c": "Even happier if it made them happy",
+            "d": "A little embarrassed, then on to the next thing"
+          }
+        }
+      },
+      "q08": {
+        "scoring": {
+          "a": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "c": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "d": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "失敗したときは？",
+          "choices": {
+            "a": "原因を確認して次は同じことをしない",
+            "b": "納得できるまでやり直したくなる",
+            "c": "迷惑をかけた人がいないか気になる",
+            "d": "修正できるなら切り替えて進む"
+          }
+        },
+        "en": {
+          "text": "You mess something up. What happens?",
+          "choices": {
+            "a": "Check why and avoid repeating it",
+            "b": "Want to redo it until it feels right",
+            "c": "Worry whether it affected someone else",
+            "d": "Fix what you can and move on"
+          }
+        }
+      },
+      "q09": {
+        "scoring": {
+          "a": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "c": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "d": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "休日の理想は？",
+          "choices": {
+            "a": "無理のない予定で気分よく過ごす",
+            "b": "好きなことにかなり時間を使う",
+            "c": "好きな人たちと楽しく過ごす",
+            "d": "その日の気分で自由に変える"
+          }
+        },
+        "en": {
+          "text": "Your ideal day off?",
+          "choices": {
+            "a": "A comfortable plan that just works",
+            "b": "Spend a lot of time on something I love",
+            "c": "Spend good time with people I care about",
+            "d": "Keep it flexible and decide as I go"
+          }
+        }
+      },
+      "q10": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "b": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "c": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          }
+        },
+        "ja": {
+          "text": "誰かに相談されたら？",
+          "choices": {
+            "a": "状況を整理して現実的な案を出す",
+            "b": "本気ならとことん一緒に考える",
+            "c": "まず気持ちを聞く",
+            "d": "今できる選択肢をいくつか出す"
+          }
+        },
+        "en": {
+          "text": "Someone asks you for advice. What do you do?",
+          "choices": {
+            "a": "Organize the situation and suggest something practical",
+            "b": "If they mean it, really dig into it with them",
+            "c": "Listen to how they feel first",
+            "d": "Offer a few options that work right now"
+          }
+        }
+      },
+      "q11": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "b": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "c": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          }
+        },
+        "ja": {
+          "text": "初めての場所では？",
+          "choices": {
+            "a": "まず全体を見て動きやすい場所を探す",
+            "b": "気になる場所へ一直線",
+            "c": "人の雰囲気を見ながら動く",
+            "d": "面白そうな方向へその場で変える"
+          }
+        },
+        "en": {
+          "text": "You're somewhere new. What are you like?",
+          "choices": {
+            "a": "Look around and get oriented first",
+            "b": "Head straight toward what interests me",
+            "c": "Move based on the vibe of the people around me",
+            "d": "Change direction if something looks more interesting"
+          }
+        }
+      },
+      "q12": {
+        "scoring": {
+          "a": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "b": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          }
+        },
+        "ja": {
+          "text": "予定変更を頼まれたら？",
+          "choices": {
+            "a": "大丈夫なら普通に合わせる",
+            "b": "理由に納得できれば変える",
+            "c": "相手が困っているなら合わせたい",
+            "d": "その場で一番やりやすい形へ変える"
+          }
+        },
+        "en": {
+          "text": "Someone asks to change the plan. Your response?",
+          "choices": {
+            "a": "Adjust if it's reasonable",
+            "b": "Change it if the reason makes sense",
+            "c": "Try to help if it matters to them",
+            "d": "Reshape things into what works best now"
+          }
+        }
+      },
+      "q13": {
+        "scoring": {
+          "a": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "b": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          }
+        },
+        "ja": {
+          "text": "何かを続けるコツは？",
+          "choices": {
+            "a": "無理なく続けられる形にする",
+            "b": "本当に好きな理由を見つける",
+            "c": "一緒にやる人がいると続きやすい",
+            "d": "飽きたらやり方を変える"
+          }
+        },
+        "en": {
+          "text": "What's the secret to sticking with something?",
+          "choices": {
+            "a": "Make it sustainable",
+            "b": "Find a reason I genuinely care about",
+            "c": "Having someone with me helps",
+            "d": "Change the method when it gets stale"
+          }
+        }
+      },
+      "q14": {
+        "scoring": {
+          "a": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "d": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          }
+        },
+        "ja": {
+          "text": "友だちが落ち込んでいたら？",
+          "choices": {
+            "a": "必要ならそっとそばにいる",
+            "b": "何があったのかちゃんと聞く",
+            "c": "少しでも気持ちが軽くなるように話す",
+            "d": "気分転換できることを提案する"
+          }
+        },
+        "en": {
+          "text": "A friend is down. What do you do?",
+          "choices": {
+            "a": "Stay nearby without making a fuss",
+            "b": "Ask what really happened",
+            "c": "Try to help them feel a little lighter",
+            "d": "Suggest a change of scene"
+          }
+        }
+      },
+      "q15": {
+        "scoring": {
+          "a": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "d": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          }
+        },
+        "ja": {
+          "text": "何かを選ぶときは？",
+          "choices": {
+            "a": "失敗しにくい方を選ぶ",
+            "b": "一番惹かれるものを選ぶ",
+            "c": "周りとの相性も考える",
+            "d": "今の状況に合うものを選ぶ"
+          }
+        },
+        "en": {
+          "text": "How do you make a choice?",
+          "choices": {
+            "a": "Choose the option least likely to go wrong",
+            "b": "Choose what pulls me in the most",
+            "c": "Think about how it affects the people around me",
+            "d": "Choose what fits the current situation"
+          }
+        }
+      },
+      "q16": {
+        "scoring": {
+          "a": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "c": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "d": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "締切が近いときは？",
+          "choices": {
+            "a": "優先順位を整理して順番に片付ける",
+            "b": "一気に集中して終わらせる",
+            "c": "周りと確認しながら進める",
+            "d": "予定を組み替えて間に合わせる"
+          }
+        },
+        "en": {
+          "text": "The deadline is getting close. You...",
+          "choices": {
+            "a": "Prioritize and work through it",
+            "b": "Lock in and finish it",
+            "c": "Check in with others as I go",
+            "d": "Rearrange things to make it work"
+          }
+        }
+      },
+      "q17": {
+        "scoring": {
+          "a": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "c": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "d": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "集まりで自分がよくするのは？",
+          "choices": {
+            "a": "全体が普通に回るように動く",
+            "b": "好きな話になると急に濃くなる",
+            "c": "話しやすそうな人に声をかける",
+            "d": "その場の流れに合わせて役割を変える"
+          }
+        },
+        "en": {
+          "text": "At a gathering, what do you often do?",
+          "choices": {
+            "a": "Help things run smoothly",
+            "b": "Get intense when the topic is something I love",
+            "c": "Talk to people who seem left out or quiet",
+            "d": "Shift roles depending on the mood"
+          }
+        }
+      },
+      "q18": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "b": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "c": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          }
+        },
+        "ja": {
+          "text": "プレゼントを選ぶなら？",
+          "choices": {
+            "a": "使いやすくて外しにくいもの",
+            "b": "その人に刺さりそうな一点を探す",
+            "c": "相手が喜ぶ顔を想像して選ぶ",
+            "d": "相手の最近の状況に合わせて選ぶ"
+          }
+        },
+        "en": {
+          "text": "How do you choose a gift?",
+          "choices": {
+            "a": "Something useful and hard to miss with",
+            "b": "Find one thing that really suits them",
+            "c": "Imagine what would make them smile",
+            "d": "Match it to what they need lately"
+          }
+        }
+      },
+      "q19": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "b": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "c": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          }
+        },
+        "ja": {
+          "text": "やる気が出ない日は？",
+          "choices": {
+            "a": "最低限だけやって流れを切らさない",
+            "b": "好きな部分だけでも集中してやる",
+            "c": "誰かと話して気分を戻す",
+            "d": "やり方を変えて別ルートから始める"
+          }
+        },
+        "en": {
+          "text": "What do you do on a low-motivation day?",
+          "choices": {
+            "a": "Do the minimum and keep the rhythm",
+            "b": "Focus on the part I care about most",
+            "c": "Talk to someone and reset",
+            "d": "Change the approach and start another way"
+          }
+        }
+      },
+      "q20": {
+        "scoring": {
+          "a": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "b": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          }
+        },
+        "ja": {
+          "text": "誰かのアイデアが微妙だったら？",
+          "choices": {
+            "a": "使える部分だけ残して整える",
+            "b": "違うと思えば理由をはっきり言う",
+            "c": "否定しすぎないように伝える",
+            "d": "別案と組み合わせてみる"
+          }
+        },
+        "en": {
+          "text": "Someone has an idea you don't love. You...",
+          "choices": {
+            "a": "Keep what's useful and improve the rest",
+            "b": "Explain clearly why I disagree",
+            "c": "Say it without crushing their enthusiasm",
+            "d": "Try combining it with another idea"
+          }
+        }
+      },
+      "q21": {
+        "scoring": {
+          "a": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "b": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          }
+        },
+        "ja": {
+          "text": "旅行で大事なのは？",
+          "choices": {
+            "a": "安心して楽しめること",
+            "b": "絶対に見たいものがあること",
+            "c": "一緒に行く人が楽しめること",
+            "d": "予定外の面白さも拾えること"
+          }
+        },
+        "en": {
+          "text": "What matters most on a trip?",
+          "choices": {
+            "a": "Being able to relax and enjoy it",
+            "b": "Having something I really want to see",
+            "c": "That the people with me enjoy it",
+            "d": "Being able to enjoy surprises too"
+          }
+        }
+      },
+      "q22": {
+        "scoring": {
+          "a": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "d": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          }
+        },
+        "ja": {
+          "text": "料理するときは？",
+          "choices": {
+            "a": "基本どおりに作って安定させる",
+            "b": "好きな味にかなり寄せる",
+            "c": "食べる人に合わせる",
+            "d": "あるもので柔軟に作る"
+          }
+        },
+        "en": {
+          "text": "When cooking, you're more likely to...",
+          "choices": {
+            "a": "Follow the basics and make it reliable",
+            "b": "Push it toward the flavor I love",
+            "c": "Adjust it for the people eating",
+            "d": "Improvise with what's available"
+          }
+        }
+      },
+      "q23": {
+        "scoring": {
+          "a": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "d": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          }
+        },
+        "ja": {
+          "text": "大きな買い物の前は？",
+          "choices": {
+            "a": "条件を整理して比較する",
+            "b": "欲しい理由が強ければ決める",
+            "c": "家族や周りへの影響も考える",
+            "d": "状況が変われば選択肢も変える"
+          }
+        },
+        "en": {
+          "text": "Before a big purchase, you...",
+          "choices": {
+            "a": "Compare carefully",
+            "b": "Decide if I really want it",
+            "c": "Think about how it affects others",
+            "d": "Keep options open if circumstances change"
+          }
+        }
+      },
+      "q24": {
+        "scoring": {
+          "a": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "c": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "d": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "予想外に褒められたら？",
+          "choices": {
+            "a": "ありがたく受け取る",
+            "b": "何が評価されたのか気になる",
+            "c": "相手の気持ちもうれしく感じる",
+            "d": "うれしいけどすぐ通常運転に戻る"
+          }
+        },
+        "en": {
+          "text": "Unexpected compliment. You...",
+          "choices": {
+            "a": "Take it happily",
+            "b": "Want to know exactly what they liked",
+            "c": "Feel happy about their kindness too",
+            "d": "Enjoy it, then quickly return to normal"
+          }
+        }
+      },
+      "q25": {
+        "scoring": {
+          "a": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "b": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "c": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "d": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          }
+        },
+        "ja": {
+          "text": "自分らしい強みは？",
+          "choices": {
+            "a": "安定してやれる",
+            "b": "好きなものに深く入れる",
+            "c": "人の気持ちに気づける",
+            "d": "状況に合わせて変われる"
+          }
+        },
+        "en": {
+          "text": "What's one of your strengths?",
+          "choices": {
+            "a": "I can be steady",
+            "b": "I can go deep",
+            "c": "I notice how people feel",
+            "d": "I can adapt"
+          }
+        }
+      },
+      "q26": {
+        "scoring": {
+          "a": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "b": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "c": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "d": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          }
+        },
+        "ja": {
+          "text": "面倒なことが起きたら？",
+          "choices": {
+            "a": "一つずつ片付ける",
+            "b": "根本原因まで気になる",
+            "c": "周りが困っていないか見る",
+            "d": "今できる最短ルートを探す"
+          }
+        },
+        "en": {
+          "text": "Something annoying happens. You...",
+          "choices": {
+            "a": "Handle it one piece at a time",
+            "b": "Want to get to the root cause",
+            "c": "Check whether anyone else is affected",
+            "d": "Find the quickest workable route"
+          }
+        }
+      },
+      "q27": {
+        "scoring": {
+          "a": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "b": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "c": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "d": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          }
+        },
+        "ja": {
+          "text": "人から頼られると？",
+          "choices": {
+            "a": "できる範囲なら普通に応える",
+            "b": "引き受けたらちゃんとやり切る",
+            "c": "相手が安心できるようにしたい",
+            "d": "状況を見てできる形に調整する"
+          }
+        },
+        "en": {
+          "text": "When people rely on you...",
+          "choices": {
+            "a": "Help if it's reasonable",
+            "b": "If I take it on, I finish it",
+            "c": "Want them to feel supported",
+            "d": "Adjust the help to fit the situation"
+          }
+        }
+      },
+      "q28": {
+        "scoring": {
+          "a": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "b": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "c": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "d": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          }
+        },
+        "ja": {
+          "text": "好きなものについて聞かれたら？",
+          "choices": {
+            "a": "わかりやすく普通に話す",
+            "b": "気づくとかなり詳しく話している",
+            "c": "相手が興味を持ちそうなところから話す",
+            "d": "相手に合わせて話す量を変える"
+          }
+        },
+        "en": {
+          "text": "Someone asks about something you love. You...",
+          "choices": {
+            "a": "Explain it simply",
+            "b": "Accidentally give a very detailed answer",
+            "c": "Start with what they might enjoy",
+            "d": "Adjust how much I say"
+          }
+        }
+      },
+      "q29": {
+        "scoring": {
+          "a": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          },
+          "b": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "c": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "d": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          }
+        },
+        "ja": {
+          "text": "理想のチームは？",
+          "choices": {
+            "a": "役割が安定して回るチーム",
+            "b": "それぞれが本気で取り組むチーム",
+            "c": "気持ちよく話せるチーム",
+            "d": "状況に応じて柔軟に動けるチーム"
+          }
+        },
+        "en": {
+          "text": "Your ideal team?",
+          "choices": {
+            "a": "A team where roles work smoothly",
+            "b": "A team where people really care",
+            "c": "A team where people feel heard",
+            "d": "A team that can adapt quickly"
+          }
+        }
+      },
+      "q30": {
+        "scoring": {
+          "a": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          },
+          "b": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "c": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "d": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          }
+        },
+        "ja": {
+          "text": "急に予定が崩れたら？",
+          "choices": {
+            "a": "優先順位を整理し直す",
+            "b": "絶対やりたいことだけは守る",
+            "c": "関係する人にまず連絡する",
+            "d": "新しい予定をその場で組む"
+          }
+        },
+        "en": {
+          "text": "Your schedule falls apart. You...",
+          "choices": {
+            "a": "Re-prioritize",
+            "b": "Protect the one thing I really care about",
+            "c": "Contact the people affected",
+            "d": "Build a new plan on the spot"
+          }
+        }
+      },
+      "q31": {
+        "scoring": {
+          "a": {
+            "mainType": "cinnamon",
+            "secondaryType": "chocolate"
+          },
+          "b": {
+            "mainType": "glazed",
+            "secondaryType": "oldFashioned"
+          },
+          "c": {
+            "mainType": "strawberry",
+            "secondaryType": "creamFilled"
+          },
+          "d": {
+            "mainType": "sprinkle",
+            "secondaryType": "mochi"
+          }
+        },
+        "ja": {
+          "text": "自分にとって『いい時間』は？",
+          "choices": {
+            "a": "無理なく満足できた時間",
+            "b": "何かに夢中になれた時間",
+            "c": "誰かといい気分を共有できた時間",
+            "d": "思いがけない展開があった時間"
+          }
+        },
+        "en": {
+          "text": "What makes time feel well spent?",
+          "choices": {
+            "a": "Comfortable and satisfying",
+            "b": "Time spent deeply engaged",
+            "c": "Time shared well with someone",
+            "d": "Time that took an interesting turn"
+          }
+        }
+      },
+      "q32": {
+        "scoring": {
+          "a": {
+            "mainType": "mochi",
+            "secondaryType": "sprinkle"
+          },
+          "b": {
+            "mainType": "chocolate",
+            "secondaryType": "cinnamon"
+          },
+          "c": {
+            "mainType": "oldFashioned",
+            "secondaryType": "glazed"
+          },
+          "d": {
+            "mainType": "creamFilled",
+            "secondaryType": "strawberry"
+          }
+        },
+        "ja": {
+          "text": "最後に、あなたが一番大事にしたいのは？",
+          "choices": {
+            "a": "ちゃんと続いていくこと",
+            "b": "本気になれること",
+            "c": "人との気持ちのつながり",
+            "d": "変化に合わせて自分らしく動けること"
+          }
+        },
+        "en": {
+          "text": "Finally, what matters most to you?",
+          "choices": {
+            "a": "Something that keeps working over time",
+            "b": "Having something I can care deeply about",
+            "c": "Feeling connected to people",
+            "d": "Being able to adapt without losing myself"
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "ja": {
+      "glazed": {
+        "displayName": "グレーズド",
+        "visualKey": "donut-glazed",
+        "variations": {
+          "a": {
+            "body": "大きく目立つより、ちゃんと全体が回っている方が落ち着く人。\n\n極端に走らず、必要なところではきちんと動く。\n\n本人は普通にしているつもりでも、周りから見ると意外と頼りになります。\n\n派手さはなくても、なくなると困る。王道には王道の強さがあります。"
+          },
+          "b": {
+            "body": "何かを決めるとき、勢いだけではなく「これなら大丈夫そう」をちゃんと見ます。\n\n慎重すぎるわけではない。でも雑にもしたくない。\n\nその絶妙な真ん中を取るのが得意です。\n\nドーナツで言えば、結局また食べたくなるグレーズド。"
+          },
+          "c": {
+            "body": "人にも物事にも、長く付き合える心地よさを求めるタイプ。\n\n毎回刺激的でなくてもいい。\n\nちゃんとしていて、気持ちよく続くことの方が大事です。\n\n一周回って、やっぱりこういうのがいい。そんな人です。"
+          }
+        },
+        "mottos": [
+          "ちょうどいいは、かなり強い。",
+          "続くものには理由がある。",
+          "普通にちゃんと、が一番むずかしい。"
+        ],
+        "good": {
+          "typeId": "cinnamon",
+          "reason": "グレーズドの安定感と、シナモンの気配り。派手ではないけれど、一緒にいると妙に落ち着きます。"
+        },
+        "bad": {
+          "typeId": "sprinkle",
+          "reason": "グレーズドは整えて進みたい。スプリンクルは盛り上がるなら予定変更も歓迎。テンションの速度差があります。"
+        }
+      },
+      "chocolate": {
+        "displayName": "チョコレート",
+        "visualKey": "donut-chocolate",
+        "variations": {
+          "a": {
+            "body": "好きなものには、かなり深く入る人。\n\n「まあこのくらいでいいか」で終わらず、納得するところまでやりたくなります。\n\n興味がないことには驚くほど淡白なのに、好きなものには急に濃い。\n\n全部に100点は出さない。でも大事なものには120点。"
+          },
+          "b": {
+            "body": "一度スイッチが入ると、周りが思うより集中します。\n\n途中で話しかけられても、頭の半分はまだそのことを考えているかもしれません。\n\nやるならちゃんとやりたい。\n\nチョコが薄いと物足りないのと同じです。"
+          },
+          "c": {
+            "body": "あなたは『好き』を軽く扱わないタイプ。\n\n人でも趣味でも仕事でも、これは大事だと思ったものには時間を使います。\n\nその代わり、どうでもいいものには本当にどうでもいい。\n\n濃淡がはっきりしています。チョコだけに。"
+          }
+        },
+        "mottos": [
+          "好きなら、ちゃんと好きでいる。",
+          "中途半端より、本気。",
+          "濃いくらいが、ちょうどいい。"
+        ],
+        "good": {
+          "typeId": "creamFilled",
+          "reason": "チョコの集中力と、クリームフィルドの内面の深さ。話し始めると止まらない組み合わせです。"
+        },
+        "bad": {
+          "typeId": "mochi",
+          "reason": "チョコは深く掘りたい。もちドーナツは状況に合わせて軽やかに変えたい。片方が掘っている間に片方は形を変えています。"
+        }
+      },
+      "strawberry": {
+        "displayName": "ストロベリー",
+        "visualKey": "donut-strawberry",
+        "variations": {
+          "a": {
+            "body": "人の気持ちの変化に気づきやすいタイプ。\n\n『あれ、今日ちょっと元気ない？』みたいなことを、言われる前に感じることがあります。\n\n大げさに世話を焼くわけではないけれど、放っておけない。\n\n甘さは見た目だけではありません。"
+          },
+          "b": {
+            "body": "うれしい、楽しい、ちょっと困った。\n\nそういう空気を比較的よく拾います。\n\nだから人に合わせすぎることもあるけれど、その分『話しやすい人』になりやすい。\n\nピンクだからではなく、中身がやさしいタイプです。"
+          },
+          "c": {
+            "body": "相手が喜ぶと、自分もちょっとうれしい。\n\n自分のことだけで完結するより、誰かと気分を共有できる方が好きです。\n\nただし気を使いすぎると疲れます。\n\nたまには自分のぶんのストロベリーも残しておいてください。"
+          }
+        },
+        "mottos": [
+          "気づいたなら、少しやさしく。",
+          "うれしいは、分けても減らない。",
+          "人の気持ちも、自分の気持ちも大事。"
+        ],
+        "good": {
+          "typeId": "cinnamon",
+          "reason": "ストロベリーの共感力と、シナモンの安心感。会話がなくても気まずくなりにくい組み合わせです。"
+        },
+        "bad": {
+          "typeId": "oldFashioned",
+          "reason": "ストロベリーは相手の気持ちを見たい。オールドファッションは自分の基準を守りたい。悪気なくすれ違うことがあります。"
+        }
+      },
+      "oldFashioned": {
+        "displayName": "オールドファッション",
+        "visualKey": "donut-old-fashioned",
+        "variations": {
+          "a": {
+            "body": "自分なりの『ちゃんとした基準』を持っている人。\n\nみんながそうしているから、だけではあまり動きません。\n\n納得できるか、筋が通っているか、仕上がりはどうか。\n\n少し無骨でも、そこは譲りたくない。"
+          },
+          "b": {
+            "body": "流行より完成度。\n\n派手さより、ちゃんと作られていること。\n\nそういう部分を見ています。\n\nたぶん説明しなくても気づく人には気づかれます。オールドファッションは、分かる人には分かる。"
+          },
+          "c": {
+            "body": "人から見ると、少し頑固に見えるときがあります。\n\nでも本人としては『適当にしたくないだけ』。\n\n自分なりに積み上げてきたやり方や感覚があります。\n\n角があっても、それも味です。"
+          }
+        },
+        "mottos": [
+          "自分の基準は、自分で決める。",
+          "流行より、仕上がり。",
+          "雑にやるくらいなら、ちゃんとやる。"
+        ],
+        "good": {
+          "typeId": "chocolate",
+          "reason": "オールドファッションの職人気質と、チョコの集中力。こだわり始めると完成度が上がります。"
+        },
+        "bad": {
+          "typeId": "sprinkle",
+          "reason": "オールドファッションは落ち着いて詰めたい。スプリンクルはまず場を楽しくしたい。何を優先するかが違います。"
+        }
+      },
+      "sprinkle": {
+        "displayName": "スプリンクル",
+        "visualKey": "donut-sprinkle",
+        "variations": {
+          "a": {
+            "body": "場がちょっと静かになると、何かしたくなる人。\n\n話題を振る、笑わせる、誰かを誘う。\n\n本人はサービスしている意識がないこともあります。\n\nでも気づけば、さっきより少し空気が明るい。"
+          },
+          "b": {
+            "body": "『せっかくなら楽しく』が比較的強いタイプ。\n\n予定どおりもいいけれど、面白くなるなら多少の寄り道は歓迎です。\n\nもちろん毎日ハイテンションではありません。\n\nスプリンクルだって、休む日はあります。"
+          },
+          "c": {
+            "body": "誰かが楽しそうだと、自分も少し元気になります。\n\nだから人を誘ったり、盛り上げたりすることが自然に出やすい。\n\nただし全員を楽しませる責任まではありません。\n\nドーナツ一個で世界全部は飾れません。"
+          }
+        },
+        "mottos": [
+          "せっかくなら、楽しい方へ。",
+          "少し足すだけで、空気は変わる。",
+          "盛り上げる。でも無理はしない。"
+        ],
+        "good": {
+          "typeId": "strawberry",
+          "reason": "スプリンクルの明るさと、ストロベリーの共感力。盛り上げつつ、置いていかれる人もちゃんと見ています。"
+        },
+        "bad": {
+          "typeId": "glazed",
+          "reason": "スプリンクルは少し足したい。グレーズドは今のままで十分だと思っている。装飾に対する温度差があります。"
+        }
+      },
+      "creamFilled": {
+        "displayName": "クリームフィルド",
+        "visualKey": "donut-cream-filled",
+        "variations": {
+          "a": {
+            "body": "見た目より中身が濃い人。\n\n普段は普通にしていても、話してみると意外な趣味や考えが出てきます。\n\n全部を最初から見せる必要はないと思っている。\n\n割ってみないと分からないタイプです。"
+          },
+          "b": {
+            "body": "人や物事を、表面だけで判断したくない人。\n\n『その奥には何がある？』が気になります。\n\nそのぶん考えすぎることもあるけれど、浅いところで終わらせない強さがあります。\n\n中身がある。文字どおり。"
+          },
+          "c": {
+            "body": "自分のことを全部説明するタイプではありません。\n\nでも信頼した人には、意外といろいろ話します。\n\n静かに見えて、内側にはちゃんと温度がある。\n\nクリームは外から見えないくらいがちょうどいい。"
+          }
+        },
+        "mottos": [
+          "中身は、あとから分かればいい。",
+          "表面だけで決めない。",
+          "深い話は、ゆっくりでいい。"
+        ],
+        "good": {
+          "typeId": "chocolate",
+          "reason": "クリームフィルドの深さと、チョコの集中力。表面だけでは終わらない会話になりがちです。"
+        },
+        "bad": {
+          "typeId": "sprinkle",
+          "reason": "クリームフィルドはじっくり知りたい。スプリンクルはまず楽しく始めたい。入口の速度が違います。"
+        }
+      },
+      "cinnamon": {
+        "displayName": "シナモン",
+        "visualKey": "donut-cinnamon",
+        "variations": {
+          "a": {
+            "body": "一緒にいると、なんとなく安心すると言われやすいタイプ。\n\n派手に助けるというより、必要なときに自然に動きます。\n\n相手に気を使わせない気配りが得意。\n\n気づくと、そこにいるだけで少し落ち着きます。"
+          },
+          "b": {
+            "body": "人を急かすより、その人のペースを見たい人。\n\nうまくいっていない人がいても、すぐ答えを押しつけません。\n\n待てるのも強さです。\n\nシナモンの香りくらい、ちょうどよく残ります。"
+          },
+          "c": {
+            "body": "小さな違和感や困りごとを拾うのが比較的得意です。\n\nだから気づけば誰かのフォロー役になっていることも。\n\nただし面倒を全部引き受けないこと。\n\nやさしさにも適量があります。"
+          }
+        },
+        "mottos": [
+          "安心は、静かにつくる。",
+          "急がせないのも、気配り。",
+          "やさしさは、ちょうどよく。"
+        ],
+        "good": {
+          "typeId": "glazed",
+          "reason": "シナモンの気配りと、グレーズドの安定感。何も起きないのに心地いい。かなり強い組み合わせです。"
+        },
+        "bad": {
+          "typeId": "mochi",
+          "reason": "シナモンはゆっくり整えたい。もちドーナツは状況に合わせてすぐ形を変える。ペース感に差があります。"
+        }
+      },
+      "mochi": {
+        "displayName": "もちドーナツ",
+        "visualKey": "donut-mochi",
+        "variations": {
+          "a": {
+            "body": "予定どおりにいかなくても、比較的なんとかできる人。\n\n最初の案に執着するより『じゃあ今はどうする？』へ切り替えます。\n\n柔らかいけれど、弱いわけではない。\n\n曲がっても戻れる強さがあります。"
+          },
+          "b": {
+            "body": "人や状況によって、やり方を変えるのが苦ではありません。\n\n相手に合わせることも、自分を失うことも、同じではないと分かっています。\n\n形は変わっても中身は残る。\n\nもち系の強みです。"
+          },
+          "c": {
+            "body": "変化への抵抗が比較的少ないタイプ。\n\n『前はこうだった』より『今ならどうする？』を考えます。\n\nただし何でも合わせればいいわけではありません。\n\n伸びても、ちぎれない範囲で。"
+          }
+        },
+        "mottos": [
+          "形が変わっても、自分は自分。",
+          "今に合わせて、しなやかに。",
+          "曲がれる方が、折れにくい。"
+        ],
+        "good": {
+          "typeId": "sprinkle",
+          "reason": "もちドーナツの柔軟さと、スプリンクルの明るさ。予定変更がそのままイベントになります。"
+        },
+        "bad": {
+          "typeId": "oldFashioned",
+          "reason": "もちドーナツは状況に合わせたい。オールドファッションは自分の基準を守りたい。柔らかさと硬さの勝負です。"
+        }
+      }
+    },
+    "en": {
+      "glazed": {
+        "displayName": "Glazed",
+        "visualKey": "donut-glazed",
+        "variations": {
+          "a": {
+            "body": "You like things to work without unnecessary drama.\n\nYou don't need to dominate the room. You just notice when something needs doing and quietly help keep things moving.\n\nIt feels ordinary to you. To everyone else, it's reassuring.\n\nClassic doesn't mean boring. Sometimes classic means dependable."
+          },
+          "b": {
+            "body": "You usually look for the option that feels solid—not reckless, not overcomplicated.\n\nYou're not afraid of change, but you don't change things just to prove you can.\n\nYou have a strong sense of 'this is probably enough.'\n\nA surprisingly useful skill."
+          },
+          "c": {
+            "body": "You value things that hold up over time.\n\nPeople, routines, tools, places—if something works well, you don't feel a need to replace it immediately.\n\nYou may not be flashy.\n\nBut remove the Glazed person and everyone suddenly notices."
+          }
+        },
+        "mottos": [
+          "Just right is surprisingly strong.",
+          "Things that last usually have a reason.",
+          "Simple, solid, done."
+        ],
+        "good": {
+          "typeId": "cinnamon",
+          "reason": "Glazed brings stability; Cinnamon brings care. Quietly comfortable, almost suspiciously easy."
+        },
+        "bad": {
+          "typeId": "sprinkle",
+          "reason": "Glazed likes things settled. Sprinkle keeps asking whether one more thing would make it more fun."
+        }
+      },
+      "chocolate": {
+        "displayName": "Chocolate",
+        "visualKey": "donut-chocolate",
+        "variations": {
+          "a": {
+            "body": "When you care about something, you go deep.\n\nYou don't give everything 100 points. But the things that matter to you can get 120.\n\nThat makes you intense in a very selective way.\n\nNot everything needs extra chocolate. Some things absolutely do."
+          },
+          "b": {
+            "body": "Once you're focused, you're hard to pull away.\n\nYou'd rather finish properly than stop halfway because everyone else got bored.\n\nThat can look stubborn.\n\nFrom your side, it just looks unfinished."
+          },
+          "c": {
+            "body": "You take your likes seriously.\n\nPeople, hobbies, work—when something matters, you give it time.\n\nThings you don't care about may receive dramatically less enthusiasm.\n\nStrong flavor. Clear priorities."
+          }
+        },
+        "mottos": [
+          "If I care, I care properly.",
+          "Halfway is not the goal.",
+          "Strong flavor, clear priorities."
+        ],
+        "good": {
+          "typeId": "creamFilled",
+          "reason": "Chocolate brings focus; Cream Filled brings depth. Conversations may become unexpectedly serious."
+        },
+        "bad": {
+          "typeId": "mochi",
+          "reason": "Chocolate wants to dig deeper. Mochi wants to adapt and keep moving. Different definitions of progress."
+        }
+      },
+      "strawberry": {
+        "displayName": "Strawberry",
+        "visualKey": "donut-strawberry",
+        "variations": {
+          "a": {
+            "body": "You notice how people are feeling.\n\nA quieter voice, a strange pause, someone who seems slightly off—you tend to pick up on those things.\n\nYou don't always make a big deal of it.\n\nYou just notice."
+          },
+          "b": {
+            "body": "Other people's reactions matter to you.\n\nIf someone is happy, that can lift your mood too.\n\nThe downside is that you may occasionally carry feelings that weren't yours to begin with.\n\nSave a little strawberry for yourself."
+          },
+          "c": {
+            "body": "You're often easier to talk to than you realize.\n\nPeople can sense that you're paying attention to more than just the words.\n\nThat creates trust.\n\nSoft color, real emotional radar."
+          }
+        },
+        "mottos": [
+          "Notice first. Be kind second.",
+          "Good feelings are worth sharing.",
+          "Other people matter. So do I."
+        ],
+        "good": {
+          "typeId": "cinnamon",
+          "reason": "Strawberry notices feelings; Cinnamon creates comfort. Very easy people to talk to."
+        },
+        "bad": {
+          "typeId": "oldFashioned",
+          "reason": "Strawberry watches the emotional temperature. Old Fashioned watches the standard. Priorities can collide."
+        }
+      },
+      "oldFashioned": {
+        "displayName": "Old Fashioned",
+        "visualKey": "donut-old-fashioned",
+        "variations": {
+          "a": {
+            "body": "You have your own standards.\n\nPopularity alone doesn't impress you much. You care whether something makes sense and whether it was done well.\n\nThat can make you look stubborn.\n\nYou'd call it having standards."
+          },
+          "b": {
+            "body": "You usually prefer quality over novelty.\n\nIf something is well made, you don't need it to shout for attention.\n\nYou notice details other people may skip.\n\nA little rough around the edges is fine."
+          },
+          "c": {
+            "body": "You don't love doing things halfway.\n\nOnce you've learned what works, you trust that experience.\n\nThat doesn't mean you never change.\n\nIt means change needs a reason."
+          }
+        },
+        "mottos": [
+          "I set my own standard.",
+          "Quality before trend.",
+          "If it's worth doing, do it properly."
+        ],
+        "good": {
+          "typeId": "chocolate",
+          "reason": "Old Fashioned brings standards; Chocolate brings focus. The quality level tends to rise."
+        },
+        "bad": {
+          "typeId": "sprinkle",
+          "reason": "Old Fashioned wants to refine. Sprinkle wants to energize. Different ideas of what matters first."
+        }
+      },
+      "sprinkle": {
+        "displayName": "Sprinkle",
+        "visualKey": "donut-sprinkle",
+        "variations": {
+          "a": {
+            "body": "When the room gets a little flat, you tend to add something.\n\nA joke, a question, an invitation, a new idea.\n\nYou may not think of yourself as the entertainer.\n\nBut things often get livelier after you arrive."
+          },
+          "b": {
+            "body": "You have a strong 'if we're doing this, let's enjoy it' instinct.\n\nPlans are good. Fun plans are better.\n\nYou don't need chaos every day.\n\nEven sprinkles get tired."
+          },
+          "c": {
+            "body": "Other people's energy affects you.\n\nWhen people are having fun, you often feel more alive too.\n\nJust remember: you are not personally responsible for making every room entertaining.\n\nOne donut cannot decorate the entire universe."
+          }
+        },
+        "mottos": [
+          "If we're here, let's enjoy it.",
+          "A little extra can change the mood.",
+          "Bring energy, not pressure."
+        ],
+        "good": {
+          "typeId": "strawberry",
+          "reason": "Sprinkle brings energy; Strawberry notices people. Fun, but less likely to leave someone behind."
+        },
+        "bad": {
+          "typeId": "glazed",
+          "reason": "Sprinkle wants one more colorful addition. Glazed was already perfectly happy."
+        }
+      },
+      "creamFilled": {
+        "displayName": "Cream Filled",
+        "visualKey": "donut-cream-filled",
+        "variations": {
+          "a": {
+            "body": "There's usually more going on inside than people first realize.\n\nYou may seem straightforward, then suddenly reveal an unexpected hobby, opinion, or level of knowledge.\n\nYou don't need to show everything immediately.\n\nSome things are better discovered later."
+          },
+          "b": {
+            "body": "You don't love judging things by the surface.\n\nYou want to know what's underneath, what caused it, what someone actually meant.\n\nThat can lead to overthinking.\n\nIt can also lead to understanding."
+          },
+          "c": {
+            "body": "You don't explain every part of yourself to everyone.\n\nBut once you trust someone, you can become surprisingly open.\n\nQuiet outside. Plenty inside.\n\nVery Cream Filled."
+          }
+        },
+        "mottos": [
+          "The inside can speak later.",
+          "Don't stop at the surface.",
+          "Depth takes a little time."
+        ],
+        "good": {
+          "typeId": "chocolate",
+          "reason": "Cream Filled brings depth; Chocolate brings focus. Small talk may not survive."
+        },
+        "bad": {
+          "typeId": "sprinkle",
+          "reason": "Cream Filled wants to understand. Sprinkle wants to get the fun started. Different entry speeds."
+        }
+      },
+      "cinnamon": {
+        "displayName": "Cinnamon",
+        "visualKey": "donut-cinnamon",
+        "variations": {
+          "a": {
+            "body": "People may describe you as easy to be around.\n\nYou help without making a performance out of helping.\n\nYou notice small needs and often handle them quietly.\n\nComfort can be a real skill."
+          },
+          "b": {
+            "body": "You don't like rushing people just because the clock says so.\n\nSometimes waiting, listening, or giving someone space works better than pushing.\n\nYou understand that.\n\nWarm without being loud."
+          },
+          "c": {
+            "body": "You often notice the small things that make situations easier for other people.\n\nThat can turn you into the default support person.\n\nUseful—but remember you don't have to carry everything.\n\nEven Cinnamon has limits."
+          }
+        },
+        "mottos": [
+          "Comfort can be built quietly.",
+          "Not rushing is sometimes the kindest move.",
+          "Care, but don't carry everything."
+        ],
+        "good": {
+          "typeId": "glazed",
+          "reason": "Cinnamon brings care; Glazed brings stability. Very little drama, in the best way."
+        },
+        "bad": {
+          "typeId": "mochi",
+          "reason": "Cinnamon likes to settle things gently. Mochi may already be adapting to the next version."
+        }
+      },
+      "mochi": {
+        "displayName": "Mochi Donut",
+        "visualKey": "donut-mochi",
+        "variations": {
+          "a": {
+            "body": "When plans change, you can usually find another route.\n\nYou don't enjoy every disruption, but you recover faster than many people.\n\nFlexible doesn't mean weak.\n\nBending is sometimes exactly what keeps you from breaking."
+          },
+          "b": {
+            "body": "You can change your approach depending on the person or situation.\n\nThat doesn't mean losing yourself.\n\nIt means knowing that one method doesn't fit everything.\n\nSame center, different shape."
+          },
+          "c": {
+            "body": "You tend to ask, 'What works now?' instead of staying stuck on 'What was supposed to happen?'\n\nThat's a useful form of resilience.\n\nJust don't adapt so much that your own preference disappears.\n\nStretch, don't dissolve."
+          }
+        },
+        "mottos": [
+          "Change shape, keep the center.",
+          "Adapt without disappearing.",
+          "Flexible is not fragile."
+        ],
+        "good": {
+          "typeId": "sprinkle",
+          "reason": "Mochi adapts; Sprinkle adds energy. Plan B may become more fun than Plan A."
+        },
+        "bad": {
+          "typeId": "oldFashioned",
+          "reason": "Mochi wants to adapt. Old Fashioned wants to protect the standard. Soft meets firm."
+        }
+      }
+    }
+  }
+}
