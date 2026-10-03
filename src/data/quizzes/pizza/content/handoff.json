@@ -1,0 +1,1762 @@
+{
+  "schemaVersion": 1,
+  "quiz": {
+    "id": "pizza",
+    "title": {
+      "ja": "",
+      "en": ""
+    },
+    "resultTypeIds": [
+      "type01",
+      "type02",
+      "type03",
+      "type04",
+      "type05",
+      "type06",
+      "type07",
+      "type08"
+    ],
+    "traitIds": [
+      "trait01",
+      "trait02",
+      "trait03",
+      "trait04",
+      "trait05",
+      "trait06",
+      "trait07",
+      "trait08"
+    ],
+    "typeTraitMap": {
+      "type01": "trait01",
+      "type02": "trait02",
+      "type03": "trait03",
+      "type04": "trait04",
+      "type05": "trait05",
+      "type06": "trait06",
+      "type07": "trait07",
+      "type08": "trait08"
+    },
+    "categories": [
+      [
+        "q01",
+        "q02",
+        "q03",
+        "q04"
+      ],
+      [
+        "q05",
+        "q06",
+        "q07",
+        "q08"
+      ],
+      [
+        "q09",
+        "q10",
+        "q11",
+        "q12"
+      ],
+      [
+        "q13",
+        "q14",
+        "q15",
+        "q16"
+      ],
+      [
+        "q17",
+        "q18",
+        "q19",
+        "q20"
+      ],
+      [
+        "q21",
+        "q22",
+        "q23",
+        "q24"
+      ],
+      [
+        "q25",
+        "q26",
+        "q27",
+        "q28"
+      ],
+      [
+        "q29",
+        "q30",
+        "q31",
+        "q32"
+      ]
+    ],
+    "questions": {
+      "q01": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q02": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q03": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q04": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q05": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q06": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q07": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q08": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q09": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q10": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q11": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q12": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q13": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q14": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q15": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q16": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q17": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q18": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q19": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q20": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q21": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q22": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q23": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q24": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q25": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q26": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q27": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q28": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q29": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q30": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q31": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      },
+      "q32": {
+        "scoring": {
+          "a": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "b": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "c": {
+            "mainType": "",
+            "secondaryType": ""
+          },
+          "d": {
+            "mainType": "",
+            "secondaryType": ""
+          }
+        },
+        "ja": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        },
+        "en": {
+          "text": "",
+          "choices": {
+            "a": "",
+            "b": "",
+            "c": "",
+            "d": ""
+          }
+        }
+      }
+    }
+  },
+  "results": {
+    "ja": {
+      "type01": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type02": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type03": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type04": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type05": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type06": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type07": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type08": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      }
+    },
+    "en": {
+      "type01": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type02": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type03": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type04": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type05": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type06": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type07": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      },
+      "type08": {
+        "displayName": "",
+        "visualKey": "",
+        "variations": {
+          "a": {
+            "body": ""
+          },
+          "b": {
+            "body": ""
+          },
+          "c": {
+            "body": ""
+          }
+        },
+        "mottos": [
+          "",
+          "",
+          ""
+        ],
+        "good": {
+          "typeId": "",
+          "reason": ""
+        },
+        "bad": {
+          "typeId": "",
+          "reason": ""
+        }
+      }
+    }
+  }
+}
