@@ -153,7 +153,7 @@
   },
   "humanRelayRequestsThisRecoveryRun": 0,
   "historicalHumanRelayCount": null,
-  "automatedVerifiedStepCount": 13,
+  "automatedVerifiedStepCount": 15,
   "automatedVerifiedSteps": [
     "Current branch/main/Production checkpoint inspection",
     "Complete text-source blob hash comparison (171 files)",
@@ -167,12 +167,19 @@
     "npx --no-install next typegen",
     "npx --no-install tsc --noEmit",
     "npm run validate-quiz -- pizza",
-    "git diff --check"
+    "git diff --check",
+    "Exact GitHub raw-byte readback for all eight preserved images",
+    "Embedded C2PA metadata inspection for software/date and private-data patterns (signatures not cryptographically validated)"
   ],
   "countDefinition": "Named completed checks in this recovery run, not tool-call totals or an experiment-wide completion measure",
   "stopConditions": [
     "Approved manuscript/scoring not recovered: do not rewrite or import a substitute",
     "Image provenance/final user approval/face placement not established",
     "No main integration or Production changes authorized"
-  ]
+  ],
+  "remoteAssetByteReadback": {
+    "result": "8_OF_8_EXACT_MATCH",
+    "sourceCommit": "6269f28dd81d74bdc21247c2182215e3e779a738",
+    "receipt": "remote-asset-readback.json"
+  }
 }

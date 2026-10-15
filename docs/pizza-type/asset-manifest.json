@@ -26,7 +26,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T08:59:46.758882038Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "pepperoni",
@@ -50,7 +56,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:01:41.263465911Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "quattroFormaggi",
@@ -74,7 +86,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:02:14.795605844Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "mushroom",
@@ -98,7 +116,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:01:15.121157666Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "seafood",
@@ -122,7 +146,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:03:54.778337937Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "hawaiian",
@@ -146,7 +176,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:03:20.646484457Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "veggie",
@@ -170,7 +206,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:04:34.812671687Z",
+        "signatureCryptographicallyVerified": false
+      }
     },
     {
       "typeId": "marinara",
@@ -194,7 +236,13 @@
       "provenance": "Recovered existing AI-generated candidate from 2026-10-03; no external stock photo or borrowed quiz asset",
       "rightsReview": "No visible third-party branding or identifiable person; original generation prompt and terms receipt have not been recovered",
       "productionApproval": "not established",
-      "byteReadback": "not yet performed"
+      "byteReadback": "Exact raw-byte and SHA-256 comparison passed against commit 6269f28dd81d74bdc21247c2182215e3e779a738",
+      "embeddedProvenance": {
+        "embeddedSoftwareAgent": "ChatGPT / gpt-image",
+        "generator": "OpenAI Media Service API",
+        "generationDateClaim": "2026-10-03T09:05:10.876886195Z",
+        "signatureCryptographicallyVerified": false
+      }
     }
   ]
 }
