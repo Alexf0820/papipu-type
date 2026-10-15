@@ -1,0 +1,178 @@
+{
+  "schemaVersion": 1,
+  "checkedAt": "2026-10-15T11:52:40.475897+00:00",
+  "sourceCommit": "7f80755d48a06eb343487e6a6b7be604574cb1d9",
+  "scope": "Asset-only recovery; existing runtime unchanged",
+  "overallStatus": "HOLD_MANUSCRIPT_NOT_RECOVERED",
+  "commands": [
+    {
+      "name": "npm-test",
+      "command": "npm test -- --maxWorkers=2",
+      "exitCode": 0,
+      "startedAt": "2026-10-15T11:50:57.670184+00:00",
+      "durationSeconds": 7.98,
+      "testFiles": 20,
+      "testsPassed": 107
+    },
+    {
+      "name": "test-scaffold",
+      "command": "npm run test:scaffold",
+      "exitCode": 0,
+      "startedAt": "2026-10-15T11:51:05.653633+00:00",
+      "durationSeconds": 0.76,
+      "testsPassed": 6
+    },
+    {
+      "name": "lint",
+      "command": "npm run lint",
+      "exitCode": 0,
+      "startedAt": "2026-10-15T11:51:06.414673+00:00",
+      "durationSeconds": 7.76,
+      "errors": 0,
+      "warnings": 2,
+      "warningScope": "Existing unused OUTLINE and STROKE constants; unchanged"
+    },
+    {
+      "name": "next-typegen",
+      "command": "npx --no-install next typegen",
+      "exitCode": 0,
+      "startedAt": "2026-10-15T11:51:14.173159+00:00",
+      "durationSeconds": 0.93
+    },
+    {
+      "name": "tsc",
+      "command": "npx --no-install tsc --noEmit",
+      "exitCode": 0,
+      "startedAt": "2026-10-15T11:51:15.103950+00:00",
+      "durationSeconds": 4.08
+    },
+    {
+      "name": "validate-pizza",
+      "command": "npm run validate-quiz -- pizza",
+      "exitCode": 1,
+      "startedAt": "2026-10-15T11:51:19.184480+00:00",
+      "durationSeconds": 0.84,
+      "validationErrors": 704,
+      "interpretation": "Expected failure on unchanged blank scaffold; Pizza is not complete"
+    },
+    {
+      "name": "diff-check",
+      "command": "git diff --check",
+      "exitCode": 0,
+      "startedAt": "2026-10-15T11:51:20.025431+00:00",
+      "durationSeconds": 0.0
+    }
+  ],
+  "assetCheck": {
+    "status": "RECOVERY_ASSETS_VALID_NOT_QUIZ_PASS",
+    "imageCount": 8,
+    "originalBytesVerified": true,
+    "dimensions": "1254x1254",
+    "quizIntegration": "HOLD_MANUSCRIPT_NOT_RECOVERED",
+    "rightsAndVisualApproval": "Not established by this byte-integrity script"
+  },
+  "pngChunkTypes": {
+    "margherita": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "pepperoni": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "quattroFormaggi": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "mushroom": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "seafood": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "hawaiian": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "veggie": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ],
+    "marinara": [
+      "IDAT",
+      "IEND",
+      "IHDR",
+      "caBX"
+    ]
+  },
+  "sourceHashCheck": {
+    "textFilesMatched": 171,
+    "mismatches": 0,
+    "existingBinaryAssets": "Not materialized locally; remote blob references preserved"
+  },
+  "notRun": [
+    {
+      "command": "npm run verify-quiz -- pizza",
+      "reason": "Missing valid manuscript and all Main/Secondary assignments; no meaningful million-run or position/question-bias/JAEN statistics exist"
+    },
+    {
+      "command": "npm run build",
+      "reason": "Local source-only regression checkout omits pre-existing binary assets; use exact Git-based deployment state without equating it to quiz approval"
+    },
+    {
+      "check": "Browser/mobile/Share/TryAgain/all-results and five-quiz browser regression",
+      "reason": "No completed Pizza candidate; known unavailable browser route not retried"
+    }
+  ],
+  "baselinePreview": {
+    "id": "dpl_CjWf9iyBEfsXLWoZWTRcb3oRYd7b",
+    "state": "READY",
+    "sourceCommit": "7f80755d48a06eb343487e6a6b7be604574cb1d9",
+    "meaning": "Blank-scaffold deployment only"
+  },
+  "mainAndProductionBaseline": {
+    "commit": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "deploymentId": "dpl_2LvUCjnhfx39qhMXw46frLKbEzRG",
+    "state": "READY"
+  },
+  "humanRelayRequestsThisRecoveryRun": 0,
+  "historicalHumanRelayCount": null,
+  "automatedVerifiedStepCount": 13,
+  "automatedVerifiedSteps": [
+    "Current branch/main/Production checkpoint inspection",
+    "Complete text-source blob hash comparison (171 files)",
+    "Blank manuscript and scoring field audit",
+    "Eight original image pixel inspections",
+    "Eight original PNG byte/format/dimension/hash integrity checks",
+    "Locked dependency installation (recovered with writable cache and reduced concurrency)",
+    "npm test -- --maxWorkers=2",
+    "npm run test:scaffold",
+    "npm run lint",
+    "npx --no-install next typegen",
+    "npx --no-install tsc --noEmit",
+    "npm run validate-quiz -- pizza",
+    "git diff --check"
+  ],
+  "countDefinition": "Named completed checks in this recovery run, not tool-call totals or an experiment-wide completion measure",
+  "stopConditions": [
+    "Approved manuscript/scoring not recovered: do not rewrite or import a substitute",
+    "Image provenance/final user approval/face placement not established",
+    "No main integration or Production changes authorized"
+  ]
+}
