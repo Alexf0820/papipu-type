@@ -3,38 +3,38 @@
   "quiz": {
     "id": "pizza",
     "title": {
-      "ja": "",
-      "en": ""
+      "ja": "ピザタイプ診断",
+      "en": "Pizza Type"
     },
     "resultTypeIds": [
-      "type01",
-      "type02",
-      "type03",
-      "type04",
-      "type05",
-      "type06",
-      "type07",
-      "type08"
+      "margherita",
+      "pepperoni",
+      "quattroFormaggi",
+      "mushroom",
+      "seafood",
+      "hawaiian",
+      "veggie",
+      "marinara"
     ],
     "traitIds": [
-      "trait01",
-      "trait02",
-      "trait03",
-      "trait04",
-      "trait05",
-      "trait06",
-      "trait07",
-      "trait08"
+      "steady",
+      "initiative",
+      "devotion",
+      "observation",
+      "coordination",
+      "curiosity",
+      "consideration",
+      "simplicity"
     ],
     "typeTraitMap": {
-      "type01": "trait01",
-      "type02": "trait02",
-      "type03": "trait03",
-      "type04": "trait04",
-      "type05": "trait05",
-      "type06": "trait06",
-      "type07": "trait07",
-      "type08": "trait08"
+      "margherita": "steady",
+      "pepperoni": "initiative",
+      "quattroFormaggi": "devotion",
+      "mushroom": "observation",
+      "seafood": "coordination",
+      "hawaiian": "curiosity",
+      "veggie": "consideration",
+      "marinara": "simplicity"
     },
     "categories": [
       [
@@ -90,1216 +90,1216 @@
       "q01": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           }
         },
         "ja": {
-          "text": "",
+          "text": "友だちとの予定が白紙に。まず何をする？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "いつもの店を押さえて、みんなを安心させる",
+            "b": "気になる場所を一つ提案して、まず動く",
+            "c": "前から好きな場所で、じっくり過ごす案を出す",
+            "d": "空いた理由を聞いて、納得できる次の案を詰める"
           }
         },
         "en": {
-          "text": "",
+          "text": "Plans with friends fall through. What do you do first?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Book our usual place so everyone can relax",
+            "b": "Suggest somewhere interesting and get us moving",
+            "c": "Suggest spending proper time at a longtime favorite",
+            "d": "Ask what changed and work through the next option until it feels right"
           }
         }
       },
       "q02": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           }
         },
         "ja": {
-          "text": "",
+          "text": "行き先の希望がバラバラ。あなたなら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "希望を並べて、動ける案にまとめる",
+            "b": "条件を減らして、どれでもない第三案を試す",
+            "c": "まだ話していない人の希望も聞く",
+            "d": "今日いちばんしたいことに絞る"
           }
         },
         "en": {
-          "text": "",
+          "text": "Everyone wants to go somewhere different. You would…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Put the ideas together into a plan we can act on",
+            "b": "Drop a few requirements and try a completely different third option",
+            "c": "Ask the people who have not had a say yet",
+            "d": "Narrow it down to what matters most today"
           }
         }
       },
       "q03": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           }
         },
         "ja": {
-          "text": "",
+          "text": "旅行の準備で、つい時間をかけるのは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "現地で試したいことを早めに予約",
+            "b": "お気に入りの場所に、たっぷり時間を取る",
+            "c": "口コミを読み比べて、違いを見つける",
+            "d": "みんなが困らない持ち物の確認"
           }
         },
         "en": {
-          "text": "",
+          "text": "Which part of travel planning do you tend to spend time on?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Booking something new to do before slots fill up",
+            "b": "Leaving plenty of time for a favorite place",
+            "c": "Comparing reviews and spotting the differences",
+            "d": "Checking the essentials so nobody gets stuck"
           }
         }
       },
       "q04": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           }
         },
         "ja": {
-          "text": "",
+          "text": "急に雨。外で遊ぶ予定は？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "遠出はやめて、近くの知らない施設をのぞく",
+            "b": "濡れて困る人を気にかけ、みんなで移れる場所を探す",
+            "c": "予定を減らして、無理なくできることだけ",
+            "d": "集まれる屋内の場所を決めて連絡する"
           }
         },
         "en": {
-          "text": "",
+          "text": "Rain interrupts an outdoor day. What now?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Skip the long trip and explore an unfamiliar place nearby",
+            "b": "Check on anyone struggling with the rain and find somewhere we can all move to",
+            "c": "Trim the plan to what we can comfortably do",
+            "d": "Pick an indoor meeting place and get everyone moving"
           }
         }
       },
       "q05": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           }
         },
         "ja": {
-          "text": "",
+          "text": "新しい作業を頼まれたときは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "小さく試して、動きながら覚える",
+            "b": "仕上がりの見本を決め、そこまで詰める",
+            "c": "仕組みを調べて、納得してから始める",
+            "d": "いつもの手順を確認し、使う人が困る抜けを防ぐ"
           }
         },
         "en": {
-          "text": "",
+          "text": "Someone gives you a new task. Your first instinct?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Try a small version and learn by doing",
+            "b": "Choose a standard and work until it feels right",
+            "c": "Understand how it works before starting",
+            "d": "Check the usual steps so users are not left with missing pieces"
           }
         }
       },
       "q06": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           }
         },
         "ja": {
-          "text": "",
+          "text": "チームの作業が止まった。どうする？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "今のやり方を外して、別の方法を試す",
+            "b": "困っている人に、手伝えることを聞く",
+            "c": "本当に必要な作業だけ残す",
+            "d": "役割を整理して、次の一歩を決める"
           }
         },
         "en": {
-          "text": "",
+          "text": "The group project has stalled. You would…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Drop the current approach and try a different one",
+            "b": "Ask whoever is struggling what would help",
+            "c": "Keep only the tasks that are actually needed",
+            "d": "Sort out roles and decide the next step"
           }
         }
       },
       "q07": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           }
         },
         "ja": {
-          "text": "",
+          "text": "できあがったものを見るとき、気になるのは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "大事な部分が、自分の納得する出来か",
+            "b": "細部に、見落とした違和感がないか",
+            "c": "使う人が迷わず使えるか",
+            "d": "早く試して反応を見られるか"
           }
         },
         "en": {
-          "text": "",
+          "text": "When reviewing something finished, you notice…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Whether the part I care about meets my standard",
+            "b": "Whether any small detail still feels off",
+            "c": "Whether people can use it without confusion",
+            "d": "Whether we can try it out and get a reaction"
           }
         }
       },
       "q08": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           }
         },
         "ja": {
-          "text": "",
+          "text": "締め切りが近い。あなたの動きは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "余裕のない人の分を少し手伝う",
+            "b": "やらなくていいことを決める",
+            "c": "残りを分担し直して、一緒に進める",
+            "d": "もっと短くできる別ルートを探す"
           }
         },
         "en": {
-          "text": "",
+          "text": "A deadline is approaching. What is your move?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Take a little work off someone who is overloaded",
+            "b": "Decide what we can leave out",
+            "c": "Redistribute the remaining work and get going together",
+            "d": "Look for a different, shorter route"
           }
         }
       },
       "q09": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           }
         },
         "ja": {
-          "text": "",
+          "text": "初めての集まり。どう過ごしがち？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "昔から好きな話題が合う人と、じっくり話す",
+            "b": "まずよく聞いて、気になる話は深く聞いてみる",
+            "c": "あいさつして、お互い落ち着いて話せる場所にいる",
+            "d": "自分から一人に話しかけてみる"
           }
         },
         "en": {
-          "text": "",
+          "text": "At a gathering of new people, you tend to…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Have a long chat with someone who shares a longtime interest",
+            "b": "Listen first, then dig into a topic that catches my interest",
+            "c": "Say hello and settle somewhere we can both talk comfortably",
+            "d": "Start a conversation with someone"
           }
         }
       },
       "q10": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           }
         },
         "ja": {
-          "text": "",
+          "text": "会話が途切れたら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "話したそうな人がいないか見る",
+            "b": "みんなの様子を見て、無理に沈黙を埋めない",
+            "c": "さっきの話をつないで、みんなに振る",
+            "d": "長い前置きなしに、ちょっと変わった質問を出す"
           }
         },
         "en": {
-          "text": "",
+          "text": "The conversation goes quiet. You would…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "See whether anyone is waiting to speak",
+            "b": "Read the room and avoid filling silence unnecessarily",
+            "c": "Connect it to an earlier topic and bring others in",
+            "d": "Ask a slightly unexpected question without a long setup"
           }
         }
       },
       "q11": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           }
         },
         "ja": {
-          "text": "",
+          "text": "友だちが新しい趣味の話を始めたら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "どこが面白いのか、具体的に聞く",
+            "b": "続けやすそうか聞きながら応援する",
+            "c": "面白そうなら、その場で体験の予定を立てる",
+            "d": "長く続けている好きなこととの共通点を熱く語る"
           }
         },
         "en": {
-          "text": "",
+          "text": "A friend starts telling you about a new hobby. You…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Ask exactly what makes it interesting",
+            "b": "Ask how it fits their life and encourage them",
+            "c": "If it sounds fun, arrange to try it",
+            "d": "Get into how it connects with something I have loved for years"
           }
         }
       },
       "q12": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           }
         },
         "ja": {
-          "text": "",
+          "text": "グループチャットで得意なのは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "要点だけ、短く返す",
+            "b": "散らばった案をまとめ、決める流れを作る",
+            "c": "長い説明はいらない、意外なネタを持ち込む",
+            "d": "返事に困っていそうな人をフォローする"
           }
         },
         "en": {
-          "text": "",
+          "text": "What comes naturally in a group chat?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Replying briefly with just the essentials",
+            "b": "Gathering ideas so we can make a decision",
+            "c": "Drop in something unexpected that needs no long explanation",
+            "d": "Helping someone who seems unsure how to reply"
           }
         }
       },
       "q13": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           }
         },
         "ja": {
-          "text": "",
+          "text": "買い物で迷ったら、最後の決め手は？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "比べてみて分かった、作りの違い",
+            "b": "いつも使えて、人にも勧められる安心感",
+            "c": "今すぐ使ってみたいと思える勢い",
+            "d": "長く好きでいられそうな、細部の良さ"
           }
         },
         "en": {
-          "text": "",
+          "text": "What settles a shopping decision for you?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Differences in how it is made that I noticed while comparing",
+            "b": "Something dependable I could recommend to others",
+            "c": "The urge to put it to use right away",
+            "d": "Details I could keep appreciating for years"
           }
         }
       },
       "q14": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           }
         },
         "ja": {
-          "text": "",
+          "text": "家の小さな不便を直すなら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "物を減らして、原因ごとなくす",
+            "b": "使う人の希望を聞いて、配置を変える",
+            "c": "道具を増やさず、一つで済む新しいものを試す",
+            "d": "使う人の様子を見て、みんなに合う配置にする"
           }
         },
         "en": {
-          "text": "",
+          "text": "How would you fix a small annoyance at home?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Remove something and simplify the problem away",
+            "b": "Ask everyone what they need and rearrange things",
+            "c": "Try an unfamiliar tool that replaces several others",
+            "d": "Notice what people need and arrange things to work for everyone"
           }
         }
       },
       "q15": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           }
         },
         "ja": {
-          "text": "",
+          "text": "お気に入りの店に通う理由は？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "いつ行っても、一緒の人も安心して過ごせる",
+            "b": "行くたびに何かやってみたくなる",
+            "c": "ずっと変わらず好きな、ここだけのものがある",
+            "d": "小さな工夫を見つけるのが楽しい"
           }
         },
         "en": {
-          "text": "",
+          "text": "Why do you keep returning to a favorite place?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Everyone I bring can relax there every time",
+            "b": "Every visit makes me want to try something",
+            "c": "It has something unique that I have loved for years",
+            "d": "I enjoy noticing the little thoughtful details"
           }
         }
       },
       "q16": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           }
         },
         "ja": {
-          "text": "",
+          "text": "プレゼントを選ぶなら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "周りにも相談して、喜ばれそうな案を決める",
+            "b": "意外だけれど、手間のかからないもの",
+            "c": "最近の困りごとを思い出し、周りと相談して選ぶ",
+            "d": "使い道がはっきりした、飾りすぎないもの"
           }
         },
         "en": {
-          "text": "",
+          "text": "How do you choose a gift?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Compare ideas with others and settle on one",
+            "b": "Something unexpected that is easy to look after",
+            "c": "Remember a recent difficulty and compare ideas with others",
+            "d": "Something simple with a clear use"
           }
         }
       },
       "q17": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           }
         },
         "ja": {
-          "text": "",
+          "text": "予定のない休日。しっくりくるのは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "いつもの場所で、自分にも人にも無理なく過ごす",
+            "b": "思いついた、まだ試していないことを一つやる",
+            "c": "好きなことを、区切りまでやり込む",
+            "d": "気になっていたことをじっくり調べる"
           }
         },
         "en": {
-          "text": "",
+          "text": "An unplanned day off. What feels right?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Take it easy somewhere familiar, without putting pressure on myself or others",
+            "b": "Get started on one thing I have thought of but never tried",
+            "c": "Staying with a favorite activity until a satisfying stopping point",
+            "d": "Looking carefully into something I have been wondering about"
           }
         }
       },
       "q18": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           }
         },
         "ja": {
-          "text": "",
+          "text": "休憩時間の使い方は？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "みんなに声をかけ、少し一緒に過ごす",
+            "b": "遠出せず、いつもと違う道や店を試す",
+            "c": "疲れている人も無理なく加われる休憩にする",
+            "d": "疲れ具合を見て、通知を切って何もしない"
           }
         },
         "en": {
-          "text": "",
+          "text": "How do you spend a break?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Get people together for a little time out",
+            "b": "Try a different route or shop without making a big outing of it",
+            "c": "Arrange a break that tired people can comfortably join",
+            "d": "Check how tired I am, then turn off notifications and do nothing"
           }
         }
       },
       "q19": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           }
         },
         "ja": {
-          "text": "",
+          "text": "気分を立て直したいときは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "いつもと違う運動で、小さな達成感を作る",
+            "b": "好きな作品や趣味に、しっかり浸る",
+            "c": "引っかかっていることを書き、納得するまで整理する",
+            "d": "慣れた習慣を戻し、人にも穏やかに接する"
           }
         },
         "en": {
-          "text": "",
+          "text": "What helps you reset?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Try a different physical activity and enjoy a small win",
+            "b": "Spending proper time with a favorite work or hobby",
+            "c": "Write down what is bothering me and work through it until it makes sense",
+            "d": "Return to a familiar routine so I can be gentler with others too"
           }
         }
       },
       "q20": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           }
         },
         "ja": {
-          "text": "",
+          "text": "忙しい週の終わり、いちばん欲しいのは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "大げさな準備のいらない、いつもと違う体験",
+            "b": "お互いを気づかえる、穏やかな時間",
+            "c": "必要か見直して、予定も持ち物も減らした時間",
+            "d": "気の合う人に声をかけ、集まる段取りをつける時間"
           }
         },
         "en": {
-          "text": "",
+          "text": "At the end of a busy week, what do you want?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "A small experience outside my routine that takes little preparation",
+            "b": "Gentle company where we look after each other",
+            "c": "Time to reconsider what I need and pare down plans and belongings",
+            "d": "Time to reach out to people I like and get a gathering organized"
           }
         }
       },
       "q21": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           }
         },
         "ja": {
-          "text": "",
+          "text": "知らないことを覚えるなら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "とりあえず触って、失敗しながら覚える",
+            "b": "好きになった部分を、繰り返し練習する",
+            "c": "なぜそうなるのか、仕組みまで調べる",
+            "d": "基本を順番に確かめ、人に迷惑をかけないよう進む"
           }
         },
         "en": {
-          "text": "",
+          "text": "How do you like learning something unfamiliar?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Get hands-on and learn from mistakes",
+            "b": "Practice the part I enjoy until it feels right",
+            "c": "Look into why it works the way it does",
+            "d": "Check the basics in order so my mistakes do not cause trouble for others"
           }
         }
       },
       "q22": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           }
         },
         "ja": {
-          "text": "",
+          "text": "面白い情報を見つけた。どうする？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "手元にあるものと組み合わせて、手軽に試す",
+            "b": "役立ちそうな人に伝え、一緒に使える形を考える",
+            "c": "自分に必要な部分だけ、覚えておく",
+            "d": "関心がありそうな人を集めて、話してみる"
           }
         },
         "en": {
-          "text": "",
+          "text": "You discover something interesting. What next?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Try a simple combination with something I already have",
+            "b": "Tell the people it could help and work out how they could use it together",
+            "c": "Keep only the part that is useful to me",
+            "d": "Bring interested people together to discuss it"
           }
         }
       },
       "q23": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           }
         },
         "ja": {
-          "text": "",
+          "text": "何かを教えるときのあなたは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "基本を押さえて、大事なコツをじっくり伝える",
+            "b": "相手の疑問を聞いて、理由から説明する",
+            "c": "基本の手順を、相手が困らない順で伝える",
+            "d": "まず一緒にやってみる"
           }
         },
         "en": {
-          "text": "",
+          "text": "When showing someone how to do something, you…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Cover the basics reliably, then take time over the details that matter",
+            "b": "Ask what puzzles them and explain the reasoning",
+            "c": "Explain the basics in an order they can follow",
+            "d": "Jump in and try it together"
           }
         }
       },
       "q24": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           }
         },
         "ja": {
-          "text": "",
+          "text": "新しいアイデアが必要。どう考える？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "誰が何に困っているか聞き、みんなの案をつなぐ",
+            "b": "条件を減らして、いちばん単純な形を探す",
+            "c": "人の案を組み合わせて、実行できる形にする",
+            "d": "少ない材料で、普通はしない組み合わせを試す"
           }
         },
         "en": {
-          "text": "",
+          "text": "You need a fresh idea. How do you approach it?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Ask who needs help with what, then connect people's ideas",
+            "b": "Remove conditions and find the simplest form",
+            "c": "Combine ideas from people into something workable",
+            "d": "Try an unusual combination using only a few ingredients"
           }
         }
       },
       "q25": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           }
         },
         "ja": {
-          "text": "",
+          "text": "ちょっとした失敗に気づいたら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "気になる部分は、納得するまでやり直す",
+            "b": "どこでずれたか、順番にたどる",
+            "c": "基本を確認して、周りが同じことで困らないようにする",
+            "d": "別の直し方も試しながら、すぐ手を動かす"
           }
         },
         "en": {
-          "text": "",
+          "text": "You notice a small mistake. You would…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Redo the part I care about until I am satisfied",
+            "b": "Trace the steps to see where things went off track",
+            "c": "Check the basics so others do not get caught by the same mistake",
+            "d": "Start fixing it right away, trying a different approach too"
           }
         }
       },
       "q26": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           }
         },
         "ja": {
-          "text": "",
+          "text": "意見がぶつかったときは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "言いにくそうな気持ちを先に聞く",
+            "b": "今決める必要のある点だけに絞る",
+            "c": "共通点を探して、次に進める案を出す",
+            "d": "二択から離れて、もっと手軽な別案を出す"
           }
         },
         "en": {
-          "text": "",
+          "text": "When opinions clash, you tend to…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Listen for what someone is finding hard to say",
+            "b": "Focus on only what needs deciding now",
+            "c": "Find common ground and propose a way forward",
+            "d": "Step outside the two options and suggest a simpler alternative"
           }
         }
       },
       "q27": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           }
         },
         "ja": {
-          "text": "",
+          "text": "予定より時間がかかっている。どう思う？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "遅れている理由を、納得するまでたどりたい",
+            "b": "みんなに無理のないペースに整えよう",
+            "c": "まず新しいやり方で一か所進め、流れを変えよう",
+            "d": "大事なところなら、もう少し時間をかけたい"
           }
         },
         "en": {
-          "text": "",
+          "text": "Something is taking longer than expected. Your thought?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "I want to trace what is slowing it down until I understand it properly",
+            "b": "Let us find a pace that does not strain anyone",
+            "c": "Let us try a new approach on one part and build momentum",
+            "d": "If this part matters, I want to give it more time"
           }
         }
       },
       "q28": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           }
         },
         "ja": {
-          "text": "",
+          "text": "急に頼みごとが増えたら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "引き受ける範囲をはっきりさせる",
+            "b": "手分けできる人を探して、割り振る",
+            "c": "まとめて片づく、違う方法を試す",
+            "d": "いちばん困っている相手から話を聞く"
           }
         },
         "en": {
-          "text": "",
+          "text": "Requests suddenly pile up. You would…",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Be clear about what I can take on",
+            "b": "Find people to share the work and divide it up",
+            "c": "Try a different method that handles several at once",
+            "d": "Hear from the person who needs help most"
           }
         }
       },
       "q29": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           }
         },
         "ja": {
-          "text": "",
+          "text": "「あなたらしい」と感じるほめ言葉は？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "よくそんなところまで気づくね",
+            "b": "任せると安心。困る人がいないよう見てくれる",
+            "c": "面白そうなことを見つけて、すぐ動けるね",
+            "d": "好きなものを、本当に大事にしている"
           }
         },
         "en": {
-          "text": "",
+          "text": "Which compliment feels most like you?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "You notice things others miss",
+            "b": "I can count on you to make sure nobody gets stuck",
+            "c": "You spot something interesting to try and get started right away",
+            "d": "You really care about what you love"
           }
         }
       },
       "q30": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           }
         },
         "ja": {
-          "text": "",
+          "text": "小さな集まりを開くなら、こだわるのは？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "手間の原因を見つけ、準備も片づけも簡単にする",
+            "b": "みんなが参加できる、流れの良さ",
+            "c": "準備は簡単に、一つだけ意外な仕掛けを入れる",
+            "d": "無理をしている人がいないこと"
           }
         },
         "en": {
-          "text": "",
+          "text": "If you host a small gathering, what matters to you?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Spot what creates extra work and simplify setup and cleanup",
+            "b": "A plan that lets everyone join in",
+            "c": "Keep preparation simple and add one unexpected touch",
+            "d": "Making sure nobody feels pressured"
           }
         }
       },
       "q31": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "margherita",
+            "secondaryType": "veggie"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "pepperoni",
+            "secondaryType": "hawaiian"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "quattroFormaggi",
+            "secondaryType": "margherita"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "mushroom",
+            "secondaryType": "quattroFormaggi"
           }
         },
         "ja": {
-          "text": "",
+          "text": "何度も選んでしまうものには、どんな良さがある？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "調子の悪い日でも頼れて、人にも安心して勧められる",
+            "b": "次に何かしたくなる、きっかけをくれる",
+            "c": "知るほどに、好きな部分が増える",
+            "d": "見返すたびに、新しい細部が見つかる"
           }
         },
         "en": {
-          "text": "",
+          "text": "What makes you choose something again and again?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "It is dependable on a rough day, and I can recommend it with confidence",
+            "b": "It gives me a reason to try something next",
+            "c": "The more I know it, the more I appreciate it",
+            "d": "I notice a new detail each time"
           }
         }
       },
       "q32": {
         "scoring": {
           "a": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "seafood",
+            "secondaryType": "pepperoni"
           },
           "b": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "hawaiian",
+            "secondaryType": "marinara"
           },
           "c": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "veggie",
+            "secondaryType": "seafood"
           },
           "d": {
-            "mainType": "",
-            "secondaryType": ""
+            "mainType": "marinara",
+            "secondaryType": "mushroom"
           }
         },
         "ja": {
-          "text": "",
+          "text": "今日をいい日にするため、一つ足すなら？",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "誰かと予定を合わせる、ひと声",
+            "b": "準備いらずで、まだやったことのない小さなこと",
+            "c": "自分にも人にも無理のない、一緒の予定",
+            "d": "本当に必要か見直して作る、余白"
           }
         },
         "en": {
-          "text": "",
+          "text": "What one thing would make today better?",
           "choices": {
-            "a": "",
-            "b": "",
-            "c": "",
-            "d": ""
+            "a": "Reaching out to get a plan going with someone",
+            "b": "One small thing I have never tried that needs no preparation",
+            "c": "A shared plan that is considerate of both me and others",
+            "d": "Room made by checking what is actually needed"
           }
         }
       }
@@ -1307,456 +1307,490 @@
   },
   "results": {
     "ja": {
-      "type01": {
-        "displayName": "",
-        "visualKey": "",
+      "margherita": {
+        "displayName": "マルゲリータ",
+        "visualKey": "pizza-margherita",
         "variations": {
           "a": {
-            "body": ""
+            "body": "大げさなことはしないけれど、約束したことはちゃんとやる人。\n\nみんなが迷っているときも、まず土台を整えます。本人は普通にしているつもりでも、周りはけっこう助かっています。\n\nトマト、チーズ、バジル。増やさなくても成立するのは、基本がいいからです。"
           },
           "b": {
-            "body": ""
+            "body": "新しいことにも興味はある。でも、勢いで全部を変えるより、うまくいっている部分を残したい人。\n\nその慎重さが、周りの安心につながります。\n\nたまにはいつものやり方を外しても大丈夫。マルゲリータにも、初めて注文された日がありました。"
           },
           "c": {
-            "body": ""
+            "body": "一度気に入った人や場所とは、長く付き合いたいタイプ。\n\n派手な思い出より、何度でも気持ちよく戻れることを大事にします。\n\n「またこれ？」と言われても、本人は「またこれ！」。\n\n定番を選ぶ手つきに、迷いがありません。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "基本がいいと、長くおいしい。",
+          "いつもの、には理由がある。",
+          "安心も、立派な持ち味。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "veggie",
+          "reason": "マルゲリータが土台を整え、ベジーがみんなの様子を見る。安心して座れる食卓になります。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "hawaiian",
+          "reason": "マルゲリータはいつもの安心、ハワイアンは意外な組み合わせ。注文を変える相談には、少し時間を。"
         }
       },
-      "type02": {
-        "displayName": "",
-        "visualKey": "",
+      "pepperoni": {
+        "displayName": "ペパロニ",
+        "visualKey": "pizza-pepperoni",
         "variations": {
           "a": {
-            "body": ""
+            "body": "考えているうちに冷めるくらいなら、まず一口いきたい人。\n\n小さく始めて、やりながら調整するのが得意です。あなたが動くと、周りも動きやすくなります。\n\nただし、全員が同じ温度とは限りません。\n\nひと声かけてから出発すると、置き去りの人が減ります。"
           },
           "b": {
-            "body": ""
+            "body": "「誰かやらない？」で止まった空気に、手を挙げられるタイプ。\n\n完璧な準備がなくても、とりあえず試してみます。失敗しても、次に試すことが見えれば収穫です。\n\n勢いがあるぶん、休憩は忘れがち。\n\nオーブンにも、切るスイッチがあります。"
           },
           "c": {
-            "body": ""
+            "body": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。相談は返事が来てから。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "まず一歩。次は動いてから。",
+          "熱いうちに、小さく試す。",
+          "勢いにも、休憩を。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "seafood",
+          "reason": "ペパロニの一歩を、シーフードがみんなの動きにつなげる。出発係と段取り係で、話が早い。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "mushroom",
+          "reason": "ペパロニはまず試したい。マッシュルームは理由を知りたい。出発前の確認時間を決めると楽です。"
         }
       },
-      "type03": {
-        "displayName": "",
-        "visualKey": "",
+      "quattroFormaggi": {
+        "displayName": "クアトロフォルマッジ",
+        "visualKey": "pizza-quattro-formaggi",
         "variations": {
           "a": {
-            "body": ""
+            "body": "好きなものの話になると、急に説明が細かくなる人。\n\n「どれも同じでしょ」と言われても、同じではありません。違いを知るほど、ますます好きになります。\n\nその熱量は、仕上がりの良さにもつながります。\n\nチーズは一種類でもいい。あなたの中では、よくない日もあります。"
           },
           "b": {
-            "body": ""
+            "body": "大事なところを、なんとなくで済ませたくないタイプ。\n\n時間をかけて調整し、自分で納得してから出したいと思っています。\n\nただ、相手が欲しかったのは軽い返事だった、という日も。\n\n濃厚な説明は、まず一切れからどうぞ。"
           },
           "c": {
-            "body": ""
+            "body": "広く浅くより、好きなものと深く付き合いたい人。\n\n何度も触れるうちに、前は気づかなかった良さを見つけます。飽きるどころか、話したいことが増えていく。\n\nそれは素敵なことです。\n\n聞き手の満腹サインだけ、ときどき確認してください。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "好きな理由は、増えていく。",
+          "大事なところは、薄めない。",
+          "濃厚な話は、一切れずつ。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "mushroom",
+          "reason": "クアトロフォルマッジのこだわりを、マッシュルームが細かく聞いてくれる。説明が長くても、まだ質問が来ます。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "marinara",
+          "reason": "クアトロフォルマッジはもう少し詰めたい。マリナーラは必要な分で十分。どこで完成にするか、先に相談を。"
         }
       },
-      "type04": {
-        "displayName": "",
-        "visualKey": "",
+      "mushroom": {
+        "displayName": "マッシュルーム",
+        "visualKey": "pizza-mushroom",
         "variations": {
           "a": {
-            "body": ""
+            "body": "目立つ部分より、その奥の小さな違いに気づく人。\n\n話をよく聞き、確かめてから自分の考えを出します。静かだからといって、何も考えていないわけではありません。\n\nむしろ、けっこう考えています。\n\nうまみは、見た目の派手さでは測れません。"
           },
           "b": {
-            "body": ""
+            "body": "「なんでだろう」を、そのままにしておけないタイプ。\n\n理由をたどっているうちに、周りが見落としたことを見つけます。\n\nただし、調べるほど次の疑問が出ることも。\n\nピザが冷める前に、一度ここまで、と区切っても大丈夫です。"
           },
           "c": {
-            "body": ""
+            "body": "相手の話を聞いてから、ぴったりの一言を返したい人。\n\nすぐには答えなくても、さっきの話をちゃんと覚えています。その丁寧さが、あとから伝わるタイプです。\n\n思いついたことは、少し早めに口にしても大丈夫。\n\nうまみを全部、内側にしまわなくていい。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "小さな違いも、味になる。",
+          "よく聞いてから、一言。",
+          "気づいたことは、出してみる。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "quattroFormaggi",
+          "reason": "マッシュルームの観察と、クアトロフォルマッジのこだわり。小さな違いの話で、一晩過ごせそうです。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "マッシュルームが理由を調べている間に、ペパロニは試し始めます。考える時間と試す時間を分けるとよさそう。"
         }
       },
-      "type05": {
-        "displayName": "",
-        "visualKey": "",
+      "seafood": {
+        "displayName": "シーフード",
+        "visualKey": "pizza-seafood",
         "variations": {
           "a": {
-            "body": ""
+            "body": "違う意見を聞いて、ひとつの形にまとめられる人。\n\n自分だけで全部やるより、それぞれの得意を組み合わせたいと思っています。\n\n気づけば連絡係になっていることも。\n\nエビもイカもまとめますが、注文まで全部背負わなくて大丈夫です。"
           },
           "b": {
-            "body": ""
+            "body": "誰と誰が組むと進みそうか、自然に考えるタイプ。\n\n一人の正解より、みんなで動ける案を見つけるのが得意です。\n\nただ、全員の希望をのせると、少し重くなることもあります。\n\n生地の広さには限りがあります。あなたの予定にも。"
           },
           "c": {
-            "body": ""
+            "body": "話が散らかってくると、「つまり、こうしようか」とまとめたくなる人。\n\n人の良さを残しながら、次の一歩を作ります。場が動き始めると、ちょっとうれしい。\n\nその調整力は頼りになります。\n\nたまには自分の好きな具も、ちゃんと入れてください。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "違いは、組み合わせてみる。",
+          "まとめ役も、一切れどうぞ。",
+          "みんなの案を、動く形に。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "シーフードが段取りを整えると、ペパロニがすぐ動く。相談が相談のままで終わりにくい二人です。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "marinara",
+          "reason": "シーフードはみんなの案を入れたい。マリナーラは絞りたい。具を増やす前に、今回の目的を確認すると楽です。"
         }
       },
-      "type06": {
-        "displayName": "",
-        "visualKey": "",
+      "hawaiian": {
+        "displayName": "ハワイアン",
+        "visualKey": "pizza-hawaiian",
         "variations": {
           "a": {
-            "body": ""
+            "body": "「それとそれ、合わせるの？」と言われると、少し試したくなる人。\n\nいつもの組み合わせから外れることに、面白さを感じます。意外とよかった、を見つけるのが得意です。\n\nもちろん、全員が好きとは限りません。\n\nまず自分の一切れで試すと、食卓が平和です。"
           },
           "b": {
-            "body": ""
+            "body": "決まった二択に、ひょいと別の案を持ってくるタイプ。\n\n変わったことをしたいというより、他にも面白い道が見えているのかもしれません。\n\nその発想で、止まっていた話が動くことも。\n\nただし、新しい具の説明は、のせる前にお願いします。"
           },
           "c": {
-            "body": ""
+            "body": "いつもと違う道、知らない店、ちょっと妙な組み合わせ。\n\n小さな違いを試すと、気分が動く人です。大きな冒険でなくても、毎日に新鮮さを足せます。\n\n合わなかったら、次は戻せばいい。\n\nパイナップル一つに、人生全部を賭けてはいません。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "意外と合う、を探したい。",
+          "まずは、自分の一切れで。",
+          "いつもに、小さな別案を。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "ハワイアンの「これどう？」に、ペパロニが「やってみよう」。試食までの距離が短い組み合わせです。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "margherita",
+          "reason": "ハワイアンは少し変えたい。マルゲリータは今の良さを残したい。半分ずつにすると、お互いの楽しみが残ります。"
         }
       },
-      "type07": {
-        "displayName": "",
-        "visualKey": "",
+      "veggie": {
+        "displayName": "ベジー",
+        "visualKey": "pizza-veggie",
         "variations": {
           "a": {
-            "body": ""
+            "body": "みんなが楽しんでいるか、つい目が向く人。\n\n大きな声で仕切るより、困っていそうな人にそっと声をかけます。そのひと手間で、場が過ごしやすくなることがあります。\n\nただし、自分の希望まで小さくしなくて大丈夫。\n\nあなたの分のピーマンも、ちゃんと席があります。"
           },
           "b": {
-            "body": ""
+            "body": "言われる前に、ちょっとした不便に気づくタイプ。\n\n足りないものを持ってくる、話に入りやすくする。助け方がさりげないので、気づかれないこともあります。\n\nでも、全部を引き受ける必要はありません。\n\n彩り担当は、食卓の全業務担当ではないのです。"
           },
           "c": {
-            "body": ""
+            "body": "一緒にいる人が、無理をしなくていいことを大事にする人。\n\n好みが違っても、それぞれの居場所を残したいと思っています。\n\nやさしいぶん、相談されることが増える日も。\n\n自分にも「今日はここまで」を出してください。野菜だって、休む畑が必要です。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "自分の分も、忘れずに。",
+          "気づかいは、小さくても届く。",
+          "みんなの中に、自分も入れる。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "margherita",
+          "reason": "ベジーの気づかいを、マルゲリータが安定したペースで受け止める。どちらか一人が頑張りすぎずに済みそうです。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "ベジーはみんなの様子を見たい。ペパロニは今すぐ出発したい。ひと呼吸待ってもらうと、一緒に進みやすくなります。"
         }
       },
-      "type08": {
-        "displayName": "",
-        "visualKey": "",
+      "marinara": {
+        "displayName": "マリナーラ",
+        "visualKey": "pizza-marinara",
         "variations": {
           "a": {
-            "body": ""
+            "body": "何かを足す前に、「本当に必要？」と考える人。\n\n大事なものが見えると、それ以外を軽くできます。少ないから寂しいのではなく、これで十分だと分かっています。\n\nトマトとにんにくで、もう満足。\n\nチーズを忘れたわけではありません。"
           },
           "b": {
-            "body": ""
+            "body": "複雑になった話から、要点を取り出すのが得意なタイプ。\n\n決めることが一つになれば、すっと動けます。\n\nただ、短く伝えすぎると、相手が理由を探すことも。\n\n具は控えめでも、説明を一さじ足すと親切です。"
           },
           "c": {
-            "body": ""
+            "body": "予定にも持ち物にも、余白を残したい人。\n\n全部を持つより、自分に必要なものを選んで身軽でいたいと思っています。\n\n人の誘いを断る日があっても、嫌いになったわけではありません。\n\n生地が見えているのも、ちゃんと完成形です。"
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "足さない選択も、ある。",
+          "大事なものが、見える余白を。",
+          "これで十分、を自分で決める。"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "mushroom",
+          "reason": "マリナーラが要点を絞り、マッシュルームが理由を確かめる。少ない材料でも、納得のいく仕上がりになります。"
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "quattroFormaggi",
+          "reason": "マリナーラはここで十分。クアトロフォルマッジはもう一種類。お互いの「ちょうどいい」を別々に持つと楽です。"
         }
       }
     },
     "en": {
-      "type01": {
-        "displayName": "",
-        "visualKey": "",
+      "margherita": {
+        "displayName": "Margherita",
+        "visualKey": "pizza-margherita",
         "variations": {
           "a": {
-            "body": ""
+            "body": "You do not make a big production of things, but you follow through.\n\nWhen everyone is undecided, you get the basics in place. It may feel ordinary to you; it is quite a relief to everyone else.\n\nTomato, cheese, basil. You can stop there when the foundations are good."
           },
           "b": {
-            "body": ""
+            "body": "You are interested in new things, but would rather keep what works than change everything at once.\n\nThat care helps people feel secure.\n\nIt is fine to stray from the usual sometimes. Even Margherita had to be ordered for the first time."
           },
           "c": {
-            "body": ""
+            "body": "When you find people or places you like, you want them in your life for a while.\n\nA comfortable return matters more than a spectacular one-off.\n\nSomeone says, “This again?” You say, “This again!”\n\nThere is no hesitation in your usual order."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Good basics keep their appeal.",
+          "There is a reason for the usual.",
+          "Dependability has its own flavor."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "veggie",
+          "reason": "Margherita provides a steady base while Veggie checks on everyone. It makes for a comfortable table."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "hawaiian",
+          "reason": "Margherita wants familiar comfort; Hawaiian wants an unexpected combination. Allow a little time to agree on the order."
         }
       },
-      "type02": {
-        "displayName": "",
-        "visualKey": "",
+      "pepperoni": {
+        "displayName": "Pepperoni",
+        "visualKey": "pizza-pepperoni",
         "variations": {
           "a": {
-            "body": ""
+            "body": "If too much thinking means letting things go cold, you would rather take the first bite.\n\nYou start small and adjust as you go. When you move, others find it easier to join in.\n\nNot everyone is at the same temperature, though.\n\nA quick heads-up before setting off helps keep the group together."
           },
           "b": {
-            "body": ""
+            "body": "When “Will someone do it?” hangs in the air, you can raise your hand.\n\nYou do not need perfect preparation to give something a try. Even a failed attempt is useful if it reveals a next step.\n\nWith that momentum, breaks can slip your mind.\n\nEven an oven has an off switch."
           },
           "c": {
-            "body": ""
+            "body": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Plans are best once everyone has answered."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "One step first. Then work out the next.",
+          "Try a little while the idea is hot.",
+          "Momentum needs breaks too."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "seafood",
+          "reason": "Seafood turns Pepperoni’s first step into a group plan. A starter and an organizer can get moving quickly."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "mushroom",
+          "reason": "Pepperoni wants to try; Mushroom wants to understand. Agreeing on some checking time before starting helps."
         }
       },
-      "type03": {
-        "displayName": "",
-        "visualKey": "",
+      "quattroFormaggi": {
+        "displayName": "Quattro Formaggi",
+        "visualKey": "pizza-quattro-formaggi",
         "variations": {
           "a": {
-            "body": ""
+            "body": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. On some days, not in your book."
           },
           "b": {
-            "body": ""
+            "body": "You do not like leaving an important detail at “close enough.”\n\nYou would rather take time to adjust it and feel satisfied before sharing it.\n\nSometimes, though, the other person was only asking for a quick answer.\n\nServe the rich explanation one slice at a time."
           },
           "c": {
-            "body": ""
+            "body": "You would rather go deep with something you love than skim lots of things.\n\nEach return reveals a detail you missed. Instead of getting bored, you find more to talk about.\n\nThat is a lovely quality.\n\nJust check occasionally whether your listener is full."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Reasons to love it keep adding up.",
+          "Keep the important parts rich.",
+          "Rich stories, one slice at a time."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "mushroom",
+          "reason": "Mushroom asks about the details Quattro Formaggi cares about. Even after a long explanation, there is another question."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "marinara",
+          "reason": "Quattro Formaggi wants one more refinement; Marinara has enough. Agree in advance on what finished looks like."
         }
       },
-      "type04": {
-        "displayName": "",
-        "visualKey": "",
+      "mushroom": {
+        "displayName": "Mushroom",
+        "visualKey": "pizza-mushroom",
         "variations": {
           "a": {
-            "body": ""
+            "body": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. Being quiet does not mean your mind is empty.\n\nQuite the opposite, usually.\n\nFlavor is not measured by how loudly a topping announces itself."
           },
           "b": {
-            "body": ""
+            "body": "You find it hard to leave a “why?” unexplored.\n\nFollowing the reasons can uncover something everyone else missed.\n\nOf course, one answer sometimes opens three more questions.\n\nIt is fine to stop at “enough for now” before the pizza goes cold."
           },
           "c": {
-            "body": ""
+            "body": "You want to hear someone out before finding the right thing to say.\n\nYou may not reply instantly, but you remember what they said. People often appreciate that care a little later.\n\nIt is also fine to share a thought before it is perfectly ready.\n\nYou do not have to keep all the flavor inside."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Small differences add flavor.",
+          "Listen well, then speak.",
+          "Share what you notice."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "quattroFormaggi",
+          "reason": "Mushroom notices details; Quattro Formaggi cares deeply about them. One tiny difference could keep the conversation going all evening."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "While Mushroom studies the reason, Pepperoni is already trying it. Separate time for thinking and testing may help."
         }
       },
-      "type05": {
-        "displayName": "",
-        "visualKey": "",
+      "seafood": {
+        "displayName": "Seafood",
+        "visualKey": "pizza-seafood",
         "variations": {
           "a": {
-            "body": ""
+            "body": "You can hear different opinions and turn them into a workable whole.\n\nRather than doing everything yourself, you like bringing people’s strengths together.\n\nSomehow, you often become the person coordinating messages.\n\nYou can bring shrimp and squid together without taking responsibility for the entire order."
           },
           "b": {
-            "body": ""
+            "body": "You naturally think about who could work well together.\n\nFinding a plan people can act on matters more than having the one perfect answer yourself.\n\nBut piling on every wish can make things heavy.\n\nA pizza base has limits. So does your schedule."
           },
           "c": {
-            "body": ""
+            "body": "When a conversation gets scattered, you want to say, “So, shall we do this?”\n\nYou keep the useful parts of different ideas and make a next step. It feels good when things start moving.\n\nPeople can rely on that ability.\n\nRemember to include a topping you like too."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Try putting the differences together.",
+          "The organizer gets a slice too.",
+          "Turn shared ideas into a workable plan."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "Seafood gets the plan together and Pepperoni gets it started. Their discussions tend to become actions."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "marinara",
+          "reason": "Seafood wants to include everyone’s ideas; Marinara wants fewer. Agree on the purpose before adding more toppings."
         }
       },
-      "type06": {
-        "displayName": "",
-        "visualKey": "",
+      "hawaiian": {
+        "displayName": "Hawaiian",
+        "visualKey": "pizza-hawaiian",
         "variations": {
           "a": {
-            "body": ""
+            "body": "“You would put those together?” makes you a little curious.\n\nYou enjoy stepping outside familiar combinations and finding something unexpectedly good.\n\nOf course, not everyone will love it.\n\nTrying it on your own slice first keeps the table peaceful."
           },
           "b": {
-            "body": ""
+            "body": "Given two fixed options, you sometimes bring in a third.\n\nYou may not be trying to be different; you can simply see another interesting route.\n\nThat idea can get a stuck conversation moving.\n\nJust explain the new topping before putting it on everyone’s pizza."
           },
           "c": {
-            "body": ""
+            "body": "A different route, an unfamiliar shop, a slightly odd combination.\n\nSmall experiments lift your mood. You do not need a grand adventure to make a day feel fresh.\n\nIf it does not suit you, you can go back next time.\n\nYou have not bet your whole life on one piece of pineapple."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Look for the unexpected match.",
+          "Try it on your own slice first.",
+          "Give the usual a small alternative."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "Hawaiian asks, “What about this?” Pepperoni says, “Let us try.” The tasting happens quickly."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "margherita",
+          "reason": "Hawaiian wants a change; Margherita wants to keep what works. Going half-and-half leaves room for both."
         }
       },
-      "type07": {
-        "displayName": "",
-        "visualKey": "",
+      "veggie": {
+        "displayName": "Veggie",
+        "visualKey": "pizza-veggie",
         "variations": {
           "a": {
-            "body": ""
+            "body": "You tend to notice whether everyone is enjoying themselves.\n\nRather than taking over, you quietly check on someone who seems stuck. That small gesture can make the whole group more comfortable.\n\nYou do not have to shrink your own wishes, though.\n\nThere is room for your bell pepper on this pizza too."
           },
           "b": {
-            "body": ""
+            "body": "You often spot a small inconvenience before anyone mentions it.\n\nYou bring what is missing or help someone join the conversation. Your help can be so subtle it goes unnoticed.\n\nStill, you do not have to take on everything.\n\nAdding color to the table is not the same as running the whole restaurant."
           },
           "c": {
-            "body": ""
+            "body": "You care about people being comfortable enough to be themselves.\n\nEven with different preferences, you want everyone to have a place.\n\nThat kindness can bring quite a few requests your way.\n\nLet yourself say, “That is enough for today.” Even a vegetable patch needs a rest."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Remember your own portion.",
+          "Small acts of care still reach people.",
+          "Include yourself in “everyone.”"
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "margherita",
+          "reason": "Margherita’s steady pace supports Veggie’s care. Neither needs to do all the work alone."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "pepperoni",
+          "reason": "Veggie wants to check on everyone; Pepperoni wants to leave now. A short pause makes it easier to move together."
         }
       },
-      "type08": {
-        "displayName": "",
-        "visualKey": "",
+      "marinara": {
+        "displayName": "Marinara",
+        "visualKey": "pizza-marinara",
         "variations": {
           "a": {
-            "body": ""
+            "body": "Before adding something, you ask whether it is needed.\n\nOnce you know what matters, you can let other things go. Having less does not feel empty when you know it is enough.\n\nTomato and garlic already make you happy.\n\nYou did not forget the cheese."
           },
           "b": {
-            "body": ""
+            "body": "You are good at pulling the main point out of a complicated discussion.\n\nOnce there is one clear decision, you can move.\n\nBeing too brief can leave someone searching for your reasoning, though.\n\nA light topping and an extra spoonful of explanation can work well together."
           },
           "c": {
-            "body": ""
+            "body": "You like leaving space in your schedule and your bag.\n\nRather than carrying everything, you choose what matters and stay light.\n\nTurning down an invitation does not mean you have stopped liking someone.\n\nA pizza with some base showing can still be complete."
           }
         },
         "mottos": [
-          "",
-          "",
-          ""
+          "Leaving it out is an option.",
+          "Leave room to see what matters.",
+          "Decide what enough means to you."
         ],
         "good": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "mushroom",
+          "reason": "Marinara narrows the focus and Mushroom checks the reasoning. A few ingredients can still make a satisfying result."
         },
         "bad": {
-          "typeId": "",
-          "reason": ""
+          "typeId": "quattroFormaggi",
+          "reason": "Marinara has enough; Quattro Formaggi wants one more cheese. It helps to let each person have their own idea of just right."
         }
       }
+    }
+  },
+  "authorship": {
+    "version": "1.1",
+    "date": "2026-10-16",
+    "scope": "Owner-authorized new Pizza manuscript under dot1 oversight; generated by Codex for independent QA and owner Preview review. Not a recovered historical manuscript.",
+    "approval": "Authoring and original asset reuse authorized; final iPhone/Production approval not granted."
+  },
+  "home": {
+    "id": "pizza",
+    "icon": {
+      "emoji": "🍕",
+      "label": {
+        "ja": "ピザ",
+        "en": "Pizza"
+      }
+    },
+    "cardTitle": {
+      "ja": {
+        "line1": "ピザ",
+        "line2": "タイプ診断"
+      },
+      "en": {
+        "line1": "Pizza",
+        "line2": "Type"
+      }
+    },
+    "description": {
+      "ja": "もしあなたがピザだったら？",
+      "en": "What if you were a pizza?"
+    },
+    "accessibleLabel": {
+      "ja": "ピザタイプ診断を始める",
+      "en": "Start the Pizza Type quiz"
     }
   }
 }

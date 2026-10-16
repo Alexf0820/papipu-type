@@ -317,3 +317,68 @@ export function HammerBody({ face }: CharacterBodyProps) {
     </BodySvg>
   );
 }
+
+// Pizza originals are preserved byte-for-byte; faces use the shared overlay.
+export function PizzaMargheritaBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 392) scale(0.58)">
+      <image href="/characters/pizza-margherita.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaPepperoniBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 394) scale(0.58)">
+      <image href="/characters/pizza-pepperoni.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaQuattroFormaggiBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(255 391) scale(0.58)">
+      <image href="/characters/pizza-quattro-formaggi.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaMushroomBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 393) scale(0.58)">
+      <image href="/characters/pizza-mushroom.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaSeafoodBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 394) scale(0.58)">
+      <image href="/characters/pizza-seafood.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaHawaiianBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 392) scale(0.58)">
+      <image href="/characters/pizza-hawaiian.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaVeggieBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 393) scale(0.58)">
+      <image href="/characters/pizza-veggie.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}
+
+export function PizzaMarinaraBody({ face }: CharacterBodyProps) {
+  return (
+    <BodySvg face={face} faceTransform="translate(256 392) scale(0.58)">
+      <image href="/characters/pizza-marinara.png" x={0} y={0} width={512} height={512} preserveAspectRatio="xMidYMid meet" />
+    </BodySvg>
+  );
+}

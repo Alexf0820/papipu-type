@@ -10,7 +10,8 @@ import { getQuiz } from "@/lib/type-engine/registry";
 
 describe("home page content", () => {
   it("lists all released quizzes with locale copy for both languages", () => {
-    expect(HOME_QUIZZES).toHaveLength(5);
+    expect(HOME_QUIZZES).toHaveLength(6);
+    expect(HOME_QUIZZES[5]?.id).toBe("pizza");
     expect(HOME_QUIZZES[0]?.id).toBe(CAMP_GEAR_QUIZ_ID);
     expect(HOME_QUIZZES[1]?.id).toBe(SPAGHETTI_QUIZ_ID);
     expect(HOME_QUIZZES[2]?.id).toBe(SUSHI_QUIZ_ID);

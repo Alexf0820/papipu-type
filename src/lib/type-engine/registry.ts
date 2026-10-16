@@ -1,3 +1,7 @@
+import { PIZZA_QUIZ_ID } from "@/data/quizzes/pizza/definition";
+import { pizzaQuizJa } from "@/data/quizzes/pizza/ja";
+import { pizzaQuizEn } from "@/data/quizzes/pizza/en";
+import { getPizzaResultContent } from "@/data/quizzes/pizza/results";
 import { CAMP_GEAR_QUIZ_ID } from "@/data/quizzes/camp-gear/definition";
 import { campGearQuizEn } from "@/data/quizzes/camp-gear/en";
 import { campGearQuizJa } from "@/data/quizzes/camp-gear/ja";
@@ -39,6 +43,7 @@ const QUIZZES: Record<string, Partial<Record<Locale, Quiz>>> = {
   [SUSHI_QUIZ_ID]: { ja: sushiQuizJa, en: sushiQuizEn },
   [ICE_CREAM_QUIZ_ID]: { ja: iceCreamQuizJa, en: iceCreamQuizEn },
   [DONUT_QUIZ_ID]: { ja: donutQuizJa, en: donutQuizEn },
+  [PIZZA_QUIZ_ID]: { ja: pizzaQuizJa, en: pizzaQuizEn },
 };
 
 const RESULT_CONTENT: Record<
@@ -56,6 +61,7 @@ const RESULT_CONTENT: Record<
   [SUSHI_QUIZ_ID]: { ja: getSushiResultContent("ja"), en: getSushiResultContent("en") },
   [ICE_CREAM_QUIZ_ID]: { ja: getIceCreamResultContent("ja"), en: getIceCreamResultContent("en") },
   [DONUT_QUIZ_ID]: { ja: getDonutResultContent("ja"), en: getDonutResultContent("en") },
+  [PIZZA_QUIZ_ID]: { ja: getPizzaResultContent("ja"), en: getPizzaResultContent("en") },
 };
 
 export function getQuiz(quizId: string, locale: Locale): Quiz | undefined {

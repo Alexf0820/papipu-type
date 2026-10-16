@@ -1,0 +1,1220 @@
+{
+  "execution": "Node runtime, not browser or Safari",
+  "quizzes": {
+    "pizza": {
+      "runs": 10000,
+      "parityFailures": 0,
+      "variations": {
+        "margherita": {
+          "a": 405,
+          "b": 437,
+          "c": 427
+        },
+        "pepperoni": {
+          "a": 392,
+          "b": 428,
+          "c": 436
+        },
+        "quattroFormaggi": {
+          "a": 404,
+          "b": 429,
+          "c": 402
+        },
+        "mushroom": {
+          "a": 419,
+          "b": 410,
+          "c": 405
+        },
+        "seafood": {
+          "a": 430,
+          "b": 454,
+          "c": 378
+        },
+        "hawaiian": {
+          "a": 393,
+          "b": 447,
+          "c": 430
+        },
+        "veggie": {
+          "a": 400,
+          "b": 414,
+          "c": 451
+        },
+        "marinara": {
+          "a": 385,
+          "b": 419,
+          "c": 405
+        }
+      }
+    },
+    "camp-gear": {
+      "runs": 1000,
+      "parityFailures": 0,
+      "variations": {
+        "peg": {
+          "a": 44,
+          "b": 41,
+          "c": 35
+        },
+        "tent": {
+          "a": 44,
+          "b": 31,
+          "c": 47
+        },
+        "lantern": {
+          "a": 57,
+          "b": 59,
+          "c": 49
+        },
+        "chair": {
+          "a": 36,
+          "b": 29,
+          "c": 32
+        },
+        "firePit": {
+          "a": 42,
+          "b": 55,
+          "c": 41
+        },
+        "sleepingBag": {
+          "a": 43,
+          "b": 41,
+          "c": 43
+        },
+        "knife": {
+          "a": 30,
+          "b": 28,
+          "c": 46
+        },
+        "hammer": {
+          "a": 38,
+          "b": 42,
+          "c": 47
+        }
+      }
+    },
+    "spaghetti": {
+      "runs": 1000,
+      "parityFailures": 0,
+      "variations": {
+        "carbonara": {
+          "a": 45,
+          "b": 45,
+          "c": 45
+        },
+        "bolognese": {
+          "a": 47,
+          "b": 50,
+          "c": 45
+        },
+        "aglioOlio": {
+          "a": 29,
+          "b": 50,
+          "c": 41
+        },
+        "pesto": {
+          "a": 43,
+          "b": 49,
+          "c": 40
+        },
+        "arrabbiata": {
+          "a": 50,
+          "b": 45,
+          "c": 40
+        },
+        "seafood": {
+          "a": 26,
+          "b": 40,
+          "c": 43
+        },
+        "mushroom": {
+          "a": 49,
+          "b": 42,
+          "c": 33
+        },
+        "squidInk": {
+          "a": 38,
+          "b": 29,
+          "c": 36
+        }
+      }
+    },
+    "sushi": {
+      "runs": 1000,
+      "parityFailures": 0,
+      "variations": {
+        "tuna": {
+          "a": 42,
+          "b": 44,
+          "c": 54
+        },
+        "salmon": {
+          "a": 58,
+          "b": 46,
+          "c": 48
+        },
+        "shrimp": {
+          "a": 47,
+          "b": 42,
+          "c": 42
+        },
+        "egg": {
+          "a": 34,
+          "b": 44,
+          "c": 46
+        },
+        "salmonRoe": {
+          "a": 50,
+          "b": 45,
+          "c": 53
+        },
+        "eel": {
+          "a": 30,
+          "b": 18,
+          "c": 32
+        },
+        "sushiRoll": {
+          "a": 31,
+          "b": 41,
+          "c": 28
+        },
+        "squid": {
+          "a": 34,
+          "b": 45,
+          "c": 46
+        }
+      }
+    },
+    "ice-cream": {
+      "runs": 1000,
+      "parityFailures": 0,
+      "variations": {
+        "vanilla": {
+          "a": 42,
+          "b": 40,
+          "c": 53
+        },
+        "chocolate": {
+          "a": 45,
+          "b": 42,
+          "c": 31
+        },
+        "strawberry": {
+          "a": 38,
+          "b": 43,
+          "c": 41
+        },
+        "matcha": {
+          "a": 33,
+          "b": 47,
+          "c": 38
+        },
+        "cookiesCream": {
+          "a": 41,
+          "b": 49,
+          "c": 34
+        },
+        "caramel": {
+          "a": 38,
+          "b": 33,
+          "c": 36
+        },
+        "rainbow": {
+          "a": 44,
+          "b": 53,
+          "c": 49
+        },
+        "sorbet": {
+          "a": 40,
+          "b": 41,
+          "c": 49
+        }
+      }
+    },
+    "donut": {
+      "runs": 1000,
+      "parityFailures": 0,
+      "variations": {
+        "glazed": {
+          "a": 45,
+          "b": 42,
+          "c": 56
+        },
+        "chocolate": {
+          "a": 49,
+          "b": 35,
+          "c": 34
+        },
+        "strawberry": {
+          "a": 46,
+          "b": 36,
+          "c": 42
+        },
+        "oldFashioned": {
+          "a": 41,
+          "b": 42,
+          "c": 36
+        },
+        "sprinkle": {
+          "a": 41,
+          "b": 35,
+          "c": 40
+        },
+        "creamFilled": {
+          "a": 38,
+          "b": 46,
+          "c": 31
+        },
+        "cinnamon": {
+          "a": 36,
+          "b": 55,
+          "c": 40
+        },
+        "mochi": {
+          "a": 50,
+          "b": 49,
+          "c": 35
+        }
+      }
+    }
+  },
+  "pizzaReproducibleExamples": {
+    "veggie:b": [
+      {
+        "questionId": "q10",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q29",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q13",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q24",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q02",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q26",
+        "choiceId": "b"
+      }
+    ],
+    "quattroFormaggi:b": [
+      {
+        "questionId": "q16",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q23",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q03",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q32",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q27",
+        "choiceId": "c"
+      }
+    ],
+    "mushroom:c": [
+      {
+        "questionId": "q31",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q04",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q21",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q18",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q16",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q25",
+        "choiceId": "b"
+      }
+    ],
+    "seafood:b": [
+      {
+        "questionId": "q22",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q06",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q19",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q26",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q32",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q16",
+        "choiceId": "a"
+      }
+    ],
+    "pepperoni:c": [
+      {
+        "questionId": "q10",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q22",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q25",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q13",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q29",
+        "choiceId": "a"
+      }
+    ],
+    "hawaiian:c": [
+      {
+        "questionId": "q17",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q25",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q29",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q22",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q14",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q08",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "d"
+      }
+    ],
+    "marinara:c": [
+      {
+        "questionId": "q16",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q30",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q06",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q18",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q27",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q24",
+        "choiceId": "b"
+      }
+    ],
+    "pepperoni:a": [
+      {
+        "questionId": "q29",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q16",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q27",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q21",
+        "choiceId": "c"
+      }
+    ],
+    "quattroFormaggi:a": [
+      {
+        "questionId": "q27",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q29",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q15",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q24",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q04",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "c"
+      }
+    ],
+    "hawaiian:a": [
+      {
+        "questionId": "q19",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q14",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q28",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q08",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q23",
+        "choiceId": "a"
+      }
+    ],
+    "marinara:b": [
+      {
+        "questionId": "q16",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q06",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q21",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q30",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q03",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q28",
+        "choiceId": "c"
+      }
+    ],
+    "marinara:a": [
+      {
+        "questionId": "q25",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q20",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q15",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q22",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q08",
+        "choiceId": "d"
+      }
+    ],
+    "mushroom:b": [
+      {
+        "questionId": "q25",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q16",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q23",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q02",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q19",
+        "choiceId": "d"
+      }
+    ],
+    "mushroom:a": [
+      {
+        "questionId": "q09",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q26",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q03",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q22",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q14",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "b"
+      }
+    ],
+    "margherita:b": [
+      {
+        "questionId": "q17",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q02",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q28",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q23",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q29",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q16",
+        "choiceId": "b"
+      }
+    ],
+    "seafood:c": [
+      {
+        "questionId": "q12",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q18",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q25",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q14",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q04",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q22",
+        "choiceId": "d"
+      }
+    ],
+    "hawaiian:b": [
+      {
+        "questionId": "q04",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q26",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q08",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q16",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q10",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q18",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q21",
+        "choiceId": "c"
+      }
+    ],
+    "seafood:a": [
+      {
+        "questionId": "q24",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q13",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q02",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q26",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "c"
+      }
+    ],
+    "margherita:c": [
+      {
+        "questionId": "q24",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q03",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q25",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q13",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q30",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "a"
+      }
+    ],
+    "veggie:c": [
+      {
+        "questionId": "q01",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q06",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q12",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q26",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q14",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q31",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q20",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q23",
+        "choiceId": "d"
+      }
+    ],
+    "quattroFormaggi:c": [
+      {
+        "questionId": "q14",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q21",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q03",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q32",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q20",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q27",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q09",
+        "choiceId": "a"
+      }
+    ],
+    "pepperoni:b": [
+      {
+        "questionId": "q22",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q05",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q28",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q13",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q17",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q11",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q30",
+        "choiceId": "c"
+      }
+    ],
+    "veggie:a": [
+      {
+        "questionId": "q10",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q28",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q22",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q18",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q15",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q03",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q29",
+        "choiceId": "a"
+      },
+      {
+        "questionId": "q08",
+        "choiceId": "a"
+      }
+    ],
+    "margherita:a": [
+      {
+        "questionId": "q23",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q13",
+        "choiceId": "b"
+      },
+      {
+        "questionId": "q30",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q07",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q25",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q20",
+        "choiceId": "d"
+      },
+      {
+        "questionId": "q11",
+        "choiceId": "c"
+      },
+      {
+        "questionId": "q01",
+        "choiceId": "c"
+      }
+    ]
+  },
+  "handoffSha256": "9f0bab91308e99fa540e87023af33eed214b59b9e5a990d1471175b0c11e0681",
+  "scoringSha256": "2e5fd98e5586febeeded3ab986fe02b7b14b3cca195a198d196a52614a8c7c4c",
+  "assignmentCounts": {
+    "margherita": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "pepperoni": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "quattroFormaggi": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "mushroom": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "seafood": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "hawaiian": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "veggie": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "marinara": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    }
+  },
+  "preservation": {
+    "baseline": "e27bb076d4406856630f7b1d32100e043f059156",
+    "checkedFiles": 114,
+    "mismatches": []
+  }
+}

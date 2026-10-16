@@ -37,7 +37,15 @@ export type VisualKey =
   | "donut-sprinkle"
   | "donut-cream-filled"
   | "donut-cinnamon"
-  | "donut-mochi";
+  | "donut-mochi"
+  | "pizza-margherita"
+  | "pizza-pepperoni"
+  | "pizza-quattro-formaggi"
+  | "pizza-mushroom"
+  | "pizza-seafood"
+  | "pizza-hawaiian"
+  | "pizza-veggie"
+  | "pizza-marinara";
 
 export type VisualDefinition = {
   /** SVG body today; WebP or animated SVG can replace this later. */

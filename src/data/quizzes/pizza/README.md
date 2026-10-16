@@ -1,3 +1,5 @@
+> **2026-10-16 v1.1 update:** The owner explicitly authorized new Pizza content and reuse of the eight preserved originals. The populated `content/handoff.json` is now imported and integrated on the feature branch. The historical blank-content hold below is superseded only for authoring/integration. Preview/browser/face approval remains blocked; see `docs/pizza-type/verification-v1.1/summary.json`. No Production approval.
+
 # pizza Quiz Content Checklist
 
 This scaffold intentionally contains no authored quiz content. Replace every placeholder only with approved content.

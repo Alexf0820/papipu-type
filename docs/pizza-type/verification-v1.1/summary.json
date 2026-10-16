@@ -1,0 +1,396 @@
+{
+  "version": "1.1",
+  "status": "PRESERVED_STOP_NOT_PREVIEW_APPROVED",
+  "handoffSha256": "9f0bab91308e99fa540e87023af33eed214b59b9e5a990d1471175b0c11e0681",
+  "quality": {
+    "structure": "Existing Scaffold validator errors=0; eight types/traits, 32 questions/128 choices; complete bilingual copy, 24 result bodies per locale, 24 mottos per locale, Home copy.",
+    "editorial": "Independent reviewer rechecked 49 refinements against revision record; no major contradiction or translation reversal found. Existing five-quiz tone reviewed. Long-choice browser wrapping remains unverified.",
+    "scoring": "Shared Main +3 / Secondary +1 unchanged. Main-to-Secondary fixed eight-pair pattern matches existing donut/ice-cream structure. Each type Main16/Secondary16 and ABCD4/4/4/4. No statistical rebalancing performed.",
+    "thresholdDecision": "UNDETERMINED: no formal distribution/sensitivity acceptance threshold found. Existing +/-5pp is a reporting flag, not a PASS threshold."
+  },
+  "million": {
+    "runs": 1000000,
+    "distribution": {
+      "margherita": 124816,
+      "pepperoni": 125143,
+      "quattroFormaggi": 124388,
+      "mushroom": 124924,
+      "seafood": 125231,
+      "hawaiian": 125508,
+      "veggie": 124791,
+      "marinara": 125199
+    },
+    "minPercent": 12.4388,
+    "maxPercent": 12.5508,
+    "spreadPp": 0.112,
+    "stages": {
+      "typeAlone": 819799,
+      "mainCount": 31974,
+      "trait": 0,
+      "hash": 148227
+    },
+    "questionDeltaFlagsOver5pp": 0,
+    "localeTypeParity": {
+      "runs": 10000,
+      "failures": 0
+    },
+    "note": "Full default verifier ran on the scoring imported before editorial wording refinements; refinements changed no scoring, IDs, categories or type names. Final-language type+variation parity additionally tested."
+  },
+  "sensitivity": {
+    "A 40%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62885,
+          "percent": 12.577
+        },
+        "pepperoni": {
+          "count": 62474,
+          "percent": 12.495
+        },
+        "quattroFormaggi": {
+          "count": 62369,
+          "percent": 12.474
+        },
+        "mushroom": {
+          "count": 62366,
+          "percent": 12.473
+        },
+        "seafood": {
+          "count": 62633,
+          "percent": 12.527
+        },
+        "hawaiian": {
+          "count": 62465,
+          "percent": 12.493
+        },
+        "veggie": {
+          "count": 62227,
+          "percent": 12.445
+        },
+        "marinara": {
+          "count": 62581,
+          "percent": 12.516
+        }
+      },
+      "spreadPp": 0.132
+    },
+    "B 40%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62675,
+          "percent": 12.535
+        },
+        "pepperoni": {
+          "count": 62322,
+          "percent": 12.464
+        },
+        "quattroFormaggi": {
+          "count": 62280,
+          "percent": 12.456
+        },
+        "mushroom": {
+          "count": 62274,
+          "percent": 12.455
+        },
+        "seafood": {
+          "count": 62917,
+          "percent": 12.583
+        },
+        "hawaiian": {
+          "count": 62479,
+          "percent": 12.496
+        },
+        "veggie": {
+          "count": 62670,
+          "percent": 12.534
+        },
+        "marinara": {
+          "count": 62383,
+          "percent": 12.477
+        }
+      },
+      "spreadPp": 0.129
+    },
+    "C 40%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62896,
+          "percent": 12.579
+        },
+        "pepperoni": {
+          "count": 62621,
+          "percent": 12.524
+        },
+        "quattroFormaggi": {
+          "count": 62255,
+          "percent": 12.451
+        },
+        "mushroom": {
+          "count": 61904,
+          "percent": 12.381
+        },
+        "seafood": {
+          "count": 62925,
+          "percent": 12.585
+        },
+        "hawaiian": {
+          "count": 62268,
+          "percent": 12.454
+        },
+        "veggie": {
+          "count": 62794,
+          "percent": 12.559
+        },
+        "marinara": {
+          "count": 62337,
+          "percent": 12.467
+        }
+      },
+      "spreadPp": 0.204
+    },
+    "D 40%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62497,
+          "percent": 12.499
+        },
+        "pepperoni": {
+          "count": 62706,
+          "percent": 12.541
+        },
+        "quattroFormaggi": {
+          "count": 62412,
+          "percent": 12.482
+        },
+        "mushroom": {
+          "count": 62483,
+          "percent": 12.497
+        },
+        "seafood": {
+          "count": 62674,
+          "percent": 12.535
+        },
+        "hawaiian": {
+          "count": 62193,
+          "percent": 12.439
+        },
+        "veggie": {
+          "count": 62750,
+          "percent": 12.55
+        },
+        "marinara": {
+          "count": 62285,
+          "percent": 12.457
+        }
+      },
+      "spreadPp": 0.111
+    },
+    "A 30%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62286,
+          "percent": 12.457
+        },
+        "pepperoni": {
+          "count": 62304,
+          "percent": 12.461
+        },
+        "quattroFormaggi": {
+          "count": 62876,
+          "percent": 12.575
+        },
+        "mushroom": {
+          "count": 62098,
+          "percent": 12.42
+        },
+        "seafood": {
+          "count": 62646,
+          "percent": 12.529
+        },
+        "hawaiian": {
+          "count": 62536,
+          "percent": 12.507
+        },
+        "veggie": {
+          "count": 62658,
+          "percent": 12.532
+        },
+        "marinara": {
+          "count": 62596,
+          "percent": 12.519
+        }
+      },
+      "spreadPp": 0.156
+    },
+    "B 30%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62974,
+          "percent": 12.595
+        },
+        "pepperoni": {
+          "count": 62663,
+          "percent": 12.533
+        },
+        "quattroFormaggi": {
+          "count": 62011,
+          "percent": 12.402
+        },
+        "mushroom": {
+          "count": 62448,
+          "percent": 12.49
+        },
+        "seafood": {
+          "count": 62606,
+          "percent": 12.521
+        },
+        "hawaiian": {
+          "count": 62488,
+          "percent": 12.498
+        },
+        "veggie": {
+          "count": 62381,
+          "percent": 12.476
+        },
+        "marinara": {
+          "count": 62429,
+          "percent": 12.486
+        }
+      },
+      "spreadPp": 0.193
+    },
+    "C 30%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62593,
+          "percent": 12.519
+        },
+        "pepperoni": {
+          "count": 62474,
+          "percent": 12.495
+        },
+        "quattroFormaggi": {
+          "count": 62477,
+          "percent": 12.495
+        },
+        "mushroom": {
+          "count": 62025,
+          "percent": 12.405
+        },
+        "seafood": {
+          "count": 62857,
+          "percent": 12.571
+        },
+        "hawaiian": {
+          "count": 62704,
+          "percent": 12.541
+        },
+        "veggie": {
+          "count": 62310,
+          "percent": 12.462
+        },
+        "marinara": {
+          "count": 62560,
+          "percent": 12.512
+        }
+      },
+      "spreadPp": 0.166
+    },
+    "D 30%": {
+      "runs": 500000,
+      "distribution": {
+        "margherita": {
+          "count": 62802,
+          "percent": 12.56
+        },
+        "pepperoni": {
+          "count": 62616,
+          "percent": 12.523
+        },
+        "quattroFormaggi": {
+          "count": 62720,
+          "percent": 12.544
+        },
+        "mushroom": {
+          "count": 61800,
+          "percent": 12.36
+        },
+        "seafood": {
+          "count": 62607,
+          "percent": 12.521
+        },
+        "hawaiian": {
+          "count": 62517,
+          "percent": 12.503
+        },
+        "veggie": {
+          "count": 62616,
+          "percent": 12.523
+        },
+        "marinara": {
+          "count": 62322,
+          "percent": 12.464
+        }
+      },
+      "spreadPp": 0.2
+    }
+  },
+  "checks": {
+    "npm test": "109/109",
+    "npm run test:scaffold": "6/6",
+    "npm run lint": "0 errors; 2 preexisting unused OUTLINE/STROKE warnings",
+    "npx next typegen": "exit 0",
+    "npx tsc --noEmit": "exit 0",
+    "npm run validate-quiz -- pizza": "Validation passed",
+    "npm run verify-quiz -- pizza": "exit 0; full output inspected, not overall quality PASS",
+    "git diff --check": "exit 0",
+    "npm run build": "exit 0; JA/EN pizza static routes generated"
+  },
+  "verificationLevels": {
+    "node": "10000 Pizza sessions: all 24 type/variation bodies reached; JAEN type/variation/compatibility parity failures0. Existing five:1000 sessions each, parity failures0.",
+    "originalPixels": "All eight original files inspected; no existing face, limb, text or logo seen. Front crust selected for overlay.",
+    "localBrowser": "NOT RUN: Chromium executable missing; download returned403 Domain forbidden. Installer retried internally before termination request; no manual retry after refusal.",
+    "renderedFaces": "UNVERIFIED: eight per-type faceTransform values provisional until rendered review; originals unchanged.",
+    "preview": "UNVERIFIED: Vercel deployment inspection returned403 scope authorization denied. No fallback, auth change, or deployment creation attempted. Early checkpoint GitHub Vercel status success is not final candidate READY.",
+    "safari": "NOT RUN",
+    "shareTryAgain": "Shared component wiring retained; interaction not browser-tested.",
+    "iPhone": "NOT READY FOR OWNER REVIEW: Preview URL/SHA and visual verification unresolved.",
+    "localHttp": {
+      "ja": 200,
+      "en": 200,
+      "method": "HTTP response only; no browser hydration or interaction verification"
+    }
+  },
+  "stopReasons": [
+    "Browser download access denied403",
+    "Vercel deployment inspection permission denied403"
+  ],
+  "humanRelayRequests": 0,
+  "productionChanged": false,
+  "secretsOrAuthChanged": false,
+  "extraPaidResourcesCreated": false,
+  "independentQa": {
+    "editorial": {
+      "reviewedHandoffSha256": "9f0bab91308e99fa540e87023af33eed214b59b9e5a990d1471175b0c11e0681",
+      "revisionRecordMatches": 49,
+      "majorContradictionsFound": 0,
+      "remaining": "Long EN option wrapping and readability require browser review."
+    },
+    "structural": {
+      "reviewedHandoffSha256": "9f0bab91308e99fa540e87023af33eed214b59b9e5a990d1471175b0c11e0681",
+      "schemaErrors": [],
+      "importedFilesExactlyMatchGeneratedOutput": 5,
+      "independentlyPreservedFiles": 105,
+      "preservationMismatches": 0,
+      "blockingCodeFindings": 0,
+      "statisticalQualityVerdict": "UNDETERMINED; formal thresholds not established"
+    }
+  }
+}

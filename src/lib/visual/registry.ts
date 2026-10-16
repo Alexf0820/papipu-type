@@ -1,4 +1,5 @@
 import {
+  PizzaMargheritaBody, PizzaPepperoniBody, PizzaQuattroFormaggiBody, PizzaMushroomBody, PizzaSeafoodBody, PizzaHawaiianBody, PizzaVeggieBody, PizzaMarinaraBody,
   ChairBody,
   FirePitBody,
   HammerBody,
@@ -62,6 +63,14 @@ const VISUALS: Record<VisualKey, VisualDefinition> = {
   "donut-cream-filled": { Body: DonutCreamFilledBody },
   "donut-cinnamon": { Body: DonutCinnamonBody },
   "donut-mochi": { Body: DonutMochiBody },
+  "pizza-margherita": { Body: PizzaMargheritaBody },
+  "pizza-pepperoni": { Body: PizzaPepperoniBody },
+  "pizza-quattro-formaggi": { Body: PizzaQuattroFormaggiBody },
+  "pizza-mushroom": { Body: PizzaMushroomBody },
+  "pizza-seafood": { Body: PizzaSeafoodBody },
+  "pizza-hawaiian": { Body: PizzaHawaiianBody },
+  "pizza-veggie": { Body: PizzaVeggieBody },
+  "pizza-marinara": { Body: PizzaMarinaraBody },
 };
 
 export function getVisual(key: string): VisualDefinition | undefined {

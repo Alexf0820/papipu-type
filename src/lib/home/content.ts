@@ -144,6 +144,34 @@ export const HOME_QUIZZES: readonly HomeQuizEntry[] = [
     description: { ja: "もしあなたがドーナツだったら？", en: "What if you were a donut?" },
     accessibleLabel: { ja: "ドーナツタイプ診断を始める", en: "Start the Donut Type quiz" },
   },
+  {
+    "id": "pizza",
+    "icon": {
+      "emoji": "🍕",
+      "label": {
+        "ja": "ピザ",
+        "en": "Pizza"
+      }
+    },
+    "cardTitle": {
+      "ja": {
+        "line1": "ピザ",
+        "line2": "タイプ診断"
+      },
+      "en": {
+        "line1": "Pizza",
+        "line2": "Type"
+      }
+    },
+    "description": {
+      "ja": "もしあなたがピザだったら？",
+      "en": "What if you were a pizza?"
+    },
+    "accessibleLabel": {
+      "ja": "ピザタイプ診断を始める",
+      "en": "Start the Pizza Type quiz"
+    }
+  },
 ];
 
 /** Primary quiz linked from the hero main CTA. */

@@ -1,0 +1,745 @@
+{
+  "reason": "Independent editorial QA: clarify existing Secondary meaning; no scoring changes. Owner-authorized new content, not a recovered approved manuscript.",
+  "initialHandoffSha256": "f561c54b7a0485ce74af065b3f928657d864cf3cbc96281731f710ee207a01cc",
+  "choices": [
+    {
+      "choice": "q05d",
+      "before": {
+        "ja": "いつもの手順を確認し、抜けを防ぐ",
+        "en": "Check the usual steps so nothing gets missed"
+      },
+      "after": {
+        "ja": "いつもの手順を確認し、使う人が困る抜けを防ぐ",
+        "en": "Check the usual steps so users are not left with missing pieces"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q09c",
+      "before": {
+        "ja": "あいさつして、落ち着いて話せる場所にいる",
+        "en": "Say hello and settle somewhere easy to talk"
+      },
+      "after": {
+        "ja": "あいさつして、お互い落ち着いて話せる場所にいる",
+        "en": "Say hello and settle somewhere we can both talk comfortably"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q15a",
+      "before": {
+        "ja": "いつ行っても安心して過ごせる",
+        "en": "I know I can relax there every time"
+      },
+      "after": {
+        "ja": "いつ行っても、一緒の人も安心して過ごせる",
+        "en": "Everyone I bring can relax there every time"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q17a",
+      "before": {
+        "ja": "いつもの場所で、ゆっくり過ごす",
+        "en": "Taking it easy at a familiar place"
+      },
+      "after": {
+        "ja": "いつもの場所で、自分にも人にも無理なく過ごす",
+        "en": "Take it easy somewhere familiar, without putting pressure on myself or others"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q19d",
+      "before": {
+        "ja": "慣れた習慣を一つ戻す",
+        "en": "Returning to a familiar routine"
+      },
+      "after": {
+        "ja": "慣れた習慣を戻し、人にも穏やかに接する",
+        "en": "Return to a familiar routine so I can be gentler with others too"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q21d",
+      "before": {
+        "ja": "基本を順番に、確かめながら進む",
+        "en": "Follow the basics in order and check each step"
+      },
+      "after": {
+        "ja": "基本を順番に確かめ、人に迷惑をかけないよう進む",
+        "en": "Check the basics in order so my mistakes do not cause trouble for others"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q25c",
+      "before": {
+        "ja": "基本を確認して、同じことが起きないようにする",
+        "en": "Check the basics so it does not happen again"
+      },
+      "after": {
+        "ja": "基本を確認して、周りが同じことで困らないようにする",
+        "en": "Check the basics so others do not get caught by the same mistake"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q27b",
+      "before": {
+        "ja": "無理のないペースに整えよう",
+        "en": "Let us find a sustainable pace"
+      },
+      "after": {
+        "ja": "みんなに無理のないペースに整えよう",
+        "en": "Let us find a pace that does not strain anyone"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q29b",
+      "before": {
+        "ja": "任せると、安心できる",
+        "en": "I can count on you"
+      },
+      "after": {
+        "ja": "任せると安心。困る人がいないよう見てくれる",
+        "en": "I can count on you to make sure nobody gets stuck"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q31a",
+      "before": {
+        "ja": "調子の悪い日でも、安心して頼れる",
+        "en": "It is dependable even on a rough day"
+      },
+      "after": {
+        "ja": "調子の悪い日でも頼れて、人にも安心して勧められる",
+        "en": "It is dependable on a rough day, and I can recommend it with confidence"
+      },
+      "scoring": {
+        "mainType": "margherita",
+        "secondaryType": "veggie"
+      }
+    },
+    {
+      "choice": "q17b",
+      "before": {
+        "ja": "思いついた用事を、まず一つやる",
+        "en": "Getting started on the first thing that comes to mind"
+      },
+      "after": {
+        "ja": "思いついた、まだ試していないことを一つやる",
+        "en": "Get started on one thing I have thought of but never tried"
+      },
+      "scoring": {
+        "mainType": "pepperoni",
+        "secondaryType": "hawaiian"
+      }
+    },
+    {
+      "choice": "q19a",
+      "before": {
+        "ja": "体を動かして、小さな達成感を作る",
+        "en": "Moving around and getting one small thing done"
+      },
+      "after": {
+        "ja": "いつもと違う運動で、小さな達成感を作る",
+        "en": "Try a different physical activity and enjoy a small win"
+      },
+      "scoring": {
+        "mainType": "pepperoni",
+        "secondaryType": "hawaiian"
+      }
+    },
+    {
+      "choice": "q25d",
+      "before": {
+        "ja": "直せるところから、すぐ手を動かす",
+        "en": "Start fixing what I can right away"
+      },
+      "after": {
+        "ja": "別の直し方も試しながら、すぐ手を動かす",
+        "en": "Start fixing it right away, trying a different approach too"
+      },
+      "scoring": {
+        "mainType": "pepperoni",
+        "secondaryType": "hawaiian"
+      }
+    },
+    {
+      "choice": "q27c",
+      "before": {
+        "ja": "まず一か所、進めて流れを変えよう",
+        "en": "Let us get one part moving and build momentum"
+      },
+      "after": {
+        "ja": "まず新しいやり方で一か所進め、流れを変えよう",
+        "en": "Let us try a new approach on one part and build momentum"
+      },
+      "scoring": {
+        "mainType": "pepperoni",
+        "secondaryType": "hawaiian"
+      }
+    },
+    {
+      "choice": "q29c",
+      "before": {
+        "ja": "あなたがいると、動き出せる",
+        "en": "You help things get started"
+      },
+      "after": {
+        "ja": "面白そうなことを見つけて、すぐ動けるね",
+        "en": "You spot something interesting to try and get started right away"
+      },
+      "scoring": {
+        "mainType": "pepperoni",
+        "secondaryType": "hawaiian"
+      }
+    },
+    {
+      "choice": "q09a",
+      "before": {
+        "ja": "好きな話題が合う人と長く話す",
+        "en": "Have a long chat with someone who shares an interest"
+      },
+      "after": {
+        "ja": "昔から好きな話題が合う人と、じっくり話す",
+        "en": "Have a long chat with someone who shares a longtime interest"
+      },
+      "scoring": {
+        "mainType": "quattroFormaggi",
+        "secondaryType": "margherita"
+      }
+    },
+    {
+      "choice": "q11d",
+      "before": {
+        "ja": "自分の好きなこととの共通点を熱く語る",
+        "en": "Get into how it connects with something I love"
+      },
+      "after": {
+        "ja": "長く続けている好きなこととの共通点を熱く語る",
+        "en": "Get into how it connects with something I have loved for years"
+      },
+      "scoring": {
+        "mainType": "quattroFormaggi",
+        "secondaryType": "margherita"
+      }
+    },
+    {
+      "choice": "q15c",
+      "before": {
+        "ja": "ここにしかない好きなものがある",
+        "en": "It has something I love that I cannot get elsewhere"
+      },
+      "after": {
+        "ja": "ずっと変わらず好きな、ここだけのものがある",
+        "en": "It has something unique that I have loved for years"
+      },
+      "scoring": {
+        "mainType": "quattroFormaggi",
+        "secondaryType": "margherita"
+      }
+    },
+    {
+      "choice": "q23a",
+      "before": {
+        "ja": "大事なコツだけは、じっくり伝えたくなる",
+        "en": "Spend real time on the details I care about"
+      },
+      "after": {
+        "ja": "基本を押さえて、大事なコツをじっくり伝える",
+        "en": "Cover the basics reliably, then take time over the details that matter"
+      },
+      "scoring": {
+        "mainType": "quattroFormaggi",
+        "secondaryType": "margherita"
+      }
+    },
+    {
+      "choice": "q01d",
+      "before": {
+        "ja": "空いた理由を聞いて、次の案をよく考える",
+        "en": "Ask what changed and think the next option through"
+      },
+      "after": {
+        "ja": "空いた理由を聞いて、納得できる次の案を詰める",
+        "en": "Ask what changed and work through the next option until it feels right"
+      },
+      "scoring": {
+        "mainType": "mushroom",
+        "secondaryType": "quattroFormaggi"
+      }
+    },
+    {
+      "choice": "q09b",
+      "before": {
+        "ja": "まず話を聞いて、その場の雰囲気を見る",
+        "en": "Listen first and get a feel for the room"
+      },
+      "after": {
+        "ja": "まずよく聞いて、気になる話は深く聞いてみる",
+        "en": "Listen first, then dig into a topic that catches my interest"
+      },
+      "scoring": {
+        "mainType": "mushroom",
+        "secondaryType": "quattroFormaggi"
+      }
+    },
+    {
+      "choice": "q19c",
+      "before": {
+        "ja": "何が引っかかっているか、書いて整理する",
+        "en": "Writing down what has been bothering me"
+      },
+      "after": {
+        "ja": "引っかかっていることを書き、納得するまで整理する",
+        "en": "Write down what is bothering me and work through it until it makes sense"
+      },
+      "scoring": {
+        "mainType": "mushroom",
+        "secondaryType": "quattroFormaggi"
+      }
+    },
+    {
+      "choice": "q27a",
+      "before": {
+        "ja": "遅れている理由を見つけたい",
+        "en": "I want to understand what is slowing it down"
+      },
+      "after": {
+        "ja": "遅れている理由を、納得するまでたどりたい",
+        "en": "I want to trace what is slowing it down until I understand it properly"
+      },
+      "scoring": {
+        "mainType": "mushroom",
+        "secondaryType": "quattroFormaggi"
+      }
+    },
+    {
+      "choice": "q20d",
+      "before": {
+        "ja": "気の合う人と集まる、段取りのついた時間",
+        "en": "An arranged get-together with people I like"
+      },
+      "after": {
+        "ja": "気の合う人に声をかけ、集まる段取りをつける時間",
+        "en": "Time to reach out to people I like and get a gathering organized"
+      },
+      "scoring": {
+        "mainType": "seafood",
+        "secondaryType": "pepperoni"
+      }
+    },
+    {
+      "choice": "q02b",
+      "before": {
+        "ja": "どれでもない第三案を試してみる",
+        "en": "Try a completely different third option"
+      },
+      "after": {
+        "ja": "条件を減らして、どれでもない第三案を試す",
+        "en": "Drop a few requirements and try a completely different third option"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q04a",
+      "before": {
+        "ja": "近くの知らない施設をのぞいてみる",
+        "en": "Explore an unfamiliar place nearby"
+      },
+      "after": {
+        "ja": "遠出はやめて、近くの知らない施設をのぞく",
+        "en": "Skip the long trip and explore an unfamiliar place nearby"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q10d",
+      "before": {
+        "ja": "ちょっと変わった質問を出す",
+        "en": "Ask a slightly unexpected question"
+      },
+      "after": {
+        "ja": "長い前置きなしに、ちょっと変わった質問を出す",
+        "en": "Ask a slightly unexpected question without a long setup"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q12c",
+      "before": {
+        "ja": "話題が変わるようなネタを持ち込む",
+        "en": "Dropping in something unexpected"
+      },
+      "after": {
+        "ja": "長い説明はいらない、意外なネタを持ち込む",
+        "en": "Drop in something unexpected that needs no long explanation"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q14c",
+      "before": {
+        "ja": "見慣れない道具を一つ試す",
+        "en": "Try an unfamiliar tool"
+      },
+      "after": {
+        "ja": "道具を増やさず、一つで済む新しいものを試す",
+        "en": "Try an unfamiliar tool that replaces several others"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q16b",
+      "before": {
+        "ja": "自分では買わなそうな、意外なもの",
+        "en": "Something unexpected they would not buy for themselves"
+      },
+      "after": {
+        "ja": "意外だけれど、手間のかからないもの",
+        "en": "Something unexpected that is easy to look after"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q18b",
+      "before": {
+        "ja": "いつもと違う道や店を試す",
+        "en": "Try a different route or shop"
+      },
+      "after": {
+        "ja": "遠出せず、いつもと違う道や店を試す",
+        "en": "Try a different route or shop without making a big outing of it"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q20a",
+      "before": {
+        "ja": "いつもとは違う、小さな体験",
+        "en": "A small experience outside my routine"
+      },
+      "after": {
+        "ja": "大げさな準備のいらない、いつもと違う体験",
+        "en": "A small experience outside my routine that takes little preparation"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q22a",
+      "before": {
+        "ja": "別のことと組み合わせて、試してみる",
+        "en": "Try combining it with something else"
+      },
+      "after": {
+        "ja": "手元にあるものと組み合わせて、手軽に試す",
+        "en": "Try a simple combination with something I already have"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q24d",
+      "before": {
+        "ja": "普通は組み合わせないものを並べてみる",
+        "en": "Put together things that do not usually go together"
+      },
+      "after": {
+        "ja": "少ない材料で、普通はしない組み合わせを試す",
+        "en": "Try an unusual combination using only a few ingredients"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q26d",
+      "before": {
+        "ja": "二択から離れて、別の案を出す",
+        "en": "Step outside the two options and suggest another"
+      },
+      "after": {
+        "ja": "二択から離れて、もっと手軽な別案を出す",
+        "en": "Step outside the two options and suggest a simpler alternative"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q30c",
+      "before": {
+        "ja": "一つだけ、意外な仕掛けを入れること",
+        "en": "One unexpected touch"
+      },
+      "after": {
+        "ja": "準備は簡単に、一つだけ意外な仕掛けを入れる",
+        "en": "Keep preparation simple and add one unexpected touch"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q32b",
+      "before": {
+        "ja": "まだやったことのない、小さなこと",
+        "en": "One small thing I have never tried"
+      },
+      "after": {
+        "ja": "準備いらずで、まだやったことのない小さなこと",
+        "en": "One small thing I have never tried that needs no preparation"
+      },
+      "scoring": {
+        "mainType": "hawaiian",
+        "secondaryType": "marinara"
+      }
+    },
+    {
+      "choice": "q04b",
+      "before": {
+        "ja": "濡れて困っている人を先に気にかける",
+        "en": "Check on anyone struggling with the rain first"
+      },
+      "after": {
+        "ja": "濡れて困る人を気にかけ、みんなで移れる場所を探す",
+        "en": "Check on anyone struggling with the rain and find somewhere we can all move to"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q14d",
+      "before": {
+        "ja": "誰かが困る前に、そっと使いやすくする",
+        "en": "Quietly make it easier before someone gets stuck"
+      },
+      "after": {
+        "ja": "使う人の様子を見て、みんなに合う配置にする",
+        "en": "Notice what people need and arrange things to work for everyone"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q16c",
+      "before": {
+        "ja": "最近の困りごとを思い出して選ぶ",
+        "en": "Something that helps with a recent difficulty"
+      },
+      "after": {
+        "ja": "最近の困りごとを思い出し、周りと相談して選ぶ",
+        "en": "Remember a recent difficulty and compare ideas with others"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q18c",
+      "before": {
+        "ja": "疲れていそうな人と、無理なく話す",
+        "en": "Have an easy chat with someone who looks tired"
+      },
+      "after": {
+        "ja": "疲れている人も無理なく加われる休憩にする",
+        "en": "Arrange a break that tired people can comfortably join"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q22b",
+      "before": {
+        "ja": "役に立ちそうな相手に、そっと教える",
+        "en": "Quietly tell someone it might help"
+      },
+      "after": {
+        "ja": "役立ちそうな人に伝え、一緒に使える形を考える",
+        "en": "Tell the people it could help and work out how they could use it together"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q24a",
+      "before": {
+        "ja": "誰が何に困っているかから考える",
+        "en": "Start with who needs help and with what"
+      },
+      "after": {
+        "ja": "誰が何に困っているか聞き、みんなの案をつなぐ",
+        "en": "Ask who needs help with what, then connect people's ideas"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q32c",
+      "before": {
+        "ja": "自分にも人にも、少しの気づかい",
+        "en": "A little care for myself and others"
+      },
+      "after": {
+        "ja": "自分にも人にも無理のない、一緒の予定",
+        "en": "A shared plan that is considerate of both me and others"
+      },
+      "scoring": {
+        "mainType": "veggie",
+        "secondaryType": "seafood"
+      }
+    },
+    {
+      "choice": "q10b",
+      "before": {
+        "ja": "無理に埋めず、静かな時間も楽しむ",
+        "en": "Let the silence be comfortable"
+      },
+      "after": {
+        "ja": "みんなの様子を見て、無理に沈黙を埋めない",
+        "en": "Read the room and avoid filling silence unnecessarily"
+      },
+      "scoring": {
+        "mainType": "marinara",
+        "secondaryType": "mushroom"
+      }
+    },
+    {
+      "choice": "q18d",
+      "before": {
+        "ja": "通知を切って、何もしない時間にする",
+        "en": "Turn off notifications and do nothing for a while"
+      },
+      "after": {
+        "ja": "疲れ具合を見て、通知を切って何もしない",
+        "en": "Check how tired I am, then turn off notifications and do nothing"
+      },
+      "scoring": {
+        "mainType": "marinara",
+        "secondaryType": "mushroom"
+      }
+    },
+    {
+      "choice": "q20c",
+      "before": {
+        "ja": "予定も持ち物も少ない、身軽な時間",
+        "en": "Time with few plans and little to carry"
+      },
+      "after": {
+        "ja": "必要か見直して、予定も持ち物も減らした時間",
+        "en": "Time to reconsider what I need and pare down plans and belongings"
+      },
+      "scoring": {
+        "mainType": "marinara",
+        "secondaryType": "mushroom"
+      }
+    },
+    {
+      "choice": "q30a",
+      "before": {
+        "ja": "準備も片づけも、複雑にしないこと",
+        "en": "Keeping setup and cleanup simple"
+      },
+      "after": {
+        "ja": "手間の原因を見つけ、準備も片づけも簡単にする",
+        "en": "Spot what creates extra work and simplify setup and cleanup"
+      },
+      "scoring": {
+        "mainType": "marinara",
+        "secondaryType": "mushroom"
+      }
+    },
+    {
+      "choice": "q32d",
+      "before": {
+        "ja": "何かを足さずに済む、余白",
+        "en": "Room to leave something out"
+      },
+      "after": {
+        "ja": "本当に必要か見直して作る、余白",
+        "en": "Room made by checking what is actually needed"
+      },
+      "scoring": {
+        "mainType": "marinara",
+        "secondaryType": "mushroom"
+      }
+    }
+  ],
+  "otherChanges": [
+    "q03 EN aligns with JA time spent",
+    "seafood b JA explicitly says space has limits"
+  ]
+}
