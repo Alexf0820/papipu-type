@@ -1,0 +1,94 @@
+{
+  "version": "1.1",
+  "date": "2026-10-16",
+  "baseline": "e27bb076d4406856630f7b1d32100e043f059156",
+  "initialWorkspaceHead": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "initialDirtyFiles": [],
+  "authorization": "Owner explicitly authorizes new Pizza content under dot1 oversight and reuse of the eight preserved originals. Preview only; stop for owner iPhone review.",
+  "existingManuscript": "Blank scaffold; no confirmed copy or scoring to preserve.",
+  "images": [
+    {
+      "path": "public/characters/pizza-margherita.png",
+      "typeId": "margherita",
+      "visualKey": "pizza-margherita",
+      "sha256": "bd6b44b8cbcc89d760e5cb39d5f707a9e81e9ce5391a79e279eed669958d8cbf",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2122472
+    },
+    {
+      "path": "public/characters/pizza-pepperoni.png",
+      "typeId": "pepperoni",
+      "visualKey": "pizza-pepperoni",
+      "sha256": "cf1d0fd4b3906f255f19ca4b9fbdba0bf2f89c6e0feff006a22da2013e7c4e96",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2274530
+    },
+    {
+      "path": "public/characters/pizza-quattro-formaggi.png",
+      "typeId": "quattroFormaggi",
+      "visualKey": "pizza-quattro-formaggi",
+      "sha256": "b7617763a076674837244d2ab1fea8ead8241f0cd42138e1df9c86e35df6957e",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2175424
+    },
+    {
+      "path": "public/characters/pizza-mushroom.png",
+      "typeId": "mushroom",
+      "visualKey": "pizza-mushroom",
+      "sha256": "3dbda97ef94e3aae53e99be2f15ab0bfdbffb7fe0d2538a2f0fc7178e20449d4",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2275024
+    },
+    {
+      "path": "public/characters/pizza-seafood.png",
+      "typeId": "seafood",
+      "visualKey": "pizza-seafood",
+      "sha256": "f46c719d8348e90e753b97bc2366748155dcb907bf1eb1b97f1c4686a5949115",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2166686
+    },
+    {
+      "path": "public/characters/pizza-hawaiian.png",
+      "typeId": "hawaiian",
+      "visualKey": "pizza-hawaiian",
+      "sha256": "845af839fd3f6f613f11a846d6dfb9c708f2b47e3114c859293eeb26f1b38c65",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2212222
+    },
+    {
+      "path": "public/characters/pizza-veggie.png",
+      "typeId": "veggie",
+      "visualKey": "pizza-veggie",
+      "sha256": "f734a4dc4e0924155fdd4d886b3a4467ed1b00126e8b167d11dead1eb56e356c",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2294870
+    },
+    {
+      "path": "public/characters/pizza-marinara.png",
+      "typeId": "marinara",
+      "visualKey": "pizza-marinara",
+      "sha256": "3e701cd1ecedff85c9db6ac7060931480ace2fab270f4b9d84d49d2fa5daa525",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2330537
+    }
+  ],
+  "provenance": "Original asset-manifest and remote-asset-readback retained unchanged. Embedded ChatGPT/gpt-image claims; original prompts unavailable and signatures not cryptographically verified.",
+  "status": "AUTHORING_STARTED",
+  "productionApproval": false
+}
