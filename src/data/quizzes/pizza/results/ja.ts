@@ -82,7 +82,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "marinara",
-      "reason": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一個ぶんずれています。"
+      "reason": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一種類ぶんずれています。"
     }
   },
   "mushroom": {

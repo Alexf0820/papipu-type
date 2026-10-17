@@ -268,8 +268,10 @@
         "reason"
       ],
       "before": "クアトロフォルマッジはもう少し詰めたい。マリナーラは必要な分で十分。どこで完成にするか、先に相談を。",
-      "after": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一個ぶんずれています。",
-      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+      "after": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一種類ぶんずれています。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。",
+      "intermediate": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一個ぶんずれています。",
+      "followupReason": "独立最終QA: 直前のあと一種類と単位を揃える。"
     },
     {
       "path": [
@@ -304,8 +306,10 @@
         "reason"
       ],
       "before": "While Mushroom studies the reason, Pepperoni is already trying it. Separate time for thinking and testing may help.",
-      "after": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, the mouth is full again.",
-      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+      "after": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, Pepperoni’s mouth is full again.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。",
+      "intermediate": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, the mouth is full again.",
+      "followupReason": "独立最終QA: 誰の口かを明示し自然にする。"
     },
     {
       "path": [
@@ -607,5 +611,12 @@
       "reason": "Similar answers retain the distinction between coordination and consideration. Further behavioral differentiation could change meaning, so HOLD; no scoring or position changes."
     }
   ],
-  "independentInput": "Parent independently reviewed baseline questions and result copy and supplied minimal edit candidates; no M/W request."
+  "independentInput": "Parent independently reviewed baseline questions and result copy and supplied minimal edit candidates; no M/W request.",
+  "editOperations": 50,
+  "followupLocalizedEdits": 2,
+  "independentFinalReview": {
+    "reviewedCommit": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
+    "findings": "Parent independently fetched/read all48 changes. No meaning reversal/scoring-direction change. Handoff and4runtime text files exact.128scoring/order/types/traits/categories/visuals/targets/Home unchanged. Two clarity nits adopted verbatim.",
+    "additionalEdits": "Two already-changed BAD fields refined again;48 distinct localized fields,50 edit operations."
+  }
 }

@@ -110,7 +110,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "pepperoni",
-      "reason": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, the mouth is full again."
+      "reason": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, Pepperoni’s mouth is full again."
     }
   },
   "seafood": {

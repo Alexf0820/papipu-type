@@ -4,8 +4,8 @@
   "state": "REVIEW_WAIT_STOP",
   "baselineFeatureSha": "de8c268542631f914a1968f67e422d70d39ed6fe",
   "checkpointSha": "2516aff8257f9aa48ee58467c45fa5f43bb4ba12",
-  "testedApplicationSha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
-  "handoffSha256": "322dc84828ba528c686db1d4bf71e20990c79751d1f33a3eb8c8157b5df8f1ec",
+  "testedApplicationSha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b plus two recorded BAD clarity refinements, identified by final handoffSha256",
+  "handoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8",
   "copyChanges": {
     "localizedStrings": 48,
     "ja": 21,
@@ -15,9 +15,11 @@
     "resultBodySlots": 3,
     "badReasons": 8,
     "mottoSlots": 8,
-    "unchanged": "All GOOD, Home, result titles and remaining copy retained."
+    "unchanged": "All GOOD, Home, result titles and remaining copy retained.",
+    "editOperations": 50,
+    "followupEditsToAlreadyChangedFields": 2
   },
-  "independentReview": "Parent independently reviewed all baseline questions and results and supplied candidates. Adopted minimal grammar/parity edits and result observations; all changes documented before/after. No M/W requested. Post-edit record-to-handoff comparison matched48/48.",
+  "independentReview": "Parent independently fetched fe0c945, read all48 changed fields, verified handoff/runtime exact reflection and all128scoring/position/IDs/traits/categories/targets/Home/visualKey invariants. No meaning reversal or blocking copy issue. Two clarity refinements adopted verbatim; final affected6 result screens retested. No M/W request.",
   "invariants": "All236 other baseline tracked files byte-identical; scoring/position/IDs/traits/categories/targets/images/visualKey/engine/five quizzes preserved. See invariants.json.",
   "statistics": "Full1M +8x500k rerun: spread0.112pp, position spreads0.111-0.204pp, parity10000/10000, question flags0. All84 count rows exactly matchv1.1. No formal statistical PASS threshold.",
   "checks": {
@@ -45,7 +47,7 @@
     "gitSource": "feat/pizza-type",
     "sha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
     "newDeploymentCreatedManually": false,
-    "note": "Verified copy checkpoint. Final docs-only branch commit readiness is reported separately after push."
+    "note": "This verified deployment predates final two clarity refinements. The final branch commit/deployment is checked after push and identified in the delivery report."
   },
   "holds": [
     "q14b/d,q16a/c,q24a/c semantic overlap retained; differentiating behaviors would exceed copy-only scope.",
@@ -53,5 +55,6 @@
   ],
   "tsuru": "No callable TSURU connector. No write attempted; Git HANDOFF is authoritative fallback.",
   "humanRelayRequests": 0,
-  "mainProductionAuthSecretsFeesChanged": false
+  "mainProductionAuthSecretsFeesChanged": false,
+  "finalCopyVerification": "Tests109/109, lint, typegen, tsc, validate and Production-equivalent build rerun after the final2 wording refinements. Million statistics still apply: scoring/positions/IDs byte-identical."
 }

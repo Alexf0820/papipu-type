@@ -1,5 +1,5 @@
 {
-  "base": "Local production build (next start), application commit fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
+  "base": "Local production build (next start)",
   "browser": "System Chromium, not Safari or physical iPhone",
   "viewport": {
     "width": 390,
@@ -116,60 +116,6 @@
     },
     {
       "locale": "ja",
-      "type": "quattroFormaggi",
-      "variation": "a",
-      "face": "smile",
-      "mottoIndex": 0,
-      "questionIds": [
-        "q04",
-        "q07",
-        "q10",
-        "q15",
-        "q17",
-        "q24",
-        "q27",
-        "q29"
-      ],
-      "resultTextMatches": true
-    },
-    {
-      "locale": "ja",
-      "type": "quattroFormaggi",
-      "variation": "b",
-      "face": "sweat-smile",
-      "mottoIndex": 1,
-      "questionIds": [
-        "q03",
-        "q07",
-        "q10",
-        "q16",
-        "q17",
-        "q23",
-        "q27",
-        "q32"
-      ],
-      "resultTextMatches": true
-    },
-    {
-      "locale": "ja",
-      "type": "quattroFormaggi",
-      "variation": "c",
-      "face": "noon",
-      "mottoIndex": 2,
-      "questionIds": [
-        "q03",
-        "q05",
-        "q09",
-        "q14",
-        "q20",
-        "q21",
-        "q27",
-        "q32"
-      ],
-      "resultTextMatches": true
-    },
-    {
-      "locale": "ja",
       "type": "mushroom",
       "variation": "a",
       "face": "smile",
@@ -602,60 +548,6 @@
     },
     {
       "locale": "en",
-      "type": "mushroom",
-      "variation": "a",
-      "face": "smile",
-      "mottoIndex": 0,
-      "questionIds": [
-        "q03",
-        "q07",
-        "q09",
-        "q14",
-        "q17",
-        "q22",
-        "q26",
-        "q31"
-      ],
-      "resultTextMatches": true
-    },
-    {
-      "locale": "en",
-      "type": "mushroom",
-      "variation": "b",
-      "face": "sweat-smile",
-      "mottoIndex": 1,
-      "questionIds": [
-        "q02",
-        "q07",
-        "q09",
-        "q16",
-        "q19",
-        "q23",
-        "q25",
-        "q31"
-      ],
-      "resultTextMatches": true
-    },
-    {
-      "locale": "en",
-      "type": "mushroom",
-      "variation": "c",
-      "face": "noon",
-      "mottoIndex": 2,
-      "questionIds": [
-        "q04",
-        "q05",
-        "q10",
-        "q16",
-        "q18",
-        "q21",
-        "q25",
-        "q31"
-      ],
-      "resultTextMatches": true
-    },
-    {
-      "locale": "en",
       "type": "seafood",
       "variation": "a",
       "face": "smile",
@@ -867,6 +759,114 @@
         "q24",
         "q27",
         "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q04",
+        "q07",
+        "q10",
+        "q15",
+        "q17",
+        "q24",
+        "q27",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q10",
+        "q16",
+        "q17",
+        "q23",
+        "q27",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q03",
+        "q05",
+        "q09",
+        "q14",
+        "q20",
+        "q21",
+        "q27",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q09",
+        "q14",
+        "q17",
+        "q22",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q16",
+        "q19",
+        "q23",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q04",
+        "q05",
+        "q10",
+        "q16",
+        "q18",
+        "q21",
+        "q25",
+        "q31"
       ],
       "resultTextMatches": true
     }
@@ -1898,6 +1898,11 @@
     "Mouse hover transition caused an action-stability timeout on existing Spaghetti; resumed using actual touch tap input in mobile Chromium context. No force click or app change."
   ],
   "method": "Actual headless system Chromium at 390x844. Initial sessions use normal sampling. Targeted fixtures control Math.random only before retry, supplying recorded question samples and face/motto values; all answers clicked/tapped through the unchanged UI and resolved by the real engine. No forced result injection. JA targeted fixtures used mouse input; EN and subsequent regressions used mobile touch input.",
+  "visualInspection": "All 24 face combinations inspected in actual browser-capture gallery: faces stay on front crust, no clipping observed. JA/EN full mobile result captures inspected for wrapping; no horizontal overflow. Original image bytes and overlay transforms unchanged.",
+  "nativeShare": "Not tested: real clipboard route tested; no OS native share sheet and no external posting.",
+  "actualSafari": "Not tested. Chromium mobile viewport is not physical iPhone or Safari.",
+  "finalHandoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8",
+  "finalCopyRecheck": "After two independent-review BAD wording refinements, rebuilt and reran JA Quattro Formaggi a/b/c and EN Mushroom a/b/c through all eight answers, plus both Back/re-answer flows. Unaffected prior coverage retained.",
   "questionCoverage": {
     "ja": [
       "q01",
@@ -1967,8 +1972,5 @@
       "q31",
       "q32"
     ]
-  },
-  "visualInspection": "All 24 face combinations inspected in actual browser-capture gallery: faces stay on front crust, no clipping observed. JA/EN full mobile result captures inspected for wrapping; no horizontal overflow. Original image bytes and overlay transforms unchanged.",
-  "nativeShare": "Not tested: real clipboard route tested; no OS native share sheet and no external posting.",
-  "actualSafari": "Not tested. Chromium mobile viewport is not physical iPhone or Safari."
+  }
 }

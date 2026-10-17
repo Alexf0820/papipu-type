@@ -10,7 +10,9 @@ All 32 questions/128 choices in JA/EN and all eight types' a/b/c, GOOD/BAD and m
 
 Examples: q01d clarifies “予定が変わった理由”; Pepperoni c changes the illogical “相談は返事が来てから” to “出発は返事が来てから”; Mushroom EN avoids “your mind is empty.” BAD now ends with a pizza disagreement, such as Seafood adding toppings while Marinara subtracts them. Each type has only one motto revised, e.g. Marinara “チーズ抜きです。忘れてません。” / “No cheese. On purpose.”
 
-Handoff SHA256: `322dc84828ba528c686db1d4bf71e20990c79751d1f33a3eb8c8157b5df8f1ec`.
+Final independent review fetched `fe0c945` and verified all48 changes and runtime equality. Two already-changed BAD fields were refined again: JA “チーズ一種類ぶん”, EN “Pepperoni’s mouth is full again”. Thus48distinct localized fields /50edit operations. Final tests109/109, lint/type/validate/build and all6affected result screens were rechecked. The final branch commit is identified in the delivery report.
+
+Handoff SHA256: `4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8`.
 
 ## Preservation and statistics
 
@@ -32,12 +34,14 @@ Harness notes: early retry/back assertions were ahead of React's sampling effect
 
 Team-free get_deployment confirmed existing v1.1 deployment READY for `de8c268`. The owner reported one JA8-question/result completion on iPhone; this is not EN/all-types or v1.2 approval.
 
-Copy checkpoint Git Preview `dpl_4mzbXYSu29Tr4V6xZVH4yYwFuGPd` is READY, branch and full SHA match `fe0c945d8a3ff66114e6bda8c0aba683f15ff93b`:
+Before the final two refinements, copy checkpoint Git Preview `dpl_4mzbXYSu29Tr4V6xZVH4yYwFuGPd` is READY, branch and full SHA match `fe0c945d8a3ff66114e6bda8c0aba683f15ff93b`:
 
-- JA: https://papipu-type-46wpg8l90-alex-fujiokas-projects.vercel.app/ja/pizza
-- EN: https://papipu-type-46wpg8l90-alex-fujiokas-projects.vercel.app/en/pizza
+Stable branch links (advance with the final Git push):
 
-Final record-only commit creates its normal Git Preview; exact final deployment/SHA confirmation is in the delivery report. No manual or duplicate deployment was created. Actual Preview browser navigation failed once with `ERR_TUNNEL_CONNECTION_FAILED`; no retry. Prior Team-scoped403 and Chromium-download paths were not retried.
+- JA: https://papipu-type-git-feat-pizza-type-alex-fujiokas-projects.vercel.app/ja/pizza
+- EN: https://papipu-type-git-feat-pizza-type-alex-fujiokas-projects.vercel.app/en/pizza
+
+Final copy-and-record commit creates its normal Git Preview; exact final deployment/SHA confirmation is in the delivery report. No manual or duplicate deployment was created. Actual Preview browser navigation failed once with `ERR_TUNNEL_CONNECTION_FAILED`; no retry. Prior Team-scoped403 and Chromium-download paths were not retried.
 
 **STOP for owner review.** Review the revised BAD/mottos and bilingual flow on the final Preview, especially physical iPhone/Safari and native sharing. Similar choices q14b/d, q16a/c, q24a/c remain HOLD: behavioral changes would need a separate content decision; scoring was not used to resolve them. No release/merge approval inferred.
 

@@ -3,9 +3,14 @@
 > eslint
 
 
+<repository>/docs/pizza-type/verification-v1.2/browser-check.cjs
+  1:18  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  1:49  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+  1:76  error  A `require()` style import is forbidden  @typescript-eslint/no-require-imports
+
 <repository>/src/components/character/bodies/index.tsx
   5:7  warning  'OUTLINE' is assigned a value but never used  @typescript-eslint/no-unused-vars
   6:7  warning  'STROKE' is assigned a value but never used   @typescript-eslint/no-unused-vars
 
-✖ 2 problems (0 errors, 2 warnings)
+✖ 5 problems (3 errors, 2 warnings)
 
