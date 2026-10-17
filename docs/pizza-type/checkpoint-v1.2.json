@@ -1,0 +1,20 @@
+{
+  "version": "1.2",
+  "date": "2026-10-17",
+  "baselineFeatureSha": "de8c268542631f914a1968f67e422d70d39ed6fe",
+  "mainSha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "initialDirtyFiles": [],
+  "baselineHandoffSha256": "9f0bab91308e99fa540e87023af33eed214b59b9e5a990d1471175b0c11e0681",
+  "authorization": "Continue dot-only Pizza copy experiment; minimal bilingual edits, QA, Git checkpoint/push and existing Git Preview. No M/W requests. No changes to scoring, positions, IDs, traits, targets, visuals, original images, engine or five existing quizzes.",
+  "ownerReportedReview": {
+    "date": "2026-10-17",
+    "previewDeployment": "dpl_ABbExsz1okoGKZv4WUWsvBmVd9QV",
+    "scope": "Owner completed one JA eight-question flow and saw one result on iPhone. Not EN/all-results approval."
+  },
+  "tsuru": "No TSURU connector exposed in available tools; Git handoff is authoritative fallback.",
+  "knownDeniedPathsNotToRetry": [
+    "Team-scoped Vercel inspection",
+    "Chromium download"
+  ],
+  "status": "COPY_REVIEW_STARTED"
+}
