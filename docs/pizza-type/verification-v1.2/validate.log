@@ -1,0 +1,5 @@
+
+> papipu-type@0.1.0 validate-quiz
+> node scripts/validate-quiz.mjs pizza
+
+Validation passed for "pizza".

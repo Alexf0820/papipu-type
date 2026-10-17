@@ -1,0 +1,142 @@
+{
+  "baseline": "de8c268542631f914a1968f67e422d70d39ed6fe",
+  "handoffSha256": "322dc84828ba528c686db1d4bf71e20990c79751d1f33a3eb8c8157b5df8f1ec",
+  "changedApplicationPaths": [
+    "src/data/quizzes/pizza/content/handoff.json",
+    "src/data/quizzes/pizza/ja.ts",
+    "src/data/quizzes/pizza/en.ts",
+    "src/data/quizzes/pizza/results/ja.ts",
+    "src/data/quizzes/pizza/results/en.ts"
+  ],
+  "allOtherBaselineFiles": 236,
+  "byteMismatches": [],
+  "invariants": [
+    "8 types",
+    "8 traits",
+    "Main/Secondary",
+    "ABCD position and order",
+    "category/question IDs and order",
+    "compatibility targets",
+    "visual keys",
+    "original images8",
+    "Home",
+    "common engine",
+    "face/Body/transforms",
+    "existing five quizzes"
+  ],
+  "counts": {
+    "margherita": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "pepperoni": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "quattroFormaggi": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "mushroom": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "seafood": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "hawaiian": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "veggie": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "marinara": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    }
+  },
+  "revisionsMatched": 48
+}

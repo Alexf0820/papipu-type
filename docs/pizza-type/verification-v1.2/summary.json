@@ -1,0 +1,57 @@
+{
+  "version": "1.2",
+  "date": "2026-10-17",
+  "state": "REVIEW_WAIT_STOP",
+  "baselineFeatureSha": "de8c268542631f914a1968f67e422d70d39ed6fe",
+  "checkpointSha": "2516aff8257f9aa48ee58467c45fa5f43bb4ba12",
+  "testedApplicationSha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
+  "handoffSha256": "322dc84828ba528c686db1d4bf71e20990c79751d1f33a3eb8c8157b5df8f1ec",
+  "copyChanges": {
+    "localizedStrings": 48,
+    "ja": 21,
+    "en": 27,
+    "choiceSlots": 11,
+    "questionCount": 10,
+    "resultBodySlots": 3,
+    "badReasons": 8,
+    "mottoSlots": 8,
+    "unchanged": "All GOOD, Home, result titles and remaining copy retained."
+  },
+  "independentReview": "Parent independently reviewed all baseline questions and results and supplied candidates. Adopted minimal grammar/parity edits and result observations; all changes documented before/after. No M/W requested. Post-edit record-to-handoff comparison matched48/48.",
+  "invariants": "All236 other baseline tracked files byte-identical; scoring/position/IDs/traits/categories/targets/images/visualKey/engine/five quizzes preserved. See invariants.json.",
+  "statistics": "Full1M +8x500k rerun: spread0.112pp, position spreads0.111-0.204pp, parity10000/10000, question flags0. All84 count rows exactly matchv1.1. No formal statistical PASS threshold.",
+  "checks": {
+    "npm test": "109/109 on rerun; initial concurrent run had existing camp-gear5s timeout, no assertion failure. No test/timeout changes.",
+    "npm run test:scaffold": "6/6",
+    "npm run lint": "0errors,2preexisting OUTLINE/STROKE warnings",
+    "npx next typegen": "exit0",
+    "npx tsc --noEmit": "exit0",
+    "npm run validate-quiz -- pizza": "passed",
+    "npm run verify-quiz -- pizza": "completed and measured output inspected, not overall statistical PASS",
+    "git diff --check": "exit0",
+    "npm run build": "exit0 Production-equivalent local build"
+  },
+  "browser": {
+    "local": "48targeted eight-question sessions;24type/variation/face/motto combinations per locale;32question coverage per locale;16real clipboard shares; retry/back-answer changes; existing5x2locale eight-question completion;0pageerrors;0horizontal overflow at390px.",
+    "preview": "Not executed successfully: first navigation failed ERR_TUNNEL_CONNECTION_FAILED. No retry or alternate connection attempted.",
+    "safari": "Not run",
+    "ownerPriorReview": "Owner reported v1.1 JA8question/result review only; not newv1.2/EN/alltypes approval."
+  },
+  "previewApi": {
+    "teamSpecified": false,
+    "id": "dpl_4mzbXYSu29Tr4V6xZVH4yYwFuGPd",
+    "url": "https://papipu-type-46wpg8l90-alex-fujiokas-projects.vercel.app",
+    "state": "READY",
+    "gitSource": "feat/pizza-type",
+    "sha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
+    "newDeploymentCreatedManually": false,
+    "note": "Verified copy checkpoint. Final docs-only branch commit readiness is reported separately after push."
+  },
+  "holds": [
+    "q14b/d,q16a/c,q24a/c semantic overlap retained; differentiating behaviors would exceed copy-only scope.",
+    "Physical iPhone/Safari and actual Preview browser review remain. Native share sheet untested."
+  ],
+  "tsuru": "No callable TSURU connector. No write attempted; Git HANDOFF is authoritative fallback.",
+  "humanRelayRequests": 0,
+  "mainProductionAuthSecretsFeesChanged": false
+}

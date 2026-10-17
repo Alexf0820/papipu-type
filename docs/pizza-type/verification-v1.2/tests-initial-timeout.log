@@ -1,0 +1,31 @@
+
+> papipu-type@0.1.0 test
+> vitest run
+
+
+ RUN  v4.1.10 <repository>
+
+ ❯ src/data/quizzes/camp-gear/campGear.test.ts (14 tests | 1 failed) 6509ms
+     × judges all 65536 session answer combinations identically 5553ms
+
+⎯⎯⎯⎯⎯⎯⎯ Failed Tests 1 ⎯⎯⎯⎯⎯⎯⎯
+
+ FAIL  src/data/quizzes/camp-gear/campGear.test.ts > camp-gear ja/en parity > judges all 65536 session answer combinations identically
+Error: Test timed out in 5000ms.
+If this is a long-running test, pass a timeout value as the last argument or configure it globally with "testTimeout".
+ ❯ src/data/quizzes/camp-gear/campGear.test.ts:148:3
+    146|   });
+    147|
+    148|   it("judges all 65536 session answer combinations identically", () =>…
+       |   ^
+    149|     const combinations = everySessionAnswerCombination();
+    150|     expect(combinations).toHaveLength(65536);
+
+⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯⎯[1/1]⎯
+
+
+ Test Files  1 failed | 19 passed (20)
+      Tests  1 failed | 108 passed (109)
+   Start at  12:07:05
+   Duration  7.44s (transform 1.42s, setup 0ms, import 3.16s, tests 12.22s, environment 2ms)
+
