@@ -41,7 +41,7 @@ Stable branch links (advance with the final Git push):
 - JA: https://papipu-type-git-feat-pizza-type-alex-fujiokas-projects.vercel.app/ja/pizza
 - EN: https://papipu-type-git-feat-pizza-type-alex-fujiokas-projects.vercel.app/en/pizza
 
-Final copy-and-record commit creates its normal Git Preview; exact final deployment/SHA confirmation is in the delivery report. No manual or duplicate deployment was created. Actual Preview browser navigation failed once with `ERR_TUNNEL_CONNECTION_FAILED`; no retry. Prior Team-scoped403 and Chromium-download paths were not retried.
+Final copy/QA commit `61e0f56b8a693b5194c99457d989a0d9578c3c65` was verified READY as `dpl_9WMiweMPHkmKDoWdtXWipdt8ugNj`. Its immutable Preview is https://papipu-type-97u8ayioh-alex-fujiokas-projects.vercel.app . The last record-only cleanup creates its normal Git Preview; exact final deployment/SHA confirmation is in the delivery report. No manual or duplicate deployment was created. Actual Preview browser navigation failed once with `ERR_TUNNEL_CONNECTION_FAILED`; no retry. Prior Team-scoped403 and Chromium-download paths were not retried.
 
 **STOP for owner review.** Review the revised BAD/mottos and bilingual flow on the final Preview, especially physical iPhone/Safari and native sharing. Similar choices q14b/d, q16a/c, q24a/c remain HOLD: behavioral changes would need a separate content decision; scoring was not used to resolve them. No release/merge approval inferred.
 

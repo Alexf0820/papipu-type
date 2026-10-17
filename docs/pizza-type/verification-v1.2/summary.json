@@ -4,7 +4,7 @@
   "state": "REVIEW_WAIT_STOP",
   "baselineFeatureSha": "de8c268542631f914a1968f67e422d70d39ed6fe",
   "checkpointSha": "2516aff8257f9aa48ee58467c45fa5f43bb4ba12",
-  "testedApplicationSha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b plus two recorded BAD clarity refinements, identified by final handoffSha256",
+  "testedApplicationSha": "61e0f56b8a693b5194c99457d989a0d9578c3c65",
   "handoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8",
   "copyChanges": {
     "localizedStrings": 48,
@@ -30,7 +30,7 @@
     "npx tsc --noEmit": "exit0",
     "npm run validate-quiz -- pizza": "passed",
     "npm run verify-quiz -- pizza": "completed and measured output inspected, not overall statistical PASS",
-    "git diff --check": "exit0",
+    "git diff --check": "Whole baseline-to-final change checked, including tracked evidence; log-only trailing whitespace normalized.",
     "npm run build": "exit0 Production-equivalent local build"
   },
   "browser": {
@@ -41,13 +41,13 @@
   },
   "previewApi": {
     "teamSpecified": false,
-    "id": "dpl_4mzbXYSu29Tr4V6xZVH4yYwFuGPd",
-    "url": "https://papipu-type-46wpg8l90-alex-fujiokas-projects.vercel.app",
+    "id": "dpl_9WMiweMPHkmKDoWdtXWipdt8ugNj",
+    "url": "https://papipu-type-97u8ayioh-alex-fujiokas-projects.vercel.app",
     "state": "READY",
     "gitSource": "feat/pizza-type",
-    "sha": "fe0c945d8a3ff66114e6bda8c0aba683f15ff93b",
+    "sha": "61e0f56b8a693b5194c99457d989a0d9578c3c65",
     "newDeploymentCreatedManually": false,
-    "note": "This verified deployment predates final two clarity refinements. The final branch commit/deployment is checked after push and identified in the delivery report."
+    "note": "Final copy and QA commit verified READY with matching SHA/branch. Subsequent record-only cleanup does not alter application files; its final Git Preview is confirmed in delivery."
   },
   "holds": [
     "q14b/d,q16a/c,q24a/c semantic overlap retained; differentiating behaviors would exceed copy-only scope.",
