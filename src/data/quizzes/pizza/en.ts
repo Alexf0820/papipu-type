@@ -107,7 +107,7 @@ const PIZZA_TEXT_EN: PizzaText = {
       "choices": {
         "a": "Replying briefly with just the essentials",
         "b": "Gathering ideas so we can make a decision",
-        "c": "Drop in something unexpected that needs no long explanation",
+        "c": "Dropping in something unexpected that needs no long explanation",
         "d": "Helping someone who seems unsure how to reply"
       }
     },
@@ -141,7 +141,7 @@ const PIZZA_TEXT_EN: PizzaText = {
     "q16": {
       "text": "How do you choose a gift?",
       "choices": {
-        "a": "Compare ideas with others and settle on one",
+        "a": "Compare ideas with others and choose something the recipient would enjoy",
         "b": "Something unexpected that is easy to look after",
         "c": "Remember a recent difficulty and compare ideas with others",
         "d": "Something simple with a clear use"
@@ -152,8 +152,8 @@ const PIZZA_TEXT_EN: PizzaText = {
       "choices": {
         "a": "Take it easy somewhere familiar, without putting pressure on myself or others",
         "b": "Get started on one thing I have thought of but never tried",
-        "c": "Staying with a favorite activity until a satisfying stopping point",
-        "d": "Looking carefully into something I have been wondering about"
+        "c": "Stay with a favorite activity until a satisfying stopping point",
+        "d": "Look carefully into something I have been wondering about"
       }
     },
     "q18": {
@@ -169,7 +169,7 @@ const PIZZA_TEXT_EN: PizzaText = {
       "text": "What helps you reset?",
       "choices": {
         "a": "Try a different physical activity and enjoy a small win",
-        "b": "Spending proper time with a favorite work or hobby",
+        "b": "Spend time with a favorite creative work or hobby",
         "c": "Write down what is bothering me and work through it until it makes sense",
         "d": "Return to a familiar routine so I can be gentler with others too"
       }
@@ -189,7 +189,7 @@ const PIZZA_TEXT_EN: PizzaText = {
         "a": "Get hands-on and learn from mistakes",
         "b": "Practice the part I enjoy until it feels right",
         "c": "Look into why it works the way it does",
-        "d": "Check the basics in order so my mistakes do not cause trouble for others"
+        "d": "Check the basics in order so things go smoothly for others too"
       }
     },
     "q22": {
@@ -214,7 +214,7 @@ const PIZZA_TEXT_EN: PizzaText = {
       "text": "You need a fresh idea. How do you approach it?",
       "choices": {
         "a": "Ask who needs help with what, then connect people's ideas",
-        "b": "Remove conditions and find the simplest form",
+        "b": "Drop a few requirements and find the simplest version",
         "c": "Combine ideas from people into something workable",
         "d": "Try an unusual combination using only a few ingredients"
       }
@@ -277,7 +277,7 @@ const PIZZA_TEXT_EN: PizzaText = {
       "text": "What makes you choose something again and again?",
       "choices": {
         "a": "It is dependable on a rough day, and I can recommend it with confidence",
-        "b": "It gives me a reason to try something next",
+        "b": "It makes me want to try something next",
         "c": "The more I know it, the more I appreciate it",
         "d": "I notice a new detail each time"
       }

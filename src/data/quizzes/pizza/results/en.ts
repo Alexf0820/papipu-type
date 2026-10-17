@@ -17,7 +17,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "mottos": [
       "Good basics keep their appeal.",
-      "There is a reason for the usual.",
+      "“The usual” says it all.",
       "Dependability has its own flavor."
     ],
     "good": {
@@ -26,7 +26,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "hawaiian",
-      "reason": "Margherita wants familiar comfort; Hawaiian wants an unexpected combination. Allow a little time to agree on the order."
+      "reason": "Margherita says, “The usual.” Hawaiian says, “Add pineapple.” One shared pizza, two different orders."
     }
   },
   "pepperoni": {
@@ -40,11 +40,11 @@ export const pizzaResultContentEn: QuizResultContent = {
         "body": "When “Will someone do it?” hangs in the air, you can raise your hand.\n\nYou do not need perfect preparation to give something a try. Even a failed attempt is useful if it reveals a next step.\n\nWith that momentum, breaks can slip your mind.\n\nEven an oven has an off switch."
       },
       "c": {
-        "body": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Plans are best once everyone has answered."
+        "body": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Set off once everyone has answered."
       }
     },
     "mottos": [
-      "One step first. Then work out the next.",
+      "Quick on the first bite.",
       "Try a little while the idea is hot.",
       "Momentum needs breaks too."
     ],
@@ -54,7 +54,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "mushroom",
-      "reason": "Pepperoni wants to try; Mushroom wants to understand. Agreeing on some checking time before starting helps."
+      "reason": "Pepperoni takes another bite. Mushroom asks, “What makes that flavor different?” Before the tasting notes are ready, another slice is gone."
     }
   },
   "quattroFormaggi": {
@@ -62,7 +62,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     "visualKey": "pizza-quattro-formaggi",
     "variations": {
       "a": {
-        "body": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. On some days, not in your book."
+        "body": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. Just not always in your book."
       },
       "b": {
         "body": "You do not like leaving an important detail at “close enough.”\n\nYou would rather take time to adjust it and feel satisfied before sharing it.\n\nSometimes, though, the other person was only asking for a quick answer.\n\nServe the rich explanation one slice at a time."
@@ -72,7 +72,7 @@ export const pizzaResultContentEn: QuizResultContent = {
       }
     },
     "mottos": [
-      "Reasons to love it keep adding up.",
+      "More to say. More cheese.",
       "Keep the important parts rich.",
       "Rich stories, one slice at a time."
     ],
@@ -82,7 +82,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "marinara",
-      "reason": "Quattro Formaggi wants one more refinement; Marinara has enough. Agree in advance on what finished looks like."
+      "reason": "Quattro Formaggi says, “One more cheese.” Marinara says, “It is finished.” Their definitions of done are one cheese apart."
     }
   },
   "mushroom": {
@@ -90,7 +90,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     "visualKey": "pizza-mushroom",
     "variations": {
       "a": {
-        "body": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. Being quiet does not mean your mind is empty.\n\nQuite the opposite, usually.\n\nFlavor is not measured by how loudly a topping announces itself."
+        "body": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. You may be quiet, but there is plenty going on in your head.\n\nFlavor is not measured by how loudly a topping announces itself."
       },
       "b": {
         "body": "You find it hard to leave a “why?” unexplored.\n\nFollowing the reasons can uncover something everyone else missed.\n\nOf course, one answer sometimes opens three more questions.\n\nIt is fine to stop at “enough for now” before the pizza goes cold."
@@ -101,7 +101,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "mottos": [
       "Small differences add flavor.",
-      "Listen well, then speak.",
+      "Even a bite has a backstory.",
       "Share what you notice."
     ],
     "good": {
@@ -110,7 +110,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "pepperoni",
-      "reason": "While Mushroom studies the reason, Pepperoni is already trying it. Separate time for thinking and testing may help."
+      "reason": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, the mouth is full again."
     }
   },
   "seafood": {
@@ -130,7 +130,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     "mottos": [
       "Try putting the differences together.",
       "The organizer gets a slice too.",
-      "Turn shared ideas into a workable plan."
+      "I can get shrimp and squid together."
     ],
     "good": {
       "typeId": "pepperoni",
@@ -138,7 +138,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "marinara",
-      "reason": "Seafood wants to include everyone’s ideas; Marinara wants fewer. Agree on the purpose before adding more toppings."
+      "reason": "Seafood wants everyone’s toppings on the pizza. Marinara wants fewer. Addition and subtraction start on the very same base."
     }
   },
   "hawaiian": {
@@ -158,7 +158,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     "mottos": [
       "Look for the unexpected match.",
       "Try it on your own slice first.",
-      "Give the usual a small alternative."
+      "The usual, with pineapple."
     ],
     "good": {
       "typeId": "pepperoni",
@@ -166,7 +166,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "margherita",
-      "reason": "Hawaiian wants a change; Margherita wants to keep what works. Going half-and-half leaves room for both."
+      "reason": "Hawaiian says, “Pineapple works too.” Margherita says, “I like the usual.” Go half-and-half and the border becomes unusually clear."
     }
   },
   "veggie": {
@@ -186,7 +186,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     "mottos": [
       "Remember your own portion.",
       "Small acts of care still reach people.",
-      "Include yourself in “everyone.”"
+      "My plate counts too."
     ],
     "good": {
       "typeId": "margherita",
@@ -194,7 +194,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "pepperoni",
-      "reason": "Veggie wants to check on everyone; Pepperoni wants to leave now. A short pause makes it easier to move together."
+      "reason": "Veggie is checking that everyone has a plate. Pepperoni is already on the first bite. Setting the table and starting to eat run on slightly different clocks."
     }
   },
   "marinara": {
@@ -214,7 +214,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     "mottos": [
       "Leaving it out is an option.",
       "Leave room to see what matters.",
-      "Decide what enough means to you."
+      "No cheese. On purpose."
     ],
     "good": {
       "typeId": "mushroom",
@@ -222,7 +222,7 @@ export const pizzaResultContentEn: QuizResultContent = {
     },
     "bad": {
       "typeId": "quattroFormaggi",
-      "reason": "Marinara has enough; Quattro Formaggi wants one more cheese. It helps to let each person have their own idea of just right."
+      "reason": "Marinara says, “That is enough.” Quattro Formaggi says, “One more cheese.” Even an empty patch of pizza divides opinion."
     }
   }
 };

@@ -1,0 +1,611 @@
+{
+  "version": "1.2",
+  "baseline": "de8c268542631f914a1968f67e422d70d39ed6fe",
+  "reviewCoverage": "Read all 32 questions, 128 choices in both languages; all 8 types x3 bodies, GOOD/BAD, mottos. Home and good copy retained.",
+  "changes": [
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q01",
+        "ja",
+        "choices",
+        "d"
+      ],
+      "before": "空いた理由を聞いて、納得できる次の案を詰める",
+      "after": "予定が変わった理由を聞いて、納得できる次の案を詰める",
+      "reason": "曖昧な「空いた」を具体化しEN what changedに合わせる。行動と採点は維持。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q05",
+        "ja",
+        "choices",
+        "d"
+      ],
+      "before": "いつもの手順を確認し、使う人が困る抜けを防ぐ",
+      "after": "いつもの手順を確認し、使う人が困らないよう抜けを防ぐ",
+      "reason": "係り受けを自然にする。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q12",
+        "en",
+        "choices",
+        "c"
+      ],
+      "before": "Drop in something unexpected that needs no long explanation",
+      "after": "Dropping in something unexpected that needs no long explanation",
+      "reason": "同じ質問の他の選択肢と動名詞を揃える。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q16",
+        "en",
+        "choices",
+        "a"
+      ],
+      "before": "Compare ideas with others and settle on one",
+      "after": "Compare ideas with others and choose something the recipient would enjoy",
+      "reason": "JAの喜ばれそうな要素を戻し、贈る相手を明示する。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q17",
+        "en",
+        "choices",
+        "c"
+      ],
+      "before": "Staying with a favorite activity until a satisfying stopping point",
+      "after": "Stay with a favorite activity until a satisfying stopping point",
+      "reason": "同じ質問の選択肢と動詞形を揃える。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q17",
+        "en",
+        "choices",
+        "d"
+      ],
+      "before": "Looking carefully into something I have been wondering about",
+      "after": "Look carefully into something I have been wondering about",
+      "reason": "同じ質問の選択肢と動詞形を揃える。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q19",
+        "en",
+        "choices",
+        "b"
+      ],
+      "before": "Spending proper time with a favorite work or hobby",
+      "after": "Spend time with a favorite creative work or hobby",
+      "reason": "workが仕事に読める曖昧さをcreativeで解消。作品や趣味という対象範囲を維持し動詞形も揃える。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q20",
+        "ja",
+        "choices",
+        "c"
+      ],
+      "before": "必要か見直して、予定も持ち物も減らした時間",
+      "after": "予定や持ち物を見直して、身軽になる時間",
+      "reason": "減らした時間という不自然なつながりを整える。見直しと簡潔さを維持。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q21",
+        "ja",
+        "choices",
+        "d"
+      ],
+      "before": "基本を順番に確かめ、人に迷惑をかけないよう進む",
+      "after": "基本を順番に確かめ、周りが困らないように進む",
+      "reason": "迷惑という強い語を穏やかにし、他者への配慮を維持。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q21",
+        "en",
+        "choices",
+        "d"
+      ],
+      "before": "Check the basics in order so my mistakes do not cause trouble for others",
+      "after": "Check the basics in order so things go smoothly for others too",
+      "reason": "日本語と同じ穏やかな配慮の温度に合わせる。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q24",
+        "en",
+        "choices",
+        "b"
+      ],
+      "before": "Remove conditions and find the simplest form",
+      "after": "Drop a few requirements and find the simplest version",
+      "reason": "条件を減らす意味の自然な英語にする。"
+    },
+    {
+      "path": [
+        "quiz",
+        "questions",
+        "q31",
+        "en",
+        "choices",
+        "b"
+      ],
+      "before": "It gives me a reason to try something next",
+      "after": "It makes me want to try something next",
+      "reason": "JAの次に試したくなる気持ちに合わせる。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "pepperoni",
+        "variations",
+        "c",
+        "body"
+      ],
+      "before": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。相談は返事が来てから。",
+      "after": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。出発は返事が来てから。",
+      "reason": "相談の前に返事という順序の不自然さを解消。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "pepperoni",
+        "variations",
+        "c",
+        "body"
+      ],
+      "before": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Plans are best once everyone has answered.",
+      "after": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Set off once everyone has answered.",
+      "reason": "JAの出発と返事の順序に対応。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "mushroom",
+        "variations",
+        "a",
+        "body"
+      ],
+      "before": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. Being quiet does not mean your mind is empty.\n\nQuite the opposite, usually.\n\nFlavor is not measured by how loudly a topping announces itself.",
+      "after": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. You may be quiet, but there is plenty going on in your head.\n\nFlavor is not measured by how loudly a topping announces itself.",
+      "reason": "人格に響くmind is emptyを避け、静かでも考えているというJAの意味を維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "quattroFormaggi",
+        "variations",
+        "a",
+        "body"
+      ],
+      "before": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. On some days, not in your book.",
+      "after": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. Just not always in your book.",
+      "reason": "意味を維持して英語の落ちを自然にする。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "margherita",
+        "bad",
+        "reason"
+      ],
+      "before": "マルゲリータはいつもの安心、ハワイアンは意外な組み合わせ。注文を変える相談には、少し時間を。",
+      "after": "マルゲリータは「いつもの」。ハワイアンは「パイナップル追加で」。同じ一枚を頼むはずが、注文が二手に分かれます。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "margherita",
+        "bad",
+        "reason"
+      ],
+      "before": "Margherita wants familiar comfort; Hawaiian wants an unexpected combination. Allow a little time to agree on the order.",
+      "after": "Margherita says, “The usual.” Hawaiian says, “Add pineapple.” One shared pizza, two different orders.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "pepperoni",
+        "bad",
+        "reason"
+      ],
+      "before": "ペパロニはまず試したい。マッシュルームは理由を知りたい。出発前の確認時間を決めると楽です。",
+      "after": "ペパロニはもう一口。マッシュルームは「その味、何が違う？」。片方の感想がまとまる前に、もう一切れ減っています。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "pepperoni",
+        "bad",
+        "reason"
+      ],
+      "before": "Pepperoni wants to try; Mushroom wants to understand. Agreeing on some checking time before starting helps.",
+      "after": "Pepperoni takes another bite. Mushroom asks, “What makes that flavor different?” Before the tasting notes are ready, another slice is gone.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "quattroFormaggi",
+        "bad",
+        "reason"
+      ],
+      "before": "クアトロフォルマッジはもう少し詰めたい。マリナーラは必要な分で十分。どこで完成にするか、先に相談を。",
+      "after": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一個ぶんずれています。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "quattroFormaggi",
+        "bad",
+        "reason"
+      ],
+      "before": "Quattro Formaggi wants one more refinement; Marinara has enough. Agree in advance on what finished looks like.",
+      "after": "Quattro Formaggi says, “One more cheese.” Marinara says, “It is finished.” Their definitions of done are one cheese apart.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "mushroom",
+        "bad",
+        "reason"
+      ],
+      "before": "マッシュルームが理由を調べている間に、ペパロニは試し始めます。考える時間と試す時間を分けるとよさそう。",
+      "after": "マッシュルームが一口の違いを考えている間に、ペパロニは次の一口へ。感想を聞こうとしたら、もう口がふさがっています。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "mushroom",
+        "bad",
+        "reason"
+      ],
+      "before": "While Mushroom studies the reason, Pepperoni is already trying it. Separate time for thinking and testing may help.",
+      "after": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, the mouth is full again.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "seafood",
+        "bad",
+        "reason"
+      ],
+      "before": "シーフードはみんなの案を入れたい。マリナーラは絞りたい。具を増やす前に、今回の目的を確認すると楽です。",
+      "after": "シーフードはみんなの具をのせたい。マリナーラは少し減らしたい。同じ一枚の上で、足し算と引き算が始まります。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "seafood",
+        "bad",
+        "reason"
+      ],
+      "before": "Seafood wants to include everyone’s ideas; Marinara wants fewer. Agree on the purpose before adding more toppings.",
+      "after": "Seafood wants everyone’s toppings on the pizza. Marinara wants fewer. Addition and subtraction start on the very same base.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "hawaiian",
+        "bad",
+        "reason"
+      ],
+      "before": "ハワイアンは少し変えたい。マルゲリータは今の良さを残したい。半分ずつにすると、お互いの楽しみが残ります。",
+      "after": "ハワイアンは「パイナップルも合うよ」。マルゲリータは「いつものがいいな」。半分ずつにすると、境界線が妙にはっきりします。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "hawaiian",
+        "bad",
+        "reason"
+      ],
+      "before": "Hawaiian wants a change; Margherita wants to keep what works. Going half-and-half leaves room for both.",
+      "after": "Hawaiian says, “Pineapple works too.” Margherita says, “I like the usual.” Go half-and-half and the border becomes unusually clear.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "veggie",
+        "bad",
+        "reason"
+      ],
+      "before": "ベジーはみんなの様子を見たい。ペパロニは今すぐ出発したい。ひと呼吸待ってもらうと、一緒に進みやすくなります。",
+      "after": "ベジーは全員にお皿があるか確認中。ペパロニはもう最初の一口。配膳完了と食事開始のタイミングが、少し違います。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "veggie",
+        "bad",
+        "reason"
+      ],
+      "before": "Veggie wants to check on everyone; Pepperoni wants to leave now. A short pause makes it easier to move together.",
+      "after": "Veggie is checking that everyone has a plate. Pepperoni is already on the first bite. Setting the table and starting to eat run on slightly different clocks.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "marinara",
+        "bad",
+        "reason"
+      ],
+      "before": "マリナーラはここで十分。クアトロフォルマッジはもう一種類。お互いの「ちょうどいい」を別々に持つと楽です。",
+      "after": "マリナーラは「これで十分」。クアトロフォルマッジは「もう一種類」。何ものっていない場所にも、意見が分かれます。",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "marinara",
+        "bad",
+        "reason"
+      ],
+      "before": "Marinara has enough; Quattro Formaggi wants one more cheese. It helps to let each person have their own idea of just right.",
+      "after": "Marinara says, “That is enough.” Quattro Formaggi says, “One more cheese.” Even an empty patch of pizza divides opinion.",
+      "reason": "相性targetと好み・速度の違いを維持し、助言の結びをピザの場面の軽い衝突にする。人格否定なし。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "margherita",
+        "mottos",
+        1
+      ],
+      "before": "いつもの、には理由がある。",
+      "after": "「いつもの」で通じます。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "margherita",
+        "mottos",
+        1
+      ],
+      "before": "There is a reason for the usual.",
+      "after": "“The usual” says it all.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "pepperoni",
+        "mottos",
+        0
+      ],
+      "before": "まず一歩。次は動いてから。",
+      "after": "最初の一口は、早い。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "pepperoni",
+        "mottos",
+        0
+      ],
+      "before": "One step first. Then work out the next.",
+      "after": "Quick on the first bite.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "quattroFormaggi",
+        "mottos",
+        0
+      ],
+      "before": "好きな理由は、増えていく。",
+      "after": "話もチーズも、増えがち。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "quattroFormaggi",
+        "mottos",
+        0
+      ],
+      "before": "Reasons to love it keep adding up.",
+      "after": "More to say. More cheese.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "mushroom",
+        "mottos",
+        1
+      ],
+      "before": "よく聞いてから、一言。",
+      "after": "ひと口にも、理由がある。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "mushroom",
+        "mottos",
+        1
+      ],
+      "before": "Listen well, then speak.",
+      "after": "Even a bite has a backstory.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "seafood",
+        "mottos",
+        2
+      ],
+      "before": "みんなの案を、動く形に。",
+      "after": "エビとイカなら、まとめます。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "seafood",
+        "mottos",
+        2
+      ],
+      "before": "Turn shared ideas into a workable plan.",
+      "after": "I can get shrimp and squid together.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "hawaiian",
+        "mottos",
+        2
+      ],
+      "before": "いつもに、小さな別案を。",
+      "after": "いつものに、パイナップル。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "hawaiian",
+        "mottos",
+        2
+      ],
+      "before": "Give the usual a small alternative.",
+      "after": "The usual, with pineapple.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "veggie",
+        "mottos",
+        2
+      ],
+      "before": "みんなの中に、自分も入れる。",
+      "after": "自分の皿も、人数に入れる。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "veggie",
+        "mottos",
+        2
+      ],
+      "before": "Include yourself in “everyone.”",
+      "after": "My plate counts too.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "ja",
+        "marinara",
+        "mottos",
+        2
+      ],
+      "before": "これで十分、を自分で決める。",
+      "after": "チーズ抜きです。忘れてません。",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    },
+    {
+      "path": [
+        "results",
+        "en",
+        "marinara",
+        "mottos",
+        2
+      ],
+      "before": "Decide what enough means to you.",
+      "after": "No cheese. On purpose.",
+      "reason": "タイプの意味を維持し、抽象的な標語を短いピザの一言へ。各タイプ1本だけ変更し良い既存mottoは維持。"
+    }
+  ],
+  "localizedStringChanges": 48,
+  "holds": [
+    {
+      "items": [
+        "q14 b/d",
+        "q16 a/c",
+        "q24 a/c"
+      ],
+      "reason": "Similar answers retain the distinction between coordination and consideration. Further behavioral differentiation could change meaning, so HOLD; no scoring or position changes."
+    }
+  ],
+  "independentInput": "Parent independently reviewed baseline questions and result copy and supplied minimal edit candidates; no M/W request."
+}

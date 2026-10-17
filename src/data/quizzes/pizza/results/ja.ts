@@ -17,7 +17,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "mottos": [
       "基本がいいと、長くおいしい。",
-      "いつもの、には理由がある。",
+      "「いつもの」で通じます。",
       "安心も、立派な持ち味。"
     ],
     "good": {
@@ -26,7 +26,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "hawaiian",
-      "reason": "マルゲリータはいつもの安心、ハワイアンは意外な組み合わせ。注文を変える相談には、少し時間を。"
+      "reason": "マルゲリータは「いつもの」。ハワイアンは「パイナップル追加で」。同じ一枚を頼むはずが、注文が二手に分かれます。"
     }
   },
   "pepperoni": {
@@ -40,11 +40,11 @@ export const pizzaResultContentJa: QuizResultContent = {
         "body": "「誰かやらない？」で止まった空気に、手を挙げられるタイプ。\n\n完璧な準備がなくても、とりあえず試してみます。失敗しても、次に試すことが見えれば収穫です。\n\n勢いがあるぶん、休憩は忘れがち。\n\nオーブンにも、切るスイッチがあります。"
       },
       "c": {
-        "body": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。相談は返事が来てから。"
+        "body": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。出発は返事が来てから。"
       }
     },
     "mottos": [
-      "まず一歩。次は動いてから。",
+      "最初の一口は、早い。",
       "熱いうちに、小さく試す。",
       "勢いにも、休憩を。"
     ],
@@ -54,7 +54,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "mushroom",
-      "reason": "ペパロニはまず試したい。マッシュルームは理由を知りたい。出発前の確認時間を決めると楽です。"
+      "reason": "ペパロニはもう一口。マッシュルームは「その味、何が違う？」。片方の感想がまとまる前に、もう一切れ減っています。"
     }
   },
   "quattroFormaggi": {
@@ -72,7 +72,7 @@ export const pizzaResultContentJa: QuizResultContent = {
       }
     },
     "mottos": [
-      "好きな理由は、増えていく。",
+      "話もチーズも、増えがち。",
       "大事なところは、薄めない。",
       "濃厚な話は、一切れずつ。"
     ],
@@ -82,7 +82,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "marinara",
-      "reason": "クアトロフォルマッジはもう少し詰めたい。マリナーラは必要な分で十分。どこで完成にするか、先に相談を。"
+      "reason": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一個ぶんずれています。"
     }
   },
   "mushroom": {
@@ -101,7 +101,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "mottos": [
       "小さな違いも、味になる。",
-      "よく聞いてから、一言。",
+      "ひと口にも、理由がある。",
       "気づいたことは、出してみる。"
     ],
     "good": {
@@ -110,7 +110,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "pepperoni",
-      "reason": "マッシュルームが理由を調べている間に、ペパロニは試し始めます。考える時間と試す時間を分けるとよさそう。"
+      "reason": "マッシュルームが一口の違いを考えている間に、ペパロニは次の一口へ。感想を聞こうとしたら、もう口がふさがっています。"
     }
   },
   "seafood": {
@@ -130,7 +130,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     "mottos": [
       "違いは、組み合わせてみる。",
       "まとめ役も、一切れどうぞ。",
-      "みんなの案を、動く形に。"
+      "エビとイカなら、まとめます。"
     ],
     "good": {
       "typeId": "pepperoni",
@@ -138,7 +138,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "marinara",
-      "reason": "シーフードはみんなの案を入れたい。マリナーラは絞りたい。具を増やす前に、今回の目的を確認すると楽です。"
+      "reason": "シーフードはみんなの具をのせたい。マリナーラは少し減らしたい。同じ一枚の上で、足し算と引き算が始まります。"
     }
   },
   "hawaiian": {
@@ -158,7 +158,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     "mottos": [
       "意外と合う、を探したい。",
       "まずは、自分の一切れで。",
-      "いつもに、小さな別案を。"
+      "いつものに、パイナップル。"
     ],
     "good": {
       "typeId": "pepperoni",
@@ -166,7 +166,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "margherita",
-      "reason": "ハワイアンは少し変えたい。マルゲリータは今の良さを残したい。半分ずつにすると、お互いの楽しみが残ります。"
+      "reason": "ハワイアンは「パイナップルも合うよ」。マルゲリータは「いつものがいいな」。半分ずつにすると、境界線が妙にはっきりします。"
     }
   },
   "veggie": {
@@ -186,7 +186,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     "mottos": [
       "自分の分も、忘れずに。",
       "気づかいは、小さくても届く。",
-      "みんなの中に、自分も入れる。"
+      "自分の皿も、人数に入れる。"
     ],
     "good": {
       "typeId": "margherita",
@@ -194,7 +194,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "pepperoni",
-      "reason": "ベジーはみんなの様子を見たい。ペパロニは今すぐ出発したい。ひと呼吸待ってもらうと、一緒に進みやすくなります。"
+      "reason": "ベジーは全員にお皿があるか確認中。ペパロニはもう最初の一口。配膳完了と食事開始のタイミングが、少し違います。"
     }
   },
   "marinara": {
@@ -214,7 +214,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     "mottos": [
       "足さない選択も、ある。",
       "大事なものが、見える余白を。",
-      "これで十分、を自分で決める。"
+      "チーズ抜きです。忘れてません。"
     ],
     "good": {
       "typeId": "mushroom",
@@ -222,7 +222,7 @@ export const pizzaResultContentJa: QuizResultContent = {
     },
     "bad": {
       "typeId": "quattroFormaggi",
-      "reason": "マリナーラはここで十分。クアトロフォルマッジはもう一種類。お互いの「ちょうどいい」を別々に持つと楽です。"
+      "reason": "マリナーラは「これで十分」。クアトロフォルマッジは「もう一種類」。何ものっていない場所にも、意見が分かれます。"
     }
   }
 };

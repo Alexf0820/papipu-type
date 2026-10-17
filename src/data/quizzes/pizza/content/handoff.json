@@ -112,7 +112,7 @@
             "a": "いつもの店を押さえて、みんなを安心させる",
             "b": "気になる場所を一つ提案して、まず動く",
             "c": "前から好きな場所で、じっくり過ごす案を出す",
-            "d": "空いた理由を聞いて、納得できる次の案を詰める"
+            "d": "予定が変わった理由を聞いて、納得できる次の案を詰める"
           }
         },
         "en": {
@@ -264,7 +264,7 @@
             "a": "小さく試して、動きながら覚える",
             "b": "仕上がりの見本を決め、そこまで詰める",
             "c": "仕組みを調べて、納得してから始める",
-            "d": "いつもの手順を確認し、使う人が困る抜けを防ぐ"
+            "d": "いつもの手順を確認し、使う人が困らないよう抜けを防ぐ"
           }
         },
         "en": {
@@ -538,7 +538,7 @@
           "choices": {
             "a": "Replying briefly with just the essentials",
             "b": "Gathering ideas so we can make a decision",
-            "c": "Drop in something unexpected that needs no long explanation",
+            "c": "Dropping in something unexpected that needs no long explanation",
             "d": "Helping someone who seems unsure how to reply"
           }
         }
@@ -688,7 +688,7 @@
         "en": {
           "text": "How do you choose a gift?",
           "choices": {
-            "a": "Compare ideas with others and settle on one",
+            "a": "Compare ideas with others and choose something the recipient would enjoy",
             "b": "Something unexpected that is easy to look after",
             "c": "Remember a recent difficulty and compare ideas with others",
             "d": "Something simple with a clear use"
@@ -728,8 +728,8 @@
           "choices": {
             "a": "Take it easy somewhere familiar, without putting pressure on myself or others",
             "b": "Get started on one thing I have thought of but never tried",
-            "c": "Staying with a favorite activity until a satisfying stopping point",
-            "d": "Looking carefully into something I have been wondering about"
+            "c": "Stay with a favorite activity until a satisfying stopping point",
+            "d": "Look carefully into something I have been wondering about"
           }
         }
       },
@@ -803,7 +803,7 @@
           "text": "What helps you reset?",
           "choices": {
             "a": "Try a different physical activity and enjoy a small win",
-            "b": "Spending proper time with a favorite work or hobby",
+            "b": "Spend time with a favorite creative work or hobby",
             "c": "Write down what is bothering me and work through it until it makes sense",
             "d": "Return to a familiar routine so I can be gentler with others too"
           }
@@ -833,7 +833,7 @@
           "choices": {
             "a": "大げさな準備のいらない、いつもと違う体験",
             "b": "お互いを気づかえる、穏やかな時間",
-            "c": "必要か見直して、予定も持ち物も減らした時間",
+            "c": "予定や持ち物を見直して、身軽になる時間",
             "d": "気の合う人に声をかけ、集まる段取りをつける時間"
           }
         },
@@ -872,7 +872,7 @@
             "a": "とりあえず触って、失敗しながら覚える",
             "b": "好きになった部分を、繰り返し練習する",
             "c": "なぜそうなるのか、仕組みまで調べる",
-            "d": "基本を順番に確かめ、人に迷惑をかけないよう進む"
+            "d": "基本を順番に確かめ、周りが困らないように進む"
           }
         },
         "en": {
@@ -881,7 +881,7 @@
             "a": "Get hands-on and learn from mistakes",
             "b": "Practice the part I enjoy until it feels right",
             "c": "Look into why it works the way it does",
-            "d": "Check the basics in order so my mistakes do not cause trouble for others"
+            "d": "Check the basics in order so things go smoothly for others too"
           }
         }
       },
@@ -993,7 +993,7 @@
           "text": "You need a fresh idea. How do you approach it?",
           "choices": {
             "a": "Ask who needs help with what, then connect people's ideas",
-            "b": "Remove conditions and find the simplest form",
+            "b": "Drop a few requirements and find the simplest version",
             "c": "Combine ideas from people into something workable",
             "d": "Try an unusual combination using only a few ingredients"
           }
@@ -1259,7 +1259,7 @@
           "text": "What makes you choose something again and again?",
           "choices": {
             "a": "It is dependable on a rough day, and I can recommend it with confidence",
-            "b": "It gives me a reason to try something next",
+            "b": "It makes me want to try something next",
             "c": "The more I know it, the more I appreciate it",
             "d": "I notice a new detail each time"
           }
@@ -1323,7 +1323,7 @@
         },
         "mottos": [
           "基本がいいと、長くおいしい。",
-          "いつもの、には理由がある。",
+          "「いつもの」で通じます。",
           "安心も、立派な持ち味。"
         ],
         "good": {
@@ -1332,7 +1332,7 @@
         },
         "bad": {
           "typeId": "hawaiian",
-          "reason": "マルゲリータはいつもの安心、ハワイアンは意外な組み合わせ。注文を変える相談には、少し時間を。"
+          "reason": "マルゲリータは「いつもの」。ハワイアンは「パイナップル追加で」。同じ一枚を頼むはずが、注文が二手に分かれます。"
         }
       },
       "pepperoni": {
@@ -1346,11 +1346,11 @@
             "body": "「誰かやらない？」で止まった空気に、手を挙げられるタイプ。\n\n完璧な準備がなくても、とりあえず試してみます。失敗しても、次に試すことが見えれば収穫です。\n\n勢いがあるぶん、休憩は忘れがち。\n\nオーブンにも、切るスイッチがあります。"
           },
           "c": {
-            "body": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。相談は返事が来てから。"
+            "body": "気になったら、見ているだけでは終われない人。\n\n予約する、声をかける、実際に触る。最初の一歩を具体的にする力があります。\n\nその速さは頼もしいけれど、返事を待つ時間も予定に入れておくと安心。\n\nピザは熱いうちに。出発は返事が来てから。"
           }
         },
         "mottos": [
-          "まず一歩。次は動いてから。",
+          "最初の一口は、早い。",
           "熱いうちに、小さく試す。",
           "勢いにも、休憩を。"
         ],
@@ -1360,7 +1360,7 @@
         },
         "bad": {
           "typeId": "mushroom",
-          "reason": "ペパロニはまず試したい。マッシュルームは理由を知りたい。出発前の確認時間を決めると楽です。"
+          "reason": "ペパロニはもう一口。マッシュルームは「その味、何が違う？」。片方の感想がまとまる前に、もう一切れ減っています。"
         }
       },
       "quattroFormaggi": {
@@ -1378,7 +1378,7 @@
           }
         },
         "mottos": [
-          "好きな理由は、増えていく。",
+          "話もチーズも、増えがち。",
           "大事なところは、薄めない。",
           "濃厚な話は、一切れずつ。"
         ],
@@ -1388,7 +1388,7 @@
         },
         "bad": {
           "typeId": "marinara",
-          "reason": "クアトロフォルマッジはもう少し詰めたい。マリナーラは必要な分で十分。どこで完成にするか、先に相談を。"
+          "reason": "クアトロフォルマッジは「あと一種類」。マリナーラは「もう完成」。完成の合図が、チーズ一個ぶんずれています。"
         }
       },
       "mushroom": {
@@ -1407,7 +1407,7 @@
         },
         "mottos": [
           "小さな違いも、味になる。",
-          "よく聞いてから、一言。",
+          "ひと口にも、理由がある。",
           "気づいたことは、出してみる。"
         ],
         "good": {
@@ -1416,7 +1416,7 @@
         },
         "bad": {
           "typeId": "pepperoni",
-          "reason": "マッシュルームが理由を調べている間に、ペパロニは試し始めます。考える時間と試す時間を分けるとよさそう。"
+          "reason": "マッシュルームが一口の違いを考えている間に、ペパロニは次の一口へ。感想を聞こうとしたら、もう口がふさがっています。"
         }
       },
       "seafood": {
@@ -1436,7 +1436,7 @@
         "mottos": [
           "違いは、組み合わせてみる。",
           "まとめ役も、一切れどうぞ。",
-          "みんなの案を、動く形に。"
+          "エビとイカなら、まとめます。"
         ],
         "good": {
           "typeId": "pepperoni",
@@ -1444,7 +1444,7 @@
         },
         "bad": {
           "typeId": "marinara",
-          "reason": "シーフードはみんなの案を入れたい。マリナーラは絞りたい。具を増やす前に、今回の目的を確認すると楽です。"
+          "reason": "シーフードはみんなの具をのせたい。マリナーラは少し減らしたい。同じ一枚の上で、足し算と引き算が始まります。"
         }
       },
       "hawaiian": {
@@ -1464,7 +1464,7 @@
         "mottos": [
           "意外と合う、を探したい。",
           "まずは、自分の一切れで。",
-          "いつもに、小さな別案を。"
+          "いつものに、パイナップル。"
         ],
         "good": {
           "typeId": "pepperoni",
@@ -1472,7 +1472,7 @@
         },
         "bad": {
           "typeId": "margherita",
-          "reason": "ハワイアンは少し変えたい。マルゲリータは今の良さを残したい。半分ずつにすると、お互いの楽しみが残ります。"
+          "reason": "ハワイアンは「パイナップルも合うよ」。マルゲリータは「いつものがいいな」。半分ずつにすると、境界線が妙にはっきりします。"
         }
       },
       "veggie": {
@@ -1492,7 +1492,7 @@
         "mottos": [
           "自分の分も、忘れずに。",
           "気づかいは、小さくても届く。",
-          "みんなの中に、自分も入れる。"
+          "自分の皿も、人数に入れる。"
         ],
         "good": {
           "typeId": "margherita",
@@ -1500,7 +1500,7 @@
         },
         "bad": {
           "typeId": "pepperoni",
-          "reason": "ベジーはみんなの様子を見たい。ペパロニは今すぐ出発したい。ひと呼吸待ってもらうと、一緒に進みやすくなります。"
+          "reason": "ベジーは全員にお皿があるか確認中。ペパロニはもう最初の一口。配膳完了と食事開始のタイミングが、少し違います。"
         }
       },
       "marinara": {
@@ -1520,7 +1520,7 @@
         "mottos": [
           "足さない選択も、ある。",
           "大事なものが、見える余白を。",
-          "これで十分、を自分で決める。"
+          "チーズ抜きです。忘れてません。"
         ],
         "good": {
           "typeId": "mushroom",
@@ -1528,7 +1528,7 @@
         },
         "bad": {
           "typeId": "quattroFormaggi",
-          "reason": "マリナーラはここで十分。クアトロフォルマッジはもう一種類。お互いの「ちょうどいい」を別々に持つと楽です。"
+          "reason": "マリナーラは「これで十分」。クアトロフォルマッジは「もう一種類」。何ものっていない場所にも、意見が分かれます。"
         }
       }
     },
@@ -1549,7 +1549,7 @@
         },
         "mottos": [
           "Good basics keep their appeal.",
-          "There is a reason for the usual.",
+          "“The usual” says it all.",
           "Dependability has its own flavor."
         ],
         "good": {
@@ -1558,7 +1558,7 @@
         },
         "bad": {
           "typeId": "hawaiian",
-          "reason": "Margherita wants familiar comfort; Hawaiian wants an unexpected combination. Allow a little time to agree on the order."
+          "reason": "Margherita says, “The usual.” Hawaiian says, “Add pineapple.” One shared pizza, two different orders."
         }
       },
       "pepperoni": {
@@ -1572,11 +1572,11 @@
             "body": "When “Will someone do it?” hangs in the air, you can raise your hand.\n\nYou do not need perfect preparation to give something a try. Even a failed attempt is useful if it reveals a next step.\n\nWith that momentum, breaks can slip your mind.\n\nEven an oven has an off switch."
           },
           "c": {
-            "body": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Plans are best once everyone has answered."
+            "body": "When something interests you, watching is not quite enough.\n\nYou make the booking, send the invitation, or try it yourself. You turn a first step into an actual action.\n\nThat speed is useful. Just leave time for people to reply.\n\nPizza is best while hot. Set off once everyone has answered."
           }
         },
         "mottos": [
-          "One step first. Then work out the next.",
+          "Quick on the first bite.",
           "Try a little while the idea is hot.",
           "Momentum needs breaks too."
         ],
@@ -1586,7 +1586,7 @@
         },
         "bad": {
           "typeId": "mushroom",
-          "reason": "Pepperoni wants to try; Mushroom wants to understand. Agreeing on some checking time before starting helps."
+          "reason": "Pepperoni takes another bite. Mushroom asks, “What makes that flavor different?” Before the tasting notes are ready, another slice is gone."
         }
       },
       "quattroFormaggi": {
@@ -1594,7 +1594,7 @@
         "visualKey": "pizza-quattro-formaggi",
         "variations": {
           "a": {
-            "body": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. On some days, not in your book."
+            "body": "Bring up something you love and your explanations suddenly get very detailed.\n\n“They are all the same” does not sound right to you. The more differences you discover, the more you appreciate them.\n\nThat enthusiasm shows in the care you put into things.\n\nOne cheese might be enough. Just not always in your book."
           },
           "b": {
             "body": "You do not like leaving an important detail at “close enough.”\n\nYou would rather take time to adjust it and feel satisfied before sharing it.\n\nSometimes, though, the other person was only asking for a quick answer.\n\nServe the rich explanation one slice at a time."
@@ -1604,7 +1604,7 @@
           }
         },
         "mottos": [
-          "Reasons to love it keep adding up.",
+          "More to say. More cheese.",
           "Keep the important parts rich.",
           "Rich stories, one slice at a time."
         ],
@@ -1614,7 +1614,7 @@
         },
         "bad": {
           "typeId": "marinara",
-          "reason": "Quattro Formaggi wants one more refinement; Marinara has enough. Agree in advance on what finished looks like."
+          "reason": "Quattro Formaggi says, “One more cheese.” Marinara says, “It is finished.” Their definitions of done are one cheese apart."
         }
       },
       "mushroom": {
@@ -1622,7 +1622,7 @@
         "visualKey": "pizza-mushroom",
         "variations": {
           "a": {
-            "body": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. Being quiet does not mean your mind is empty.\n\nQuite the opposite, usually.\n\nFlavor is not measured by how loudly a topping announces itself."
+            "body": "You notice small differences beneath the obvious ones.\n\nYou listen and check before offering an opinion. You may be quiet, but there is plenty going on in your head.\n\nFlavor is not measured by how loudly a topping announces itself."
           },
           "b": {
             "body": "You find it hard to leave a “why?” unexplored.\n\nFollowing the reasons can uncover something everyone else missed.\n\nOf course, one answer sometimes opens three more questions.\n\nIt is fine to stop at “enough for now” before the pizza goes cold."
@@ -1633,7 +1633,7 @@
         },
         "mottos": [
           "Small differences add flavor.",
-          "Listen well, then speak.",
+          "Even a bite has a backstory.",
           "Share what you notice."
         ],
         "good": {
@@ -1642,7 +1642,7 @@
         },
         "bad": {
           "typeId": "pepperoni",
-          "reason": "While Mushroom studies the reason, Pepperoni is already trying it. Separate time for thinking and testing may help."
+          "reason": "While Mushroom considers what makes a bite different, Pepperoni takes the next one. Just as a question comes up, the mouth is full again."
         }
       },
       "seafood": {
@@ -1662,7 +1662,7 @@
         "mottos": [
           "Try putting the differences together.",
           "The organizer gets a slice too.",
-          "Turn shared ideas into a workable plan."
+          "I can get shrimp and squid together."
         ],
         "good": {
           "typeId": "pepperoni",
@@ -1670,7 +1670,7 @@
         },
         "bad": {
           "typeId": "marinara",
-          "reason": "Seafood wants to include everyone’s ideas; Marinara wants fewer. Agree on the purpose before adding more toppings."
+          "reason": "Seafood wants everyone’s toppings on the pizza. Marinara wants fewer. Addition and subtraction start on the very same base."
         }
       },
       "hawaiian": {
@@ -1690,7 +1690,7 @@
         "mottos": [
           "Look for the unexpected match.",
           "Try it on your own slice first.",
-          "Give the usual a small alternative."
+          "The usual, with pineapple."
         ],
         "good": {
           "typeId": "pepperoni",
@@ -1698,7 +1698,7 @@
         },
         "bad": {
           "typeId": "margherita",
-          "reason": "Hawaiian wants a change; Margherita wants to keep what works. Going half-and-half leaves room for both."
+          "reason": "Hawaiian says, “Pineapple works too.” Margherita says, “I like the usual.” Go half-and-half and the border becomes unusually clear."
         }
       },
       "veggie": {
@@ -1718,7 +1718,7 @@
         "mottos": [
           "Remember your own portion.",
           "Small acts of care still reach people.",
-          "Include yourself in “everyone.”"
+          "My plate counts too."
         ],
         "good": {
           "typeId": "margherita",
@@ -1726,7 +1726,7 @@
         },
         "bad": {
           "typeId": "pepperoni",
-          "reason": "Veggie wants to check on everyone; Pepperoni wants to leave now. A short pause makes it easier to move together."
+          "reason": "Veggie is checking that everyone has a plate. Pepperoni is already on the first bite. Setting the table and starting to eat run on slightly different clocks."
         }
       },
       "marinara": {
@@ -1746,7 +1746,7 @@
         "mottos": [
           "Leaving it out is an option.",
           "Leave room to see what matters.",
-          "Decide what enough means to you."
+          "No cheese. On purpose."
         ],
         "good": {
           "typeId": "mushroom",
@@ -1754,14 +1754,14 @@
         },
         "bad": {
           "typeId": "quattroFormaggi",
-          "reason": "Marinara has enough; Quattro Formaggi wants one more cheese. It helps to let each person have their own idea of just right."
+          "reason": "Marinara says, “That is enough.” Quattro Formaggi says, “One more cheese.” Even an empty patch of pizza divides opinion."
         }
       }
     }
   },
   "authorship": {
-    "version": "1.1",
-    "date": "2026-10-16",
+    "version": "1.2",
+    "date": "2026-10-17",
     "scope": "Owner-authorized new Pizza manuscript under dot1 oversight; generated by Codex for independent QA and owner Preview review. Not a recovered historical manuscript.",
     "approval": "Authoring and original asset reuse authorized; final iPhone/Production approval not granted."
   },
