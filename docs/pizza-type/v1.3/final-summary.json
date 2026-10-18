@@ -138,7 +138,7 @@
     "totalProductionWorkTime": "未計測",
     "totalReworkCount": "未計測"
   },
-  "nextSeven": "Standard workflow documented;themes/IDs/order not specified;all7 unstarted. No new quiz/scaffold change/automation framework.",
+  "nextSeventhQuiz": "Standard workflow documented for creating one next (seventh) quiz. Theme and quiz ID are unspecified; no new quiz authoring or implementation started in this pass. No scaffold change or automation framework.",
   "handoffStorage": "Git docs fallback;no callable TSURUHASHI write tool;no connection workaround attempted.",
   "forbiddenChangesPerformed": false,
   "mWDelegationThisPass": false,

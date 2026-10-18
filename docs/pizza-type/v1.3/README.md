@@ -54,7 +54,7 @@
 ## 保存と引継ぎ
 
 - [公開手順・公開後確認・戻し先](RELEASE.md)
-- [制作の振り返りと次7本の標準手順](FACTORY-NEXT7.md)
+- [制作の振り返りと次の第7弾1本の標準手順](FACTORY-SEVENTH-QUIZ.md)
 - [独立レビュー](independent-review.json)：保存ログ/画像の再レビューと、新規実行を明確に区別
 - [追加QA再現記録](QA-REPRODUCTION.md)、[local build入力照合](build-source-proof.json)
 - [デプロイ読取記録](deployment-readback.json)、[固定版証拠hash一覧](evidence-audit.json)
