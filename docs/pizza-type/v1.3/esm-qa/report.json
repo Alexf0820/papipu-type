@@ -1,0 +1,1994 @@
+{
+  "base": "Existing local production build (next start)",
+  "browser": "System Chromium, not Safari or physical iPhone",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "sessions": [
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q07",
+        "q11",
+        "q13",
+        "q20",
+        "q23",
+        "q25",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q16",
+        "q17",
+        "q23",
+        "q28",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q09",
+        "q13",
+        "q17",
+        "q24",
+        "q25",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q05",
+        "q09",
+        "q16",
+        "q17",
+        "q21",
+        "q27",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q01",
+        "q05",
+        "q11",
+        "q13",
+        "q17",
+        "q22",
+        "q28",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q05",
+        "q10",
+        "q13",
+        "q17",
+        "q22",
+        "q25",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q04",
+        "q07",
+        "q10",
+        "q15",
+        "q17",
+        "q24",
+        "q27",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q10",
+        "q16",
+        "q17",
+        "q23",
+        "q27",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q03",
+        "q05",
+        "q09",
+        "q14",
+        "q20",
+        "q21",
+        "q27",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q09",
+        "q14",
+        "q17",
+        "q22",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q16",
+        "q19",
+        "q23",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q04",
+        "q05",
+        "q10",
+        "q16",
+        "q18",
+        "q21",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q13",
+        "q17",
+        "q24",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q01",
+        "q06",
+        "q10",
+        "q16",
+        "q19",
+        "q22",
+        "q26",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q04",
+        "q05",
+        "q12",
+        "q14",
+        "q18",
+        "q22",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q08",
+        "q09",
+        "q14",
+        "q19",
+        "q23",
+        "q28",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q04",
+        "q08",
+        "q10",
+        "q16",
+        "q18",
+        "q21",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q08",
+        "q09",
+        "q14",
+        "q17",
+        "q22",
+        "q25",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q03",
+        "q08",
+        "q10",
+        "q15",
+        "q18",
+        "q22",
+        "q28",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q05",
+        "q10",
+        "q13",
+        "q17",
+        "q24",
+        "q26",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q06",
+        "q12",
+        "q14",
+        "q20",
+        "q23",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q08",
+        "q10",
+        "q15",
+        "q20",
+        "q22",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q03",
+        "q06",
+        "q10",
+        "q16",
+        "q17",
+        "q21",
+        "q28",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q06",
+        "q10",
+        "q16",
+        "q18",
+        "q24",
+        "q27",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q07",
+        "q11",
+        "q13",
+        "q20",
+        "q23",
+        "q25",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q16",
+        "q17",
+        "q23",
+        "q28",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q09",
+        "q13",
+        "q17",
+        "q24",
+        "q25",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q05",
+        "q09",
+        "q16",
+        "q17",
+        "q21",
+        "q27",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q01",
+        "q05",
+        "q11",
+        "q13",
+        "q17",
+        "q22",
+        "q28",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q05",
+        "q10",
+        "q13",
+        "q17",
+        "q22",
+        "q25",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q04",
+        "q07",
+        "q10",
+        "q15",
+        "q17",
+        "q24",
+        "q27",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q10",
+        "q16",
+        "q17",
+        "q23",
+        "q27",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q03",
+        "q05",
+        "q09",
+        "q14",
+        "q20",
+        "q21",
+        "q27",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q03",
+        "q07",
+        "q09",
+        "q14",
+        "q17",
+        "q22",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q16",
+        "q19",
+        "q23",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q04",
+        "q05",
+        "q10",
+        "q16",
+        "q18",
+        "q21",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q02",
+        "q07",
+        "q09",
+        "q13",
+        "q17",
+        "q24",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q01",
+        "q06",
+        "q10",
+        "q16",
+        "q19",
+        "q22",
+        "q26",
+        "q32"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q04",
+        "q05",
+        "q12",
+        "q14",
+        "q18",
+        "q22",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q08",
+        "q09",
+        "q14",
+        "q19",
+        "q23",
+        "q28",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q04",
+        "q08",
+        "q10",
+        "q16",
+        "q18",
+        "q21",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q08",
+        "q09",
+        "q14",
+        "q17",
+        "q22",
+        "q25",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q03",
+        "q08",
+        "q10",
+        "q15",
+        "q18",
+        "q22",
+        "q28",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q02",
+        "q05",
+        "q10",
+        "q13",
+        "q17",
+        "q24",
+        "q26",
+        "q29"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q06",
+        "q12",
+        "q14",
+        "q20",
+        "q23",
+        "q26",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "variation": "a",
+      "face": "smile",
+      "mottoIndex": 0,
+      "questionIds": [
+        "q01",
+        "q08",
+        "q10",
+        "q15",
+        "q20",
+        "q22",
+        "q25",
+        "q31"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "variation": "b",
+      "face": "sweat-smile",
+      "mottoIndex": 1,
+      "questionIds": [
+        "q03",
+        "q06",
+        "q10",
+        "q16",
+        "q17",
+        "q21",
+        "q28",
+        "q30"
+      ],
+      "resultTextMatches": true
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "variation": "c",
+      "face": "noon",
+      "mottoIndex": 2,
+      "questionIds": [
+        "q01",
+        "q06",
+        "q10",
+        "q16",
+        "q18",
+        "q24",
+        "q27",
+        "q30"
+      ],
+      "resultTextMatches": true
+    }
+  ],
+  "routes": [
+    {
+      "locale": "ja",
+      "id": "Home",
+      "pizzaCard": true
+    },
+    {
+      "locale": "ja",
+      "id": "pizza",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "ja",
+      "id": "camp-gear",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "ja",
+      "id": "spaghetti",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "ja",
+      "id": "sushi",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "ja",
+      "id": "ice-cream",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "ja",
+      "id": "donut",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "en",
+      "id": "Home",
+      "pizzaCard": true
+    },
+    {
+      "locale": "en",
+      "id": "pizza",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "en",
+      "id": "camp-gear",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "en",
+      "id": "spaghetti",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "en",
+      "id": "sushi",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "en",
+      "id": "ice-cream",
+      "eightQuestionCompletion": true
+    },
+    {
+      "locale": "en",
+      "id": "donut",
+      "eightQuestionCompletion": true
+    }
+  ],
+  "errors": [],
+  "overflows": [],
+  "share": [
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "method": "actual browser clipboard",
+      "urlCorrect": true,
+      "nameCorrect": true
+    }
+  ],
+  "backFlow": [
+    {
+      "locale": "ja",
+      "backAndChangedAnswer": true
+    },
+    {
+      "locale": "en",
+      "backAndChangedAnswer": true
+    }
+  ],
+  "faces": [
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.10150146484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 205.77703857421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "margherita",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 218.765869140625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 217.24993896484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.92547607421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "pepperoni",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.914306640625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(255 391) scale(0.58)",
+      "bounds": {
+        "left": 123.77859497070312,
+        "top": 215.52728271484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(255 391) scale(0.58)",
+      "bounds": {
+        "left": 123.77859497070312,
+        "top": 205.20281982421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "quattroFormaggi",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(255 391) scale(0.58)",
+      "bounds": {
+        "left": 123.77859497070312,
+        "top": 218.191650390625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.67572021484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.35125732421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "mushroom",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.340087890625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 217.24993896484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.92547607421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "seafood",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.914306640625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.10150146484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 205.77703857421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "hawaiian",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 218.765869140625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.67572021484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.35125732421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "veggie",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.340087890625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.10150146484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 205.77703857421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "ja",
+      "type": "marinara",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 218.765869140625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.10150146484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 205.77703857421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "margherita",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 218.765869140625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 217.24993896484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.92547607421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "pepperoni",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.914306640625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(255 391) scale(0.58)",
+      "bounds": {
+        "left": 123.77859497070312,
+        "top": 215.52728271484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(255 391) scale(0.58)",
+      "bounds": {
+        "left": 123.77859497070312,
+        "top": 205.20281982421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "quattroFormaggi",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(255 391) scale(0.58)",
+      "bounds": {
+        "left": 123.77859497070312,
+        "top": 218.191650390625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.67572021484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.35125732421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "mushroom",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.340087890625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 217.24993896484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.92547607421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "seafood",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 394) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.914306640625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.10150146484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 205.77703857421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "hawaiian",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 218.765869140625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.67572021484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 206.35125732421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "veggie",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 393) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 219.340087890625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "variation": "a",
+      "expression": "smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 216.10150146484375,
+        "width": 45.29437255859375,
+        "height": 19.31671142578125
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "variation": "b",
+      "expression": "sweat-smile",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 205.77703857421875,
+        "width": 45.96046447753906,
+        "height": 29.64117431640625
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    },
+    {
+      "locale": "en",
+      "type": "marinara",
+      "variation": "c",
+      "expression": "noon",
+      "transform": "translate(256 392) scale(0.58)",
+      "bounds": {
+        "left": 124.35281372070312,
+        "top": 218.765869140625,
+        "width": 45.29437255859375,
+        "height": 25.3115234375
+      },
+      "svg": {
+        "width": 294,
+        "height": 294
+      }
+    }
+  ],
+  "screenshots": [
+    "margherita-smile.png",
+    "margherita-sweat-smile.png",
+    "margherita-noon.png",
+    "pepperoni-smile.png",
+    "pepperoni-sweat-smile.png",
+    "pepperoni-noon.png",
+    "quattroFormaggi-smile.png",
+    "quattroFormaggi-sweat-smile.png",
+    "quattroFormaggi-noon.png",
+    "ja-result-mobile.png",
+    "mushroom-smile.png",
+    "mushroom-sweat-smile.png",
+    "mushroom-noon.png",
+    "seafood-smile.png",
+    "seafood-sweat-smile.png",
+    "seafood-noon.png",
+    "hawaiian-smile.png",
+    "hawaiian-sweat-smile.png",
+    "hawaiian-noon.png",
+    "veggie-smile.png",
+    "veggie-sweat-smile.png",
+    "veggie-noon.png",
+    "marinara-smile.png",
+    "marinara-sweat-smile.png",
+    "marinara-noon.png",
+    "en-result-mobile.png"
+  ],
+  "browserVersion": "151.0.7922.173",
+  "date": "2026-10-18",
+  "execution": "Fresh full run of import-only ESM correction; PIZZA_QA_RESUME not used; mobile touch for both locales. Not remote Preview or Safari.",
+  "exitCode": 0,
+  "scriptSha256": "a95e37a94f2e55ea7b3cedc4fbec63f076996f4324f7a624d0e6f20f6edf7739",
+  "questionCoverage": {
+    "ja": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32"
+    ],
+    "en": [
+      "q01",
+      "q02",
+      "q03",
+      "q04",
+      "q05",
+      "q06",
+      "q07",
+      "q08",
+      "q09",
+      "q10",
+      "q11",
+      "q12",
+      "q13",
+      "q14",
+      "q15",
+      "q16",
+      "q17",
+      "q18",
+      "q19",
+      "q20",
+      "q21",
+      "q22",
+      "q23",
+      "q24",
+      "q25",
+      "q26",
+      "q27",
+      "q28",
+      "q29",
+      "q30",
+      "q31",
+      "q32"
+    ]
+  },
+  "nativeShare": "Not tested. Actual Chromium clipboard was used; no OS native share sheet or external posting."
+}

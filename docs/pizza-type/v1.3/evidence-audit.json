@@ -1,0 +1,374 @@
+{
+  "date": "2026-10-18",
+  "frozenSha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+  "mainSha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "handoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8",
+  "scoringProjectionSha256ByCommit": {
+    "de8c268": "f321052af4391e6d05ce5a1f1a25cff47c00afd076265499854b99d7c001f023",
+    "fe0c945": "f321052af4391e6d05ce5a1f1a25cff47c00afd076265499854b99d7c001f023",
+    "61e0f56": "f321052af4391e6d05ce5a1f1a25cff47c00afd076265499854b99d7c001f023",
+    "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53": "f321052af4391e6d05ce5a1f1a25cff47c00afd076265499854b99d7c001f023"
+  },
+  "scoringProjectionMethod": "Canonical sorted JSON of quiz excluding localized title and prompt/choice text; retains IDs/typeTraitMap/categories/order and every mainType/secondaryType pair.",
+  "sameApplicationInputsBetweenFinalTestedSourceAndFrozenSha": true,
+  "oldFiveFilesCompared": 50,
+  "oldFiveByteDifferences": [],
+  "oldFivePaths": [
+    "src/app/[locale]/camp-gear/page.tsx",
+    "src/app/[locale]/donut/page.tsx",
+    "src/app/[locale]/ice-cream/page.tsx",
+    "src/app/[locale]/spaghetti/page.tsx",
+    "src/app/[locale]/sushi/page.tsx",
+    "src/data/quizzes/camp-gear/campGear.test.ts",
+    "src/data/quizzes/camp-gear/definition.ts",
+    "src/data/quizzes/camp-gear/en.ts",
+    "src/data/quizzes/camp-gear/ja.ts",
+    "src/data/quizzes/camp-gear/phase2.test.ts",
+    "src/data/quizzes/camp-gear/results/en.ts",
+    "src/data/quizzes/camp-gear/results/index.ts",
+    "src/data/quizzes/camp-gear/results/ja.ts",
+    "src/data/quizzes/camp-gear/results/types.ts",
+    "src/data/quizzes/camp-gear/results/variationRules.ts",
+    "src/data/quizzes/donut/README.md",
+    "src/data/quizzes/donut/content/.scaffold.json",
+    "src/data/quizzes/donut/content/handoff.json",
+    "src/data/quizzes/donut/definition.ts",
+    "src/data/quizzes/donut/donut.test.ts",
+    "src/data/quizzes/donut/en.ts",
+    "src/data/quizzes/donut/ja.ts",
+    "src/data/quizzes/donut/results/en.ts",
+    "src/data/quizzes/donut/results/index.ts",
+    "src/data/quizzes/donut/results/ja.ts",
+    "src/data/quizzes/ice-cream/README.md",
+    "src/data/quizzes/ice-cream/content/.scaffold.json",
+    "src/data/quizzes/ice-cream/content/handoff.json",
+    "src/data/quizzes/ice-cream/definition.ts",
+    "src/data/quizzes/ice-cream/en.ts",
+    "src/data/quizzes/ice-cream/ice-cream.test.ts",
+    "src/data/quizzes/ice-cream/ja.ts",
+    "src/data/quizzes/ice-cream/results/en.ts",
+    "src/data/quizzes/ice-cream/results/index.ts",
+    "src/data/quizzes/ice-cream/results/ja.ts",
+    "src/data/quizzes/spaghetti/definition.ts",
+    "src/data/quizzes/spaghetti/en.ts",
+    "src/data/quizzes/spaghetti/ja.ts",
+    "src/data/quizzes/spaghetti/results/en.ts",
+    "src/data/quizzes/spaghetti/results/index.ts",
+    "src/data/quizzes/spaghetti/results/ja.ts",
+    "src/data/quizzes/spaghetti/spaghetti.test.ts",
+    "src/data/quizzes/sushi/README.md",
+    "src/data/quizzes/sushi/definition.ts",
+    "src/data/quizzes/sushi/en.ts",
+    "src/data/quizzes/sushi/ja.ts",
+    "src/data/quizzes/sushi/results/en.ts",
+    "src/data/quizzes/sushi/results/index.ts",
+    "src/data/quizzes/sushi/results/ja.ts",
+    "src/data/quizzes/sushi/sushi.test.ts"
+  ],
+  "scaffoldFilesCompared": [
+    "scripts/create-quiz.mjs",
+    "scripts/create-quiz.test.mjs",
+    "scripts/import-quiz-content.mjs",
+    "scripts/validate-quiz.mjs",
+    "scripts/verify-quiz.mjs"
+  ],
+  "scaffoldByteDifferences": [],
+  "commonEngineFilesCompared": [
+    "src/lib/type-engine/buildQuiz.ts",
+    "src/lib/type-engine/deterministicHash.test.ts",
+    "src/lib/type-engine/deterministicHash.ts",
+    "src/lib/type-engine/resolveResult.test.ts",
+    "src/lib/type-engine/resolveResult.ts",
+    "src/lib/type-engine/sampleQuestions.test.ts",
+    "src/lib/type-engine/sampleQuestions.ts",
+    "src/lib/type-engine/scoring.test.ts",
+    "src/lib/type-engine/scoring.ts",
+    "src/lib/type-engine/types.ts",
+    "src/lib/type-engine/variation.test.ts",
+    "src/lib/type-engine/variation.ts"
+  ],
+  "commonEngineByteDifferences": [],
+  "applicationChanges61e0f56ToFrozen": [],
+  "assets": [
+    {
+      "typeId": "margherita",
+      "path": "public/characters/pizza-margherita.png",
+      "visualKey": "pizza-margherita",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2122472,
+      "sha256": "bd6b44b8cbcc89d760e5cb39d5f707a9e81e9ce5391a79e279eed669958d8cbf",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "pepperoni",
+      "path": "public/characters/pizza-pepperoni.png",
+      "visualKey": "pizza-pepperoni",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2274530,
+      "sha256": "cf1d0fd4b3906f255f19ca4b9fbdba0bf2f89c6e0feff006a22da2013e7c4e96",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "quattroFormaggi",
+      "path": "public/characters/pizza-quattro-formaggi.png",
+      "visualKey": "pizza-quattro-formaggi",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2175424,
+      "sha256": "b7617763a076674837244d2ab1fea8ead8241f0cd42138e1df9c86e35df6957e",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "mushroom",
+      "path": "public/characters/pizza-mushroom.png",
+      "visualKey": "pizza-mushroom",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2275024,
+      "sha256": "3dbda97ef94e3aae53e99be2f15ab0bfdbffb7fe0d2538a2f0fc7178e20449d4",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "seafood",
+      "path": "public/characters/pizza-seafood.png",
+      "visualKey": "pizza-seafood",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2166686,
+      "sha256": "f46c719d8348e90e753b97bc2366748155dcb907bf1eb1b97f1c4686a5949115",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "hawaiian",
+      "path": "public/characters/pizza-hawaiian.png",
+      "visualKey": "pizza-hawaiian",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2212222,
+      "sha256": "845af839fd3f6f613f11a846d6dfb9c708f2b47e3114c859293eeb26f1b38c65",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "veggie",
+      "path": "public/characters/pizza-veggie.png",
+      "visualKey": "pizza-veggie",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2294870,
+      "sha256": "f734a4dc4e0924155fdd4d886b3a4467ed1b00126e8b167d11dead1eb56e356c",
+      "manifestMatch": true
+    },
+    {
+      "typeId": "marinara",
+      "path": "public/characters/pizza-marinara.png",
+      "visualKey": "pizza-marinara",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2330537,
+      "sha256": "3e701cd1ecedff85c9db6ac7060931480ace2fab270f4b9d84d49d2fa5daa525",
+      "manifestMatch": true
+    }
+  ],
+  "mainSecondaryPositionCounts": {
+    "margherita": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "pepperoni": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "quattroFormaggi": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "mushroom": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "seafood": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "hawaiian": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "veggie": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "marinara": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    }
+  },
+  "priorEvidence": {
+    "docs/pizza-type/verification-v1.2/browser-check.cjs": {
+      "sha256": "ca8051dba9aaad314c1eda93faa0c9086898c63a92ed69a8af7285b7abeb9b2d",
+      "bytes": 8344
+    },
+    "docs/pizza-type/verification-v1.2/browser.json": {
+      "sha256": "ef70e990f89b4958a800ff69d3e1c716168bff504105d8be217fe6759db9ff94",
+      "bytes": 41465
+    },
+    "docs/pizza-type/verification-v1.2/build.log": {
+      "sha256": "f29b882ec51a4bf867ac8c50d46f671fd119dfd465b058d65d0001743b291ba2",
+      "bytes": 1498
+    },
+    "docs/pizza-type/verification-v1.2/en-result-mobile.png": {
+      "sha256": "f7a743082d0b4324ac8821902b500cce518ab9a42b0412e906f3ddd57939fa92",
+      "bytes": 253846
+    },
+    "docs/pizza-type/verification-v1.2/faces-gallery.png": {
+      "sha256": "b635512149a0a9cf8d6b6df88ac4f91a56827d4163e088bedd037cc2000d6ffd",
+      "bytes": 527751
+    },
+    "docs/pizza-type/verification-v1.2/invariants.json": {
+      "sha256": "2401362adb5e34a6e29a729cd6dbb6557ad5788df853949f84e7bb50b4c2a278",
+      "bytes": 2517
+    },
+    "docs/pizza-type/verification-v1.2/ja-result-mobile.png": {
+      "sha256": "ac7f929272228da69d7d2bb99ec01abf79047b64bd60e6b7170d8e0e24af766f",
+      "bytes": 278337
+    },
+    "docs/pizza-type/verification-v1.2/lint.log": {
+      "sha256": "345489d7441433427c0a96e0cc4935b6a7a10c8823a3779dcbd94e2539cf4520",
+      "bytes": 671
+    },
+    "docs/pizza-type/verification-v1.2/million.log": {
+      "sha256": "fa59a8b37f411382284dec4ff21691acc936eb8495b8b4434cba800610e74e50",
+      "bytes": 11124
+    },
+    "docs/pizza-type/verification-v1.2/scaffold.log": {
+      "sha256": "49716645ddb52cdc32a3bff8f9d1784ef6a6a2d22e7291e81adc4cb8c04953ce",
+      "bytes": 1784
+    },
+    "docs/pizza-type/verification-v1.2/statistics.json": {
+      "sha256": "34008721ee691d56096d9bc7b8d403070a52809d1170600d0665a3ee99c7e1a9",
+      "bytes": 7376
+    },
+    "docs/pizza-type/verification-v1.2/summary.json": {
+      "sha256": "2bea99ccd28f649438aea14dcd3dae5afec6b76cc5feed50761462016fec83d9",
+      "bytes": 3864
+    },
+    "docs/pizza-type/verification-v1.2/tests-initial-timeout.log": {
+      "sha256": "08dcdc383340fd9097cb498a17c285b1fc71ad376ef4fa3c979cd154772534b3",
+      "bytes": 1143
+    },
+    "docs/pizza-type/verification-v1.2/tests.log": {
+      "sha256": "22fc2c23f0bbf73c20d924809c6d4e541d93ee054c1cba3367572e13d389fe38",
+      "bytes": 242
+    },
+    "docs/pizza-type/verification-v1.2/tsc.log": {
+      "sha256": "01ba4719c80b6fe911b091a7c05124b64eeece964e09c058ef8f9805daca546b",
+      "bytes": 1
+    },
+    "docs/pizza-type/verification-v1.2/typegen.log": {
+      "sha256": "adba4af9194e10e47dda75ff0fd0f8c2b756474896d0eba5612799c527ff372a",
+      "bytes": 59
+    },
+    "docs/pizza-type/verification-v1.2/validate.log": {
+      "sha256": "2c2898bd2d93ba10e9cbc48546fdbb6fa9ab2cdd1f82db6b3bda87a5a0112cd4",
+      "bytes": 106
+    }
+  },
+  "statisticsArithmeticRecheck": {
+    "millionCountSum": 1000000,
+    "sensitivityCountSumPerScenario": 500000,
+    "scenarios": 8,
+    "roundedSpreadAgreement": true,
+    "formalVerdict": "UNDETERMINED: no approved formal statistical acceptance threshold; +/-5pp is reporting flag only."
+  },
+  "evidenceReuseLimit": "Hashes and source equality support reuse. Earlier command timing/exit provenance is retained as recorded, not relabeled as freshly run at frozen commit. Empty tsc log alone is not independent proof. Prior full lint success assertion is revoked; see lint-frozen.log."
+}

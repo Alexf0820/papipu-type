@@ -1,0 +1,167 @@
+{
+  "version": "1.3",
+  "date": "2026-10-18",
+  "state": "DOCS_HANDOFF_COMPLETE_RELEASE_HOLD",
+  "repository": "Alexf0820/papipu-type",
+  "repositoryId": 1328708469,
+  "implementationFrozen": {
+    "branch": "feat/pizza-type",
+    "sha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53"
+  },
+  "docsBranch": "docs/pizza-v1.3-final-qa",
+  "docsHelperFixSha": "e355ad48a1705f777d6d48abac0498e67b1574e4",
+  "mainUnchanged": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "originalAssets": {
+    "count": 8,
+    "format": "PNG",
+    "dimensionsEach": [
+      1254,
+      1254
+    ],
+    "manifestSha256Matches": 8,
+    "changed": false
+  },
+  "preservation": {
+    "allFrozenTrackedFilesOutsideDocsCompared": 221,
+    "byteDifferences": 0,
+    "newFilesOutsideDocs": 0,
+    "oldFiveMainComparisonFiles": 50,
+    "oldFiveByteDifferences": 0,
+    "commonEngineNonRegistryFilesCompared": 12,
+    "scaffoldCliFilesCompared": 5,
+    "scoringProjectionMatchAcrossVersions": true
+  },
+  "lint": {
+    "frozenReviewSha": {
+      "exit": 1,
+      "errors": 3,
+      "warnings": 2,
+      "verdict": "FAIL",
+      "file": "docs/pizza-type/verification-v1.2/browser-check.cjs"
+    },
+    "docsHelperCorrection": {
+      "exit": 0,
+      "errors": 0,
+      "warnings": 2,
+      "verdict": "PASS_WITH_EXISTING_WARNINGS",
+      "file": "docs/pizza-type/verification-v1.2/browser-check.mjs"
+    },
+    "priorClaimCorrection": "v1.2 HANDOFF/summary 0 errors claim does not apply to frozen SHA and was incorrect. Earlier clean log predates QA helper inclusion. No retrospective PASS."
+  },
+  "reusedChecks": {
+    "npm test": "109/109",
+    "npm run test:scaffold": "6/6",
+    "npx next typegen": "Recorded success",
+    "npx tsc --noEmit": "Recorded exit0;empty log is not standalone proof",
+    "npm run validate-quiz -- pizza": "Validation passed",
+    "npm run build": "Recorded successful production-equivalent local build;106 embedded source files additionally matched frozen blobs",
+    "npm run verify-quiz -- pizza": "Full1M+8x500k output reused after scoring/source equality;not rerun in v1.3"
+  },
+  "statistics": {
+    "uniformRuns": 1000000,
+    "minPercent": 12.4388,
+    "maxPercent": 12.5508,
+    "spreadPp": 0.112,
+    "positionSensitivityScenarios": 8,
+    "runsPerSensitivityScenario": 500000,
+    "sensitivitySpreadRangePp": [
+      0.111,
+      0.204
+    ],
+    "questionFlagsOver5pp": 0,
+    "localeParityRuns": 10000,
+    "localeParityFailures": 0,
+    "mainSecondaryPerType": {
+      "main": 16,
+      "secondary": 16,
+      "eachPositionPerRole": 4
+    },
+    "formalVerdict": "UNDETERMINED;no formal acceptance threshold established"
+  },
+  "newBrowserQa": {
+    "target": "Existing local production build",
+    "browser": "Chromium151 mobile touch;not Safari",
+    "helperFullRun": {
+      "exit": 0,
+      "targetedSessions": 48,
+      "typesPerLocale": 8,
+      "variationsPerType": 3,
+      "questionsPerLocale": 32,
+      "choicesPerLocale": 128,
+      "clipboardShares": 16,
+      "backAndChangedAnswerLocales": 2,
+      "oldFiveLocaleRoutesCompleted": 10,
+      "pageErrors": 0,
+      "horizontalOverflows": 0,
+      "resumeUsed": false
+    },
+    "missingCoverageRun": {
+      "viewportWidth": 320,
+      "targetedSessions": 8,
+      "questionsPerLocale": 32,
+      "choicesPerLocale": 128,
+      "languageSwitches": 10,
+      "pageErrors": 0,
+      "horizontalOverflows": 0
+    },
+    "visualLimitation": "EN fullPage screenshot missing paint observed;fresh top/middle/bottom viewport captures show correct image/face/cards/text. Exact capture discrepancy cause unresolved;raw evidence retained.",
+    "narrowHeaderObservation": "日本語 wraps one character per line at320px;not clipped;shared UI unchanged.",
+    "localeResultBehavior": "Switching from result starts a new locale quiz;previous result is not preserved."
+  },
+  "independentReview": "Parent independently re-read saved48 sessions/16shares/10routes,24-face gallery,and statistics arithmetic;independently matched frozenPreviewREADY/SHA. Not counted as new browser run.",
+  "preview": {
+    "id": "dpl_6WgZHxZ83nNobZCqZS6pnzBg4aB5",
+    "state": "READY",
+    "source": "git",
+    "target": null,
+    "sha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+    "jaUrl": "https://papipu-type-9fhrqt976-alex-fujiokas-projects.vercel.app/ja/pizza",
+    "enUrl": "https://papipu-type-9fhrqt976-alex-fujiokas-projects.vercel.app/en/pizza",
+    "browser": "Not successfully verified;prior tunnel failure not retried"
+  },
+  "productionRollbackReadOnlyReference": {
+    "id": "dpl_2LvUCjnhfx39qhMXw46frLKbEzRG",
+    "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "state": "READY",
+    "target": "production"
+  },
+  "remaining": [
+    "Owner decision on adopting docs-only lint correction into an explicitly identified release candidate;fixedfeatureSHAhasnotchanged.",
+    "Actual frozen Preview browser and physical iPhone/Safari JA/EN approval;nativeOSshareuntested.",
+    "Formal statistical thresholds undefined;semantic-overlap holds q14b/d,q16a/c,q24a/c retained.",
+    "EN fullPage capture discrepancy and320pxsharedheader wrapping observations retained.",
+    "main-to-frozen and main-to-docs diff --check fail on6 historical v1.1 log whitespace diagnostics;newdocs delta passes. Oldlog normalization not performed."
+  ],
+  "metrics": {
+    "ownerInterventions": "未計測",
+    "ownerCopyPasteCount": "未計測",
+    "totalProductionWorkTime": "未計測",
+    "totalReworkCount": "未計測"
+  },
+  "nextSeven": "Standard workflow documented;themes/IDs/order not specified;all7 unstarted. No new quiz/scaffold change/automation framework.",
+  "handoffStorage": "Git docs fallback;no callable TSURUHASHI write tool;no connection workaround attempted.",
+  "forbiddenChangesPerformed": false,
+  "mWDelegationThisPass": false,
+  "productionApproval": "Not granted;STOP. No candidateSHA substitution,main merge orProduction action.",
+  "diffCheck": {
+    "newDocsAgainstFrozen": {
+      "exit": 0,
+      "verdict": "PASS"
+    },
+    "mainToFrozen": {
+      "exit": 2,
+      "verdict": "FAIL",
+      "diagnostics": 6,
+      "files": [
+        "docs/pizza-type/verification-v1.1/build.log",
+        "docs/pizza-type/verification-v1.1/lint.log",
+        "docs/pizza-type/verification-v1.1/tests.log"
+      ]
+    },
+    "mainToDocs": {
+      "exit": 2,
+      "sameHistoricalDiagnostics": true
+    },
+    "oldLogsChanged": false
+  }
+}

@@ -1,0 +1,24 @@
+{
+  "fixedSha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+  "docsHelperFixSha": "e355ad48a1705f777d6d48abac0498e67b1574e4",
+  "comparedAllTrackedFilesOutsideDocs": 221,
+  "byteMismatches": [],
+  "newFilesOutsideDocs": [],
+  "scope": "Every frozen tracked path outside docs, including all src/application/scoring/public originals/scripts/config/dependencies. Current index and worktree preserve these bytes.",
+  "helperDelta": "Rename browser-check.cjs to .mjs; replace only first line (three require calls) with three static imports; remaining script byte-identical.",
+  "testedScriptCopyMatchesCommittedBytes": true,
+  "lintFixed": {
+    "command": "npm run lint",
+    "exitCode": 0,
+    "errors": 0,
+    "warnings": 2,
+    "scope": "Docs branch helper correction; not frozen feature SHA"
+  },
+  "lintFrozen": {
+    "command": "npm run lint",
+    "exitCode": 1,
+    "errors": 3,
+    "warnings": 2,
+    "scope": "Frozen feature SHA4dfcbe0"
+  }
+}

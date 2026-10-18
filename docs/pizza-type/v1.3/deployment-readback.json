@@ -1,0 +1,31 @@
+{
+  "checkedDate": "2026-10-18",
+  "inspection": "Read-only Vercel get_deployment, without team parameter. No deployment created or promoted.",
+  "candidate": {
+    "branch": "feat/pizza-type",
+    "sha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+    "id": "dpl_6WgZHxZ83nNobZCqZS6pnzBg4aB5",
+    "state": "READY",
+    "target": null,
+    "source": "git",
+    "url": "https://papipu-type-9fhrqt976-alex-fujiokas-projects.vercel.app",
+    "alias": "https://papipu-type-git-feat-pizza-type-alex-fujiokas-projects.vercel.app"
+  },
+  "preReleaseProduction": {
+    "branch": "main",
+    "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "id": "dpl_2LvUCjnhfx39qhMXw46frLKbEzRG",
+    "state": "READY",
+    "target": "production",
+    "source": "git",
+    "url": "https://papipu-type-kqfxqz9st-alex-fujiokas-projects.vercel.app",
+    "publicAliases": [
+      "https://www.papiputype.com",
+      "https://papiputype.com",
+      "https://papipu-type.vercel.app"
+    ]
+  },
+  "browserPreview": "Prior ERR_TUNNEL_CONNECTION_FAILED; not retried in v1.3. API READY is not browser PASS.",
+  "physicalSafari": "Not run.",
+  "docsBranchPreview": "Not release candidate; any automatic docs Git deployment must not replace candidate identity."
+}

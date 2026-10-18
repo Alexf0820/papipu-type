@@ -1,0 +1,29 @@
+{
+  "target": "Existing local production build",
+  "locale": "en",
+  "type": "quattroFormaggi",
+  "variation": "c",
+  "method": "Fresh Chromium mobile session, actual eight-answer fixture, awaited original image decode and scroll-to-top plus two animation frames before new screenshots. No app or helper change.",
+  "before": {
+    "scrollY": 0,
+    "innerHeight": 844,
+    "bodyHeight": 2019
+  },
+  "pageErrors": [],
+  "originalImageHref": "/characters/pizza-quattro-formaggi.png",
+  "observations": [
+    "Raw fresh full-run EN fullPage screenshot omits image/background layers.",
+    "Followup fullPage capture also showed missing paint;raw blank observation retained.",
+    "Top/middle/bottom actual viewport captures of same frozen-build EN result visually inspected:original pizza and existing face,styled cards,GOOD/BAD,motto,Share/TryAgain all visible.",
+    "No product/source/image modification;exact cause of capture difference not determined. Do not label fullPage capture normal or equate this with Safari/remote Preview verification."
+  ],
+  "screenshots": [
+    "en-result-mobile.png",
+    "en-fullpage-blank-observation.png",
+    "en-result-viewport-top.png",
+    "en-result-viewport-middle.png",
+    "en-result-viewport-bottom.png"
+  ],
+  "additionalTargetedRuns": 2,
+  "note": "First followup captured top viewport;second added middle/bottom scroll captures. Same actual8-answer fixture;no result injection."
+}

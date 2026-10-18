@@ -1,0 +1,20 @@
+{
+  "branch": "docs/pizza-v1.3-final-qa",
+  "records": [
+    {
+      "commit": "129d20216953e4317d49758c098a711ee40765e9",
+      "purpose": "Frozen candidate/remote/Preview checkpoint",
+      "push": "confirmed",
+      "freshFetchShaMatch": true
+    },
+    {
+      "commit": "e355ad48a1705f777d6d48abac0498e67b1574e4",
+      "purpose": "ESM-only QA helper correction",
+      "push": "confirmed",
+      "freshFetchShaMatch": true
+    }
+  ],
+  "featureAfterHelperPush": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+  "mainAfterHelperPush": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "finalEvidenceCommit": "Recorded in final delivery after commit/push/fresh fetch;not self-referenced inside its own content."
+}
