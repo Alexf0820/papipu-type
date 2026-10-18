@@ -1,4 +1,6 @@
-const {chromium}=require('playwright');const fs=require('fs');const assert=require('node:assert/strict');
+import { chromium } from 'playwright';
+import fs from 'node:fs';
+import assert from 'node:assert/strict';
 const root=process.cwd(),base=process.env.PIZZA_QA_BASE; if(!base)throw Error('Set PIZZA_QA_BASE to the authorized target origin');
 const h=JSON.parse(fs.readFileSync(root+'/src/data/quizzes/pizza/content/handoff.json'));
 const examples=JSON.parse(fs.readFileSync(root+'/docs/pizza-type/verification-v1.1/runtime.json')).pizzaReproducibleExamples;
