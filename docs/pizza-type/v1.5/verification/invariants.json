@@ -1,0 +1,246 @@
+{
+  "date": "2026-10-19",
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "baselineSha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+  "allOutsideDocsTrackedFilesCompared": 221,
+  "byteDifferences": [],
+  "oldFiveComparedWithMain": 50,
+  "oldFiveDifferences": [],
+  "wholeHandoffByteEqual": true,
+  "handoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8",
+  "mainSecondaryPositionCounts": {
+    "margherita": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "pepperoni": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "quattroFormaggi": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "mushroom": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "seafood": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "hawaiian": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "veggie": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    },
+    "marinara": {
+      "main": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      },
+      "secondary": {
+        "a": 4,
+        "b": 4,
+        "c": 4,
+        "d": 4
+      }
+    }
+  },
+  "assets": [
+    {
+      "type": "margherita",
+      "path": "public/characters/pizza-margherita.png",
+      "sha256": "bd6b44b8cbcc89d760e5cb39d5f707a9e81e9ce5391a79e279eed669958d8cbf",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2122472,
+      "manifestMatch": true
+    },
+    {
+      "type": "pepperoni",
+      "path": "public/characters/pizza-pepperoni.png",
+      "sha256": "cf1d0fd4b3906f255f19ca4b9fbdba0bf2f89c6e0feff006a22da2013e7c4e96",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2274530,
+      "manifestMatch": true
+    },
+    {
+      "type": "quattroFormaggi",
+      "path": "public/characters/pizza-quattro-formaggi.png",
+      "sha256": "b7617763a076674837244d2ab1fea8ead8241f0cd42138e1df9c86e35df6957e",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2175424,
+      "manifestMatch": true
+    },
+    {
+      "type": "mushroom",
+      "path": "public/characters/pizza-mushroom.png",
+      "sha256": "3dbda97ef94e3aae53e99be2f15ab0bfdbffb7fe0d2538a2f0fc7178e20449d4",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2275024,
+      "manifestMatch": true
+    },
+    {
+      "type": "seafood",
+      "path": "public/characters/pizza-seafood.png",
+      "sha256": "f46c719d8348e90e753b97bc2366748155dcb907bf1eb1b97f1c4686a5949115",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2166686,
+      "manifestMatch": true
+    },
+    {
+      "type": "hawaiian",
+      "path": "public/characters/pizza-hawaiian.png",
+      "sha256": "845af839fd3f6f613f11a846d6dfb9c708f2b47e3114c859293eeb26f1b38c65",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2212222,
+      "manifestMatch": true
+    },
+    {
+      "type": "veggie",
+      "path": "public/characters/pizza-veggie.png",
+      "sha256": "f734a4dc4e0924155fdd4d886b3a4467ed1b00126e8b167d11dead1eb56e356c",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2294870,
+      "manifestMatch": true
+    },
+    {
+      "type": "marinara",
+      "path": "public/characters/pizza-marinara.png",
+      "sha256": "3e701cd1ecedff85c9db6ac7060931480ace2fab270f4b9d84d49d2fa5daa525",
+      "format": "PNG",
+      "width": 1254,
+      "height": 1254,
+      "bytes": 2330537,
+      "manifestMatch": true
+    }
+  ],
+  "statisticsEvidence": "docs/pizza-type/verification-v1.2/statistics.json and million.log at baseline;exact app/scoring/category/position/engine inputs unchanged, reused without rerunning million simulations.",
+  "statisticalMetrics": {
+    "runs": 1000000,
+    "distribution": {
+      "margherita": 124816,
+      "pepperoni": 125143,
+      "quattroFormaggi": 124388,
+      "mushroom": 124924,
+      "seafood": 125231,
+      "hawaiian": 125508,
+      "veggie": 124791,
+      "marinara": 125199
+    },
+    "minPercent": 12.4388,
+    "maxPercent": 12.5508,
+    "spreadPp": 0.112,
+    "stages": {
+      "typeAlone": 819799,
+      "mainCount": 31974,
+      "trait": 0,
+      "hash": 148227
+    },
+    "questionDeltaFlagsOver5pp": 0,
+    "localeTypeParity": {
+      "runs": 10000,
+      "failures": 0
+    },
+    "note": "Rerun on v1.2 copy checkpoint fe0c945 with unchanged scoring/position. All result/stage/hash/sensitivity count rows exactly match v1.1 seeded run."
+  },
+  "sensitivityRangePp": [
+    0.111,
+    0.204
+  ],
+  "formalStatisticalVerdict": "UNDETERMINED: no formal acceptance threshold established; +/-5pp is reporting flag only.",
+  "helperReuse": {
+    "sourceCommit": "e355ad48a1705f777d6d48abac0498e67b1574e4",
+    "byteEqual": true
+  },
+  "references": "Only .cjs reference is historical v1.2 lint failure log;no active callers reference old name."
+}

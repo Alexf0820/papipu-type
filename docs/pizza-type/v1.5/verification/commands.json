@@ -1,0 +1,135 @@
+{
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "commands": [
+    {
+      "name": "tests",
+      "command": [
+        "npm",
+        "test"
+      ],
+      "startedAt": "2026-10-19T12:30:49.601483+00:00",
+      "finishedAt": "2026-10-19T12:30:55.380234+00:00",
+      "exitCode": 0,
+      "log": "tests.log",
+      "rawLogSha256": "41785e1da983c8eb507e203a01bdaa9d16c2495f9fb7f86fbc5aaae75400c662",
+      "savedLogSha256": "11c04730c66f3501c1bf8d4250d81ba846ae8ac4b398a1c6d946d42d0682ee70"
+    },
+    {
+      "name": "scaffold",
+      "command": [
+        "npm",
+        "run",
+        "test:scaffold"
+      ],
+      "startedAt": "2026-10-19T12:30:55.380512+00:00",
+      "finishedAt": "2026-10-19T12:30:55.959527+00:00",
+      "exitCode": 0,
+      "log": "scaffold.log",
+      "rawLogSha256": "716f8c85c137539dc5b535be772131a0ab6dcb9f4b9e331d91a5042ccfabdad5",
+      "savedLogSha256": "e36ed59617d46518dfcb0faffc383eca88b6ec1d100c66792f06ffb7183a57c8"
+    },
+    {
+      "name": "lint",
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "startedAt": "2026-10-19T12:30:55.959847+00:00",
+      "finishedAt": "2026-10-19T12:31:00.075968+00:00",
+      "exitCode": 0,
+      "log": "lint.log",
+      "rawLogSha256": "a232c1c52c530ef88e0c27a3d61903c2176ce34c3da30479d24c261b52cc4dff",
+      "savedLogSha256": "0a0238891ec3535040e22a269c7379f7aa21e1b122c9c0ce26422b22d2972541"
+    },
+    {
+      "name": "typegen",
+      "command": [
+        "npx",
+        "next",
+        "typegen"
+      ],
+      "startedAt": "2026-10-19T12:31:00.076209+00:00",
+      "finishedAt": "2026-10-19T12:31:00.731024+00:00",
+      "exitCode": 0,
+      "log": "typegen.log",
+      "rawLogSha256": "d51d6d06be4756a91e9910f05d692a4914979cbf4e058907ca57980542d1b8c9",
+      "savedLogSha256": "d51d6d06be4756a91e9910f05d692a4914979cbf4e058907ca57980542d1b8c9"
+    },
+    {
+      "name": "tsc",
+      "command": [
+        "npx",
+        "tsc",
+        "--noEmit"
+      ],
+      "startedAt": "2026-10-19T12:31:00.731298+00:00",
+      "finishedAt": "2026-10-19T12:31:02.337692+00:00",
+      "exitCode": 0,
+      "log": "tsc.log",
+      "rawLogSha256": "76162e465989f3f070a9de8db711fbf358e53b74d09ce1bbdb57c727e4c4a16d",
+      "savedLogSha256": "76162e465989f3f070a9de8db711fbf358e53b74d09ce1bbdb57c727e4c4a16d"
+    },
+    {
+      "name": "validate",
+      "command": [
+        "npm",
+        "run",
+        "validate-quiz",
+        "--",
+        "pizza"
+      ],
+      "startedAt": "2026-10-19T12:31:02.337994+00:00",
+      "finishedAt": "2026-10-19T12:31:02.967997+00:00",
+      "exitCode": 0,
+      "log": "validate.log",
+      "rawLogSha256": "6eb715dc2db4fd04559e089f3adad6f97805fd528a3a3104e90e8d7757c8f216",
+      "savedLogSha256": "6eb715dc2db4fd04559e089f3adad6f97805fd528a3a3104e90e8d7757c8f216"
+    },
+    {
+      "name": "diff-worktree",
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "startedAt": "2026-10-19T12:31:02.968689+00:00",
+      "finishedAt": "2026-10-19T12:31:02.971075+00:00",
+      "exitCode": 0,
+      "log": "diff-worktree.log",
+      "rawLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "savedLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "diff-main",
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "origin/main",
+        "HEAD"
+      ],
+      "startedAt": "2026-10-19T12:31:02.971240+00:00",
+      "finishedAt": "2026-10-19T12:31:03.010011+00:00",
+      "exitCode": 0,
+      "log": "diff-main.log",
+      "rawLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "savedLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855"
+    },
+    {
+      "name": "build",
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "startedAt": "2026-10-19T12:31:03.010280+00:00",
+      "finishedAt": "2026-10-19T12:31:07.188039+00:00",
+      "exitCode": 0,
+      "log": "build.log",
+      "rawLogSha256": "b8415cd0aefa3e7a0c28691630f137074417bf79af32a87f3a7cf726982bae05",
+      "savedLogSha256": "06e0c52389c561762489d40883a7721897d796f6256a67412b41f685684ea9c4"
+    }
+  ],
+  "logHandling": "Public evidence replaces machine/temp directory prefixes and trims trailing whitespace/EOF blank lines only. Command output values/timestamps/errors/warnings are retained;raw file digests recorded."
+}

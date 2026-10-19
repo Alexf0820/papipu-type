@@ -1,0 +1,31 @@
+{
+  "baselineSha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "mainSha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "oldFullMainDiffCheck": {
+    "exitCode": 2,
+    "diagnostics": "docs/pizza-type/verification-v1.1/build.log:14: trailing whitespace.\n+  Generating static pages using 4 workers (5/20) \ndocs/pizza-type/verification-v1.1/build.log:15: trailing whitespace.\n+  Generating static pages using 4 workers (10/20) \ndocs/pizza-type/verification-v1.1/build.log:16: trailing whitespace.\n+  Generating static pages using 4 workers (15/20) \ndocs/pizza-type/verification-v1.1/build.log:57: new blank line at EOF.\ndocs/pizza-type/verification-v1.1/lint.log:11: new blank line at EOF.\ndocs/pizza-type/verification-v1.1/tests.log:13: new blank line at EOF.\n"
+  },
+  "newFullMainDiffCheck": {
+    "exitCode": 0,
+    "diagnostics": ""
+  },
+  "historicalLogsVerification": [
+    {
+      "path": "docs/pizza-type/verification-v1.1/build.log",
+      "onlyTrailingWhitespaceAndEofBlankLinesRemoved": true,
+      "allNumbersAndNonWhitespaceTextEqual": true
+    },
+    {
+      "path": "docs/pizza-type/verification-v1.1/lint.log",
+      "onlyTrailingWhitespaceAndEofBlankLinesRemoved": true,
+      "allNumbersAndNonWhitespaceTextEqual": true
+    },
+    {
+      "path": "docs/pizza-type/verification-v1.1/tests.log",
+      "onlyTrailingWhitespaceAndEofBlankLinesRemoved": true,
+      "allNumbersAndNonWhitespaceTextEqual": true
+    }
+  ],
+  "result": "Six historical whitespace diagnostics eliminated. Actual historical output preserved."
+}

@@ -1,0 +1,28 @@
+{
+  "target": "Local new candidate production build",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "routes": [
+    {
+      "locale": "ja",
+      "homeHttpStatus": 200,
+      "cardHref": "/ja/pizza",
+      "tappedToPizza": true,
+      "questionVisible": true,
+      "screenshot": "ja-home-card.png"
+    },
+    {
+      "locale": "en",
+      "homeHttpStatus": 200,
+      "cardHref": "/en/pizza",
+      "tappedToPizza": true,
+      "questionVisible": true,
+      "screenshot": "en-home-card.png"
+    }
+  ],
+  "pageErrors": [],
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "exitCode": 0
+}

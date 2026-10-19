@@ -1,0 +1,32 @@
+{
+  "checkedDate": "2026-10-19",
+  "method": "Authenticated read-only get_deployment without team parameter,for existing Git deployments. GitHub combined status supplied deployment identity.",
+  "candidate": {
+    "branch": "feat/pizza-type",
+    "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+    "id": "dpl_k6YYLh9kxi5bWS8yVnQN5B9PbTLS",
+    "state": "READY",
+    "source": "git",
+    "target": null,
+    "url": "https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app",
+    "alias": "https://papipu-type-git-feat-pizza-type-alex-fujiokas-projects.vercel.app"
+  },
+  "productionUnchanged": {
+    "branch": "main",
+    "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "id": "dpl_2LvUCjnhfx39qhMXw46frLKbEzRG",
+    "state": "READY",
+    "source": "git",
+    "target": "production",
+    "publicAliases": [
+      "https://www.papiputype.com",
+      "https://papiputype.com",
+      "https://papipu-type.vercel.app"
+    ]
+  },
+  "browserPreview": "First new-candidate navigation failed ERR_TUNNEL_CONNECTION_FAILED before JA Home;not retried. API READY is not browser PASS.",
+  "physicalSafari": "Not run;await owner.",
+  "manualDeploymentCreated": false,
+  "authenticationOrSecretsChanged": false,
+  "docsDeploymentWarning": "A Git Preview for the records branch is not the selected candidate."
+}

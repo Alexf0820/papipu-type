@@ -1,0 +1,43 @@
+
+> papipu-type@0.1.0 test:scaffold
+> node --test scripts/create-quiz.test.mjs
+
+Dry run: 11 files would be created for "test-quiz":
+  src/data/quizzes/test-quiz/definition.ts
+  src/data/quizzes/test-quiz/ja.ts
+  src/data/quizzes/test-quiz/en.ts
+  src/data/quizzes/test-quiz/results/ja.ts
+  src/data/quizzes/test-quiz/results/en.ts
+  src/data/quizzes/test-quiz/results/index.ts
+  src/data/quizzes/test-quiz/test-quiz.test.ts
+  src/data/quizzes/test-quiz/README.md
+  src/data/quizzes/test-quiz/content/.scaffold.json
+  src/data/quizzes/test-quiz/content/handoff.json
+  src/app/[locale]/test-quiz/page.tsx
+Created 11 scaffold files for "test-quiz".
+No registry, visual, Body, or home-card file was changed automatically.
+Created 11 scaffold files for "test-quiz".
+No registry, visual, Body, or home-card file was changed automatically.
+Imported approved content for "test-quiz" from <scaffold-test-temp>/src/data/quizzes/test-quiz/content/handoff.json.
+Validated all input before replacing definition, JA/EN questions, and JA/EN result content.
+Created 11 scaffold files for "test-quiz".
+No registry, visual, Body, or home-card file was changed automatically.
+✔ create-quiz dry run leaves the filesystem unchanged (4.450261ms)
+✔ create-quiz creates the expected readable structure and refuses overwrite (1.83664ms)
+✔ import-quiz-content validates a complete handoff before atomically replacing quiz data (6.478651ms)
+✔ import-quiz-content rejects malformed handoffs without partial formal-file writes (2.797954ms)
+✔ import-quiz-content refuses non-scaffold quiz directories (0.388626ms)
+✔ create-quiz rejects invalid and existing quiz IDs (0.194288ms)
+ℹ tests 6
+ℹ suites 0
+ℹ pass 6
+ℹ fail 0
+ℹ cancelled 0
+ℹ skipped 0
+ℹ todo 0
+ℹ duration_ms 360.024287
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice

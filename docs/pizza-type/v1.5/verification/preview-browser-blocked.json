@@ -1,0 +1,26 @@
+{
+  "base": "https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app",
+  "browser": "System Chromium, not Safari or physical iPhone",
+  "viewport": {
+    "width": 390,
+    "height": 844
+  },
+  "sessions": [],
+  "routes": [],
+  "errors": [],
+  "overflows": [],
+  "share": [],
+  "backFlow": [],
+  "faces": [],
+  "screenshots": [],
+  "browserVersion": "151.0.7922.173",
+  "failure": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja\nCall log:\n  - navigating to \"https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja\", waiting until \"load\"\n\n    at <qa-runner>/browser-check.mjs:21:24",
+  "date": "2026-10-19",
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "exitCode": 1,
+  "navigationAttempts": 1,
+  "completedScreens": 0,
+  "verdict": "BLOCKED_BEFORE_FIRST_PAGE",
+  "stopDecision": "No same-route retry,proxy workaround,auth/share-bypass creation,Secret change or new browser download. Continue independent local QA and Git preservation.",
+  "note": "Empty errors/overflow arrays are NOT PASS;navigation failed before any screen completed."
+}

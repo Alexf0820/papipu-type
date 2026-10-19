@@ -1,0 +1,28 @@
+{
+  "locale": "en",
+  "type": "quattroFormaggi",
+  "variation": "c",
+  "target": "Local new candidate production build",
+  "browser": "System Chromium mobile touch;notSafari",
+  "buildId": "bwa_3RnIAe6xiTIn6NrPb",
+  "method": "Actual8-answer fixture. Original image decode awaited. Three viewport captures after scrolling and two animation frames;no fullPage capture and no image editing.",
+  "captures": [
+    {
+      "file": "en-result-viewport-top.png",
+      "scrollY": 0
+    },
+    {
+      "file": "en-result-viewport-middle.png",
+      "scrollY": 650
+    },
+    {
+      "file": "en-result-viewport-bottom.png",
+      "scrollY": 1175
+    }
+  ],
+  "pageErrors": [],
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "date": "2026-10-19",
+  "exitCode": 0,
+  "visualInspection": "Top/middle/bottom captures inspected:original image,face,styled cards,GOOD/BAD,motto,Share/TryAgain visible."
+}

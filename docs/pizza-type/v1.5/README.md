@@ -1,5 +1,7 @@
 # Pizza Type Ver.1.5 — 技術的な公開準備
 
+最終の結果・固定Preview・未確認事項は [HANDOFF.md](HANDOFF.md) と [summary.json](summary.json) を参照。この最終記録はQA docs branchに保存する。
+
 2026-10-19、本人のVer.1.5指示に基づく最小修正。新候補は `feat/pizza-type` に保存し、検証結果と固定Preview/SHAの最終引継ぎは `docs/pizza-v1.5-preview-qa` に保存する。main/Productionは変更しない。
 
 - QA docsで検証済みの `e355ad48a1705f777d6d48abac0498e67b1574e4` を取り込み、`verification-v1.2/browser-check.cjs` を `.mjs` に変更、3つのrequireを標準importに置換した。既存のlintルール・ignore・依存は保持する。

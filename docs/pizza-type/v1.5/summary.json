@@ -1,0 +1,129 @@
+{
+  "version": "1.5",
+  "date": "2026-10-19",
+  "overallStatus": "PARTIAL",
+  "reason": "Technical fixes,required command verification,local browser QA,and Git preservation complete. Git Preview READY/SHA matched. Actual remote Preview browser navigation blocked before first page by ERR_TUNNEL_CONNECTION_FAILED.",
+  "candidate": {
+    "branch": "feat/pizza-type",
+    "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+    "pushConfirmed": true,
+    "freshFetchShaMatched": true
+  },
+  "recordsBranch": "docs/pizza-v1.5-preview-qa",
+  "previousFeatureSha": "4dfcbe0a5c4c554e6dcd2095236bc277e4252c53",
+  "previousDocsSha": "4bc2324bae19b3a1c539ec416054cde9059a2028",
+  "v14Found": false,
+  "initialDirtyFiles": [],
+  "lint": {
+    "oldFixedSha": "FAIL3 errors",
+    "newCandidate": "PASS0 errors,2 existing warnings",
+    "ruleDisablesOrIgnoreChanges": false,
+    "dependencyChanges": false
+  },
+  "diffCheck": {
+    "oldMainToFixed": "FAIL6 whitespace diagnostics",
+    "newMainToCandidate": "PASS0 diagnostics",
+    "worktree": "PASS",
+    "historicalLogNonWhitespaceContentPreserved": true
+  },
+  "newCommandChecks": {
+    "tests": 109,
+    "testFiles": 20,
+    "scaffoldPassed": 6,
+    "scaffoldFailed": 0,
+    "typegenExit": 0,
+    "tscExit": 0,
+    "validateExit": 0,
+    "buildExit": 0,
+    "all9CommandsExit": 0
+  },
+  "preservation": {
+    "outsideDocsFilesCompared": 221,
+    "differences": 0,
+    "originalImages": 8,
+    "imageHashMatches": 8,
+    "oldFiveMainComparedFiles": 50,
+    "oldFiveDifferences": 0,
+    "wholeHandoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8"
+  },
+  "statistics": {
+    "reused": true,
+    "rerunThisPass": false,
+    "uniformRuns": 1000000,
+    "sensitivityScenarios": 8,
+    "runsEachSensitivity": 500000,
+    "spreadPp": 0.112,
+    "localeParity": "10000/10000",
+    "mainAndSecondaryEach": 16,
+    "eachAbcdPosition": [
+      4,
+      4,
+      4,
+      4
+    ],
+    "formalVerdict": "UNDETERMINED"
+  },
+  "localNewBuildQa": {
+    "targetedResultSessions": 48,
+    "questionsEachLocale": 32,
+    "choicesEachLocale": 128,
+    "clipboardShares": 16,
+    "oldFiveJaEnRoutesCompleted": 10,
+    "pageErrors": 0,
+    "horizontalOverflows": 0,
+    "homeCardTapsToPizza": 2,
+    "narrowViewportWidth": 320,
+    "narrowSessions": 8,
+    "languageSwitches": 10,
+    "actualSafari": false,
+    "nativeOsShare": false
+  },
+  "preview": {
+    "id": "dpl_k6YYLh9kxi5bWS8yVnQN5B9PbTLS",
+    "state": "READY",
+    "target": null,
+    "source": "git",
+    "branch": "feat/pizza-type",
+    "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+    "ja": "https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja/pizza",
+    "en": "https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/en/pizza",
+    "browserStatus": "BLOCKED_BEFORE_FIRST_PAGE",
+    "browserError": "ERR_TUNNEL_CONNECTION_FAILED",
+    "attempts": 1,
+    "retryAfterFailure": false,
+    "authOrShareBypassCreated": false
+  },
+  "mainAndProduction": {
+    "unchanged": true,
+    "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "productionId": "dpl_2LvUCjnhfx39qhMXw46frLKbEzRG",
+    "productionState": "READY"
+  },
+  "remaining": [
+    "Actual fixedPreview JA/EN browser/iPhone Safari review,including native share.",
+    "Explicit Production approval for the identified candidate;main/Production untouched."
+  ],
+  "captureLimitations": [
+    "Known EN fullPage capture paint issue;actual top/middle/bottom viewport captures visually checked instead.",
+    "日本語 header wraps at320px without clipping;design unchanged."
+  ],
+  "seventhQuiz": {
+    "count": 1,
+    "theme": "未指定",
+    "newProductionStarted": false,
+    "newWorkflowUpdate": "Deferred because actual Preview browser QA remains incomplete;existing4bc2324 seventh-quiz instructions preserved and linked."
+  },
+  "metrics": {
+    "additionalOwnerQuestionsRequestedThisPass": 0,
+    "humanRelayRequestsThisPass": 0,
+    "totalOwnerInterventions": "未計測",
+    "totalOwnerCopyPaste": "未計測",
+    "totalProductionTime": "未計測",
+    "totalRework": "未計測"
+  },
+  "mWDelegation": false,
+  "extraPaidResources": false,
+  "secretsAuthDnsChanged": false,
+  "destructiveGit": false,
+  "approvalReviewRejectionThisPass": false
+}

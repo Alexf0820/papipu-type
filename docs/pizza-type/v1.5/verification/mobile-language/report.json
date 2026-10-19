@@ -1,0 +1,658 @@
+{
+  "date": "2026-10-19",
+  "target": "Existing local production build; not remote Preview",
+  "browser": "System Chromium mobile touch; not Safari or physical iPhone",
+  "viewport": {
+    "width": 320,
+    "height": 740
+  },
+  "languageSwitches": [
+    {
+      "at": "home",
+      "to": "en",
+      "urlPath": "/en",
+      "localizedContentChanged": true,
+      "stateAfter": "home"
+    },
+    {
+      "at": "home",
+      "to": "ja",
+      "urlPath": "/ja",
+      "localizedContentChanged": true,
+      "stateAfter": "home"
+    },
+    {
+      "at": "in-progress",
+      "to": "en",
+      "urlPath": "/en/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "in-progress",
+      "to": "ja",
+      "urlPath": "/ja/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "result",
+      "to": "en",
+      "urlPath": "/en/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "in-progress",
+      "to": "ja",
+      "urlPath": "/ja/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "in-progress",
+      "to": "ja",
+      "urlPath": "/ja/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "in-progress",
+      "to": "en",
+      "urlPath": "/en/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "result",
+      "to": "ja",
+      "urlPath": "/ja/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    },
+    {
+      "at": "in-progress",
+      "to": "en",
+      "urlPath": "/en/pizza",
+      "localizedContentChanged": true,
+      "stateAfter": "question"
+    }
+  ],
+  "sessions": [
+    {
+      "locale": "ja",
+      "questionIds": [
+        "q01",
+        "q05",
+        "q09",
+        "q13",
+        "q17",
+        "q21",
+        "q25",
+        "q29"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "ja",
+      "questionIds": [
+        "q02",
+        "q06",
+        "q10",
+        "q14",
+        "q18",
+        "q22",
+        "q26",
+        "q30"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "ja",
+      "questionIds": [
+        "q03",
+        "q07",
+        "q11",
+        "q15",
+        "q19",
+        "q23",
+        "q27",
+        "q31"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "ja",
+      "questionIds": [
+        "q04",
+        "q08",
+        "q12",
+        "q16",
+        "q20",
+        "q24",
+        "q28",
+        "q32"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "en",
+      "questionIds": [
+        "q01",
+        "q05",
+        "q09",
+        "q13",
+        "q17",
+        "q21",
+        "q25",
+        "q29"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "en",
+      "questionIds": [
+        "q02",
+        "q06",
+        "q10",
+        "q14",
+        "q18",
+        "q22",
+        "q26",
+        "q30"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "en",
+      "questionIds": [
+        "q03",
+        "q07",
+        "q11",
+        "q15",
+        "q19",
+        "q23",
+        "q27",
+        "q31"
+      ],
+      "completed": true
+    },
+    {
+      "locale": "en",
+      "questionIds": [
+        "q04",
+        "q08",
+        "q12",
+        "q16",
+        "q20",
+        "q24",
+        "q28",
+        "q32"
+      ],
+      "completed": true
+    }
+  ],
+  "questionChecks": [
+    {
+      "locale": "ja",
+      "id": "q01",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "ja",
+      "id": "q05",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q09",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q13",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q17",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q21",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q25",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q29",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q02",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q06",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q10",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q14",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q18",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q22",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q26",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q30",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q03",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q07",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q11",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q15",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q19",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q23",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q27",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q31",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q04",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q08",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q12",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q16",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q20",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q24",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q28",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "ja",
+      "id": "q32",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q01",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q05",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q09",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q13",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q17",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 120.5
+    },
+    {
+      "locale": "en",
+      "id": "q21",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q25",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q29",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q02",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q06",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q10",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q14",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q18",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q22",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q26",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q30",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q03",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q07",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q11",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q15",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q19",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 120.5
+    },
+    {
+      "locale": "en",
+      "id": "q23",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q27",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q31",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q04",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 120.5
+    },
+    {
+      "locale": "en",
+      "id": "q08",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q12",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q16",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q20",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q24",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    },
+    {
+      "locale": "en",
+      "id": "q28",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 79.25
+    },
+    {
+      "locale": "en",
+      "id": "q32",
+      "choiceCount": 4,
+      "buttonsFit": true,
+      "maxButtonHeight": 99.875
+    }
+  ],
+  "pageErrors": [],
+  "overflow": [],
+  "screenshots": [
+    "ja-longest-choice-320.png",
+    "en-longest-choice-320.png"
+  ],
+  "browserVersion": "151.0.7922.173",
+  "method": "Eight targeted eight-question sessions cover every question and all128 choices per locale at320px. Only question sampling is controlled before Try Again; actual taps and unchanged scoring resolve results. Language toggles exercised both directions on Home, during quiz, and from result. Existing48 result/variation fixtures were not rerun.",
+  "candidateSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "exitCode": 0,
+  "visualInspection": "Long choices fit320px and remain readable. Shared header日本語 wraps vertically at320px;no clipping;Home/header design unchanged.",
+  "languageBehavior": "Locale switch from result starts a fresh quiz;observed existing behavior.",
+  "helperSource": "Exact JS code block from docs/pizza-type/v1.3/QA-REPRODUCTION.md at4bc2324bae19b3a1c539ec416054cde9059a2028,executed outside repository."
+}

@@ -1,0 +1,62 @@
+
+> papipu-type@0.1.0 build
+> next build
+
+▲ Next.js 16.3.0 (Turbopack)
+✓ Running next.config.ts took 29ms
+
+  Creating an optimized production build ...
+✓ Compiled successfully in 913ms
+  Running TypeScript ...
+  Finished TypeScript in 1353ms ...
+  Collecting page data using 4 workers ...
+  Generating static pages using 4 workers (0/20) ...
+  Generating static pages using 4 workers (5/20)
+  Generating static pages using 4 workers (10/20)
+  Generating static pages using 4 workers (15/20)
+✓ Generating static pages using 4 workers (20/20) in 449ms
+  Finalizing page optimization ...
+
+Route (app)
+┌ ƒ /
+├ ○ /_not-found
+├ ƒ /[locale]
+├ ƒ /[locale]/about
+├   /[locale]/camp-gear
+│ ├ ● /ja/camp-gear
+│ └ ● /en/camp-gear
+├ ƒ /[locale]/contact
+├ ● /[locale]/dev/characters
+├ ● /[locale]/dev/characters/[characterId]
+├   /[locale]/donut
+│ ├ ● /ja/donut
+│ └ ● /en/donut
+├   /[locale]/ice-cream
+│ ├ ● /ja/ice-cream
+│ └ ● /en/ice-cream
+├   /[locale]/pizza
+│ ├ ● /ja/pizza
+│ └ ● /en/pizza
+├ ƒ /[locale]/privacy
+├   /[locale]/spaghetti
+│ ├ ● /ja/spaghetti
+│ └ ● /en/spaghetti
+├   /[locale]/sushi
+│ ├ ● /ja/sushi
+│ └ ● /en/sushi
+├ ƒ /[locale]/terms
+├ ƒ /api/contact
+├ ○ /apple-icon.png
+├ ○ /contact
+└ ○ /icon.png
+
+
+○  (Static)   prerendered as static content
+●  (SSG)      prerendered as static HTML (uses generateStaticParams)
+ƒ  (Dynamic)  server-rendered on demand
+
+npm notice
+npm notice New major version of npm available! 11.9.0 -> 12.2.0
+npm notice Changelog: https://github.com/npm/cli/releases/tag/v12.2.0
+npm notice To update run: npm install -g npm@12.2.0
+npm notice
