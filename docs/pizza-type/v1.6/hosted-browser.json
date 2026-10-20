@@ -1,0 +1,17 @@
+{
+  "date": "2026-10-20T12:07:13.687Z",
+  "url": "https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja/pizza",
+  "expectedSha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+  "browser": "system Chromium; not Safari",
+  "attempts": 1,
+  "completedAppScreens": 0,
+  "authBypass": false,
+  "sourceShaVerifiedNow": false,
+  "environmentProxyUsed": true,
+  "browserVersion": "151.0.7922.173",
+  "verdict": "BLOCKED_BEFORE_APP",
+  "error": "page.goto: net::ERR_TUNNEL_CONNECTION_FAILED at https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja/pizza\nCall log:\n  - navigating to \"https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja/pizza\", waiting until \"load\"\n",
+  "retryAfterFailure": false,
+  "completedSessions": 0,
+  "interpretation": "No application screen loaded; no hosted result, overflow, route or share PASS can be inferred."
+}

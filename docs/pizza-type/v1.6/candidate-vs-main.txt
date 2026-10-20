@@ -1,0 +1,140 @@
+Actual remote main: 6252305bceaeb1a823b91b8e58ee6f6707c9b6d7
+Fixed candidate: 0a2d19831ca190f7ad7b8dad39957799bf134e37
+Generated 2026-10-20; candidate diff, not changes made tonight.
+
+ docs/pizza-type/HANDOFF-v1.1.md                    |   32 +
+ docs/pizza-type/HANDOFF-v1.2.md                    |   48 +
+ docs/pizza-type/RECOVERY-2026-10-15.md             |   39 +
+ docs/pizza-type/asset-manifest.json                |  248 +++
+ docs/pizza-type/checkpoint-v1.1.json               |   94 +
+ docs/pizza-type/checkpoint-v1.2.json               |   20 +
+ docs/pizza-type/editorial-revisions-v1.1.json      |  745 ++++++++
+ docs/pizza-type/editorial-revisions-v1.2.json      |  622 ++++++
+ docs/pizza-type/qa-2026-10-15.json                 |  185 ++
+ docs/pizza-type/recovery-content-audit.json        |   34 +
+ docs/pizza-type/remote-asset-readback.json         |   56 +
+ docs/pizza-type/v1.5/README.md                     |   13 +
+ docs/pizza-type/v1.5/checkpoint.json               |   19 +
+ docs/pizza-type/v1.5/log-whitespace-audit.json     |   31 +
+ docs/pizza-type/verification-v1.1/build.log        |   56 +
+ docs/pizza-type/verification-v1.1/lint.log         |   10 +
+ docs/pizza-type/verification-v1.1/million.log      |  166 ++
+ docs/pizza-type/verification-v1.1/runtime.json     | 1220 ++++++++++++
+ docs/pizza-type/verification-v1.1/scaffold.log     |   38 +
+ docs/pizza-type/verification-v1.1/summary.json     |  396 ++++
+ docs/pizza-type/verification-v1.1/tests.log        |   12 +
+ docs/pizza-type/verification-v1.1/tsc.log          |    0
+ docs/pizza-type/verification-v1.1/typegen.log      |    2 +
+ .../pizza-type/verification-v1.2/browser-check.mjs |   63 +
+ docs/pizza-type/verification-v1.2/browser.json     | 1976 ++++++++++++++++++++
+ docs/pizza-type/verification-v1.2/build.log        |   56 +
+ .../verification-v1.2/en-result-mobile.png         |  Bin 0 -> 253846 bytes
+ .../pizza-type/verification-v1.2/faces-gallery.png |  Bin 0 -> 527751 bytes
+ docs/pizza-type/verification-v1.2/invariants.json  |  143 ++
+ .../verification-v1.2/ja-result-mobile.png         |  Bin 0 -> 278337 bytes
+ docs/pizza-type/verification-v1.2/lint.log         |   15 +
+ docs/pizza-type/verification-v1.2/million.log      |  166 ++
+ docs/pizza-type/verification-v1.2/scaffold.log     |   38 +
+ docs/pizza-type/verification-v1.2/statistics.json  |  339 ++++
+ docs/pizza-type/verification-v1.2/summary.json     |   60 +
+ .../verification-v1.2/tests-initial-timeout.log    |   30 +
+ docs/pizza-type/verification-v1.2/tests.log        |   12 +
+ docs/pizza-type/verification-v1.2/tsc.log          |    1 +
+ docs/pizza-type/verification-v1.2/typegen.log      |    2 +
+ docs/pizza-type/verification-v1.2/validate.log     |    5 +
+ public/characters/pizza-hawaiian.png               |  Bin 0 -> 2212222 bytes
+ public/characters/pizza-margherita.png             |  Bin 0 -> 2122472 bytes
+ public/characters/pizza-marinara.png               |  Bin 0 -> 2330537 bytes
+ public/characters/pizza-mushroom.png               |  Bin 0 -> 2275024 bytes
+ public/characters/pizza-pepperoni.png              |  Bin 0 -> 2274530 bytes
+ public/characters/pizza-quattro-formaggi.png       |  Bin 0 -> 2175424 bytes
+ public/characters/pizza-seafood.png                |  Bin 0 -> 2166686 bytes
+ public/characters/pizza-veggie.png                 |  Bin 0 -> 2294870 bytes
+ scripts/verify-pizza-recovery.mjs                  |   42 +
+ src/app/[locale]/pizza/page.tsx                    |   34 +
+ src/components/character/bodies/index.tsx          |   65 +
+ src/data/quizzes/pizza/CONTENT_HANDOFF.md          |  129 ++
+ src/data/quizzes/pizza/README.md                   |   12 +
+ src/data/quizzes/pizza/content/.scaffold.json      |    4 +
+ src/data/quizzes/pizza/content/handoff.json        | 1796 ++++++++++++++++++
+ src/data/quizzes/pizza/definition.ts               |  299 +++
+ src/data/quizzes/pizza/en.ts                       |  297 +++
+ src/data/quizzes/pizza/ja.ts                       |  297 +++
+ src/data/quizzes/pizza/pizza.test.ts               |   68 +
+ src/data/quizzes/pizza/results/en.ts               |  228 +++
+ src/data/quizzes/pizza/results/index.ts            |   14 +
+ src/data/quizzes/pizza/results/ja.ts               |  228 +++
+ src/lib/home/content.test.ts                       |    3 +-
+ src/lib/home/content.ts                            |   28 +
+ src/lib/type-engine/registry.ts                    |    6 +
+ src/lib/visual/registry.ts                         |    9 +
+ src/lib/visual/types.ts                            |   10 +-
+ 67 files changed, 10559 insertions(+), 2 deletions(-)
+
+A	docs/pizza-type/HANDOFF-v1.1.md
+A	docs/pizza-type/HANDOFF-v1.2.md
+A	docs/pizza-type/RECOVERY-2026-10-15.md
+A	docs/pizza-type/asset-manifest.json
+A	docs/pizza-type/checkpoint-v1.1.json
+A	docs/pizza-type/checkpoint-v1.2.json
+A	docs/pizza-type/editorial-revisions-v1.1.json
+A	docs/pizza-type/editorial-revisions-v1.2.json
+A	docs/pizza-type/qa-2026-10-15.json
+A	docs/pizza-type/recovery-content-audit.json
+A	docs/pizza-type/remote-asset-readback.json
+A	docs/pizza-type/v1.5/README.md
+A	docs/pizza-type/v1.5/checkpoint.json
+A	docs/pizza-type/v1.5/log-whitespace-audit.json
+A	docs/pizza-type/verification-v1.1/build.log
+A	docs/pizza-type/verification-v1.1/lint.log
+A	docs/pizza-type/verification-v1.1/million.log
+A	docs/pizza-type/verification-v1.1/runtime.json
+A	docs/pizza-type/verification-v1.1/scaffold.log
+A	docs/pizza-type/verification-v1.1/summary.json
+A	docs/pizza-type/verification-v1.1/tests.log
+A	docs/pizza-type/verification-v1.1/tsc.log
+A	docs/pizza-type/verification-v1.1/typegen.log
+A	docs/pizza-type/verification-v1.2/browser-check.mjs
+A	docs/pizza-type/verification-v1.2/browser.json
+A	docs/pizza-type/verification-v1.2/build.log
+A	docs/pizza-type/verification-v1.2/en-result-mobile.png
+A	docs/pizza-type/verification-v1.2/faces-gallery.png
+A	docs/pizza-type/verification-v1.2/invariants.json
+A	docs/pizza-type/verification-v1.2/ja-result-mobile.png
+A	docs/pizza-type/verification-v1.2/lint.log
+A	docs/pizza-type/verification-v1.2/million.log
+A	docs/pizza-type/verification-v1.2/scaffold.log
+A	docs/pizza-type/verification-v1.2/statistics.json
+A	docs/pizza-type/verification-v1.2/summary.json
+A	docs/pizza-type/verification-v1.2/tests-initial-timeout.log
+A	docs/pizza-type/verification-v1.2/tests.log
+A	docs/pizza-type/verification-v1.2/tsc.log
+A	docs/pizza-type/verification-v1.2/typegen.log
+A	docs/pizza-type/verification-v1.2/validate.log
+A	public/characters/pizza-hawaiian.png
+A	public/characters/pizza-margherita.png
+A	public/characters/pizza-marinara.png
+A	public/characters/pizza-mushroom.png
+A	public/characters/pizza-pepperoni.png
+A	public/characters/pizza-quattro-formaggi.png
+A	public/characters/pizza-seafood.png
+A	public/characters/pizza-veggie.png
+A	scripts/verify-pizza-recovery.mjs
+A	src/app/[locale]/pizza/page.tsx
+M	src/components/character/bodies/index.tsx
+A	src/data/quizzes/pizza/CONTENT_HANDOFF.md
+A	src/data/quizzes/pizza/README.md
+A	src/data/quizzes/pizza/content/.scaffold.json
+A	src/data/quizzes/pizza/content/handoff.json
+A	src/data/quizzes/pizza/definition.ts
+A	src/data/quizzes/pizza/en.ts
+A	src/data/quizzes/pizza/ja.ts
+A	src/data/quizzes/pizza/pizza.test.ts
+A	src/data/quizzes/pizza/results/en.ts
+A	src/data/quizzes/pizza/results/index.ts
+A	src/data/quizzes/pizza/results/ja.ts
+M	src/lib/home/content.test.ts
+M	src/lib/home/content.ts
+M	src/lib/type-engine/registry.ts
+M	src/lib/visual/registry.ts
+M	src/lib/visual/types.ts

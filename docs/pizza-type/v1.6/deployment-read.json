@@ -1,0 +1,29 @@
+{
+  "date": "2026-10-20",
+  "action": "GET /v13/deployments/{idOrUrl}",
+  "idOrUrl": "dpl_k6YYLh9kxi5bWS8yVnQN5B9PbTLS",
+  "scope": "alex-fujiokas-projects",
+  "withGitRepoInfo": true,
+  "attemptsThisRun": 1,
+  "state": "DENIED",
+  "status": 403,
+  "reason": "Not authorized to access resource under scope alex-fujiokas-projects",
+  "repeatedOrAlternateAuthAttempts": false,
+  "credentialsOrProtectionChanged": false,
+  "currentServedSha": "UNVERIFIED",
+  "lastSuccessfulIdentityEvidence": {
+    "date": "2026-10-19",
+    "source": "../v1.5/verification/deployment.json",
+    "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+    "state": "READY",
+    "branch": "feat/pizza-type",
+    "sourceType": "git",
+    "target": null
+  },
+  "productionNow": "UNVERIFIED; no Production mutation performed",
+  "priorProductionEvidence": {
+    "date": "2026-10-19",
+    "id": "dpl_2LvUCjnhfx39qhMXw46frLKbEzRG",
+    "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7"
+  }
+}

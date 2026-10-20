@@ -1,0 +1,343 @@
+{
+  "checkedAt": "2026-10-20T12:08:58.705158+00:00",
+  "candidate": {
+    "branch": "feat/pizza-type",
+    "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37"
+  },
+  "docsBase": "d301622333f4656c753df8a7383a06e64ab9b482",
+  "actualMain": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+  "remoteHeads": [
+    {
+      "sha": "4bc2324bae19b3a1c539ec416054cde9059a2028",
+      "ref": "refs/heads/docs/pizza-v1.3-final-qa"
+    },
+    {
+      "sha": "d301622333f4656c753df8a7383a06e64ab9b482",
+      "ref": "refs/heads/docs/pizza-v1.5-preview-qa"
+    },
+    {
+      "sha": "55dc105f0165d13b9eccabe15c36b54966bb2cad",
+      "ref": "refs/heads/feat/donut-type"
+    },
+    {
+      "sha": "3e913a61f72fb4bfbb6a04014efa1e09a6906028",
+      "ref": "refs/heads/feat/home-share"
+    },
+    {
+      "sha": "e0622db505ca5789ec370f98decf13253fbe9daa",
+      "ref": "refs/heads/feat/ice-cream-type"
+    },
+    {
+      "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+      "ref": "refs/heads/feat/pizza-type"
+    },
+    {
+      "sha": "16ea308a58725093b87fa2d47cf6e02ed59dc2b0",
+      "ref": "refs/heads/feat/quiz-scaffold-v0.2"
+    },
+    {
+      "sha": "c9e91a2ebcba02e192bf36a14352f837eef8a3f2",
+      "ref": "refs/heads/feat/sushi-type"
+    },
+    {
+      "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+      "ref": "refs/heads/main"
+    }
+  ],
+  "outsideDocsFilesCompared": 221,
+  "outsideDocsDifferences": [],
+  "oldFiveFilesCompared": 50,
+  "oldFiveDifferences": [],
+  "sharedEngineFilesUnchangedExcludingRegistry": 12,
+  "scaffoldScriptsUnchangedFromMain": [
+    "scripts/create-quiz.mjs",
+    "scripts/create-quiz.test.mjs",
+    "scripts/import-quiz-content.mjs",
+    "scripts/lib/content-handoff.mjs",
+    "scripts/lib/quiz-tools.mjs",
+    "scripts/lib/ts-module-loader.mjs",
+    "scripts/validate-quiz.mjs",
+    "scripts/verify-quiz.mjs"
+  ],
+  "handoffSha256": "4e1f773e746e03e6b4f2b75e1926214f0510b1f2e0aa6b764a0aa09c0148e8f8",
+  "preservedAssets": [
+    {
+      "type": "margherita",
+      "path": "public/characters/pizza-margherita.png",
+      "sha256": "bd6b44b8cbcc89d760e5cb39d5f707a9e81e9ce5391a79e279eed669958d8cbf",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "pepperoni",
+      "path": "public/characters/pizza-pepperoni.png",
+      "sha256": "cf1d0fd4b3906f255f19ca4b9fbdba0bf2f89c6e0feff006a22da2013e7c4e96",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "quattroFormaggi",
+      "path": "public/characters/pizza-quattro-formaggi.png",
+      "sha256": "b7617763a076674837244d2ab1fea8ead8241f0cd42138e1df9c86e35df6957e",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "mushroom",
+      "path": "public/characters/pizza-mushroom.png",
+      "sha256": "3dbda97ef94e3aae53e99be2f15ab0bfdbffb7fe0d2538a2f0fc7178e20449d4",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "seafood",
+      "path": "public/characters/pizza-seafood.png",
+      "sha256": "f46c719d8348e90e753b97bc2366748155dcb907bf1eb1b97f1c4686a5949115",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "hawaiian",
+      "path": "public/characters/pizza-hawaiian.png",
+      "sha256": "845af839fd3f6f613f11a846d6dfb9c708f2b47e3114c859293eeb26f1b38c65",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "veggie",
+      "path": "public/characters/pizza-veggie.png",
+      "sha256": "f734a4dc4e0924155fdd4d886b3a4467ed1b00126e8b167d11dead1eb56e356c",
+      "matchesPreservedManifest": true
+    },
+    {
+      "type": "marinara",
+      "path": "public/characters/pizza-marinara.png",
+      "sha256": "3e701cd1ecedff85c9db6ac7060931480ace2fab270f4b9d84d49d2fa5daa525",
+      "matchesPreservedManifest": true
+    }
+  ],
+  "existingCommands": [
+    {
+      "command": [
+        "npm",
+        "test"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/tests.log",
+      "savedLogSha256": "11c04730c66f3501c1bf8d4250d81ba846ae8ac4b398a1c6d946d42d0682ee70",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "test:scaffold"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/scaffold.log",
+      "savedLogSha256": "e36ed59617d46518dfcb0faffc383eca88b6ec1d100c66792f06ffb7183a57c8",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "lint"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/lint.log",
+      "savedLogSha256": "0a0238891ec3535040e22a269c7379f7aa21e1b122c9c0ce26422b22d2972541",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "npx",
+        "next",
+        "typegen"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/typegen.log",
+      "savedLogSha256": "d51d6d06be4756a91e9910f05d692a4914979cbf4e058907ca57980542d1b8c9",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "npx",
+        "tsc",
+        "--noEmit"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/tsc.log",
+      "savedLogSha256": "76162e465989f3f070a9de8db711fbf358e53b74d09ce1bbdb57c727e4c4a16d",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "validate-quiz",
+        "--",
+        "pizza"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/validate.log",
+      "savedLogSha256": "6eb715dc2db4fd04559e089f3adad6f97805fd528a3a3104e90e8d7757c8f216",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/diff-worktree.log",
+      "savedLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "git",
+        "diff",
+        "--check",
+        "origin/main",
+        "HEAD"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/diff-main.log",
+      "savedLogSha256": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    },
+    {
+      "command": [
+        "npm",
+        "run",
+        "build"
+      ],
+      "log": "docs/pizza-type/v1.5/verification/build.log",
+      "savedLogSha256": "06e0c52389c561762489d40883a7721897d796f6256a67412b41f685684ea9c4",
+      "historicalExitCode": 0,
+      "runDate": "2026-10-19",
+      "rerunTonight": false
+    }
+  ],
+  "localQa": {
+    "date": "2026-10-19",
+    "source": "../v1.5/verification/local-browser/report.json",
+    "sha256": "d57e2be08fc0757922cac3d884897da266ab48f81cad8e36d6392880f3087116",
+    "sessions": 48,
+    "types": [
+      "margherita",
+      "pepperoni",
+      "quattroFormaggi",
+      "mushroom",
+      "seafood",
+      "hawaiian",
+      "veggie",
+      "marinara"
+    ],
+    "variants": [
+      "a",
+      "b",
+      "c"
+    ],
+    "facesChecked": 48,
+    "clipboardShares": 16,
+    "backFlows": 2,
+    "pageErrors": 0,
+    "horizontalOverflows": 0,
+    "rerunTonight": false
+  },
+  "mobile320": {
+    "date": "2026-10-19",
+    "source": "../v1.5/verification/mobile-language/report.json",
+    "sha256": "e579b04606c7b1eb9461ee27d9e5d42c50a828ce7e75bc6e6b42aaee9db2a0a1",
+    "questionChecks": 64,
+    "languageSwitches": 10,
+    "horizontalOverflows": 0,
+    "rerunTonight": false
+  },
+  "oldFiveRoutes": [
+    {
+      "path": "/ja/camp-gear",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/en/camp-gear",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/ja/spaghetti",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/en/spaghetti",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/ja/sushi",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/en/sushi",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/ja/ice-cream",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/en/ice-cream",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/ja/donut",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    },
+    {
+      "path": "/en/donut",
+      "local": "PASS_REUSED_2026-10-19",
+      "hosted": "UNVERIFIED",
+      "physicalSafari": "UNVERIFIED"
+    }
+  ],
+  "statistics": {
+    "uniformRuns": 1000000,
+    "maxMinPp": 0.112,
+    "localeParity": "10000/10000",
+    "rerunTonight": false,
+    "formalVerdict": "UNDETERMINED_NO_ACCEPTANCE_THRESHOLD"
+  },
+  "newBrowserQa": {
+    "hostedAppScreens": 0,
+    "physicalSafari": false,
+    "nativeShare": false
+  },
+  "interventions": {
+    "additionalUserQuestionsThisRun": 0,
+    "humanRelayRequestsThisRun": 0,
+    "userCopyPasteRequestsThisRun": 0,
+    "totalProjectInterventions": "UNMEASURED",
+    "totalProductionTime": "UNMEASURED"
+  }
+}
