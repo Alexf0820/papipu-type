@@ -1,0 +1,130 @@
+{
+  "version": "1.6",
+  "date": "2026-10-20",
+  "overallStatus": "PARTIAL",
+  "publicationStatus": "STOP_AWAITING_HOSTED_VERIFICATION_AND_EXPLICIT_OWNER_APPROVAL",
+  "factoryChecklistStatus": "READY_DOCUMENT_ONLY_NOT_STARTED",
+  "repository": "Alexf0820/papipu-type",
+  "candidate": {
+    "branch": "feat/pizza-type",
+    "sha": "0a2d19831ca190f7ad7b8dad39957799bf134e37",
+    "remoteUnchanged": true
+  },
+  "main": {
+    "sha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "remoteUnchanged": true,
+    "mutationPerformed": false
+  },
+  "docs": {
+    "branch": "docs/pizza-v1.6-release-packet",
+    "baseSha": "d301622333f4656c753df8a7383a06e64ab9b482",
+    "packetCommitSha": "57ce7edf7ecc598119bd8b7c6449b57a58b634f6",
+    "packetPush": "SUCCESS_NEW_BRANCH_NO_FORCE",
+    "independentRemoteHeadReadback": "git ls-remote matched packetCommitSha",
+    "independentContentReadback": "GitHub connector fetch_file at packetCommitSha; all seven complete text bodies and Git blob SHAs match local files",
+    "files": [
+      {
+        "name": "FACTORY-SEVENTH-CHECKLIST.md",
+        "blobSha": "dfe2a2f29807efa24de6238456ace2c0c0248feb"
+      },
+      {
+        "name": "PREVENTION.md",
+        "blobSha": "75e82f77ce4682e4a24d01c86e1e6e14023c8bdd"
+      },
+      {
+        "name": "RELEASE-PACKET.md",
+        "blobSha": "417bdddf1494ac8deb2ff85a17e433282cb8fd04"
+      },
+      {
+        "name": "candidate-vs-main.txt",
+        "blobSha": "2d66df6ce5f9713dda3bdf9621d403f70d991ecc"
+      },
+      {
+        "name": "deployment-read.json",
+        "blobSha": "3a89147fa19c108268c89ea56fb210985bada157"
+      },
+      {
+        "name": "evidence-reuse.json",
+        "blobSha": "408b2b7e5cd305b37ea6845b93607268f28efe3f"
+      },
+      {
+        "name": "hosted-browser.json",
+        "blobSha": "ed17e7a9daafa8855896e0b36ba0ce01b44b4847"
+      }
+    ],
+    "finalReceiptCommit": "This file records the independently verified prior packet commit. Its containing commit and readback are reported after push; no self-referential commit hash is embedded."
+  },
+  "checksThisRun": {
+    "outsideDocsFilesByteMatched": 221,
+    "oldFiveFilesByteMatchedToActualMain": 50,
+    "sharedEngineFilesUnchangedExcludingRegistry": 12,
+    "originalImagesSha256Matched": 8,
+    "historicalCommandLogHashesMatched": 9,
+    "reusedLocalResultFixtures": 48,
+    "reusedOldFiveRoutes": 10,
+    "candidateVsActualMainDiffCheckExit": 0,
+    "packetStagedDiffCheckExit": 0,
+    "actualMainToPacketCommitDiffCheckExit": 0,
+    "jsonAndRelativeLinksValidated": true,
+    "productTestsOrBuildRerun": false,
+    "millionRunRerun": false,
+    "statisticsFormalVerdict": "UNDETERMINED_NO_THRESHOLD"
+  },
+  "blockers": [
+    {
+      "action": "GET /v13/deployments/{idOrUrl} with Git source information",
+      "target": "dpl_k6YYLh9kxi5bWS8yVnQN5B9PbTLS; scope alex-fujiokas-projects",
+      "state": "DENIED",
+      "reason": "403 forbidden; not authorized for requested Vercel scope",
+      "attemptsThisRun": 1,
+      "retryOrAlternateAuth": false,
+      "remaining": "Current served source SHA and current Production identity unverified; last successful source identity evidence is dated 2026-10-19."
+    },
+    {
+      "action": "Hosted Chromium page.goto through normal environment proxy",
+      "target": "https://papipu-type-o0p5ehldr-alex-fujiokas-projects.vercel.app/ja/pizza",
+      "state": "FAILED_BEFORE_APP",
+      "reason": "ERR_TUNNEL_CONNECTION_FAILED",
+      "attemptsThisRun": 1,
+      "completedScreens": 0,
+      "completedSessions": 0,
+      "retryOrProxyBypass": false,
+      "remaining": "Hosted JA/EN Pizza and existing ten routes; physical Safari and native share remain unverified."
+    },
+    {
+      "action": "Supplemental gh api branch metadata read",
+      "target": "https://api.github.com/repos/Alexf0820/papipu-type/branches/docs%2Fpizza-v1.6-release-packet",
+      "state": "DENIED",
+      "reason": "CLI transport returned Forbidden; no HTTP status code was printed",
+      "attemptsThisRun": 1,
+      "retryOrAuthChange": false,
+      "remaining": "This supplemental endpoint remains unavailable. Packet persistence is already confirmed by ordinary Git remote-head read and successful immutable-file GitHub connector reads."
+    }
+  ],
+  "approval": {
+    "productionApproved": false,
+    "publicationPerformed": false,
+    "rollbackPerformed": false,
+    "rollbackCandidateSha": "6252305bceaeb1a823b91b8e58ee6f6707c9b6d7",
+    "rollbackIdentityMustBeRecheckedImmediatelyBeforeFutureRelease": true
+  },
+  "scopePreserved": {
+    "codeContentScoringImagesChanged": false,
+    "scaffold02Changed": false,
+    "newQuizOrScaffoldGenerated": false,
+    "tsuruhashiUsed": false,
+    "handoffDestination": "GitHub dedicated docs branch",
+    "newPaidResourcesRequested": false,
+    "credentialSecretProtectionDnsChanges": false,
+    "desktopSwitch": false,
+    "automationOrWorkerCreated": false,
+    "automaticApprovalReviewRejection": false
+  },
+  "userInterventions": {
+    "additionalQuestionsThisRun": 0,
+    "humanRelayRequestsThisRun": 0,
+    "copyPasteRequestsThisRun": 0,
+    "wholeProjectTotals": "UNMEASURED",
+    "wholeProjectProductionTime": "UNMEASURED"
+  }
+}
